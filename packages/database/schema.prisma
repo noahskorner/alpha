@@ -1,0 +1,20 @@
+// datasource & generator ------------------------------------------------------
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  extensions = [pgvector]
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Example model ----------------------------------------------------------------
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  name      String?
+  createdAt DateTime @default(now())
+}

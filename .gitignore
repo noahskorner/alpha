@@ -1,0 +1,13 @@
+# Node & Editor artefacts
+node_modules
+.pnpm-store
+.env*
+
+# Build outputs
+/apps/**/.next
+/apps/**/out
+/packages/**/dist
+/packages/**/build
+
+# Docker volume
+volumes/
