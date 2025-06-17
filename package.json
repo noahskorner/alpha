@@ -2,6 +2,7 @@
   "name": "alpha",
   "version": "1.0.0",
   "main": "index.js",
+  "packageManager": "npm@10.7.0",
   "scripts": {
     "dev": "turbo run dev",
     "build": "turbo run build",
@@ -17,6 +18,7 @@
     "packages/*"
   ],
   "devDependencies": {
+    "dotenv-cli": "^8.0.0",
     "turbo": "^2.5.4"
   }
 }

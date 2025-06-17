@@ -1,20 +1,20 @@
 // datasource & generator ------------------------------------------------------
 
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider   = "postgresql"
+  url        = env("DATABASE_URL")
   extensions = [pgvector]
 }
 
 generator client {
-  provider = "prisma-client-js"
+  provider        = "prisma-client-js"
+  previewFeatures = ["postgresqlExtensions"]
 }
 
-// Example model ----------------------------------------------------------------
-
-model User {
+// Organization model ----------------------------------------------------------------
+model Organization {
   id        String   @id @default(uuid())
-  email     String   @unique
-  name      String?
+  name      String   @db.VarChar(64)
   createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }

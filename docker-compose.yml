@@ -2,11 +2,11 @@ version: "3.9"
 services:
   db:
     image: ankane/pgvector:latest
-    container_name: ${PROJECT_NAME}_db
+    container_name: alpha_db
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: ${PROJECT_NAME}
+      POSTGRES_DB: alpha
     ports:
       - "5432:5432"
     volumes:
