@@ -1,9 +1,11 @@
 {
   "name": "database",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.ts",
   "scripts": {
-    "prisma:migrate:dev": "npx dotenv -e ../../apps/next/.env.local -- npx prisma generate",
+    "prisma:generate": "npx dotenv -e ../../apps/next/.env.local -- npx prisma generate",
+    "prisma:migrate:dev": "npx dotenv -e ../../apps/next/.env.local -- npx prisma migrate dev",
+    "prisma:migrate:reset": "npx dotenv -e ../../apps/next/.env.local -- npx prisma migrate reset --force",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
