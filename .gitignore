@@ -9,5 +9,5 @@ node_modules
 /packages/**/dist
 /packages/**/build
 
-# Docker volume
-volumes/
+# Cache files
+.turbo
