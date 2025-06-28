@@ -1,6 +1,11 @@
-import { Markdown } from './markdown';
+import { Markdown } from '@/components/markdown';
 
-export default async function HomePage() {
+export interface FilePageProps {
+  params: Promise<{ fileId: string }>;
+}
+
+export default async function FilePage({ params }: FilePageProps) {
+  const { fileId } = await params;
   const dummyMarkdown = `
 # Welcome to the Home Page
 
