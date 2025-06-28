@@ -1,7 +1,7 @@
 import { cookies } from 'next/headers';
 import { Sidebar } from './sidebar';
-import { SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar';
-import { ThemeSwitcher } from '@/components/theme-switcher';
+import { SidebarProvider } from '@/components/ui/sidebar';
+import { Navbar } from './navbar';
 
 export default async function Layout({ children }: { children: React.ReactNode }) {
   const cookieStore = await cookies();
@@ -9,14 +9,9 @@ export default async function Layout({ children }: { children: React.ReactNode }
 
   return (
     <SidebarProvider defaultOpen={defaultOpen}>
-      <Sidebar />
-      <main className="w-full">
-        <nav className="p-2">
-          <SidebarTrigger className="cursor-pointer" />
-          <ThemeSwitcher />
-        </nav>
-        {children}
-      </main>
+      <Navbar className="top-0 h-10" />
+      <Sidebar className="top-10" />
+      <main className="w-full pt-10">{children}</main>
     </SidebarProvider>
   );
 }
