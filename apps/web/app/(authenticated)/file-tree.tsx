@@ -8,26 +8,28 @@ import {
 } from '@/components/ui/sidebar';
 import { Folder } from './folder';
 import { FileNode } from '../utils/build-file-tree';
+import Link from 'next/link';
 
 export interface FileTreeProps {
-  node: FileNode;
-  path: string | null;
+  file: FileNode;
 }
 
-export function FileTree({ node, path }: FileTreeProps) {
-  const currentPath = path ? `${path}/${node.name}` : node.name;
-
-  if (!node.children) {
-    return path ? (
-      <SidebarMenuSubItem key={node.name}>
-        <SidebarMenuSubButton size="sm">{node.name}</SidebarMenuSubButton>
+export function FileTree({ file }: FileTreeProps) {
+  if (!file.children) {
+    return file.children ? (
+      <SidebarMenuSubItem key={file.name}>
+        <SidebarMenuSubButton size="sm" asChild>
+          <Link href={file.id}>{file.name}</Link>
+        </SidebarMenuSubButton>
       </SidebarMenuSubItem>
     ) : (
-      <SidebarMenuItem key={node.name}>
-        <SidebarMenuButton size="sm">{node.name}</SidebarMenuButton>
+      <SidebarMenuItem key={file.name}>
+        <SidebarMenuButton size="sm" asChild>
+          <Link href={file.id}>{file.name}</Link>
+        </SidebarMenuButton>
       </SidebarMenuItem>
     );
   }
 
-  return <Folder node={node} path={currentPath} />;
+  return <Folder file={file} />;
 }

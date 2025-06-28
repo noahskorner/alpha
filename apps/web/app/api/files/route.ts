@@ -3,12 +3,12 @@ import { CreateFileFacade } from './create-file.facade';
 import { CreateFileRequestSchema } from './create-file.request';
 import { FindFilesFacade } from './find-files.facade';
 
-export async function POST(request: NextRequest) {
+export async function POST(req: NextRequest) {
   try {
-    const body = await request.json();
-    const parsed = CreateFileRequestSchema.parse(body);
+    const body = await req.json();
+    const request = CreateFileRequestSchema.parse(body);
     const facade = new CreateFileFacade();
-    const response = await facade.create(parsed);
+    const response = await facade.create(request);
     return NextResponse.json(response, { status: 201 });
   } catch (error) {
     return NextResponse.json(

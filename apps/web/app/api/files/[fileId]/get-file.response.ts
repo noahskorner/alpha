@@ -1,6 +1,6 @@
 import { z } from '@/app/utils/zod';
 
-export const FileFileResponseSchema = z
+export const GetFileResponseSchema = z
   .object({
     id: z.string().openapi({
       description: 'Unique identifier for the file',
@@ -22,20 +22,13 @@ export const FileFileResponseSchema = z
       description: 'Whether the file is a folder',
       example: false,
     }),
-  })
-  .openapi({
-    title: 'FileFileResponse',
-  });
-
-export const FindFilesResponseSchema = z
-  .object({
-    files: z.array(FileFileResponseSchema).openapi({
-      description: 'List of files found',
+    content: z.string().nullable().openapi({
+      description: 'Content of the file, if applicable',
+      example: '# This is a markdown file.',
     }),
   })
   .openapi({
-    title: 'FindFilesResponse',
+    title: 'GetFileResponse',
   });
 
-export type FindFileResponse = z.infer<typeof FileFileResponseSchema>;
-export type FindFilesResponse = z.infer<typeof FindFilesResponseSchema>;
+export type GetFileResponse = z.infer<typeof GetFileResponseSchema>;

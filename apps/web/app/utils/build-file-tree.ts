@@ -1,16 +1,11 @@
-import { FileFileResponse } from '../api/files/find-files.response';
+import { FindFileResponse } from '../api/files/find-files.response';
 
-export interface FileNode {
-  id: string;
-  createdAt: Date;
-  updatedAt: Date;
-  isFolder: boolean;
-  path: string;
+export interface FileNode extends FindFileResponse {
   name: string;
   children?: FileNode[];
 }
 
-export function buildFileTree(files: FileFileResponse[]): FileNode[] {
+export function buildFileTree(files: FindFileResponse[]): FileNode[] {
   // Sort files so folders come first, then by path length
   files.sort((a, b) => {
     if (a.isFolder !== b.isFolder) {

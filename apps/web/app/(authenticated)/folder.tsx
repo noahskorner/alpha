@@ -8,7 +8,7 @@ import { ChevronDown, ChevronRight } from 'lucide-react';
 
 export interface FolderProps extends FileTreeProps {}
 
-export function Folder({ node, path }: FolderProps) {
+export function Folder({ file: node, path }: FolderProps) {
   const [isOpen, setIsOpen] = useState(true);
 
   return (
@@ -27,7 +27,7 @@ export function Folder({ node, path }: FolderProps) {
         <CollapsibleContent>
           <SidebarMenuSub className="ml-1 mr-0 pl-1 pr-0">
             {node.children?.map((child) => (
-              <FileTree key={child.name} node={child} path={path} />
+              <FileTree key={child.name} file={child} path={path} />
             ))}
           </SidebarMenuSub>
         </CollapsibleContent>

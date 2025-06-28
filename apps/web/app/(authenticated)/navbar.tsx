@@ -3,10 +3,12 @@
 import { ThemeSwitcher } from '@/components/theme-switcher';
 import { Button } from '@/components/ui/button';
 import { SidebarTrigger } from '@/components/ui/sidebar';
-import { SquarePen } from 'lucide-react';
+import { FolderOpen, SquarePen } from 'lucide-react';
 import { toast } from 'sonner';
-import { createNodeAction } from './actions';
 import { useRouter } from 'next/navigation';
+import { CreateFileRequest } from '../api/files/create-file.request';
+import { CreateFileResponse } from '../api/files/create-file.response';
+import { useFiles } from './file-context';
 
 export interface NavbarProps {
   className?: string;
@@ -14,15 +16,60 @@ export interface NavbarProps {
 
 export function Navbar({ className }: NavbarProps) {
   const router = useRouter();
+  const { addFile } = useFiles();
 
   const onCreateFileClick = async () => {
     try {
-      const node = await createNodeAction();
+      const response = await fetch('/api/files', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          path: 'untitled.md',
+          isFolder: false,
+        } satisfies CreateFileRequest),
+      });
 
-      router.push(node.id);
+      if (!response.ok) {
+        throw new Error(response.statusText);
+      }
+
+      const file: CreateFileResponse = await response.json();
+      addFile(file);
+
+      router.push(file.id);
       toast.success('Successfully created new file!');
-    } catch {
+    } catch (error) {
+      console.error(error);
       toast.error('Failed to create new file. Please try again later.');
+    }
+  };
+
+  const onCreateFolderClick = async () => {
+    try {
+      const response = await fetch('/api/files', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          path: 'untitled',
+          isFolder: true,
+        } satisfies CreateFileRequest),
+      });
+
+      if (!response.ok) {
+        throw new Error(response.statusText);
+      }
+
+      const folder: CreateFileResponse = await response.json();
+      addFile(folder);
+
+      toast.success('Successfully created new folder!');
+    } catch (error) {
+      console.error(error);
+      toast.error('Failed to create new folder. Please try again later.');
     }
   };
 
@@ -31,6 +78,9 @@ export function Navbar({ className }: NavbarProps) {
       <SidebarTrigger className="cursor-pointer" />
       <Button onClick={onCreateFileClick} variant="ghost" size={'icon'} className="size-7">
         <SquarePen />
+      </Button>
+      <Button onClick={onCreateFolderClick} variant="ghost" size={'icon'} className="size-7">
+        <FolderOpen />
       </Button>
       <ThemeSwitcher />
     </nav>

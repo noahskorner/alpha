@@ -3,6 +3,8 @@ import { createDocument } from 'zod-openapi';
 import { CreateFileRequestSchema } from '../files/create-file.request';
 import { CreateFileResponseSchema } from '../files/create-file.response';
 import { FindFilesResponseSchema } from '../files/find-files.response';
+import { GetFileParamsSchema } from '../files/[fileId]/get-file.request';
+import { GetFileResponseSchema } from '../files/[fileId]/get-file.response';
 
 export async function GET() {
   const document = createDocument({
@@ -43,6 +45,26 @@ export async function GET() {
                   schema: CreateFileResponseSchema,
                 },
               },
+            },
+          },
+        },
+      },
+      '/api/files/{id}': {
+        get: {
+          summary: 'Get a file',
+          tags: ['Files'],
+          requestParams: { path: GetFileParamsSchema },
+          responses: {
+            '200': {
+              description: 'File found',
+              content: {
+                'application/json': {
+                  schema: GetFileResponseSchema,
+                },
+              },
+            },
+            '404': {
+              description: 'File not found',
             },
           },
         },
