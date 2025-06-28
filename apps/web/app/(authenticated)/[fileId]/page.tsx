@@ -1,4 +1,5 @@
 import { Markdown } from '@/components/markdown';
+import { MarkdownEditor } from '@/components/markdown-editor';
 
 export interface FilePageProps {
   params: Promise<{ fileId: string }>;
@@ -6,8 +7,7 @@ export interface FilePageProps {
 
 export default async function FilePage({ params }: FilePageProps) {
   const { fileId } = await params;
-  const dummyMarkdown = `
-# Welcome to the Home Page
+  const dummyMarkdown = `# Welcome to the Home Page
 
 This is a sample markdown content.
 
@@ -40,8 +40,9 @@ Enjoy exploring!
 `;
 
   return (
-    <div className="w-full flex items-center justify-center p-8">
+    <div className="w-full flex justify-center p-8 gap-8">
       <Markdown content={dummyMarkdown} />
+      <MarkdownEditor content={dummyMarkdown} />
     </div>
   );
 }
