@@ -5,41 +5,28 @@ import {
   SidebarGroupContent,
   SidebarMenu,
 } from '@/components/ui/sidebar';
-import { Folder } from './folder';
-import { FolderNode } from './folder-node';
-
-const tree: FolderNode = {
-  name: 'root',
-  children: [
-    {
-      name: 'folder1',
-      children: [{ name: 'file1.txt' }, { name: 'file2.txt' }],
-    },
-    {
-      name: 'folder2',
-      children: [
-        {
-          name: 'subfolder1',
-          children: [{ name: 'file3.txt' }],
-        },
-      ],
-    },
-    { name: 'file4.txt' },
-  ],
-};
+import { FindFilesFacade } from '../api/files/find-files.facade';
+import { buildFileTree } from '../utils/build-file-tree';
+import { FileTree } from './file-tree';
 
 export interface SidebarProps {
   className?: string;
 }
 
-export function Sidebar({ className }: SidebarProps) {
+export async function Sidebar({ className }: SidebarProps) {
+  const facade = new FindFilesFacade();
+  const response = await facade.find();
+  const files = buildFileTree(response.files);
+
   return (
     <SidebarComponent className={className}>
       <SidebarContent>
         <SidebarGroup>
           <SidebarGroupContent>
             <SidebarMenu>
-              <Folder node={tree} path={null} />
+              {files.map((node) => (
+                <FileTree key={node.name} node={node} path={node.path} />
+              ))}
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>

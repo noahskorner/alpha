@@ -1,14 +1,13 @@
 'use server';
 
-import { CreateNodeFacade } from '../api/nodes/create-node.facade';
-import { CreateNodeRequest } from '../api/nodes/create-node.request';
+import { CreateFileFacade } from '../api/files/create-file.facade';
+import { CreateFileRequest } from '../api/files/create-file.request';
 
 export const createNodeAction = async () => {
-  const facade = new CreateNodeFacade();
+  const facade = new CreateFileFacade();
 
   return await facade.create({
-    path: '/untitled',
-    name: 'Untitled',
+    path: '/untitled.md',
     isFolder: false,
-  } satisfies CreateNodeRequest);
+  } satisfies CreateFileRequest);
 };

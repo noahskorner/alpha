@@ -10,15 +10,14 @@ datasource db {
   extensions = [pgvector(map: "vector")]
 }
 
-// Node model ----------------------------------------------------------------
-model Node {
+// File model ----------------------------------------------------------------
+model File {
   id        String   @id @default(uuid()) @map("id")
-  name      String   @map("name") @db.VarChar(64)
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
   isFolder  Boolean  @default(false) @map("is_folder")
   path      String   @unique @map("path")
   content   String?  @map("content") @db.Text
 
-  @@map("nodes")
+  @@map("files")
 }

@@ -1,7 +1,8 @@
 import { NextResponse } from 'next/server';
 import { createDocument } from 'zod-openapi';
-import { CreateNodeRequestSchema } from '../nodes/create-node.request';
-import { CreateNodeResponseSchema } from '../nodes/create-node.response';
+import { CreateFileRequestSchema } from '../files/create-file.request';
+import { CreateFileResponseSchema } from '../files/create-file.response';
+import { FindFilesResponseSchema } from '../files/find-files.response';
 
 export async function GET() {
   const document = createDocument({
@@ -11,13 +12,27 @@ export async function GET() {
       version: '1.0.0',
     },
     paths: {
-      '/api/nodes': {
+      '/api/files': {
+        get: {
+          summary: 'Find files',
+          tags: ['Files'],
+          responses: {
+            '200': {
+              description: '200 OK',
+              content: {
+                'application/json': {
+                  schema: FindFilesResponseSchema,
+                },
+              },
+            },
+          },
+        },
         post: {
-          summary: 'Create node',
-          tags: ['Node'],
+          summary: 'Create file',
+          tags: ['Files'],
           requestBody: {
             content: {
-              'application/json': { schema: CreateNodeRequestSchema },
+              'application/json': { schema: CreateFileRequestSchema },
             },
           },
           responses: {
@@ -25,7 +40,7 @@ export async function GET() {
               description: '201 Created',
               content: {
                 'application/json': {
-                  schema: CreateNodeResponseSchema,
+                  schema: CreateFileResponseSchema,
                 },
               },
             },

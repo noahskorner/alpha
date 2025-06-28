@@ -1,33 +1,37 @@
 'use client';
 
-import {
-  SidebarMenuSubItem,
-  SidebarMenuSubButton,
-  SidebarMenuItem,
-  SidebarMenuButton,
-} from '@/components/ui/sidebar';
-import { FolderNode } from './folder-node';
-import { FolderGroup } from './folder-group';
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
+import { SidebarMenuButton, SidebarMenuItem, SidebarMenuSub } from '@/components/ui/sidebar';
+import { FileTree, FileTreeProps } from './file-tree';
+import { useState } from 'react';
+import { ChevronDown, ChevronRight } from 'lucide-react';
 
-export interface FolderProps {
-  node: FolderNode;
-  path: string | null;
-}
+export interface FolderProps extends FileTreeProps {}
 
 export function Folder({ node, path }: FolderProps) {
-  const currentPath = path ? `${path}/${node.name}` : node.name;
+  const [isOpen, setIsOpen] = useState(true);
 
-  if (!node.children) {
-    return path ? (
-      <SidebarMenuSubItem key={node.name}>
-        <SidebarMenuSubButton size="sm">{node.name}</SidebarMenuSubButton>
-      </SidebarMenuSubItem>
-    ) : (
-      <SidebarMenuItem key={node.name}>
-        <SidebarMenuButton size="sm">{node.name}</SidebarMenuButton>
+  return (
+    <Collapsible open={isOpen} onOpenChange={setIsOpen} className="group/collapsible">
+      <SidebarMenuItem>
+        <CollapsibleTrigger asChild>
+          <SidebarMenuButton size="sm">
+            {isOpen ? (
+              <ChevronDown className="text-muted-foreground" />
+            ) : (
+              <ChevronRight className="text-muted-foreground" />
+            )}
+            {node.name}
+          </SidebarMenuButton>
+        </CollapsibleTrigger>
+        <CollapsibleContent>
+          <SidebarMenuSub className="ml-1 mr-0 pl-1 pr-0">
+            {node.children?.map((child) => (
+              <FileTree key={child.name} node={child} path={path} />
+            ))}
+          </SidebarMenuSub>
+        </CollapsibleContent>
       </SidebarMenuItem>
-    );
-  }
-
-  return <FolderGroup node={node} path={currentPath} />;
+    </Collapsible>
+  );
 }
