@@ -9,6 +9,16 @@ export default async function FilePage({ params }: FilePageProps) {
   const { fileId } = await params;
   const dummyMarkdown = `# Welcome to the Home Page
 
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+
 This is a sample markdown content.
 
 ## Features
@@ -16,6 +26,14 @@ This is a sample markdown content.
 - Easy to use
 - Fast rendering
 - Supports **bold** and _italic_ text
+
+1. First item
+2. Second item
+3. Third item
+
+1. First item
+2. Second item
+3. Third item
 
 ### Example Code
 
