@@ -16,12 +16,24 @@
   display: none !important; /* Remove the line numbers */
 }
 
-.cm-content ::selection {
-  background: green !important; /* Change the selection color */
+.cm-selectionBackground {
+  background-color: oklch(81.1% 0.111 293.571) !important; /* Selection background */
+  opacity: 0.5;
 }
 
 .cm-selectionMatch {
-  background-color: red !important; /* Change the matched selections color */
+  background-color: oklch(81.1% 0.111 293.571) !important; /* Change the matched selections color */
+  opacity: 0.5;
+}
+
+.dark .cm-selectionBackground {
+  background-color: oklch(43.2% 0.232 292.759) !important; /* Selection background */
+  opacity: 0.5;
+}
+
+.dark .cm-selectionMatch {
+  background-color: oklch(43.2% 0.232 292.759) !important; /* Change the matched selections color */
+  opacity: 0.5;
 }
 
 .cm-heading-1 {
