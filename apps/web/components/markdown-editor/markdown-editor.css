@@ -16,8 +16,12 @@
   display: none !important; /* Remove the line numbers */
 }
 
+.cm-content ::selection {
+  background: green !important; /* Change the selection color */
+}
+
 .cm-selectionMatch {
-  background-color: red !important; /* Change the matched selection color */
+  background-color: red !important; /* Change the matched selections color */
 }
 
 .cm-heading-1 {
@@ -99,8 +103,6 @@
 .cm-blockquote {
   border-inline-start-width: 0.25rem;
   border-inline-start-color: var(--color-secondary);
-  margin-top: 1.6em;
-  margin-bottom: 1.6em;
   padding-inline-start: 1em;
   font-style: italic;
   font-weight: 500;

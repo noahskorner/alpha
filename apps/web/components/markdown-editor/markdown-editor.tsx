@@ -27,7 +27,7 @@ export const MarkdownEditor = ({ content }: MarkdownEditorProps) => {
 
   return (
     <CodeMirror
-      className="w-full max-w-5xl outline-none bg-transparent"
+      className="w-full outline-none bg-transparent"
       value={value}
       theme={'none'}
       extensions={[markdownPlugin]}

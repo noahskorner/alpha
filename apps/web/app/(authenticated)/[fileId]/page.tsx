@@ -1,4 +1,3 @@
-import { Markdown } from '@/components/markdown';
 import { MarkdownEditor } from '@/components/markdown-editor/markdown-editor';
 
 export interface FilePageProps {
@@ -60,8 +59,9 @@ Enjoy exploring!
 
   return (
     <div className="w-full flex justify-center p-8 gap-8">
-      <Markdown content={dummyMarkdown} />
-      <MarkdownEditor content={dummyMarkdown} />
+      <div className="w-full max-w-3xl">
+        <MarkdownEditor content={dummyMarkdown} />
+      </div>
     </div>
   );
 }
