@@ -16,6 +16,10 @@
   display: none !important; /* Remove the line numbers */
 }
 
+.cm-selectionMatch {
+  background-color: red !important; /* Change the matched selection color */
+}
+
 .cm-heading-1 {
   color: var(--primary);
   font-size: 2.25em;
@@ -90,6 +94,16 @@
   width: 100%;
   border-bottom: 2px solid var(--border);
   padding-bottom: 0.571429em;
+}
+
+.cm-blockquote {
+  border-inline-start-width: 0.25rem;
+  border-inline-start-color: var(--color-secondary);
+  margin-top: 1.6em;
+  margin-bottom: 1.6em;
+  padding-inline-start: 1em;
+  font-style: italic;
+  font-weight: 500;
 }
 
 .cm-markdown {

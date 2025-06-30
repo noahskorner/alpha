@@ -1,12 +1,13 @@
 import { Markdown } from '@/components/markdown';
-import { MarkdownEditor } from '@/components/markdown-editor';
+import { MarkdownEditor } from '@/components/markdown-editor/markdown-editor';
 
 export interface FilePageProps {
   params: Promise<{ fileId: string }>;
 }
 
-export default async function FilePage({ params }: FilePageProps) {
-  const { fileId } = await params;
+export default async function FilePage() {
+  // { params }: FilePageProps
+  // const { fileId } = await params;
   const dummyMarkdown = `# Welcome to the Home Page
 
 ## Heading 2
@@ -31,9 +32,9 @@ This is a sample markdown content.
 2. Second item
 3. Third item
 
-1. First item
-2. Second item
-3. Third item
+- [ ] Checklist 1
+- [ ] Checklist 2
+- [ ] Checklist 3
 
 ### Example Code
 
