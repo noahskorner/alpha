@@ -6,9 +6,10 @@ import { FileTree, FileTreeProps } from './file-tree';
 import { useState } from 'react';
 import { ChevronDown, ChevronRight } from 'lucide-react';
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 export interface FolderProps extends FileTreeProps {}
 
-export function Folder({ file: node, path }: FolderProps) {
+export function Folder({ file: node }: FolderProps) {
   const [isOpen, setIsOpen] = useState(true);
 
   return (
@@ -27,7 +28,7 @@ export function Folder({ file: node, path }: FolderProps) {
         <CollapsibleContent>
           <SidebarMenuSub className="ml-1 mr-0 pl-1 pr-0">
             {node.children?.map((child) => (
-              <FileTree key={child.name} file={child} path={path} />
+              <FileTree key={child.name} file={child} />
             ))}
           </SidebarMenuSub>
         </CollapsibleContent>

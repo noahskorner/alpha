@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { GetFileFacde } from './get-file.facade';
-import { GetFileParamsSchema } from './get-file.request';
+import { GetFileParams, GetFileParamsSchema } from './get-file.request';
 
-export async function GET(_req: NextRequest, { params }: { params: unknown }) {
+export async function GET(_req: NextRequest, { params }: { params: Promise<GetFileParams> }) {
   try {
     const request = GetFileParamsSchema.parse(params);
     const facade = new GetFileFacde();

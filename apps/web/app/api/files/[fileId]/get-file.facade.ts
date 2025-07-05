@@ -1,10 +1,10 @@
-import { prismaClient } from '../../prisma';
+import { PRISMA } from '../../../prisma';
 import { GetFileParams } from './get-file.request';
 import { GetFileResponse } from './get-file.response';
 
 export class GetFileFacde {
   public async get(request: GetFileParams): Promise<GetFileResponse | null> {
-    return await prismaClient.file.findUnique({
+    return await PRISMA.file.findUnique({
       where: {
         id: request.id,
       },

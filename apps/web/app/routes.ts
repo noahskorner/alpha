@@ -1,13 +1,17 @@
 export const ROUTES = {
-  home: "/",
-  signIn: "/sign-in",
-  signUp: "/sign-up",
-  forgotPassword: "/forgot-password",
-  resetPassword: "/reset-password",
+  home: '/',
+  signIn: '/sign-in',
+  signUp: '/sign-up',
+  forgotPassword: '/forgot-password',
+  resetPassword: '/reset-password',
   auth: {
-    callback: "/auth/callback",
+    callback: '/auth/callback',
   },
-  dashboard: "/dashboard",
+  dashboard: {
+    home: '/dashboard',
+    detail: (fileId: string) => `/dashboard/${fileId}`,
+  },
+  external: {
+    email: 'http://localhost:8025',
+  },
 } as const;
-
-export const PROTECTED_ROUTES: string[] = [ROUTES.dashboard] as const;

@@ -14,6 +14,7 @@ import {
 } from '@/components/ui/form';
 import { Button } from '@/components/ui/button';
 import { signIn } from 'next-auth/react';
+import { ROUTES } from '../routes';
 
 const schema = z.object({
   email: z.string().email({ message: 'Invalid email address' }),
@@ -29,7 +30,7 @@ export default function Login() {
   });
 
   const onSubmit = async ({ email }: LoginFormSchema) => {
-    signIn('email', { email: email });
+    signIn('email', { email: email, callbackUrl: ROUTES.dashboard.home });
   };
 
   return (

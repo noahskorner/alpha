@@ -7,8 +7,9 @@ import {
   SidebarMenuButton,
 } from '@/components/ui/sidebar';
 import { Folder } from './folder';
-import { FileNode } from '../utils/build-file-tree';
+import { FileNode } from '../../utils/build-file-tree';
 import Link from 'next/link';
+import { ROUTES } from '@/app/routes';
 
 export interface FileTreeProps {
   file: FileNode;
@@ -19,13 +20,13 @@ export function FileTree({ file }: FileTreeProps) {
     return file.children ? (
       <SidebarMenuSubItem key={file.name}>
         <SidebarMenuSubButton size="sm" asChild>
-          <Link href={file.id}>{file.name}</Link>
+          <Link href={ROUTES.dashboard.detail(file.id)}>{file.name}</Link>
         </SidebarMenuSubButton>
       </SidebarMenuSubItem>
     ) : (
       <SidebarMenuItem key={file.name}>
         <SidebarMenuButton size="sm" asChild>
-          <Link href={file.id}>{file.name}</Link>
+          <Link href={ROUTES.dashboard.detail(file.id)}>{file.name}</Link>
         </SidebarMenuButton>
       </SidebarMenuItem>
     );

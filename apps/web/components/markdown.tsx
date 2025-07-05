@@ -16,6 +16,7 @@ export const Markdown = ({ content }: MarkdownProps) => {
         remarkPlugins={[remarkGfm]}
         rehypePlugins={[rehypeHighlight]}
         components={{
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
           pre({ className, children, ...props }: any) {
             return (
               <Code className={className} {...props}>
@@ -31,6 +32,7 @@ export const Markdown = ({ content }: MarkdownProps) => {
   );
 };
 
+// eslint-disable-next-line react/display-name
 const Code = memo(({ children }: { children: ReactNode }) => {
   const [copied, setCopied] = useState(false);
 

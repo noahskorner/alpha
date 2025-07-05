@@ -1,5 +1,5 @@
 import { splitFileExtension } from '@/app/utils/split-file-extension';
-import { prismaClient } from '../prisma';
+import { PRISMA } from '../../prisma';
 import { CreateFileRequest } from './create-file.request';
 import { CreateFileResponse } from './create-file.response';
 
@@ -9,7 +9,7 @@ export class CreateFileFacade {
     const uniquePath = await this.getUniquePath(request.path);
 
     // Persist the file to database
-    const file = await prismaClient.file.create({
+    const file = await PRISMA.file.create({
       data: {
         path: uniquePath,
         isFolder: request.isFolder ?? false,
@@ -42,7 +42,7 @@ export class CreateFileFacade {
     let counter = 1;
 
     while (true) {
-      const existing = await prismaClient.file.findFirst({
+      const existing = await PRISMA.file.findFirst({
         where: {
           path: uniquePath,
         },

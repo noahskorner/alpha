@@ -1,9 +1,9 @@
 'use client';
 
-import React, { createContext, useContext, useState, ReactNode, useEffect, useMemo } from 'react';
-import { FindFileResponse } from '../api/files/find-files.response';
-import { buildFileTree, FileNode } from '../utils/build-file-tree';
-import { CreateFileResponse } from '../api/files/create-file.response';
+import React, { createContext, useContext, useState, ReactNode, useMemo } from 'react';
+import { FindFileResponse } from '../../api/files/find-files.response';
+import { buildFileTree, FileNode } from '../../utils/build-file-tree';
+import { CreateFileResponse } from '../../api/files/create-file.response';
 
 type FilesContextType = {
   files: FindFileResponse[];

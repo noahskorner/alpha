@@ -5,9 +5,10 @@ import { Button } from '@/components/ui/button';
 import { FolderOpen, SquarePen } from 'lucide-react';
 import { toast } from 'sonner';
 import { useRouter } from 'next/navigation';
-import { CreateFileRequest } from '../api/files/create-file.request';
-import { CreateFileResponse } from '../api/files/create-file.response';
+import { CreateFileRequest } from '../../api/files/create-file.request';
+import { CreateFileResponse } from '../../api/files/create-file.response';
 import { useFiles } from './file-context';
+import { ROUTES } from '@/app/routes';
 
 export interface NavbarProps {
   className?: string;
@@ -37,7 +38,7 @@ export function Navbar({ className }: NavbarProps) {
       const file: CreateFileResponse = await response.json();
       addFile(file);
 
-      router.push(file.id);
+      router.push(ROUTES.dashboard.detail(file.id));
       toast.success('Successfully created new file!');
     } catch (error) {
       console.error(error);
