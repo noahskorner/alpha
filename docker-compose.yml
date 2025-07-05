@@ -7,8 +7,30 @@ services:
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: beta
     ports:
-      - "54320:5432"
+      - '54320:5432'
     volumes:
       - db-data:/var/lib/postgresql/data
+  azurite:
+    image: mcr.microsoft.com/azure-storage/azurite
+    container_name: azurite
+    restart: unless-stopped
+    ports:
+      - '10000:10000' # Blob service
+      - '10001:10001' # Queue service
+      - '10002:10002' # Table service
+    volumes:
+      - azurite-data:/data
+    command: 'azurite-blob --blobHost 0.0.0.0 --location /data'
+  mailhog:
+    image: mailhog/mailhog
+    container_name: mailhog
+    restart: unless-stopped
+    ports:
+      - '8025:8025' # Web UI
+      - '1025:1025' # SMTP
+    volumes:
+      - mailhog-data:/data
 volumes:
   db-data:
+  azurite-data:
+  mailhog-data:

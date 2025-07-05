@@ -1,7 +1,6 @@
 import { cookies } from 'next/headers';
 import { Sidebar } from './sidebar';
-import { SidebarProvider } from '@/components/ui/sidebar';
-import { Navbar } from './navbar';
+import { SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar';
 import { FilesProvider } from './file-context';
 import { FindFilesFacade } from '../api/files/find-files.facade';
 import { FindFileResponse } from '../api/files/find-files.response';
@@ -25,8 +24,8 @@ export default async function Layout({ children }: { children: React.ReactNode }
   return (
     <SidebarProvider defaultOpen={defaultOpen}>
       <FilesProvider files={files}>
-        <Navbar className="top-0 h-10" />
-        <Sidebar className="top-10" />
+        <Sidebar />
+        <SidebarTrigger className="cursor-pointer relative top-2 left-2" />
         <main className="w-full pt-10">{children}</main>
       </FilesProvider>
     </SidebarProvider>

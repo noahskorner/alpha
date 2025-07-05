@@ -10,13 +10,19 @@ import CodeMirror, {
   ViewUpdate,
 } from '@uiw/react-codemirror';
 import './markdown-editor.css';
+import { markdown } from '@codemirror/lang-markdown';
+import { languages } from '@codemirror/language-data';
 import { DecorationRange } from './decoration-range';
 import { headings } from './headings';
-import { lists } from './lists';
-import { tables } from './tables';
-import { strongs } from './strongs';
 import { italics } from './italics';
+import { lists } from './lists';
 import { quotes } from './quotes';
+import { strongs } from './strongs';
+import { tables } from './tables';
+
+const mdExtension = markdown({
+  codeLanguages: languages,
+});
 
 export interface MarkdownEditorProps {
   content: string;
@@ -30,7 +36,7 @@ export const MarkdownEditor = ({ content }: MarkdownEditorProps) => {
       className="w-full outline-none bg-transparent"
       value={value}
       theme={'none'}
-      extensions={[markdownPlugin]}
+      extensions={[mdExtension, markdownPlugin]}
       onChange={(val) => setValue(val)}
     />
   );

@@ -2,7 +2,6 @@
 
 import { ThemeSwitcher } from '@/components/theme-switcher';
 import { Button } from '@/components/ui/button';
-import { SidebarTrigger } from '@/components/ui/sidebar';
 import { FolderOpen, SquarePen } from 'lucide-react';
 import { toast } from 'sonner';
 import { useRouter } from 'next/navigation';
@@ -74,8 +73,7 @@ export function Navbar({ className }: NavbarProps) {
   };
 
   return (
-    <nav className={`w-full bg-sidebar border-b p-2 flex items-center fixed ${className ?? ''}`}>
-      <SidebarTrigger className="cursor-pointer" />
+    <nav className={`bg-sidebar p-2 flex items-center ${className ?? ''}`}>
       <Button onClick={onCreateFileClick} variant="ghost" size={'icon'} className="size-7">
         <SquarePen />
       </Button>

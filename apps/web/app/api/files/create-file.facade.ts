@@ -5,8 +5,10 @@ import { CreateFileResponse } from './create-file.response';
 
 export class CreateFileFacade {
   public async create(request: CreateFileRequest): Promise<CreateFileResponse> {
+    // Get a unique path for the file
     const uniquePath = await this.getUniquePath(request.path);
 
+    // Persist the file to database
     const file = await prismaClient.file.create({
       data: {
         path: uniquePath,
@@ -21,6 +23,9 @@ export class CreateFileFacade {
       },
     });
 
+    // Persist the file to azurite
+
+    // Return the created file
     return {
       id: file.id,
       createdAt: file.createdAt,

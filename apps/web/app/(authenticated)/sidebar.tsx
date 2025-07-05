@@ -3,9 +3,10 @@ import {
   SidebarContent,
   SidebarGroup,
   SidebarGroupContent,
-  SidebarMenu,
+  SidebarHeader,
 } from '@/components/ui/sidebar';
 import { FileExplorer } from './file-explorer';
+import { Navbar } from './navbar';
 
 export interface SidebarProps {
   className?: string;
@@ -14,6 +15,9 @@ export interface SidebarProps {
 export async function Sidebar({ className }: SidebarProps) {
   return (
     <SidebarComponent className={className}>
+      <SidebarHeader className="p-0">
+        <Navbar className="w-sidebar" />
+      </SidebarHeader>
       <SidebarContent>
         <SidebarGroup>
           <SidebarGroupContent>
