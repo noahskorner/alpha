@@ -3,7 +3,6 @@
 import { ThemeSwitcher } from '@/components/theme-switcher';
 import { Button } from '@/components/ui/button';
 import { FolderOpen, SquarePen } from 'lucide-react';
-import { useRouter } from 'next/navigation';
 import { useFiles } from './file-context';
 
 export interface NavbarProps {
@@ -11,7 +10,6 @@ export interface NavbarProps {
 }
 
 export function Navbar({ className }: NavbarProps) {
-  const router = useRouter();
   const { createFile, createFolder } = useFiles();
 
   const onCreateFileClick = () => {

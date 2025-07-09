@@ -6,7 +6,6 @@ import {
   SidebarGroupContent,
   SidebarGroupLabel,
   SidebarHeader,
-  SidebarSeparator,
 } from '@/components/ui/sidebar';
 import { FileExplorer } from './file-explorer';
 import { Navbar } from './navbar';
@@ -20,12 +19,11 @@ export interface SidebarProps {
 
 export async function Sidebar({ email, className }: SidebarProps) {
   return (
-    <SidebarComponent className={cn(className)}>
+    <SidebarComponent className={cn('border-r-none', className)}>
       <SidebarHeader className="p-0">
         <Navbar className="w-sidebar rounded-t-lg" />
       </SidebarHeader>
       <SidebarContent>
-        <SidebarSeparator className="mx-0" />
         <SidebarGroup>
           <SidebarGroupLabel>Files</SidebarGroupLabel>
           <SidebarGroupContent>
