@@ -29,8 +29,8 @@ export default function RootLayout({
       <body className={`${inter.variable} ${sourceCodePro.variable} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}
+          <Toaster richColors />
         </ThemeProvider>
-        <Toaster richColors theme="light" />
       </body>
     </html>
   );

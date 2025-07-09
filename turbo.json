@@ -3,6 +3,10 @@
   "tasks": {
     "dev": { "cache": false, "dependsOn": ["^dev"], "outputs": [] },
     "build": { "dependsOn": ["^build"], "outputs": ["dist/**", "build/**"] },
-    "lint": { "cache": true }
+    "lint": { "cache": true },
+    "prisma:migrate:dev": {
+      "cache": false,
+      "outputs": []
+    }
   }
 }

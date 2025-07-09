@@ -2,6 +2,7 @@
 node_modules
 .pnpm-store
 .env*
+!/apps/web/.env.example
 
 # Build outputs
 /apps/**/.next
@@ -11,3 +12,6 @@ node_modules
 
 # Cache files
 .turbo
+
+# Next.js
+*next-env.d.ts
