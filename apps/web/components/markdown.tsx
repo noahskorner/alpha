@@ -11,7 +11,7 @@ export interface MarkdownProps {
 
 export const Markdown = ({ content }: MarkdownProps) => {
   return (
-    <div className="prose dark:prose-invert text-sm w-full max-w-4xl">
+    <div className="prose dark:prose-invert text-sm w-full max-w-none font-primary">
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         rehypePlugins={[rehypeHighlight]}

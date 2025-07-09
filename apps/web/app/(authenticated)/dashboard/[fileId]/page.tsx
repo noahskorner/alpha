@@ -1,4 +1,5 @@
 import { MarkdownEditor } from '@/components/markdown-editor/markdown-editor';
+import { Chat } from './chat';
 
 export interface FilePageProps {
   params: Promise<{ fileId: string }>;
@@ -58,9 +59,14 @@ Enjoy exploring!
 `;
 
   return (
-    <div className="w-full flex justify-center p-8 gap-8">
-      <div className="w-full max-w-3xl">
-        <MarkdownEditor content={dummyMarkdown} />
+    <div className="w-full h-full flex items-stretch justify-center">
+      <div className="w-full h-full flex p-8 pt-12 justify-center">
+        <div className="w-full max-w-3xl">
+          <MarkdownEditor content={dummyMarkdown} />
+        </div>
+      </div>
+      <div className="w-full max-w-2xl relative h-full flex items-center justify-center p-2 max-h-svh overflow-hidden">
+        <Chat />
       </div>
     </div>
   );

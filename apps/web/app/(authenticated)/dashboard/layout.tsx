@@ -35,8 +35,8 @@ export default async function Layout({ children }: { children: React.ReactNode }
     <SidebarProvider defaultOpen={defaultOpen}>
       <FilesProvider files={files}>
         <Sidebar email={email} />
-        <SidebarTrigger className="cursor-pointer relative top-2 left-2" />
-        <main className="w-full pt-10">{children}</main>
+        <SidebarTrigger className="cursor-pointer relative top-2 left-2 z-10" />
+        <main className="w-full">{children}</main>
       </FilesProvider>
     </SidebarProvider>
   );

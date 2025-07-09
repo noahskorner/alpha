@@ -121,10 +121,6 @@
   }
 }
 
-.prose {
-  font-family: var(--font-inter), sans-serif !important;
-}
-
 .prose code,
 .prose pre {
   font-family: var(--font-source-code-pro), monospace !important;

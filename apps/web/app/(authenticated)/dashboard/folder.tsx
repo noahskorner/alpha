@@ -1,10 +1,20 @@
 'use client';
 
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
-import { SidebarMenuButton, SidebarMenuItem, SidebarMenuSub } from '@/components/ui/sidebar';
+import {
+  SidebarMenuButton,
+  SidebarMenuItem,
+  SidebarMenuSub,
+} from '@/components/ui/sidebar';
 import { FileTree, FileTreeProps } from './file-tree';
 import { useState } from 'react';
-import { ChevronDown, ChevronRight } from 'lucide-react';
+import {
+  ChevronRight,
+  FolderOpen,
+  PencilLine,
+  SquarePen,
+  Trash,
+} from 'lucide-react';
 import {
   ContextMenu,
   ContextMenuContent,
@@ -35,31 +45,35 @@ export function Folder({ file: node }: FolderProps) {
   };
 
   return (
-    <Collapsible open={isOpen} onOpenChange={setIsOpen} className="group/collapsible">
+    <Collapsible
+      open={isOpen}
+      onOpenChange={setIsOpen}
+      className="group/collapsible [&[data-state=open]>li>button>svg:first-child]:rotate-90"
+    >
       <SidebarMenuItem>
         <ContextMenu>
           <ContextMenuTrigger asChild>
             <CollapsibleTrigger asChild>
               <SidebarMenuButton size="sm">
-                {isOpen ? (
-                  <ChevronDown className="text-muted-foreground" />
-                ) : (
-                  <ChevronRight className="text-muted-foreground" />
-                )}
+                <ChevronRight className="transition-transform" />
                 {node.name}
               </SidebarMenuButton>
             </CollapsibleTrigger>
           </ContextMenuTrigger>
 
           <ContextMenuContent className="w-48">
-            <ContextMenuItem onClick={onCreateFileClick} className="text-xs">
-              New file...
-            </ContextMenuItem>
             <ContextMenuItem onClick={onCreateFolderClick} className="text-xs">
-              New folder...
+              <FolderOpen /> New folder...
             </ContextMenuItem>
-            <ContextMenuItem className="text-xs">Rename</ContextMenuItem>
-            <ContextMenuItem className="text-xs">Delete</ContextMenuItem>
+            <ContextMenuItem onClick={onCreateFileClick} className="text-xs">
+              <SquarePen /> New file...
+            </ContextMenuItem>
+            <ContextMenuItem className="text-xs">
+              <PencilLine /> Rename
+            </ContextMenuItem>
+            <ContextMenuItem variant="destructive" className="text-xs">
+              <Trash /> Delete
+            </ContextMenuItem>
           </ContextMenuContent>
         </ContextMenu>
 
