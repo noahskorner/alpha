@@ -26,10 +26,16 @@ const mdExtension = markdown({
 
 export interface MarkdownEditorProps {
   content: string;
+  onContentChange: (content: string) => void;
 }
 
-export const MarkdownEditor = ({ content }: MarkdownEditorProps) => {
+export const MarkdownEditor = ({ content, onContentChange }: MarkdownEditorProps) => {
   const [value, setValue] = useState(content);
+
+  const onChange = (val: string) => {
+    setValue(val);
+    onContentChange(val);
+  };
 
   return (
     <CodeMirror
@@ -37,7 +43,7 @@ export const MarkdownEditor = ({ content }: MarkdownEditorProps) => {
       value={value}
       theme={'none'}
       extensions={[mdExtension, markdownPlugin]}
-      onChange={(val) => setValue(val)}
+      onChange={onChange}
     />
   );
 };

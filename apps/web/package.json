@@ -37,6 +37,7 @@
     "clsx": "^2.1.1",
     "codemirror": "^6.0.2",
     "database": "*",
+    "lodash": "^4.17.21",
     "lucide-react": "^0.517.0",
     "next": "15.3.3",
     "next-auth": "^4.24.11",
@@ -58,6 +59,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
+    "@types/lodash": "^4.17.20",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

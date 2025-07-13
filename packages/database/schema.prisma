@@ -17,7 +17,6 @@ model File {
   updatedAt DateTime @updatedAt @map("updated_at")
   isFolder  Boolean  @default(false) @map("is_folder")
   path      String   @unique @map("path")
-  content   String?  @map("content") @db.Text
 
   @@map("file")
 }

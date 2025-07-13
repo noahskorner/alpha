@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { GetFileFacde } from './get-file.facade';
 import { GetFileParams, GetFileParamsSchema } from './get-file.request';
 import {
   UpdateFileParams,
@@ -7,11 +6,12 @@ import {
   UpdateFileRequestSchema,
 } from './update-file.request';
 import { UpdateFileCommand, UpdateFileFacade } from './update-file.facade';
+import { GetFileFacade } from './get-file.facade';
 
-export async function GET(_req: NextRequest, { params }: { params: GetFileParams }) {
+export async function GET(_req: NextRequest, { params }: { params: Promise<GetFileParams> }) {
   try {
     const request = GetFileParamsSchema.parse(params);
-    const facade = new GetFileFacde();
+    const facade = new GetFileFacade();
     const response = await facade.get(request);
     return NextResponse.json(response, { status: 200 });
   } catch (error) {
@@ -22,7 +22,7 @@ export async function GET(_req: NextRequest, { params }: { params: GetFileParams
   }
 }
 
-export async function PUT(req: NextRequest, { params }: { params: UpdateFileParams }) {
+export async function PUT(req: NextRequest, { params }: { params: Promise<UpdateFileParams> }) {
   try {
     const { id } = UpdateFileParamsSchema.parse(await params);
     const body = await req.json();
