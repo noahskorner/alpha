@@ -1,5 +1,8 @@
 import { z } from '@/app/utils/zod';
 
+export const UpdateFileParamsSchema = z.object({
+  id: z.string(),
+});
 export const UpdateFileRequestSchema = z
   .object({
     content: z.string().optional().openapi({
@@ -10,5 +13,5 @@ export const UpdateFileRequestSchema = z
   .openapi({
     title: 'UpdateFileRequest',
   });
-
+export type UpdateFileParams = z.infer<typeof UpdateFileParamsSchema>;
 export type UpdateFileRequest = z.infer<typeof UpdateFileRequestSchema>;

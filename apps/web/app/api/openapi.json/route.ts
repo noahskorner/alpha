@@ -3,8 +3,9 @@ import { createDocument } from 'zod-openapi';
 import { CreateFileRequestSchema } from '../files/create-file.request';
 import { CreateFileResponseSchema } from '../files/create-file.response';
 import { FindFilesResponseSchema } from '../files/find-files.response';
-import { GetFileParamsSchema } from '../files/[fileId]/get-file.request';
-import { GetFileResponseSchema } from '../files/[fileId]/get-file.response';
+import { GetFileParamsSchema } from '../files/[id]/get-file.request';
+import { GetFileResponseSchema } from '../files/[id]/get-file.response';
+import { UpdateFileParamsSchema, UpdateFileRequestSchema } from '../files/[id]/update-file.request';
 
 export async function GET() {
   const document = createDocument({
@@ -62,6 +63,24 @@ export async function GET() {
                   schema: GetFileResponseSchema,
                 },
               },
+            },
+            '404': {
+              description: 'File not found',
+            },
+          },
+        },
+        put: {
+          summary: 'Update a file',
+          tags: ['Files'],
+          requestParams: { path: UpdateFileParamsSchema },
+          requestBody: {
+            content: {
+              'application/json': { schema: UpdateFileRequestSchema },
+            },
+          },
+          responses: {
+            '204': {
+              description: 'File successfully updated',
             },
             '404': {
               description: 'File not found',
