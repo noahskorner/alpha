@@ -1,41 +1,23 @@
 import { NextResponse } from 'next/server';
 import { createDocument } from 'zod-openapi';
-import { CreateFileRequestSchema } from '../files/create-file.request';
-import { CreateFileResponseSchema } from '../files/create-file.response';
-import { FindFilesResponseSchema } from '../files/find-files.response';
-import { GetFileParamsSchema } from '../files/[id]/get-file.request';
-import { GetFileResponseSchema } from '../files/[id]/get-file.response';
-import { UpdateFileParamsSchema, UpdateFileRequestSchema } from '../files/[id]/update-file.request';
+import { CreateOrganizationRequestSchema } from '../organizations/create-organization.request';
+import { CreateOrganizationResponseSchema } from '../organizations/create-organization.response';
 
 export async function GET() {
   const document = createDocument({
     openapi: '3.1.0',
     info: {
-      title: 'beta api docs',
+      title: 'alpha api docs',
       version: '1.0.0',
     },
     paths: {
-      '/api/files': {
-        get: {
-          summary: 'Find files',
-          tags: ['Files'],
-          responses: {
-            '200': {
-              description: '200 OK',
-              content: {
-                'application/json': {
-                  schema: FindFilesResponseSchema,
-                },
-              },
-            },
-          },
-        },
+      '/api/organizations': {
         post: {
           summary: 'Create file',
           tags: ['Files'],
           requestBody: {
             content: {
-              'application/json': { schema: CreateFileRequestSchema },
+              'application/json': { schema: CreateOrganizationRequestSchema },
             },
           },
           responses: {
@@ -43,47 +25,9 @@ export async function GET() {
               description: '201 Created',
               content: {
                 'application/json': {
-                  schema: CreateFileResponseSchema,
+                  schema: CreateOrganizationResponseSchema,
                 },
               },
-            },
-          },
-        },
-      },
-      '/api/files/{id}': {
-        get: {
-          summary: 'Get a file',
-          tags: ['Files'],
-          requestParams: { path: GetFileParamsSchema },
-          responses: {
-            '200': {
-              description: 'File found',
-              content: {
-                'application/json': {
-                  schema: GetFileResponseSchema,
-                },
-              },
-            },
-            '404': {
-              description: 'File not found',
-            },
-          },
-        },
-        put: {
-          summary: 'Update a file',
-          tags: ['Files'],
-          requestParams: { path: UpdateFileParamsSchema },
-          requestBody: {
-            content: {
-              'application/json': { schema: UpdateFileRequestSchema },
-            },
-          },
-          responses: {
-            '204': {
-              description: 'File successfully updated',
-            },
-            '404': {
-              description: 'File not found',
             },
           },
         },

@@ -2,15 +2,14 @@
 CREATE EXTENSION IF NOT EXISTS "vector";
 
 -- CreateTable
-CREATE TABLE "file" (
+CREATE TABLE "organization" (
     "id" TEXT NOT NULL,
     "created_at" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updated_at" TIMESTAMP(3) NOT NULL,
-    "is_folder" BOOLEAN NOT NULL DEFAULT false,
-    "path" TEXT NOT NULL,
-    "content" TEXT,
+    "user_id" TEXT NOT NULL,
+    "name" TEXT NOT NULL,
 
-    CONSTRAINT "file_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "organization_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
@@ -78,7 +77,7 @@ CREATE TABLE "authenticator" (
 );
 
 -- CreateIndex
-CREATE UNIQUE INDEX "file_path_key" ON "file"("path");
+CREATE UNIQUE INDEX "organization_name_user_id_key" ON "organization"("name", "user_id");
 
 -- CreateIndex
 CREATE UNIQUE INDEX "user_email_key" ON "user"("email");
@@ -88,6 +87,9 @@ CREATE UNIQUE INDEX "session_session_token_key" ON "session"("session_token");
 
 -- CreateIndex
 CREATE UNIQUE INDEX "authenticator_credential_id_key" ON "authenticator"("credential_id");
+
+-- AddForeignKey
+ALTER TABLE "organization" ADD CONSTRAINT "organization_user_id_fkey" FOREIGN KEY ("user_id") REFERENCES "user"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "account" ADD CONSTRAINT "account_user_id_fkey" FOREIGN KEY ("user_id") REFERENCES "user"("id") ON DELETE CASCADE ON UPDATE CASCADE;

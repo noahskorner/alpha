@@ -5,12 +5,14 @@ import {
   SidebarGroup,
   SidebarGroupContent,
   SidebarGroupLabel,
-  SidebarHeader,
+  SidebarMenu,
+  SidebarMenuButton,
+  SidebarMenuItem,
 } from '@/components/ui/sidebar';
-import { FileExplorer } from './file-explorer';
-import { Navbar } from './navbar';
 import { AccountDropdown } from './account-dropdown';
-import { cn } from '../../../lib/utils';
+import { cn } from '@/lib/utils';
+import Link from 'next/link';
+import { routes } from '../routes';
 
 export interface SidebarProps {
   email: string;
@@ -20,14 +22,26 @@ export interface SidebarProps {
 export async function Sidebar({ email, className }: SidebarProps) {
   return (
     <SidebarComponent className={cn('border-r-none', className)}>
-      <SidebarHeader className="p-0">
-        <Navbar className="w-sidebar rounded-t-lg" />
-      </SidebarHeader>
       <SidebarContent>
         <SidebarGroup>
-          <SidebarGroupLabel>Files</SidebarGroupLabel>
+          <SidebarGroupLabel></SidebarGroupLabel>
           <SidebarGroupContent>
-            <FileExplorer />
+            <SidebarMenu>
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild>
+                  <Link href={routes.indexes.home}>
+                    <span>Indexes</span>
+                  </Link>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild>
+                  <Link href={routes.indexes.home}>
+                    <span>Agents</span>
+                  </Link>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+            </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
       </SidebarContent>

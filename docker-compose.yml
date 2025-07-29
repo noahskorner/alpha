@@ -1,18 +1,18 @@
 services:
   db:
     image: ankane/pgvector:latest
-    container_name: beta_db
+    container_name: alpha_db
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: beta
+      POSTGRES_DB: alpha
     ports:
       - '54320:5432'
     volumes:
       - db-data:/var/lib/postgresql/data
   # azurite:
   #   image: mcr.microsoft.com/azure-storage/azurite
-  #   container_name: beta_azurite
+  #   container_name: alpha_azurite
   #   restart: unless-stopped
   #   ports:
   #     - '10000:10000' # Blob service
@@ -23,7 +23,7 @@ services:
   #   command: 'azurite-blob --blobHost 0.0.0.0 --location /data'
   mailhog:
     image: mailhog/mailhog
-    container_name: beta_mailhog
+    container_name: alpha_mailhog
     restart: unless-stopped
     ports:
       - '8025:8025' # Web UI

@@ -1,5 +1,5 @@
 import { PrismaClient } from 'database';
 
-export const PRISMA = new PrismaClient({
+export const prisma = new PrismaClient({
   datasourceUrl: process.env.DATABASE_URL,
 });

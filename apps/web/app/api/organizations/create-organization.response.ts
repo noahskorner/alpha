@@ -1,6 +1,6 @@
 import { z } from '@/app/utils/zod';
 
-export const CreateFileResponseSchema = z
+export const CreateOrganizationResponseSchema = z
   .object({
     id: z.string().openapi({
       description: 'Unique identifier for the file',
@@ -14,17 +14,13 @@ export const CreateFileResponseSchema = z
       description: 'Last update timestamp of the file',
       example: '2023-10-01T12:00:00Z',
     }),
-    path: z.string().min(1).openapi({
-      description: 'Unique path for the file',
-      example: '/folder/file.md',
-    }),
-    isFolder: z.boolean().default(false).openapi({
-      description: 'Whether the file is a folder',
-      example: false,
+    name: z.string().openapi({
+      description: 'Name of the organization',
+      example: 'My Organization',
     }),
   })
   .openapi({
-    title: 'CreateFileResponse',
+    title: 'CreateOrganizationResponse',
   });
 
-export type CreateFileResponse = z.infer<typeof CreateFileResponseSchema>;
+export type CreateOrganizationResponse = z.infer<typeof CreateOrganizationResponseSchema>;

@@ -1,6 +1,6 @@
 import { PrismaAdapter } from '@next-auth/prisma-adapter';
 import EmailProvider from 'next-auth/providers/email';
-import { PRISMA } from './prisma';
+import { prisma } from './prisma';
 import { AuthOptions } from 'next-auth';
 
 export const AUTH: AuthOptions = {
@@ -10,7 +10,7 @@ export const AUTH: AuthOptions = {
       from: process.env.EMAIL_FROM,
     }),
   ],
-  adapter: PrismaAdapter(PRISMA),
+  adapter: PrismaAdapter(prisma),
   session: {
     strategy: 'database',
   },

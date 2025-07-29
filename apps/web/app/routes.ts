@@ -1,4 +1,4 @@
-export const ROUTES = {
+export const routes = {
   home: '/',
   signIn: '/sign-in',
   signUp: '/sign-up',
@@ -7,11 +7,10 @@ export const ROUTES = {
   auth: {
     callback: '/auth/callback',
   },
-  dashboard: {
-    home: '/dashboard',
-    detail: (fileId: string) => `/dashboard/${fileId}`,
+  organizations: {
+    home: '/organizations',
   },
-  external: {
-    email: 'http://localhost:8025',
+  indexes: {
+    home: '/indexes',
   },
 } as const;
