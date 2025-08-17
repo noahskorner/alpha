@@ -1,0 +1,1179 @@
+{
+  "status": "succeeded",
+  "createdDateTime": "2025-08-17T20:43:24Z",
+  "lastUpdatedDateTime": "2025-08-17T20:43:27Z",
+  "analyzeResult": {
+    "apiVersion": "2024-11-30",
+    "modelId": "prebuilt-layout",
+    "stringIndexType": "textElements",
+    "content": "Sample Fillable PDF\n\nThis is an example of a fillable PDF. A client can save it and email it back to you, or print it and\nbring it along with them to a meeting with you.\n\nPlease enter your name:\n\nPlease select an item from the combo/dropdown list:\nFirst Choice\n\nChoice 1\n\nCheck all that apply:\n☐\nOption 1\n☐\nOption 2\n☐\nOption 3\n\nYou can add fields within tables as well:\n\nName of Dependent\n\nAge of Dependent\n",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "angle": 0.011816180311143398,
+        "width": 8.5,
+        "height": 11,
+        "unit": "inch",
+        "words": [
+          {
+            "content": "Sample",
+            "polygon": [1.0006, 1.1631, 1.6474, 1.16, 1.6476, 1.3669, 1.0006, 1.3702],
+            "confidence": 0.997,
+            "span": {
+              "offset": 0,
+              "length": 6
+            }
+          },
+          {
+            "content": "Fillable",
+            "polygon": [1.7249, 1.1604, 2.328, 1.1595, 2.3278, 1.3602, 1.725, 1.3656],
+            "confidence": 0.995,
+            "span": {
+              "offset": 7,
+              "length": 8
+            }
+          },
+          {
+            "content": "PDF",
+            "polygon": [2.4022, 1.159, 2.7393, 1.1561, 2.7393, 1.3579, 2.402, 1.3599],
+            "confidence": 0.996,
+            "span": {
+              "offset": 16,
+              "length": 3
+            }
+          },
+          {
+            "content": "This",
+            "polygon": [0.9984, 1.5788, 1.2545, 1.579, 1.2546, 1.7504, 0.9985, 1.7492],
+            "confidence": 0.992,
+            "span": {
+              "offset": 21,
+              "length": 4
+            }
+          },
+          {
+            "content": "is",
+            "polygon": [1.2879, 1.579, 1.4132, 1.5791, 1.4133, 1.7511, 1.288, 1.7505],
+            "confidence": 0.995,
+            "span": {
+              "offset": 26,
+              "length": 2
+            }
+          },
+          {
+            "content": "an",
+            "polygon": [1.4578, 1.5791, 1.6165, 1.5788, 1.6165, 1.7507, 1.4578, 1.7512],
+            "confidence": 0.998,
+            "span": {
+              "offset": 29,
+              "length": 2
+            }
+          },
+          {
+            "content": "example",
+            "polygon": [1.6666, 1.5787, 2.2319, 1.578, 2.2316, 1.7486, 1.6667, 1.7505],
+            "confidence": 0.993,
+            "span": {
+              "offset": 32,
+              "length": 7
+            }
+          },
+          {
+            "content": "of",
+            "polygon": [2.2792, 1.5779, 2.4184, 1.578, 2.418, 1.7482, 2.2789, 1.7484],
+            "confidence": 0.997,
+            "span": {
+              "offset": 40,
+              "length": 2
+            }
+          },
+          {
+            "content": "a",
+            "polygon": [2.4546, 1.5782, 2.5214, 1.5784, 2.5209, 1.7482, 2.4541, 1.7482],
+            "confidence": 0.995,
+            "span": {
+              "offset": 43,
+              "length": 1
+            }
+          },
+          {
+            "content": "fillable",
+            "polygon": [2.5716, 1.5786, 3.0143, 1.5798, 3.0137, 1.7476, 2.571, 1.7482],
+            "confidence": 0.993,
+            "span": {
+              "offset": 45,
+              "length": 8
+            }
+          },
+          {
+            "content": "PDF.",
+            "polygon": [3.0728, 1.58, 3.3596, 1.5803, 3.3591, 1.7469, 3.0722, 1.7474],
+            "confidence": 0.992,
+            "span": {
+              "offset": 54,
+              "length": 4
+            }
+          },
+          {
+            "content": "A",
+            "polygon": [3.4069, 1.5802, 3.5016, 1.58, 3.5013, 1.7472, 3.4065, 1.747],
+            "confidence": 0.995,
+            "span": {
+              "offset": 59,
+              "length": 1
+            }
+          },
+          {
+            "content": "client",
+            "polygon": [3.5433, 1.5799, 3.9081, 1.5794, 3.9081, 1.7475, 3.5431, 1.7473],
+            "confidence": 0.993,
+            "span": {
+              "offset": 61,
+              "length": 6
+            }
+          },
+          {
+            "content": "can",
+            "polygon": [3.9526, 1.5794, 4.1838, 1.5791, 4.1838, 1.7475, 3.9526, 1.7475],
+            "confidence": 0.996,
+            "span": {
+              "offset": 68,
+              "length": 3
+            }
+          },
+          {
+            "content": "save",
+            "polygon": [4.2311, 1.5792, 4.5207, 1.58, 4.5208, 1.7482, 4.2312, 1.7476],
+            "confidence": 0.992,
+            "span": {
+              "offset": 72,
+              "length": 4
+            }
+          },
+          {
+            "content": "it",
+            "polygon": [4.5736, 1.5801, 4.6599, 1.5803, 4.66, 1.7485, 4.5737, 1.7484],
+            "confidence": 0.995,
+            "span": {
+              "offset": 77,
+              "length": 2
+            }
+          },
+          {
+            "content": "and",
+            "polygon": [4.7017, 1.5804, 4.9467, 1.5808, 4.9468, 1.7492, 4.7018, 1.7486],
+            "confidence": 0.998,
+            "span": {
+              "offset": 80,
+              "length": 3
+            }
+          },
+          {
+            "content": "email",
+            "polygon": [4.994, 1.5809, 5.356, 1.5799, 5.3556, 1.7498, 4.9942, 1.7492],
+            "confidence": 0.992,
+            "span": {
+              "offset": 84,
+              "length": 5
+            }
+          },
+          {
+            "content": "it",
+            "polygon": [5.4089, 1.5797, 5.4896, 1.5794, 5.4891, 1.7499, 5.4085, 1.7498],
+            "confidence": 0.996,
+            "span": {
+              "offset": 90,
+              "length": 2
+            }
+          },
+          {
+            "content": "back",
+            "polygon": [5.5426, 1.5792, 5.8433, 1.579, 5.8425, 1.7515, 5.5419, 1.7501],
+            "confidence": 0.992,
+            "span": {
+              "offset": 93,
+              "length": 4
+            }
+          },
+          {
+            "content": "to",
+            "polygon": [5.885, 1.579, 6.0215, 1.5791, 6.0207, 1.7524, 5.8843, 1.7517],
+            "confidence": 0.992,
+            "span": {
+              "offset": 98,
+              "length": 2
+            }
+          },
+          {
+            "content": "you,",
+            "polygon": [6.066, 1.5794, 6.3473, 1.5808, 6.3469, 1.754, 6.0653, 1.7526],
+            "confidence": 0.992,
+            "span": {
+              "offset": 101,
+              "length": 4
+            }
+          },
+          {
+            "content": "or",
+            "polygon": [6.4002, 1.5811, 6.5422, 1.5817, 6.542, 1.7533, 6.3998, 1.7543],
+            "confidence": 0.992,
+            "span": {
+              "offset": 106,
+              "length": 2
+            }
+          },
+          {
+            "content": "print",
+            "polygon": [6.5895, 1.5819, 6.9014, 1.5831, 6.9015, 1.7506, 6.5893, 1.7529],
+            "confidence": 0.993,
+            "span": {
+              "offset": 109,
+              "length": 5
+            }
+          },
+          {
+            "content": "it",
+            "polygon": [6.9487, 1.5827, 7.035, 1.5819, 7.0353, 1.751, 6.9489, 1.7508],
+            "confidence": 0.996,
+            "span": {
+              "offset": 115,
+              "length": 2
+            }
+          },
+          {
+            "content": "and",
+            "polygon": [7.0795, 1.5815, 7.3379, 1.5794, 7.3379, 1.7521, 7.0799, 1.7512],
+            "confidence": 0.996,
+            "span": {
+              "offset": 118,
+              "length": 3
+            }
+          },
+          {
+            "content": "bring",
+            "polygon": [1.0024, 1.8093, 1.3294, 1.8094, 1.3291, 1.993, 1.0021, 1.9884],
+            "confidence": 0.997,
+            "span": {
+              "offset": 122,
+              "length": 5
+            }
+          },
+          {
+            "content": "it",
+            "polygon": [1.3645, 1.81, 1.4842, 1.8114, 1.4841, 1.9921, 1.3642, 1.993],
+            "confidence": 0.999,
+            "span": {
+              "offset": 128,
+              "length": 2
+            }
+          },
+          {
+            "content": "along",
+            "polygon": [1.5309, 1.811, 1.893, 1.8102, 1.8926, 1.9908, 1.5308, 1.9921],
+            "confidence": 0.999,
+            "span": {
+              "offset": 131,
+              "length": 5
+            }
+          },
+          {
+            "content": "with",
+            "polygon": [1.9368, 1.8103, 2.2259, 1.8105, 2.2254, 1.9906, 1.9364, 1.9907],
+            "confidence": 0.992,
+            "span": {
+              "offset": 137,
+              "length": 4
+            }
+          },
+          {
+            "content": "them",
+            "polygon": [2.2726, 1.8105, 2.623, 1.812, 2.622, 1.9915, 2.272, 1.9904],
+            "confidence": 0.991,
+            "span": {
+              "offset": 142,
+              "length": 4
+            }
+          },
+          {
+            "content": "to",
+            "polygon": [2.6697, 1.812, 2.807, 1.8123, 2.8056, 1.992, 2.6686, 1.9916],
+            "confidence": 0.999,
+            "span": {
+              "offset": 147,
+              "length": 2
+            }
+          },
+          {
+            "content": "a",
+            "polygon": [2.8566, 1.8126, 2.9238, 1.8131, 2.9227, 1.9909, 2.8553, 1.9917],
+            "confidence": 0.996,
+            "span": {
+              "offset": 150,
+              "length": 1
+            }
+          },
+          {
+            "content": "meeting",
+            "polygon": [2.9792, 1.8136, 3.5253, 1.8162, 3.5246, 1.9915, 2.9783, 1.9903],
+            "confidence": 0.999,
+            "span": {
+              "offset": 152,
+              "length": 7
+            }
+          },
+          {
+            "content": "with",
+            "polygon": [3.5662, 1.8166, 3.8582, 1.8183, 3.8578, 1.9923, 3.5655, 1.9916],
+            "confidence": 0.992,
+            "span": {
+              "offset": 160,
+              "length": 4
+            }
+          },
+          {
+            "content": "you.",
+            "polygon": [3.9049, 1.8182, 4.2002, 1.8186, 4.2002, 1.9921, 3.9046, 1.9925],
+            "confidence": 0.992,
+            "span": {
+              "offset": 165,
+              "length": 4
+            }
+          },
+          {
+            "content": "Please",
+            "polygon": [1.0081, 2.3087, 1.4651, 2.3107, 1.4647, 2.4797, 1.0078, 2.4754],
+            "confidence": 0.997,
+            "span": {
+              "offset": 171,
+              "length": 6
+            }
+          },
+          {
+            "content": "enter",
+            "polygon": [1.5141, 2.3115, 1.9031, 2.3145, 1.9024, 2.4801, 1.5138, 2.4798],
+            "confidence": 0.997,
+            "span": {
+              "offset": 178,
+              "length": 5
+            }
+          },
+          {
+            "content": "your",
+            "polygon": [1.9466, 2.3148, 2.2731, 2.3168, 2.2722, 2.4801, 1.9458, 2.4801],
+            "confidence": 0.992,
+            "span": {
+              "offset": 184,
+              "length": 4
+            }
+          },
+          {
+            "content": "name:",
+            "polygon": [2.3221, 2.317, 2.7725, 2.3182, 2.7725, 2.4801, 2.3211, 2.4801],
+            "confidence": 0.995,
+            "span": {
+              "offset": 189,
+              "length": 5
+            }
+          },
+          {
+            "content": "Please",
+            "polygon": [1.0084, 3.0028, 1.4644, 3.0047, 1.4642, 3.1792, 1.0081, 3.1775],
+            "confidence": 0.997,
+            "span": {
+              "offset": 196,
+              "length": 6
+            }
+          },
+          {
+            "content": "select",
+            "polygon": [1.5132, 3.005, 1.9319, 3.0051, 1.9316, 3.1774, 1.513, 3.1792],
+            "confidence": 0.998,
+            "span": {
+              "offset": 203,
+              "length": 6
+            }
+          },
+          {
+            "content": "an",
+            "polygon": [1.9835, 3.0055, 2.1384, 3.0062, 2.1376, 3.1777, 1.9831, 3.1775],
+            "confidence": 0.999,
+            "span": {
+              "offset": 210,
+              "length": 2
+            }
+          },
+          {
+            "content": "item",
+            "polygon": [2.1986, 3.0061, 2.5141, 3.0049, 2.5132, 3.1796, 2.1978, 3.178],
+            "confidence": 0.985,
+            "span": {
+              "offset": 213,
+              "length": 4
+            }
+          },
+          {
+            "content": "from",
+            "polygon": [2.5657, 3.0047, 2.907, 3.0038, 2.9064, 3.1803, 2.5648, 3.1798],
+            "confidence": 0.992,
+            "span": {
+              "offset": 218,
+              "length": 4
+            }
+          },
+          {
+            "content": "the",
+            "polygon": [2.9587, 3.0038, 3.1938, 3.0045, 3.1932, 3.1819, 2.9581, 3.1805],
+            "confidence": 0.999,
+            "span": {
+              "offset": 223,
+              "length": 3
+            }
+          },
+          {
+            "content": "combo/dropdown",
+            "polygon": [3.2512, 3.0048, 4.5446, 3.008, 4.5448, 3.1814, 3.2505, 3.1816],
+            "confidence": 0.994,
+            "span": {
+              "offset": 227,
+              "length": 14
+            }
+          },
+          {
+            "content": "list:",
+            "polygon": [4.6077, 3.0079, 4.8587, 3.0056, 4.8587, 3.1831, 4.6079, 3.1813],
+            "confidence": 0.993,
+            "span": {
+              "offset": 242,
+              "length": 5
+            }
+          },
+          {
+            "content": "First",
+            "polygon": [1.0068, 3.2555, 1.2994, 3.257, 1.2991, 3.4086, 1.0072, 3.4066],
+            "confidence": 0.995,
+            "span": {
+              "offset": 248,
+              "length": 5
+            }
+          },
+          {
+            "content": "Choice",
+            "polygon": [1.3394, 3.2574, 1.7971, 3.2558, 1.797, 3.4102, 1.3391, 3.4087],
+            "confidence": 0.997,
+            "span": {
+              "offset": 254,
+              "length": 6
+            }
+          },
+          {
+            "content": "Choice",
+            "polygon": [1.0242, 3.4929, 1.5397, 3.4924, 1.5397, 3.6587, 1.024, 3.6593],
+            "confidence": 0.997,
+            "span": {
+              "offset": 262,
+              "length": 6
+            }
+          },
+          {
+            "content": "1",
+            "polygon": [1.5993, 3.4924, 1.6644, 3.4929, 1.6645, 3.6592, 1.5996, 3.6589],
+            "confidence": 0.991,
+            "span": {
+              "offset": 269,
+              "length": 1
+            }
+          },
+          {
+            "content": "Check",
+            "polygon": [1.0055, 3.8087, 1.4379, 3.8101, 1.4375, 3.9905, 1.0057, 3.9864],
+            "confidence": 0.997,
+            "span": {
+              "offset": 272,
+              "length": 5
+            }
+          },
+          {
+            "content": "all",
+            "polygon": [1.4913, 3.81, 1.6334, 3.8112, 1.6324, 3.9941, 1.4908, 3.9916],
+            "confidence": 0.997,
+            "span": {
+              "offset": 278,
+              "length": 3
+            }
+          },
+          {
+            "content": "that",
+            "polygon": [1.6868, 3.812, 1.9829, 3.8157, 1.9808, 3.9965, 1.6852, 3.9945],
+            "confidence": 0.992,
+            "span": {
+              "offset": 282,
+              "length": 4
+            }
+          },
+          {
+            "content": "apply:",
+            "polygon": [2.0303, 3.816, 2.4626, 3.8157, 2.4618, 4.0025, 2.0283, 3.9967],
+            "confidence": 0.995,
+            "span": {
+              "offset": 287,
+              "length": 6
+            }
+          },
+          {
+            "content": "Option",
+            "polygon": [1.2156, 4.1854, 1.6668, 4.187, 1.6678, 4.344, 1.2161, 4.3495],
+            "confidence": 0.995,
+            "span": {
+              "offset": 296,
+              "length": 6
+            }
+          },
+          {
+            "content": "1",
+            "polygon": [1.7242, 4.1871, 1.793, 4.1868, 1.793, 4.3464, 1.7248, 4.3451],
+            "confidence": 0.996,
+            "span": {
+              "offset": 303,
+              "length": 1
+            }
+          },
+          {
+            "content": "Option",
+            "polygon": [1.2155, 4.3893, 1.6656, 4.3912, 1.6669, 4.5498, 1.216, 4.5561],
+            "confidence": 0.996,
+            "span": {
+              "offset": 307,
+              "length": 6
+            }
+          },
+          {
+            "content": "2",
+            "polygon": [1.7186, 4.391, 1.7985, 4.3904, 1.7985, 4.5524, 1.7195, 4.5504],
+            "confidence": 0.995,
+            "span": {
+              "offset": 314,
+              "length": 1
+            }
+          },
+          {
+            "content": "Option",
+            "polygon": [1.2149, 4.5936, 1.6687, 4.5957, 1.6691, 4.7505, 1.2151, 4.7597],
+            "confidence": 0.995,
+            "span": {
+              "offset": 318,
+              "length": 6
+            }
+          },
+          {
+            "content": "3",
+            "polygon": [1.718, 4.5957, 1.7985, 4.5947, 1.7985, 4.7538, 1.7181, 4.7512],
+            "confidence": 0.996,
+            "span": {
+              "offset": 325,
+              "length": 1
+            }
+          },
+          {
+            "content": "You",
+            "polygon": [1.0025, 5.0284, 1.2645, 5.028, 1.2649, 5.1966, 1.0029, 5.1951],
+            "confidence": 0.992,
+            "span": {
+              "offset": 328,
+              "length": 3
+            }
+          },
+          {
+            "content": "can",
+            "polygon": [1.3252, 5.0278, 1.5596, 5.0254, 1.5598, 5.1963, 1.3256, 5.1966],
+            "confidence": 0.998,
+            "span": {
+              "offset": 332,
+              "length": 3
+            }
+          },
+          {
+            "content": "add",
+            "polygon": [1.623, 5.0245, 1.8768, 5.0246, 1.8767, 5.1967, 1.6231, 5.1961],
+            "confidence": 0.997,
+            "span": {
+              "offset": 336,
+              "length": 3
+            }
+          },
+          {
+            "content": "fields",
+            "polygon": [1.9678, 5.0241, 2.3484, 5.0257, 2.3483, 5.1963, 1.9677, 5.1966],
+            "confidence": 0.994,
+            "span": {
+              "offset": 340,
+              "length": 6
+            }
+          },
+          {
+            "content": "within",
+            "polygon": [2.398, 5.0257, 2.8337, 5.0284, 2.8337, 5.196, 2.398, 5.1961],
+            "confidence": 0.997,
+            "span": {
+              "offset": 347,
+              "length": 6
+            }
+          },
+          {
+            "content": "tables",
+            "polygon": [2.8889, 5.0288, 3.3191, 5.0291, 3.3189, 5.1955, 2.8889, 5.1957],
+            "confidence": 0.993,
+            "span": {
+              "offset": 354,
+              "length": 6
+            }
+          },
+          {
+            "content": "as",
+            "polygon": [3.377, 5.0298, 3.5149, 5.0313, 3.5146, 5.1944, 3.3768, 5.1952],
+            "confidence": 0.995,
+            "span": {
+              "offset": 361,
+              "length": 2
+            }
+          },
+          {
+            "content": "well:",
+            "polygon": [3.5673, 5.0314, 3.9014, 5.0281, 3.9014, 5.1956, 3.5671, 5.1941],
+            "confidence": 0.992,
+            "span": {
+              "offset": 364,
+              "length": 5
+            }
+          },
+          {
+            "content": "Name",
+            "polygon": [1.0043, 5.2547, 1.4007, 5.2536, 1.4006, 5.4174, 1.0049, 5.4136],
+            "confidence": 0.992,
+            "span": {
+              "offset": 371,
+              "length": 4
+            }
+          },
+          {
+            "content": "of",
+            "polygon": [1.4486, 5.2539, 1.5922, 5.2543, 1.5921, 5.418, 1.4484, 5.4173],
+            "confidence": 0.999,
+            "span": {
+              "offset": 376,
+              "length": 2
+            }
+          },
+          {
+            "content": "Dependent",
+            "polygon": [1.6322, 5.2544, 2.3906, 5.2556, 2.3906, 5.4196, 1.6318, 5.4176],
+            "confidence": 0.995,
+            "span": {
+              "offset": 379,
+              "length": 9
+            }
+          },
+          {
+            "content": "Age",
+            "polygon": [1.0016, 5.4668, 1.2548, 5.4663, 1.2556, 5.6352, 1.0028, 5.6356],
+            "confidence": 0.999,
+            "span": {
+              "offset": 390,
+              "length": 3
+            }
+          },
+          {
+            "content": "of",
+            "polygon": [1.3043, 5.4664, 1.4309, 5.4662, 1.431, 5.6356, 1.3048, 5.6351],
+            "confidence": 0.999,
+            "span": {
+              "offset": 394,
+              "length": 2
+            }
+          },
+          {
+            "content": "Dependent",
+            "polygon": [1.464, 5.4663, 2.2412, 5.4662, 2.2412, 5.6342, 1.464, 5.6356],
+            "confidence": 0.996,
+            "span": {
+              "offset": 397,
+              "length": 9
+            }
+          }
+        ],
+        "selectionMarks": [
+          {
+            "state": "unselected",
+            "polygon": [1.0107, 4.1575, 1.202, 4.1596, 1.201, 4.3451, 1.0114, 4.3461],
+            "confidence": 0.986,
+            "span": {
+              "offset": 294,
+              "length": 1
+            }
+          },
+          {
+            "state": "unselected",
+            "polygon": [1.0115, 4.3603, 1.2016, 4.3623, 1.2006, 4.5494, 1.0101, 4.5488],
+            "confidence": 0.989,
+            "span": {
+              "offset": 305,
+              "length": 1
+            }
+          },
+          {
+            "state": "unselected",
+            "polygon": [1.0107, 4.5625, 1.2026, 4.5642, 1.2011, 4.7533, 1.0095, 4.754],
+            "confidence": 0.986,
+            "span": {
+              "offset": 316,
+              "length": 1
+            }
+          }
+        ],
+        "lines": [
+          {
+            "content": "Sample Fillable PDF",
+            "polygon": [0.999, 1.1626, 2.7377, 1.1515, 2.7393, 1.3577, 1.0006, 1.3712],
+            "spans": [
+              {
+                "offset": 0,
+                "length": 19
+              }
+            ]
+          },
+          {
+            "content": "This is an example of a fillable PDF. A client can save it and email it back to you, or print it and",
+            "polygon": [0.9984, 1.5778, 7.3365, 1.5793, 7.3364, 1.7518, 0.9983, 1.7498],
+            "spans": [
+              {
+                "offset": 21,
+                "length": 100
+              }
+            ]
+          },
+          {
+            "content": "bring it along with them to a meeting with you.",
+            "polygon": [1.0021, 1.8078, 4.196, 1.8081, 4.196, 1.9914, 1.0021, 1.9911],
+            "spans": [
+              {
+                "offset": 122,
+                "length": 47
+              }
+            ]
+          },
+          {
+            "content": "Please enter your name:",
+            "polygon": [1.0081, 2.3085, 2.7694, 2.3156, 2.7686, 2.4801, 1.0073, 2.475],
+            "spans": [
+              {
+                "offset": 171,
+                "length": 23
+              }
+            ]
+          },
+          {
+            "content": "Please select an item from the combo/dropdown list:",
+            "polygon": [1.0083, 3.0005, 4.8547, 3.0055, 4.8545, 3.1813, 1.0081, 3.176],
+            "spans": [
+              {
+                "offset": 196,
+                "length": 51
+              }
+            ]
+          },
+          {
+            "content": "First Choice",
+            "polygon": [1.0068, 3.2552, 1.7936, 3.2557, 1.7935, 3.4087, 1.0068, 3.4082],
+            "spans": [
+              {
+                "offset": 248,
+                "length": 12
+              }
+            ]
+          },
+          {
+            "content": "Choice 1",
+            "polygon": [1.0238, 3.4929, 1.6614, 3.4921, 1.6616, 3.6566, 1.024, 3.6574],
+            "spans": [
+              {
+                "offset": 262,
+                "length": 8
+              }
+            ]
+          },
+          {
+            "content": "Check all that apply:",
+            "polygon": [1.0055, 3.8067, 2.4593, 3.8156, 2.4582, 3.9994, 1.0043, 3.9905],
+            "spans": [
+              {
+                "offset": 272,
+                "length": 21
+              }
+            ]
+          },
+          {
+            "content": "Option 1",
+            "polygon": [1.2156, 4.1854, 1.7928, 4.1852, 1.793, 4.345, 1.2161, 4.3468],
+            "spans": [
+              {
+                "offset": 296,
+                "length": 8
+              }
+            ]
+          },
+          {
+            "content": "Option 2",
+            "polygon": [1.2155, 4.3893, 1.7965, 4.3877, 1.797, 4.5523, 1.216, 4.5539],
+            "spans": [
+              {
+                "offset": 307,
+                "length": 8
+              }
+            ]
+          },
+          {
+            "content": "Option 3",
+            "polygon": [1.2149, 4.5936, 1.7949, 4.5929, 1.7951, 4.7562, 1.2151, 4.7569],
+            "spans": [
+              {
+                "offset": 318,
+                "length": 8
+              }
+            ]
+          },
+          {
+            "content": "You can add fields within tables as well:",
+            "polygon": [1.0025, 5.0235, 3.9014, 5.0241, 3.9013, 5.1944, 1.0025, 5.1938],
+            "spans": [
+              {
+                "offset": 328,
+                "length": 41
+              }
+            ]
+          },
+          {
+            "content": "Name of Dependent",
+            "polygon": [1.0043, 5.2511, 2.3894, 5.2547, 2.3889, 5.4177, 1.0038, 5.414],
+            "spans": [
+              {
+                "offset": 371,
+                "length": 17
+              }
+            ]
+          },
+          {
+            "content": "Age of Dependent",
+            "polygon": [1.0016, 5.4667, 2.2398, 5.4646, 2.2401, 5.6319, 1.0019, 5.634],
+            "spans": [
+              {
+                "offset": 390,
+                "length": 16
+              }
+            ]
+          }
+        ],
+        "spans": [
+          {
+            "offset": 0,
+            "length": 407
+          }
+        ]
+      }
+    ],
+    "paragraphs": [
+      {
+        "spans": [
+          {
+            "offset": 0,
+            "length": 19
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [0.999, 1.1626, 2.7377, 1.149, 2.7393, 1.3577, 1.0006, 1.3712]
+          }
+        ],
+        "content": "Sample Fillable PDF"
+      },
+      {
+        "spans": [
+          {
+            "offset": 21,
+            "length": 148
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [0.9983, 1.5778, 7.3365, 1.5793, 7.3364, 1.9927, 0.9982, 1.9911]
+          }
+        ],
+        "content": "This is an example of a fillable PDF. A client can save it and email it back to you, or print it and bring it along with them to a meeting with you."
+      },
+      {
+        "spans": [
+          {
+            "offset": 171,
+            "length": 23
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [1.008, 2.3085, 2.7694, 2.3156, 2.7687, 2.482, 1.0073, 2.475]
+          }
+        ],
+        "content": "Please enter your name:"
+      },
+      {
+        "spans": [
+          {
+            "offset": 196,
+            "length": 64
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [1.0072, 3.0005, 4.8547, 3.0055, 4.8542, 3.4132, 1.0067, 3.4082]
+          }
+        ],
+        "content": "Please select an item from the combo/dropdown list: First Choice"
+      },
+      {
+        "spans": [
+          {
+            "offset": 262,
+            "length": 8
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [1.0238, 3.4929, 1.6614, 3.4921, 1.6616, 3.6566, 1.024, 3.6574]
+          }
+        ],
+        "content": "Choice 1"
+      },
+      {
+        "spans": [
+          {
+            "offset": 272,
+            "length": 54
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [1.0055, 3.8067, 2.4593, 3.8156, 2.4535, 4.7645, 0.9997, 4.7556]
+          }
+        ],
+        "content": "Check all that apply: :unselected: Option 1 :unselected: Option 2 :unselected: Option 3"
+      },
+      {
+        "spans": [
+          {
+            "offset": 328,
+            "length": 41
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [1.0025, 5.0235, 3.9014, 5.0241, 3.9013, 5.1944, 1.0025, 5.1938]
+          }
+        ],
+        "content": "You can add fields within tables as well:"
+      },
+      {
+        "spans": [
+          {
+            "offset": 371,
+            "length": 17
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [1.0043, 5.2511, 2.3894, 5.2547, 2.3889, 5.4177, 1.0038, 5.414]
+          }
+        ],
+        "content": "Name of Dependent"
+      },
+      {
+        "spans": [
+          {
+            "offset": 390,
+            "length": 16
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [1.0016, 5.4667, 2.2398, 5.4646, 2.2401, 5.6319, 1.0019, 5.634]
+          }
+        ],
+        "content": "Age of Dependent"
+      }
+    ],
+    "keyValuePairs": [
+      {
+        "key": {
+          "content": "Option 1",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [1.2156, 4.1827, 1.7941, 4.1868, 1.7929, 4.3536, 1.2144, 4.3495]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 296,
+              "length": 8
+            }
+          ]
+        },
+        "value": {
+          "content": ":unselected:",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [1.0107, 4.1575, 1.2021, 4.1581, 1.2015, 4.3466, 1.0101, 4.3461]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 294,
+              "length": 1
+            }
+          ]
+        },
+        "confidence": 0.996
+      },
+      {
+        "key": {
+          "content": "Option 2",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [1.2156, 4.3853, 1.7999, 4.3904, 1.7984, 4.5613, 1.214, 4.5561]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 307,
+              "length": 8
+            }
+          ]
+        },
+        "value": {
+          "content": ":unselected:",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [1.0113, 4.3603, 1.2019, 4.3616, 1.2006, 4.55, 1.0101, 4.5488]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 305,
+              "length": 1
+            }
+          ]
+        },
+        "confidence": 0.996
+      },
+      {
+        "key": {
+          "content": "Option 3",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [1.2149, 4.5888, 1.8001, 4.5947, 1.7984, 4.7655, 1.2132, 4.7596]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 318,
+              "length": 8
+            }
+          ]
+        },
+        "value": {
+          "content": ":unselected:",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [1.01, 4.5625, 1.2026, 4.563, 1.2021, 4.7545, 1.0095, 4.754]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 316,
+              "length": 1
+            }
+          ]
+        },
+        "confidence": 0.996
+      },
+      {
+        "key": {
+          "content": "Name of Dependent",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [1.0043, 5.2509, 2.3912, 5.2556, 2.3906, 5.4207, 1.0037, 5.4161]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 371,
+              "length": 17
+            }
+          ]
+        },
+        "confidence": 0.997
+      },
+      {
+        "key": {
+          "content": "Age of Dependent",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [1.0016, 5.4666, 2.2412, 5.4654, 2.2414, 5.6349, 1.0018, 5.6361]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 390,
+              "length": 16
+            }
+          ]
+        },
+        "confidence": 0.999
+      }
+    ],
+    "contentFormat": "markdown",
+    "sections": [
+      {
+        "spans": [
+          {
+            "offset": 0,
+            "length": 406
+          }
+        ],
+        "elements": [
+          "/paragraphs/0",
+          "/paragraphs/1",
+          "/paragraphs/2",
+          "/paragraphs/3",
+          "/paragraphs/4",
+          "/paragraphs/5",
+          "/paragraphs/6",
+          "/paragraphs/7",
+          "/paragraphs/8"
+        ]
+      }
+    ]
+  }
+}

@@ -1,5 +1,5 @@
-import { AUTH } from '@/app/auth';
+import { auth } from '@/app/auth';
 import NextAuth from 'next-auth';
 
-const handler = NextAuth(AUTH);
+const handler = NextAuth(auth);
 export { handler as GET, handler as POST };

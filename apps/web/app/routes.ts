@@ -12,5 +12,6 @@ export const routes = {
   },
   indexes: {
     home: '/indexes',
+    detail: (id: string) => `/indexes/${id}`,
   },
 } as const;

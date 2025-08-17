@@ -23,6 +23,10 @@ import {
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { CreateOrganizationRequestSchema } from '@/app/api/organizations/create-organization.request';
+import { createOrganizationAction } from './create-organization-action';
+import { redirect } from 'next/navigation';
+import { routes } from '@/app/routes';
+import { toast } from 'sonner';
 
 export default function CreateOrganizationPage() {
   const form = useForm<z.infer<typeof CreateOrganizationRequestSchema>>({
@@ -32,10 +36,17 @@ export default function CreateOrganizationPage() {
     },
   });
 
-  function onSubmit(values: z.infer<typeof CreateOrganizationRequestSchema>) {
-    // TODO: Handle form submission
-    console.log(values);
-  }
+  const onSubmit = async (values: z.infer<typeof CreateOrganizationRequestSchema>) => {
+    try {
+      const response = await createOrganizationAction(values);
+      toast.success(`Organization '${response.name}' created successfully!`);
+      redirect(routes.indexes.detail(response.id));
+    } catch (error) {
+      console.error('Error creating organization:', error);
+      toast.error('Failed to create organization. Please try again later.');
+      return;
+    }
+  };
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4">

@@ -3,7 +3,7 @@ import EmailProvider from 'next-auth/providers/email';
 import { prisma } from './prisma';
 import { AuthOptions } from 'next-auth';
 
-export const AUTH: AuthOptions = {
+export const auth: AuthOptions = {
   providers: [
     EmailProvider({
       server: process.env.EMAIL_SERVER,

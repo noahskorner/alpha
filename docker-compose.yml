@@ -1,6 +1,7 @@
 services:
   db:
     image: ankane/pgvector:latest
+    restart: unless-stopped
     container_name: alpha_db
     environment:
       POSTGRES_USER: postgres

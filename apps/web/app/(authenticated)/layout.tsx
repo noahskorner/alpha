@@ -2,12 +2,12 @@ import { cookies } from 'next/headers';
 import { Sidebar } from './sidebar';
 import { SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar';
 import { getServerSession } from 'next-auth';
-import { AUTH } from '@/app/auth';
+import { auth } from '@/app/auth';
 import { redirect } from 'next/navigation';
 import { routes } from '@/app/routes';
 
 export default async function Layout({ children }: { children: React.ReactNode }) {
-  const session = await getServerSession(AUTH);
+  const session = await getServerSession(auth);
   const email = session?.user?.email;
   if (email == null) {
     return redirect(routes.signIn);
