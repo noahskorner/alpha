@@ -1,0 +1,438 @@
+{
+  "name": "irs_form_w_9_rev_3_2024",
+  "description": "Request for Taxpayer Identification Number and Certification (Form W-9, Rev. March 2024)",
+  "source": {
+    "originalFileName": "",
+    "pageCount": 2,
+    "pdfHash": ""
+  },
+  "pages": [
+    {
+      "index": 1,
+      "title": "Form W-9 (Rev. 3-2024)",
+      "description": "Request for Taxpayer Identification Number and Certification"
+    },
+    {
+      "index": 2,
+      "title": "Instructions",
+      "description": "General instructions and guidance"
+    }
+  ],
+  "questions": [
+    {
+      "name": "name_line_1",
+      "label": "Name of entity/individual (line 1)",
+      "description": "An entry is required.",
+      "type": "short_text",
+      "required": false,
+      "readOnly": false,
+      "placeholder": "",
+      "defaultValue": null,
+      "options": null,
+      "validation": null,
+      "location": {
+        "page": 1,
+        "rect": null,
+        "rotation": null
+      },
+      "dependency": null,
+      "group": "",
+      "tabIndex": null,
+      "pdf": null
+    },
+    {
+      "name": "business_name",
+      "label": "Business name/disregarded entity name, if different from above (line 2)",
+      "description": "",
+      "type": "short_text",
+      "required": false,
+      "readOnly": false,
+      "placeholder": "",
+      "defaultValue": null,
+      "options": null,
+      "validation": null,
+      "location": {
+        "page": 1,
+        "rect": null,
+        "rotation": null
+      },
+      "dependency": null,
+      "group": "",
+      "tabIndex": null,
+      "pdf": null
+    },
+    {
+      "name": "federal_tax_classification",
+      "label": "Federal tax classification (line 3a)",
+      "description": "Check only one of the following seven boxes.",
+      "type": "select_one",
+      "required": false,
+      "readOnly": false,
+      "placeholder": "",
+      "defaultValue": null,
+      "options": [
+        {
+          "value": "Individual/sole proprietor",
+          "label": "Individual/sole proprietor",
+          "exportValue": ""
+        },
+        {
+          "value": "C corporation",
+          "label": "C corporation",
+          "exportValue": ""
+        },
+        {
+          "value": "S corporation",
+          "label": "S corporation",
+          "exportValue": ""
+        },
+        {
+          "value": "Partnership",
+          "label": "Partnership",
+          "exportValue": ""
+        },
+        {
+          "value": "Trust/estate",
+          "label": "Trust/estate",
+          "exportValue": ""
+        },
+        {
+          "value": "LLC",
+          "label": "LLC",
+          "exportValue": ""
+        },
+        {
+          "value": "Other (see instructions)",
+          "label": "Other (see instructions)",
+          "exportValue": ""
+        }
+      ],
+      "validation": null,
+      "location": {
+        "page": 1,
+        "rect": null,
+        "rotation": null
+      },
+      "dependency": null,
+      "group": "Tax classification",
+      "tabIndex": null,
+      "pdf": null
+    },
+    {
+      "name": "llc_tax_classification_code",
+      "label": "LLC tax classification code",
+      "description": "If \"LLC\" is checked on line 3a, enter C (C corporation), S (S corporation), or P (Partnership).",
+      "type": "short_text",
+      "required": false,
+      "readOnly": false,
+      "placeholder": "Enter C, S, or P",
+      "defaultValue": null,
+      "options": null,
+      "validation": {
+        "pattern": "",
+        "minLength": null,
+        "maxLength": null,
+        "min": null,
+        "max": null,
+        "allowedValues": ["C", "S", "P"]
+      },
+      "location": {
+        "page": 1,
+        "rect": null,
+        "rotation": null
+      },
+      "dependency": {
+        "all": [
+          {
+            "questionId": "federal_tax_classification",
+            "equals": "LLC",
+            "in": null,
+            "not": false
+          }
+        ],
+        "any": null
+      },
+      "group": "Tax classification",
+      "tabIndex": null,
+      "pdf": null
+    },
+    {
+      "name": "other_tax_classification_description",
+      "label": "Other—specify",
+      "description": "If \"Other (see instructions)\" is checked on line 3a, specify.",
+      "type": "short_text",
+      "required": false,
+      "readOnly": false,
+      "placeholder": "",
+      "defaultValue": null,
+      "options": null,
+      "validation": null,
+      "location": {
+        "page": 1,
+        "rect": null,
+        "rotation": null
+      },
+      "dependency": {
+        "all": [
+          {
+            "questionId": "federal_tax_classification",
+            "equals": "Other (see instructions)",
+            "in": null,
+            "not": false
+          }
+        ],
+        "any": null
+      },
+      "group": "Tax classification",
+      "tabIndex": null,
+      "pdf": null
+    },
+    {
+      "name": "has_foreign_partners_owners_beneficiaries",
+      "label": "3b: Check if you have any foreign partners, owners, or beneficiaries",
+      "description": "Applicable if line 3a is Partnership or Trust/estate, or if LLC with tax classification P, and you are providing this form to a partnership, trust, or estate in which you have an ownership interest.",
+      "type": "boolean",
+      "required": false,
+      "readOnly": false,
+      "placeholder": "",
+      "defaultValue": null,
+      "options": null,
+      "validation": null,
+      "location": {
+        "page": 1,
+        "rect": null,
+        "rotation": null
+      },
+      "dependency": {
+        "all": null,
+        "any": [
+          {
+            "questionId": "federal_tax_classification",
+            "equals": null,
+            "in": ["Partnership", "Trust/estate"],
+            "not": false
+          },
+          {
+            "questionId": "llc_tax_classification_code",
+            "equals": "P",
+            "in": null,
+            "not": false
+          }
+        ]
+      },
+      "group": "Tax classification",
+      "tabIndex": null,
+      "pdf": null
+    },
+    {
+      "name": "requester_name_and_address",
+      "label": "Requester's name and address (optional)",
+      "description": "",
+      "type": "long_text",
+      "required": false,
+      "readOnly": false,
+      "placeholder": "",
+      "defaultValue": null,
+      "options": null,
+      "validation": null,
+      "location": {
+        "page": 1,
+        "rect": null,
+        "rotation": null
+      },
+      "dependency": null,
+      "group": "Requester (optional)",
+      "tabIndex": null,
+      "pdf": null
+    },
+    {
+      "name": "exempt_payee_code",
+      "label": "Exempt payee code (if any)",
+      "description": "Codes apply only to certain entities, not individuals; see instructions.",
+      "type": "short_text",
+      "required": false,
+      "readOnly": false,
+      "placeholder": "",
+      "defaultValue": null,
+      "options": null,
+      "validation": null,
+      "location": {
+        "page": 1,
+        "rect": null,
+        "rotation": null
+      },
+      "dependency": null,
+      "group": "Exemptions",
+      "tabIndex": null,
+      "pdf": null
+    },
+    {
+      "name": "fatca_exemption_code",
+      "label": "Exemption from FATCA reporting code (if any)",
+      "description": "Applies to accounts maintained outside the United States.",
+      "type": "short_text",
+      "required": false,
+      "readOnly": false,
+      "placeholder": "",
+      "defaultValue": null,
+      "options": null,
+      "validation": null,
+      "location": {
+        "page": 1,
+        "rect": null,
+        "rotation": null
+      },
+      "dependency": null,
+      "group": "Exemptions",
+      "tabIndex": null,
+      "pdf": null
+    },
+    {
+      "name": "address_line_1",
+      "label": "Address (number, street, and apt. or suite no.)",
+      "description": "Line 5",
+      "type": "short_text",
+      "required": false,
+      "readOnly": false,
+      "placeholder": "",
+      "defaultValue": null,
+      "options": null,
+      "validation": null,
+      "location": {
+        "page": 1,
+        "rect": null,
+        "rotation": null
+      },
+      "dependency": null,
+      "group": "Address",
+      "tabIndex": null,
+      "pdf": null
+    },
+    {
+      "name": "city_state_zip",
+      "label": "City, state, and ZIP code",
+      "description": "Line 6",
+      "type": "short_text",
+      "required": false,
+      "readOnly": false,
+      "placeholder": "",
+      "defaultValue": null,
+      "options": null,
+      "validation": null,
+      "location": {
+        "page": 1,
+        "rect": null,
+        "rotation": null
+      },
+      "dependency": null,
+      "group": "Address",
+      "tabIndex": null,
+      "pdf": null
+    },
+    {
+      "name": "account_numbers",
+      "label": "List account number(s) here (optional)",
+      "description": "Line 7",
+      "type": "long_text",
+      "required": false,
+      "readOnly": false,
+      "placeholder": "",
+      "defaultValue": null,
+      "options": null,
+      "validation": null,
+      "location": {
+        "page": 1,
+        "rect": null,
+        "rotation": null
+      },
+      "dependency": null,
+      "group": "Address",
+      "tabIndex": null,
+      "pdf": null
+    },
+    {
+      "name": "ssn",
+      "label": "Social security number (SSN)",
+      "description": "Enter your TIN in the appropriate box.",
+      "type": "short_text",
+      "required": false,
+      "readOnly": false,
+      "placeholder": "XXX-XX-XXXX",
+      "defaultValue": null,
+      "options": null,
+      "validation": null,
+      "location": {
+        "page": 1,
+        "rect": null,
+        "rotation": null
+      },
+      "dependency": null,
+      "group": "Part I — Taxpayer Identification Number (TIN)",
+      "tabIndex": null,
+      "pdf": null
+    },
+    {
+      "name": "ein",
+      "label": "Employer identification number (EIN)",
+      "description": "Enter your TIN in the appropriate box.",
+      "type": "short_text",
+      "required": false,
+      "readOnly": false,
+      "placeholder": "XX-XXXXXXX",
+      "defaultValue": null,
+      "options": null,
+      "validation": null,
+      "location": {
+        "page": 1,
+        "rect": null,
+        "rotation": null
+      },
+      "dependency": null,
+      "group": "Part I — Taxpayer Identification Number (TIN)",
+      "tabIndex": null,
+      "pdf": null
+    },
+    {
+      "name": "signature",
+      "label": "Signature of U.S. person",
+      "description": "",
+      "type": "signature",
+      "required": false,
+      "readOnly": false,
+      "placeholder": "",
+      "defaultValue": null,
+      "options": null,
+      "validation": null,
+      "location": {
+        "page": 1,
+        "rect": null,
+        "rotation": null
+      },
+      "dependency": null,
+      "group": "Part II — Certification",
+      "tabIndex": null,
+      "pdf": null
+    },
+    {
+      "name": "signature_date",
+      "label": "Date",
+      "description": "",
+      "type": "date",
+      "required": false,
+      "readOnly": false,
+      "placeholder": "",
+      "defaultValue": null,
+      "options": null,
+      "validation": null,
+      "location": {
+        "page": 1,
+        "rect": null,
+        "rotation": null
+      },
+      "dependency": null,
+      "group": "Part II — Certification",
+      "tabIndex": null,
+      "pdf": null
+    }
+  ]
+}

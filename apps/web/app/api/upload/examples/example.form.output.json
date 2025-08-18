@@ -1,0 +1,150 @@
+{
+  "name": "sample_fillable_pdf",
+  "description": "",
+  "source": {
+    "originalFileName": "",
+    "pageCount": 1,
+    "pdfHash": ""
+  },
+  "pages": [
+    {
+      "index": 1,
+      "title": "",
+      "description": ""
+    }
+  ],
+  "questions": [
+    {
+      "name": "name",
+      "label": "Please enter your name",
+      "description": "",
+      "type": "short_text",
+      "required": false,
+      "readOnly": false,
+      "placeholder": "",
+      "defaultValue": "",
+      "options": null,
+      "validation": null,
+      "location": {
+        "page": 1,
+        "rect": null,
+        "rotation": null
+      },
+      "dependency": null,
+      "group": "",
+      "tabIndex": null,
+      "pdf": null
+    },
+    {
+      "name": "dropdown_item",
+      "label": "Please select an item from the combo/dropdown list",
+      "description": "",
+      "type": "select_one",
+      "required": false,
+      "readOnly": false,
+      "placeholder": "",
+      "defaultValue": "",
+      "options": [
+        {
+          "value": "first_choice",
+          "label": "First Choice",
+          "exportValue": ""
+        },
+        {
+          "value": "choice_1",
+          "label": "Choice 1",
+          "exportValue": ""
+        }
+      ],
+      "validation": null,
+      "location": {
+        "page": 1,
+        "rect": null,
+        "rotation": null
+      },
+      "dependency": null,
+      "group": "",
+      "tabIndex": null,
+      "pdf": null
+    },
+    {
+      "name": "check_all_that_apply",
+      "label": "Check all that apply",
+      "description": "",
+      "type": "select_many",
+      "required": false,
+      "readOnly": false,
+      "placeholder": "",
+      "defaultValue": [],
+      "options": [
+        {
+          "value": "option_1",
+          "label": "Option 1",
+          "exportValue": ""
+        },
+        {
+          "value": "option_2",
+          "label": "Option 2",
+          "exportValue": ""
+        },
+        {
+          "value": "option_3",
+          "label": "Option 3",
+          "exportValue": ""
+        }
+      ],
+      "validation": null,
+      "location": {
+        "page": 1,
+        "rect": null,
+        "rotation": null
+      },
+      "dependency": null,
+      "group": "",
+      "tabIndex": null,
+      "pdf": null
+    },
+    {
+      "name": "dependent_name",
+      "label": "Name of Dependent",
+      "description": "",
+      "type": "short_text",
+      "required": false,
+      "readOnly": false,
+      "placeholder": "",
+      "defaultValue": "",
+      "options": null,
+      "validation": null,
+      "location": {
+        "page": 1,
+        "rect": null,
+        "rotation": null
+      },
+      "dependency": null,
+      "group": "",
+      "tabIndex": null,
+      "pdf": null
+    },
+    {
+      "name": "dependent_age",
+      "label": "Age of Dependent",
+      "description": "",
+      "type": "number",
+      "required": false,
+      "readOnly": false,
+      "placeholder": "",
+      "defaultValue": "",
+      "options": null,
+      "validation": null,
+      "location": {
+        "page": 1,
+        "rect": null,
+        "rotation": null
+      },
+      "dependency": null,
+      "group": "",
+      "tabIndex": null,
+      "pdf": null
+    }
+  ]
+}

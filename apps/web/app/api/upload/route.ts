@@ -4,18 +4,17 @@ import DocumentIntelligence, {
   getLongRunningPoller,
   isUnexpected,
 } from '@azure-rest/ai-document-intelligence';
+import { extractForm } from './extract-form';
 
 export const runtime = 'nodejs';
 
 export async function POST(req: NextRequest) {
   try {
-    const form = await req.formData();
+    const request = await req.formData();
+    const file = request.get('pdf');
 
-    const file = form.get('pdf');
-    const name = form.get('name');
-
-    if (!(file instanceof File) || typeof name !== 'string' || !name) {
-      return new Response(JSON.stringify({ error: 'Missing pdf or name' }), {
+    if (!(file instanceof File)) {
+      return new Response(JSON.stringify({ error: 'Missing pdf file.' }), {
         status: 400,
         headers: { 'content-type': 'application/json' },
       });
@@ -35,9 +34,8 @@ export async function POST(req: NextRequest) {
       });
     }
 
-    const client = DocumentIntelligence(endpoint, { key: apiKey }); // API key auth :contentReference[oaicite:1]{index=1}
-
     // Kick off analysis with prebuilt-layout (works for native/scanned PDFs)
+    const client = DocumentIntelligence(endpoint, { key: apiKey }); // API key auth :contentReference[oaicite:1]{index=1}
     const initial = await client.path('/documentModels/{modelId}:analyze', 'prebuilt-layout').post({
       contentType: 'application/json',
       body: { base64Source },
@@ -49,7 +47,6 @@ export async function POST(req: NextRequest) {
         // You can also pass `locale`, `pages`, etc., if helpful
       },
     });
-
     if (isUnexpected(initial)) {
       return new Response(JSON.stringify(initial.body), {
         status: parseInt(initial.status),
@@ -58,17 +55,21 @@ export async function POST(req: NextRequest) {
     }
 
     // Poll until the long-running operation completes
-    const poller = getLongRunningPoller(client, initial); // LRO helper :contentReference[oaicite:2]{index=2}
+    const poller = getLongRunningPoller(client, initial);
     const result = (await poller.pollUntilDone()).body as AnalyzeOperationOutput;
 
-    // Return everything (your page prints it nicely)
-    return new Response(JSON.stringify(result, null, 2), {
+    // Extract questions from the analysis
+    const form = await extractForm(result);
+    console.log(JSON.stringify(form, null, 2));
+
+    // Return everything
+    return new Response(JSON.stringify(form, null, 2), {
       status: 200,
       headers: { 'content-type': 'application/json' },
     });
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (err: any) {
-    console.error('Upload/Analyze error:', err);
+    console.error(err);
     return new Response(JSON.stringify({ error: String(err?.message ?? err) }), {
       status: 500,
       headers: { 'content-type': 'application/json' },
