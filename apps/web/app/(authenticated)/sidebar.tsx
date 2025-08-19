@@ -24,7 +24,7 @@ export async function Sidebar({ email, className }: SidebarProps) {
     <SidebarComponent className={cn('border-r-none', className)}>
       <SidebarContent>
         <SidebarGroup>
-          <SidebarGroupLabel></SidebarGroupLabel>
+          <SidebarGroupLabel>Data intelligence</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
               <SidebarMenuItem>
@@ -38,6 +38,27 @@ export async function Sidebar({ email, className }: SidebarProps) {
                 <SidebarMenuButton asChild>
                   <Link href={routes.indexes.home}>
                     <span>Agents</span>
+                  </Link>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+        <SidebarGroup>
+          <SidebarGroupLabel>Document intelligence</SidebarGroupLabel>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild>
+                  <Link href={routes.upload.home}>
+                    <span>Upload</span>
+                  </Link>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild>
+                  <Link href={routes.form.home}>
+                    <span>Form</span>
                   </Link>
                 </SidebarMenuButton>
               </SidebarMenuItem>

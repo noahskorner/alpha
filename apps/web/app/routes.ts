@@ -14,4 +14,11 @@ export const routes = {
     home: '/indexes',
     detail: (id: string) => `/indexes/${id}`,
   },
+  upload: {
+    home: '/upload',
+  },
+  form: {
+    home: '/form',
+    detail: (id: string) => `/form/${id}`,
+  },
 } as const;

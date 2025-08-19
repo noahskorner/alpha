@@ -10,55 +10,67 @@ import {
   FormItem,
   FormLabel,
   FormControl,
-  FormMessage as SchadcnFormMessage,
+  FormMessage,
 } from '@/components/ui/form';
 import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { signIn } from 'next-auth/react';
-import { routes } from '../routes';
+import Link from 'next/link';
 
 const schema = z.object({
   email: z.string().email({ message: 'Invalid email address' }),
 });
-type LoginFormSchema = z.infer<typeof schema>;
+type SignInFormSchema = z.infer<typeof schema>;
 
-export default function Login() {
-  const form = useForm<LoginFormSchema>({
+export default function SignIn() {
+  const form = useForm<SignInFormSchema>({
     resolver: zodResolver(schema),
     defaultValues: {
       email: '',
     },
   });
 
-  const onSubmit = async ({ email }: LoginFormSchema) => {
-    signIn('email', { email: email, callbackUrl: routes.home });
+  const onSubmit = async ({ email }: SignInFormSchema) => {
+    signIn('email', { email: email, callbackUrl: '/' });
   };
 
   return (
-    <div className="w-full flex items-center justify-center h-full pt-8">
-      <Form {...form}>
-        <form
-          className="flex-1 flex flex-col w-full max-w-lg"
-          onSubmit={form.handleSubmit(onSubmit)}
-        >
-          <h1 className="text-2xl font-medium">Sign in</h1>
-          <div className="flex flex-col gap-2 [&>input]:mb-3 mt-8">
-            <FormField
-              control={form.control}
-              name="email"
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>Email</FormLabel>
-                  <FormControl>
-                    <Input placeholder="you@example.com" {...field} />
-                  </FormControl>
-                  <SchadcnFormMessage />
-                </FormItem>
-              )}
-            />
-            <Button type="submit">Email me a magic link ✨</Button>
+    <div className="min-h-screen flex items-center justify-center bg-background p-4">
+      <Card className="w-full max-w-md">
+        <CardHeader className="space-y-1">
+          <CardTitle className="text-2xl font-semibold tracking-tight">Welcome back</CardTitle>
+          <CardDescription>Enter your email to sign in to your account</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <Form {...form}>
+            <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+              <FormField
+                control={form.control}
+                name="email"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>Email</FormLabel>
+                    <FormControl>
+                      <Input placeholder="you@example.com" type="email" {...field} />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+              <Button type="submit" className="w-full" disabled={form.formState.isSubmitting}>
+                {form.formState.isSubmitting ? 'Sending...' : 'Send magic link'}
+              </Button>
+            </form>
+          </Form>
+
+          <div className="mt-6 text-center text-sm">
+            <span className="text-muted-foreground">Don&apos;t have an account? </span>
+            <Link href="/signup" className="text-primary hover:underline font-medium">
+              Sign up
+            </Link>
           </div>
-        </form>
-      </Form>
+        </CardContent>
+      </Card>
     </div>
   );
 }
