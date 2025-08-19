@@ -15,7 +15,9 @@ import {
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { signIn } from 'next-auth/react';
+import { toast } from 'sonner';
 import Link from 'next/link';
+import { routes } from '../routes';
 
 const schema = z.object({
   email: z.string().email({ message: 'Invalid email address' }),
@@ -31,7 +33,13 @@ export default function SignIn() {
   });
 
   const onSubmit = async ({ email }: SignInFormSchema) => {
-    signIn('email', { email: email, callbackUrl: '/' });
+    try {
+      await signIn('email', { email, redirect: false, callbackUrl: routes.upload.home });
+      toast.success('A sign-in link has been sent to your email address.');
+    } catch (error) {
+      console.error('Sign-in error:', error);
+      toast.error('Failed to send sign-in link. Please try again.');
+    }
   };
 
   return (
