@@ -17,8 +17,9 @@ export const routes = {
   upload: {
     home: '/upload',
   },
-  form: {
-    home: '/form',
-    detail: (id: string) => `/form/${id}`,
+  forms: {
+    home: '/forms',
+    detail: (id: string) => `/forms/${id}`,
+    edit: (id: string) => `/forms/${id}/edit`,
   },
 } as const;

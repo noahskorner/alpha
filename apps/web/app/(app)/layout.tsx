@@ -1,10 +1,10 @@
 import { cookies } from 'next/headers';
-import { Sidebar } from './sidebar';
 import { SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar';
 import { getServerSession } from 'next-auth';
 import { auth } from '@/app/auth';
 import { redirect } from 'next/navigation';
 import { routes } from '@/app/routes';
+import { Sidebar } from './sidebar';
 
 export default async function Layout({ children }: { children: React.ReactNode }) {
   const session = await getServerSession(auth);

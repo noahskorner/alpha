@@ -6,7 +6,7 @@ import { Input } from '@/components/ui/input';
 import { Card } from '@/components/ui/card';
 import { Label } from '@/components/ui/label';
 import { FormItem } from '@/components/ui/form';
-import { Wizard } from '../../form/wizard';
+import { Wizard } from '../../forms/wizard';
 import { Form } from '@/app/api/upload/form';
 import { toast } from 'sonner';
 

@@ -57,8 +57,15 @@ export async function Sidebar({ email, className }: SidebarProps) {
               </SidebarMenuItem>
               <SidebarMenuItem>
                 <SidebarMenuButton asChild>
-                  <Link href={routes.form.home}>
+                  <Link href={routes.forms.home}>
                     <span>Form</span>
+                  </Link>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild>
+                  <Link href={routes.forms.edit('example-id')}>
+                    <span>Edit</span>
                   </Link>
                 </SidebarMenuButton>
               </SidebarMenuItem>
