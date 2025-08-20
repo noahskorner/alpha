@@ -9,7 +9,7 @@ const sampleForm: Form = {
     {
       name: 'Page 1',
       description: 'IRS Form W-9 (Rev. March 2024)',
-      questions: [
+      fields: [
         {
           name: 'legal_name',
           label: 'Name of entity/individual',
@@ -487,7 +487,7 @@ const sampleForm: Form = {
       name: 'page_2',
       description:
         'Form W-9 (Rev. 3-2024) instructions page; no form fields detected on this page.',
-      questions: [
+      fields: [
         {
           name: 'acknowledgement_instructions_only',
           label: 'This page contains instructions only and has no fillable fields',

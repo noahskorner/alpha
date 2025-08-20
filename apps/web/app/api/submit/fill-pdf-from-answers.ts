@@ -2,7 +2,7 @@
 // Types come from @azure-rest/ai-document-intelligence and your local form/analysis types.
 import { PDFDocument, rgb, StandardFonts } from 'pdf-lib';
 import { OriginalKeyValuePair, OriginalPage } from '../upload/analysis';
-import { Form, Question } from '../upload/form';
+import { Form, FormField } from '../upload/form';
 
 /**
  * Fill a PDF using:
@@ -186,12 +186,12 @@ export async function fillPdfFromAnswers(opts: {
 
   // 4) Walk questions and draw answers
   for (const page of form.pages) {
-    for (const q of page.questions) {
+    for (const q of page.fields) {
       const value = answers[q.name];
       if (value == null || value === '') continue;
 
       // Helper to pick best anchor “write box” priority: valueId > selectionMarkId > lineId > keyId
-      const pickWriteTarget = (question: Question) => {
+      const pickWriteTarget = (question: FormField) => {
         // check option anchors for selection marks first if select types / boolean
         const optionSelMarks: Array<{ pageIndex: number; polygon?: number[]; value: string }> = [];
         if (question.options) {

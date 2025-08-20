@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { Form, Question } from '@/app/api/upload/form';
+import { Form, FormField } from '@/app/api/upload/form';
 import { QuestionComponent } from './question';
 
 interface WizardProps {
@@ -19,13 +19,13 @@ export function Wizard({ form, onSubmit, onCancel }: WizardProps) {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [answers, setAnswers] = useState<Record<string, any>>({});
-  const [visibleQuestions, setVisibleQuestions] = useState<Question[]>([]);
+  const [visibleQuestions, setVisibleQuestions] = useState<FormField[]>([]);
 
   // Filter questions based on display rules and dependencies
   useEffect(() => {
     const filterQuestions = () => {
       return form.pages
-        .flatMap((p) => p.questions)
+        .flatMap((p) => p.fields)
         .filter((question) => {
           if (!question.dependency) return true;
 

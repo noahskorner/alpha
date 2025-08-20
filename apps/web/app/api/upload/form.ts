@@ -2,14 +2,11 @@
 
 import { z } from '@/app/utils/zod';
 
-export const AnchorSchema = z.object({
-  keyId: z.string().nullable().describe('ID of the key fragment, if applicable'),
-  valueId: z.string().nullable().describe('ID of the value fragment, if applicable'),
-  selectionMarkId: z.string().nullable().describe('Originating selection mark ID, if applicable'),
-  lineId: z.string().nullable().describe('ID of the line this anchor refers to, if applicable'),
+const AnchorSchema = z.object({
+  path: z.string(), // e.g., "pages/0/lines/12" or "keys/3"
 });
 
-export const QuestionTypeEnum = z.enum([
+export const FormFieldTypeEnum = z.enum([
   'short_text', // Single-line text input
   'long_text', // Multi-line/freeform text input
   'number', // Numeric input (integer or decimal)
@@ -17,7 +14,7 @@ export const QuestionTypeEnum = z.enum([
   'time', // Time input (HH:MM, 24h or 12h)
   'email', // Email address input
   'url', // Web address input
-  'boolean', // True/false or yes/no toggle
+  'checkbox', // True/false or yes/no toggle
   'select_one', // Single-choice from a list
   'select_many', // Multi-choice from a list
   'signature', // Signature capture field
@@ -44,7 +41,7 @@ export const ValidationSchema = z.object({
 });
 
 export const ConditionSchema = z.object({
-  questionId: z.string().describe('ID of the question this condition references'),
+  fieldId: z.string().describe('ID of the form field this condition references'),
   equals: z
     .union([z.string(), z.number(), z.boolean()])
     .nullable()
@@ -69,15 +66,15 @@ export const DefaultValueSchema = z
     z.array(DefaultScalar),
     z.null(), // include null here instead of using .nullable() to avoid nested anyOf
   ])
-  .describe('Default value(s) for the question, can be scalar, array, or null');
+  .describe('Default value(s) for the field, can be scalar, array, or null');
 
-export const QuestionSchema = z.object({
+export const FormFieldSchema = z.object({
   name: z.string().describe('Machine-safe name, e.g., "first_name"'),
   label: z.string().describe('Human-readable label shown to the user'),
   description: z.string().nullable().describe('Optional helper text or tooltip'),
-  type: QuestionTypeEnum.describe('Type of the question input'),
-  required: z.boolean().nullable().describe('Whether this question must be answered'),
-  readOnly: z.boolean().nullable().describe('Whether this question is non-editable'),
+  type: FormFieldTypeEnum.describe('Type of the field'),
+  required: z.boolean().nullable().describe('Whether this field must be answered'),
+  readOnly: z.boolean().nullable().describe('Whether this field is non-editable'),
   placeholder: z.string().nullable().describe('Placeholder text for empty input'),
   defaultValue: DefaultValueSchema.describe('Default pre-filled value'),
   options: z.array(OptionSchema).nullable().describe('List of choices if applicable'),
@@ -91,22 +88,16 @@ export const QuestionSchema = z.object({
     .describe('One or more references to the originating key/value or selection mark'),
 });
 
-export const PageSchema = z.object({
-  name: z.string().describe('Name of the page, e.g., "Page 1"'),
-  description: z.string().nullable().describe('Optional description of the page'),
-  questions: z.array(QuestionSchema).min(1).describe('A list of questions'),
-});
-
 export const FormSchema = z.object({
-  pages: z.array(PageSchema).min(1).describe('List of form pages with their questions'),
+  fields: z.array(FormFieldSchema).min(1).describe('A list of form fields.'),
 });
 
 /** ---------- Types inferred from schemas ---------- */
-export type QuestionType = z.infer<typeof QuestionTypeEnum>;
+export type Anchor = z.infer<typeof AnchorSchema>;
+export type FormFieldType = z.infer<typeof FormFieldTypeEnum>;
 export type Option = z.infer<typeof OptionSchema>;
 export type Validation = z.infer<typeof ValidationSchema>;
 export type Condition = z.infer<typeof ConditionSchema>;
 export type DisplayRule = z.infer<typeof DisplayRuleSchema>;
-export type Question = z.infer<typeof QuestionSchema>;
-export type Page = z.infer<typeof PageSchema>;
+export type FormField = z.infer<typeof FormFieldSchema>;
 export type Form = z.infer<typeof FormSchema>;

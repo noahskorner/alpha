@@ -15,10 +15,10 @@ import {
 } from '@/components/ui/select';
 import { Label } from '@/components/ui/label';
 import { Switch } from '@/components/ui/switch';
-import { Question } from '@/app/api/upload/form';
+import { FormField } from '@/app/api/upload/form';
 
 interface QuestionProps {
-  question: Question;
+  question: FormField;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   value: any;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

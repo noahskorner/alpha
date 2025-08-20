@@ -4,22 +4,30 @@ import {
   DocumentKeyValueElementOutput,
   DocumentKeyValuePairOutput,
   DocumentLineOutput,
+  AnalyzeResultOutput,
 } from '@azure-rest/ai-document-intelligence';
 
-export interface OriginalPage extends DocumentPageOutput {
-  id: string;
+export interface OriginalAnalysis extends Omit<AnalyzeResultOutput, 'pages' | 'keyValuePairs'> {
+  pages: Array<OriginalPage>;
+  keyValuePairs: Array<OriginalKeyValuePair>;
+}
+
+export interface OriginalPage extends Omit<DocumentPageOutput, 'lines' | 'selectionMarks'> {
+  path: string;
+  lines?: Array<OriginalLine>;
+  selectionMarks?: Array<OriginalSelectionMark>;
 }
 
 export interface OriginalLine extends DocumentLineOutput {
-  id: string;
+  path: string;
 }
 
 export interface OriginalSelectionMark extends DocumentSelectionMarkOutput {
-  id: string;
+  path: string;
 }
 
 export interface OriginalKeyValue extends DocumentKeyValueElementOutput {
-  id: string;
+  path: string;
 }
 
 export interface OriginalKeyValuePair extends DocumentKeyValuePairOutput {
@@ -27,37 +35,33 @@ export interface OriginalKeyValuePair extends DocumentKeyValuePairOutput {
   value?: OriginalKeyValue;
 }
 
-export interface SelectionMark {
-  id: string;
+export interface LlmSelectionMark {
+  path: string;
   state: string;
 }
 
-export interface Page {
-  id: string;
-  lines?: Array<Line>;
-  selectionMarks?: Array<SelectionMark>;
-  keyValuePairs?: Array<KeyValuePair>;
+export interface LlmPage {
+  path: string;
+  lines?: Array<LlmLine>;
+  selectionMarks?: Array<LlmSelectionMark>;
+  keyValuePairs?: Array<LlmKeyValuePair>;
 }
 
-export interface Line {
-  id: string;
+export interface LlmLine {
+  path: string;
   content: string;
 }
 
-export interface KeyValue {
-  id: string;
+export interface LlmKeyValue {
+  path: string;
   content: string;
 }
 
-export interface KeyValuePair {
-  key: KeyValue;
-  value?: KeyValue;
+export interface LlmKeyValuePair {
+  key: LlmKeyValue;
+  value?: LlmKeyValue;
 }
 
-export interface Analysis {
-  original: {
-    pages: Array<OriginalPage>;
-    keyValuePairs: Array<OriginalKeyValuePair>;
-  };
-  pages: Array<Page>;
+export interface LlmAnalysis {
+  pages: Array<LlmPage>;
 }

@@ -1,0 +1,25825 @@
+import { OriginalAnalysis } from '@/app/api/upload/analysis';
+
+export const analysis: OriginalAnalysis = {
+  apiVersion: '2024-11-30',
+  modelId: 'prebuilt-layout',
+  stringIndexType: 'textElements',
+  content:
+    'Form\nW-9\n(Rev. March 2024)\nDepartment of the Treasury\nInternal Revenue Service\n\n\n# Request for Taxpayer Identification Number and Certification Go to www.irs.gov/FormW9 for instructions and the latest information.\n\nGive form to the\nrequester. Do not\nsend to the IRS.\n\nBefore you begin. For guidance related to the purpose of Form W-9, see Purpose of Form, below.\n\n1 Name of entity/individual. An entry is required. (For a sole proprietor or disregarded entity, enter the owner\'s name on line 1, and enter the business/disregarded\nentity\'s name on line 2.)\n\n2\nBusiness name/disregarded entity name, if different from above.\n\n3a Check the appropriate box for federal tax classification of the entity/individual whose name is entered on line 1. Check\nonly one of the following seven boxes.\n\n☐\nIndividual/sole proprietor\n☐\nC corporation\n☐\nS corporation\n☐\nPartnership\n☐\nTrust/estate\n☐\nLLC. Enter the tax classification (C = C corporation, S = S corporation, P = Partnership)\n.\n.\n.\n.\n\nNote: Check the "LLC" box above and, in the entry space, enter the appropriate code (C, S, or P) for the tax\nclassification of the LLC, unless it is a disregarded entity. A disregarded entity should instead check the appropriate\nbox for the tax classification of its owner.\n☐\nOther (see instructions)\n\n3b If on line 3a you checked "Partnership" or "Trust/estate," or checked "LLC" and entered "P" as its tax classification,\nand you are providing this form to a partnership, trust, or estate in which you have an ownership interest, check\nthis box if you have any foreign partners, owners, or beneficiaries. See instructions\n☐\nRequester\'s name and address (optional)\n.\n.\n.\n.\n.\n.\n.\n.\n\n5 Address (number, street, and apt. or suite no.). See instructions.\n\n6\nCity, state, and ZIP code\n\n7\nList account number(s) here (optional)\n\n4 Exemptions (codes apply only to\ncertain entities, not individuals;\nsee instructions on page 3):\n\nExempt payee code (if any)\n\nExemption from Foreign Account Tax\nCompliance Act (FATCA) reporting\ncode (if any)\n\n(Applies to accounts maintained\noutside the United States.)\n\n\n## Part I Taxpayer Identification Number (TIN)\n\nEnter your TIN in the appropriate box. The TIN provided must match the name given on line 1 to avoid\nbackup withholding. For individuals, this is generally your social security number (SSN). However, for a\nresident alien, sole proprietor, or disregarded entity, see the instructions for Part I, later. For other\nentities, it is your employer identification number (EIN). If you do not have a number, see How to get a\nTIN, later.\n\nNote: If the account is in more than one name, see the instructions for line 1. See also What Name and\nNumber To Give the Requester for guidelines on whose number to enter.\n\nSocial security number\n\n–\n\n–\n\nor\n\nEmployer identification number\n\n–\n\n\n## Part II Certification\n\nUnder penalties of perjury, I certify that:\n\n1\\. The number shown on this form is my correct taxpayer identification number (or I am waiting for a number to be issued to me); and\n\n2\\. I am not subject to backup withholding because (a) I am exempt from backup withholding, or (b) I have not been notified by the Internal Revenue\nService (IRS) that I am subject to backup withholding as a result of a failure to report all interest or dividends, or (c) the IRS has notified me that I am\nno longer subject to backup withholding; and\n\n3\\. I am a U.S. citizen or other U.S. person (defined below); and\n\n4\\. The FATCA code(s) entered on this form (if any) indicating that I am exempt from FATCA reporting is correct.\n\nCertification instructions. You must cross out item 2 above if you have been notified by the IRS that you are currently subject to backup withholding\nbecause you have failed to report all interest and dividends on your tax return. For real estate transactions, item 2 does not apply. For mortgage interest paid,\nacquisition or abandonment of secured property, cancellation of debt, contributions to an individual retirement arrangement (IRA), and, generally, payments\nother than interest and dividends, you are not required to sign the certification, but you must provide your correct TIN. See the instructions for Part II, later.\n\nSign\nHere\n\nSignature of\nU.S. person\n\nDate\n\n\n## General Instructions\n\nSection references are to the Internal Revenue Code unless otherwise\nnoted.\n\nFuture developments. For the latest information about developments\nrelated to Form W-9 and its instructions, such as legislation enacted\nafter they were published, go to www.irs.gov/FormW9.\n\n\n## What\'s New\n\nLine 3a has been modified to clarify how a disregarded entity completes\nthis line. An LLC that is a disregarded entity should check the\nappropriate box for the tax classification of its owner. Otherwise, it\nshould check the "LLC" box and enter its appropriate tax classification.\n\nNew line 3b has been added to this form. A flow-through entity is\nrequired to complete this line to indicate that it has direct or indirect\nforeign partners, owners, or beneficiaries when it provides the Form W-9\nto another flow-through entity in which it has an ownership interest. This\nchange is intended to provide a flow-through entity with information\nregarding the status of its indirect foreign partners, owners, or\nbeneficiaries, so that it can satisfy any applicable reporting\nrequirements. For example, a partnership that has any indirect foreign\npartners may be required to complete Schedules K-2 and K-3. See the\nPartnership Instructions for Schedules K-2 and K-3 (Form 1065).\n\n\n### Purpose of Form\n\nAn individual or entity (Form W-9 requester) who is required to file an\ninformation return with the IRS is giving you this form because they\n\n<!-- PageFooter="Cat. No. 10231X" -->\n<!-- PageFooter="Form W-9 (Rev. 3-2024)" -->\n\nPrint or type.\nSee Specific Instructions on page 3.\n\n<!-- PageBreak -->\n\n<!-- PageNumber="Page 2" -->\n<!-- PageHeader="Form W-9 (Rev. 3-2024)" -->\n\nmust obtain your correct taxpayer identification number (TIN), which\nmay be your social security number (SSN), individual taxpayer\nidentification number (ITIN), adoption taxpayer identification number\n(ATIN), or employer identification number (EIN), to report on an\ninformation return the amount paid to you, or other amount reportable\non an information return. Examples of information returns include, but\nare not limited to, the following.\n\n· Form 1099-INT (interest earned or paid).\n\n. Form 1099-DIV (dividends, including those from stocks or mutual\nfunds).\n\n· Form 1099-MISC (various types of income, prizes, awards, or gross\nproceeds).\n\n· Form 1099-NEC (nonemployee compensation).\n\n. Form 1099-B (stock or mutual fund sales and certain other\ntransactions by brokers).\n\n· Form 1099-S (proceeds from real estate transactions).\n\n. Form 1099-K (merchant card and third-party network transactions).\n\n. Form 1098 (home mortgage interest), 1098-E (student loan interest),\nand 1098-T (tuition).\n\n· Form 1099-C (canceled debt).\n\n· Form 1099-A (acquisition or abandonment of secured property).\nUse Form W-9 only if you are a U.S. person (including a resident\nalien), to provide your correct TIN.\n\nCaution: If you don\'t return Form W-9 to the requester with a TIN, you\nmight be subject to backup withholding. See What is backup\nwithholding, later.\n\nBy signing the filled-out form, you:\n\n1\\. Certify that the TIN you are giving is correct (or you are waiting for a\nnumber to be issued);\n\n2\\. Certify that you are not subject to backup withholding; or\n\n3\\. Claim exemption from backup withholding if you are a U.S. exempt\npayee; and\n\n4\\. Certify to your non-foreign status for purposes of withholding under\nchapter 3 or 4 of the Code (if applicable); and\n\n5\\. Certify that FATCA code(s) entered on this form (if any) indicating\nthat you are exempt from the FATCA reporting is correct. See What Is\nFATCA Reporting, later, for further information.\n\nNote: If you are a U.S. person and a requester gives you a form other\nthan Form W-9 to request your TIN, you must use the requester\'s form if\nit is substantially similar to this Form W-9.\n\nDefinition of a U.S. person. For federal tax purposes, you are\nconsidered a U.S. person if you are:\n\n· An individual who is a U.S. citizen or U.S. resident alien;\n\n. A partnership, corporation, company, or association created or\norganized in the United States or under the laws of the United States;\n\n· An estate (other than a foreign estate); or\n\n· A domestic trust (as defined in Regulations section 301.7701-7).\n\nEstablishing U.S. status for purposes of chapter 3 and chapter 4\nwithholding. Payments made to foreign persons, including certain\ndistributions, allocations of income, or transfers of sales proceeds, may\nbe subject to withholding under chapter 3 or chapter 4 of the Code\n(sections 1441-1474). Under those rules, if a Form W-9 or other\ncertification of non-foreign status has not been received, a withholding\nagent, transferee, or partnership (payor) generally applies presumption\nrules that may require the payor to withhold applicable tax from the\nrecipient, owner, transferor, or partner (payee). See Pub. 515,\nWithholding of Tax on Nonresident Aliens and Foreign Entities.\n\nThe following persons must provide Form W-9 to the payor for\npurposes of establishing its non-foreign status.\n\n. In the case of a disregarded entity with a U.S. owner, the U.S. owner\nof the disregarded entity and not the disregarded entity.\n\n. In the case of a grantor trust with a U.S. grantor or other U.S. owner,\ngenerally, the U.S. grantor or other U.S. owner of the grantor trust and\nnot the grantor trust.\n\n. In the case of a U.S. trust (other than a grantor trust), the U.S. trust\nand not the beneficiaries of the trust.\n\nSee Pub. 515 for more information on providing a Form W-9 or a\ncertification of non-foreign status to avoid withholding.\n\nForeign person. If you are a foreign person or the U.S. branch of a\nforeign bank that has elected to be treated as a U.S. person (under\nRegulations section 1.1441-1(b)(2)(iv) or other applicable section for\nchapter 3 or 4 purposes), do not use Form W-9. Instead, use the\nappropriate Form W-8 or Form 8233 (see Pub. 515). If you are a\nqualified foreign pension fund under Regulations section 1.897(l)-1(d), or\na partnership that is wholly owned by qualified foreign pension funds,\nthat is treated as a non-foreign person for purposes of section 1445\nwithholding, do not use Form W-9. Instead, use Form W-8EXP (or other\ncertification of non-foreign status).\n\nNonresident alien who becomes a resident alien. Generally, only a\nnonresident alien individual may use the terms of a tax treaty to reduce\nor eliminate U.S. tax on certain types of income. However, most tax\ntreaties contain a provision known as a saving clause. Exceptions\nspecified in the saving clause may permit an exemption from tax to\ncontinue for certain types of income even after the payee has otherwise\nbecome a U.S. resident alien for tax purposes.\n\nIf you are a U.S. resident alien who is relying on an exception\ncontained in the saving clause of a tax treaty to claim an exemption\nfrom U.S. tax on certain types of income, you must attach a statement\nto Form W-9 that specifies the following five items.\n\n1\\. The treaty country. Generally, this must be the same treaty under\nwhich you claimed exemption from tax as a nonresident alien.\n\n2\\. The treaty article addressing the income.\n\n3\\. The article number (or location) in the tax treaty that contains the\nsaving clause and its exceptions.\n\n4\\. The type and amount of income that qualifies for the exemption\nfrom tax.\n\n5\\. Sufficient facts to justify the exemption from tax under the terms of\nthe treaty article.\n\nExample. Article 20 of the U.S .- China income tax treaty allows an\nexemption from tax for scholarship income received by a Chinese\nstudent temporarily present in the United States. Under U.S. law, this\nstudent will become a resident alien for tax purposes if their stay in the\nUnited States exceeds 5 calendar years. However, paragraph 2 of the\nfirst Protocol to the U.S .- China treaty (dated April 30, 1984) allows the\nprovisions of Article 20 to continue to apply even after the Chinese\nstudent becomes a resident alien of the United States. A Chinese\nstudent who qualifies for this exception (under paragraph 2 of the first\nProtocol) and is relying on this exception to claim an exemption from tax\non their scholarship or fellowship income would attach to Form W-9 a\nstatement that includes the information described above to support that\nexemption.\n\nIf you are a nonresident alien or a foreign entity, give the requester the\nappropriate completed Form W-8 or Form 8233.\n\n\n## Backup Withholding\n\nWhat is backup withholding? Persons making certain payments to you\nmust under certain conditions withhold and pay to the IRS 24% of such\npayments. This is called "backup withholding." Payments that may be\nsubject to backup withholding include, but are not limited to, interest,\ntax-exempt interest, dividends, broker and barter exchange\ntransactions, rents, royalties, nonemployee pay, payments made in\nsettlement of payment card and third-party network transactions, and\ncertain payments from fishing boat operators. Real estate transactions\nare not subject to backup withholding.\n\nYou will not be subject to backup withholding on payments you receive\nif you give the requester your correct TIN, make the proper certifications,\nand report all your taxable interest and dividends on your tax return.\n\n\n### Payments you receive will be subject to backup withholding if:\n\n1\\. You do not furnish your TIN to the requester;\n\n2\\. You do not certify your TIN when required (see the instructions for\nPart II for details);\n\n3\\. The IRS tells the requester that you furnished an incorrect TIN;\n\n4\\. The IRS tells you that you are subject to backup withholding\nbecause you did not report all your interest and dividends on your tax\nreturn (for reportable interest and dividends only); or\n\n5\\. You do not certify to the requester that you are not subject to\nbackup withholding, as described in item 4 under "By signing the filled-\nout form" above (for reportable interest and dividend accounts opened\nafter 1983 only).\n',
+  pages: [
+    {
+      pageNumber: 1,
+      angle: 0.03247746825218201,
+      width: 8.4861,
+      height: 10.9861,
+      unit: 'inch',
+      words: [
+        {
+          content: 'Form',
+          polygon: [0.4918, 0.6492, 0.7348, 0.6522, 0.7347, 0.751, 0.4919, 0.7476],
+          confidence: 0.992,
+          span: {
+            offset: 0,
+            length: 4,
+          },
+        },
+        {
+          content: 'W-9',
+          polygon: [0.7749, 0.4744, 1.3315, 0.4721, 1.3315, 0.7626, 0.7752, 0.7585],
+          confidence: 0.989,
+          span: {
+            offset: 5,
+            length: 3,
+          },
+        },
+        {
+          content: '(Rev.',
+          polygon: [0.4933, 0.7786, 0.712, 0.7775, 0.712, 0.8897, 0.4938, 0.8894],
+          confidence: 0.994,
+          span: {
+            offset: 9,
+            length: 5,
+          },
+        },
+        {
+          content: 'March',
+          polygon: [0.7469, 0.7774, 1.0153, 0.7766, 1.015, 0.8895, 0.7469, 0.8897],
+          confidence: 0.997,
+          span: {
+            offset: 15,
+            length: 5,
+          },
+        },
+        {
+          content: '2024)',
+          polygon: [1.0428, 0.7769, 1.2928, 0.7763, 1.2928, 0.8897, 1.0426, 0.8893],
+          confidence: 0.995,
+          span: {
+            offset: 21,
+            length: 5,
+          },
+        },
+        {
+          content: 'Department',
+          polygon: [0.4933, 0.9165, 0.9938, 0.9158, 0.9937, 1.0301, 0.4933, 1.0298],
+          confidence: 0.995,
+          span: {
+            offset: 27,
+            length: 10,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [1.0201, 0.9157, 1.0932, 0.9157, 1.0929, 1.0305, 1.0199, 1.0302],
+          confidence: 0.992,
+          span: {
+            offset: 38,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.1157, 0.9159, 1.26, 0.9163, 1.2597, 1.0317, 1.1154, 1.0305],
+          confidence: 0.999,
+          span: {
+            offset: 41,
+            length: 3,
+          },
+        },
+        {
+          content: 'Treasury',
+          polygon: [1.2844, 0.9162, 1.6574, 0.9191, 1.6574, 1.0334, 1.284, 1.0319],
+          confidence: 0.996,
+          span: {
+            offset: 45,
+            length: 8,
+          },
+        },
+        {
+          content: 'Internal',
+          polygon: [0.4908, 1.0332, 0.8067, 1.0349, 0.8068, 1.1434, 0.4913, 1.143],
+          confidence: 0.987,
+          span: {
+            offset: 54,
+            length: 8,
+          },
+        },
+        {
+          content: 'Revenue',
+          polygon: [0.8371, 1.0349, 1.203, 1.0346, 1.203, 1.1436, 0.8372, 1.1434],
+          confidence: 0.995,
+          span: {
+            offset: 63,
+            length: 7,
+          },
+        },
+        {
+          content: 'Service',
+          polygon: [1.2297, 1.0345, 1.5525, 1.0346, 1.5525, 1.1433, 1.2298, 1.1436],
+          confidence: 0.994,
+          span: {
+            offset: 71,
+            length: 7,
+          },
+        },
+        {
+          content: 'Request',
+          polygon: [3.3101, 0.5158, 4.0328, 0.5159, 4.0321, 0.7204, 3.3089, 0.7158],
+          confidence: 0.997,
+          span: {
+            offset: 83,
+            length: 7,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [4.0927, 0.5169, 4.3225, 0.5175, 4.3218, 0.7217, 4.0921, 0.7204],
+          confidence: 0.999,
+          span: {
+            offset: 91,
+            length: 3,
+          },
+        },
+        {
+          content: 'Taxpayer',
+          polygon: [4.3792, 0.5175, 5.1823, 0.5202, 5.1823, 0.7228, 4.3784, 0.7227],
+          confidence: 0.993,
+          span: {
+            offset: 95,
+            length: 8,
+          },
+        },
+        {
+          content: 'Identification',
+          polygon: [2.5416, 0.7247, 3.6936, 0.7235, 3.6935, 0.9164, 2.5412, 0.9166],
+          confidence: 0.992,
+          span: {
+            offset: 104,
+            length: 14,
+          },
+        },
+        {
+          content: 'Number',
+          polygon: [3.7659, 0.7233, 4.4269, 0.723, 4.4268, 0.917, 3.7659, 0.9164],
+          confidence: 0.995,
+          span: {
+            offset: 119,
+            length: 6,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [4.4867, 0.7228, 4.7888, 0.7249, 4.7889, 0.9159, 4.4866, 0.9171],
+          confidence: 0.999,
+          span: {
+            offset: 126,
+            length: 3,
+          },
+        },
+        {
+          content: 'Certification',
+          polygon: [4.8612, 0.7247, 5.9392, 0.725, 5.9392, 0.9145, 4.8613, 0.9158],
+          confidence: 0.992,
+          span: {
+            offset: 130,
+            length: 13,
+          },
+        },
+        {
+          content: 'Go',
+          polygon: [2.3756, 0.9757, 2.5326, 0.9757, 2.5323, 1.1049, 2.3753, 1.1038],
+          confidence: 0.997,
+          span: {
+            offset: 144,
+            length: 2,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [2.5648, 0.9757, 2.6595, 0.9757, 2.6593, 1.1057, 2.5646, 1.1051],
+          confidence: 0.997,
+          span: {
+            offset: 147,
+            length: 2,
+          },
+        },
+        {
+          content: 'www.irs.gov/FormW9',
+          polygon: [2.6853, 0.9757, 3.8423, 0.9733, 3.8422, 1.1076, 2.6851, 1.1058],
+          confidence: 0.991,
+          span: {
+            offset: 150,
+            length: 18,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [3.8703, 0.9733, 4.01, 0.9737, 4.0099, 1.1078, 3.8701, 1.1077],
+          confidence: 0.995,
+          span: {
+            offset: 169,
+            length: 3,
+          },
+        },
+        {
+          content: 'instructions',
+          polygon: [4.0359, 0.9737, 4.6767, 0.9746, 4.6767, 1.1061, 4.0357, 1.1077],
+          confidence: 0.992,
+          span: {
+            offset: 173,
+            length: 12,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [4.709, 0.9747, 4.9026, 0.9751, 4.9025, 1.106, 4.709, 1.106],
+          confidence: 0.999,
+          span: {
+            offset: 186,
+            length: 3,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [4.9348, 0.9751, 5.094, 0.9754, 5.0939, 1.1059, 4.9348, 1.106],
+          confidence: 0.997,
+          span: {
+            offset: 190,
+            length: 3,
+          },
+        },
+        {
+          content: 'latest',
+          polygon: [5.1198, 0.9754, 5.4316, 0.9754, 5.4315, 1.1055, 5.1197, 1.1059],
+          confidence: 0.996,
+          span: {
+            offset: 194,
+            length: 6,
+          },
+        },
+        {
+          content: 'information.',
+          polygon: [5.4639, 0.9754, 6.1049, 0.9752, 6.1049, 1.105, 5.4637, 1.1054],
+          confidence: 0.993,
+          span: {
+            offset: 201,
+            length: 12,
+          },
+        },
+        {
+          content: 'Give',
+          polygon: [6.8781, 0.6129, 7.1463, 0.6138, 7.1459, 0.7451, 6.8778, 0.7445],
+          confidence: 0.992,
+          span: {
+            offset: 215,
+            length: 4,
+          },
+        },
+        {
+          content: 'form',
+          polygon: [7.1807, 0.6139, 7.4576, 0.6146, 7.4574, 0.7456, 7.1803, 0.7452],
+          confidence: 0.992,
+          span: {
+            offset: 220,
+            length: 4,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [7.4941, 0.6143, 7.6121, 0.6148, 7.6117, 0.7452, 7.4938, 0.7457],
+          confidence: 0.999,
+          span: {
+            offset: 225,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [7.6486, 0.615, 7.8508, 0.6137, 7.8508, 0.7449, 7.6481, 0.7451],
+          confidence: 0.999,
+          span: {
+            offset: 228,
+            length: 3,
+          },
+        },
+        {
+          content: 'requester.',
+          polygon: [6.8759, 0.7728, 7.487, 0.77, 7.4873, 0.8968, 6.8763, 0.8991],
+          confidence: 0.993,
+          span: {
+            offset: 232,
+            length: 10,
+          },
+        },
+        {
+          content: 'Do',
+          polygon: [7.5326, 0.7702, 7.6921, 0.769, 7.6921, 0.8953, 7.5329, 0.896],
+          confidence: 0.998,
+          span: {
+            offset: 243,
+            length: 2,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [7.7335, 0.7684, 7.9365, 0.7674, 7.9363, 0.8939, 7.7335, 0.8953],
+          confidence: 0.999,
+          span: {
+            offset: 246,
+            length: 3,
+          },
+        },
+        {
+          content: 'send',
+          polygon: [6.8742, 0.918, 7.168, 0.9174, 7.1684, 1.0427, 6.8749, 1.0439],
+          confidence: 0.992,
+          span: {
+            offset: 250,
+            length: 4,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [7.2053, 0.917, 7.3232, 0.916, 7.3236, 1.0425, 7.2057, 1.043],
+          confidence: 0.999,
+          span: {
+            offset: 255,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [7.3625, 0.9157, 7.5425, 0.9145, 7.5428, 1.0414, 7.3629, 1.0422],
+          confidence: 0.999,
+          span: {
+            offset: 258,
+            length: 3,
+          },
+        },
+        {
+          content: 'IRS.',
+          polygon: [7.5694, 0.9144, 7.8342, 0.9121, 7.8342, 1.0411, 7.5697, 1.0413],
+          confidence: 0.992,
+          span: {
+            offset: 262,
+            length: 4,
+          },
+        },
+        {
+          content: 'Before',
+          polygon: [0.4945, 1.1857, 0.8495, 1.1855, 0.8494, 1.3186, 0.4942, 1.3164],
+          confidence: 0.996,
+          span: {
+            offset: 268,
+            length: 6,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [0.8799, 1.1854, 1.0672, 1.1852, 1.0672, 1.3186, 0.8799, 1.3186],
+          confidence: 0.999,
+          span: {
+            offset: 275,
+            length: 3,
+          },
+        },
+        {
+          content: 'begin.',
+          polygon: [1.1064, 1.1851, 1.4244, 1.1837, 1.4242, 1.3189, 1.1064, 1.3186],
+          confidence: 0.995,
+          span: {
+            offset: 279,
+            length: 6,
+          },
+        },
+        {
+          content: 'For',
+          polygon: [1.4636, 1.1835, 1.6248, 1.1834, 1.6244, 1.3187, 1.4633, 1.319],
+          confidence: 0.995,
+          span: {
+            offset: 286,
+            length: 3,
+          },
+        },
+        {
+          content: 'guidance',
+          polygon: [1.6553, 1.1836, 2.0974, 1.185, 2.0969, 1.3179, 1.6549, 1.3186],
+          confidence: 0.995,
+          span: {
+            offset: 290,
+            length: 8,
+          },
+        },
+        {
+          content: 'related',
+          polygon: [2.1235, 1.185, 2.4785, 1.185, 2.4783, 1.3179, 2.1231, 1.3179],
+          confidence: 0.994,
+          span: {
+            offset: 299,
+            length: 7,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [2.5111, 1.185, 2.6091, 1.1849, 2.609, 1.3178, 2.5109, 1.3179],
+          confidence: 0.998,
+          span: {
+            offset: 307,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [2.6396, 1.1849, 2.7986, 1.1849, 2.7984, 1.3178, 2.6395, 1.3178],
+          confidence: 0.999,
+          span: {
+            offset: 310,
+            length: 3,
+          },
+        },
+        {
+          content: 'purpose',
+          polygon: [2.8335, 1.1849, 3.2385, 1.1844, 3.2384, 1.3184, 2.8333, 1.3178],
+          confidence: 0.994,
+          span: {
+            offset: 314,
+            length: 7,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [3.269, 1.1843, 3.367, 1.1843, 3.3669, 1.3184, 3.2689, 1.3184],
+          confidence: 0.999,
+          span: {
+            offset: 322,
+            length: 2,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [3.3997, 1.1843, 3.6523, 1.1844, 3.6521, 1.3181, 3.3995, 1.3183],
+          confidence: 0.989,
+          span: {
+            offset: 325,
+            length: 4,
+          },
+        },
+        {
+          content: 'W-9,',
+          polygon: [3.685, 1.1844, 3.918, 1.1844, 3.9177, 1.3186, 3.6848, 1.3182],
+          confidence: 0.992,
+          span: {
+            offset: 330,
+            length: 4,
+          },
+        },
+        {
+          content: 'see',
+          polygon: [3.955, 1.1843, 4.1315, 1.1847, 4.1311, 1.3184, 3.9547, 1.3187],
+          confidence: 0.998,
+          span: {
+            offset: 335,
+            length: 3,
+          },
+        },
+        {
+          content: 'Purpose',
+          polygon: [4.1576, 1.1848, 4.5736, 1.185, 4.5732, 1.3182, 4.1572, 1.3183],
+          confidence: 0.995,
+          span: {
+            offset: 339,
+            length: 7,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [4.604, 1.1849, 4.6933, 1.1849, 4.6929, 1.3182, 4.6037, 1.3182],
+          confidence: 0.998,
+          span: {
+            offset: 347,
+            length: 2,
+          },
+        },
+        {
+          content: 'Form,',
+          polygon: [4.7195, 1.1849, 5.0157, 1.1855, 5.0153, 1.3169, 4.7191, 1.3181],
+          confidence: 0.995,
+          span: {
+            offset: 350,
+            length: 5,
+          },
+        },
+        {
+          content: 'below.',
+          polygon: [5.057, 1.1857, 5.3867, 1.1873, 5.3867, 1.3164, 5.0567, 1.3168],
+          confidence: 0.992,
+          span: {
+            offset: 356,
+            length: 6,
+          },
+        },
+        {
+          content: '1',
+          polygon: [0.8509, 1.3489, 0.8942, 1.3491, 0.8945, 1.4694, 0.8512, 1.469],
+          confidence: 0.978,
+          span: {
+            offset: 364,
+            length: 1,
+          },
+        },
+        {
+          content: 'Name',
+          polygon: [1.0179, 1.3497, 1.2714, 1.351, 1.2716, 1.4731, 1.0181, 1.4706],
+          confidence: 0.992,
+          span: {
+            offset: 366,
+            length: 4,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [1.3002, 1.3512, 1.3847, 1.3513, 1.385, 1.474, 1.3005, 1.4734],
+          confidence: 0.995,
+          span: {
+            offset: 371,
+            length: 2,
+          },
+        },
+        {
+          content: 'entity/individual.',
+          polygon: [1.4095, 1.3511, 2.1102, 1.3477, 2.1105, 1.474, 1.4097, 1.474],
+          confidence: 0.985,
+          span: {
+            offset: 374,
+            length: 18,
+          },
+        },
+        {
+          content: 'An',
+          polygon: [2.139, 1.3475, 2.2586, 1.347, 2.2589, 1.4741, 2.1393, 1.4741],
+          confidence: 0.991,
+          span: {
+            offset: 393,
+            length: 2,
+          },
+        },
+        {
+          content: 'entry',
+          polygon: [2.2854, 1.3469, 2.4832, 1.3467, 2.4835, 1.4742, 2.2857, 1.4741],
+          confidence: 0.995,
+          span: {
+            offset: 396,
+            length: 5,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [2.508, 1.3467, 2.5821, 1.3469, 2.5824, 1.4742, 2.5082, 1.4742],
+          confidence: 0.995,
+          span: {
+            offset: 402,
+            length: 2,
+          },
+        },
+        {
+          content: 'required.',
+          polygon: [2.6069, 1.3469, 3.0108, 1.3474, 3.0111, 1.4743, 2.6072, 1.4742],
+          confidence: 0.992,
+          span: {
+            offset: 405,
+            length: 9,
+          },
+        },
+        {
+          content: '(For',
+          polygon: [3.0417, 1.3474, 3.2004, 1.3472, 3.2006, 1.4743, 3.042, 1.4743],
+          confidence: 0.992,
+          span: {
+            offset: 415,
+            length: 4,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [3.2252, 1.3472, 3.2911, 1.3472, 3.2913, 1.4742, 3.2254, 1.4743],
+          confidence: 0.989,
+          span: {
+            offset: 420,
+            length: 1,
+          },
+        },
+        {
+          content: 'sole',
+          polygon: [3.3179, 1.3472, 3.4807, 1.3473, 3.4809, 1.4744, 3.3181, 1.4742],
+          confidence: 0.989,
+          span: {
+            offset: 422,
+            length: 4,
+          },
+        },
+        {
+          content: 'proprietor',
+          polygon: [3.5055, 1.3474, 3.9424, 1.3485, 3.9426, 1.4755, 3.5056, 1.4745],
+          confidence: 0.992,
+          span: {
+            offset: 427,
+            length: 10,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [3.9671, 1.3485, 4.066, 1.3485, 4.0663, 1.4755, 3.9673, 1.4755],
+          confidence: 0.995,
+          span: {
+            offset: 438,
+            length: 2,
+          },
+        },
+        {
+          content: 'disregarded',
+          polygon: [4.0908, 1.3485, 4.606, 1.3489, 4.6062, 1.4755, 4.091, 1.4755],
+          confidence: 0.992,
+          span: {
+            offset: 441,
+            length: 11,
+          },
+        },
+        {
+          content: 'entity,',
+          polygon: [4.6369, 1.349, 4.8966, 1.3493, 4.8969, 1.4755, 4.6372, 1.4755],
+          confidence: 0.992,
+          span: {
+            offset: 453,
+            length: 7,
+          },
+        },
+        {
+          content: 'enter',
+          polygon: [4.9296, 1.3492, 5.1377, 1.3488, 5.138, 1.4752, 4.9298, 1.4755],
+          confidence: 0.996,
+          span: {
+            offset: 461,
+            length: 5,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [5.1625, 1.3488, 5.315, 1.3485, 5.3152, 1.4748, 5.1627, 1.4751],
+          confidence: 0.998,
+          span: {
+            offset: 467,
+            length: 3,
+          },
+        },
+        {
+          content: "owner's",
+          polygon: [5.3397, 1.3484, 5.6839, 1.3481, 5.6841, 1.4738, 5.34, 1.4748],
+          confidence: 0.995,
+          span: {
+            offset: 471,
+            length: 7,
+          },
+        },
+        {
+          content: 'name',
+          polygon: [5.7148, 1.3481, 5.9539, 1.3479, 5.954, 1.4731, 5.715, 1.4737],
+          confidence: 0.99,
+          span: {
+            offset: 479,
+            length: 4,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [5.9807, 1.3478, 6.0858, 1.3477, 6.086, 1.473, 5.9808, 1.4731],
+          confidence: 0.998,
+          span: {
+            offset: 484,
+            length: 2,
+          },
+        },
+        {
+          content: 'line',
+          polygon: [6.1188, 1.3477, 6.2651, 1.3475, 6.2653, 1.473, 6.1189, 1.473],
+          confidence: 0.99,
+          span: {
+            offset: 487,
+            length: 4,
+          },
+        },
+        {
+          content: '1,',
+          polygon: [6.296, 1.3475, 6.3702, 1.3474, 6.3704, 1.4729, 6.2962, 1.473],
+          confidence: 0.992,
+          span: {
+            offset: 492,
+            length: 2,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [6.3991, 1.3474, 6.5619, 1.3472, 6.562, 1.4731, 6.3992, 1.4729],
+          confidence: 0.998,
+          span: {
+            offset: 495,
+            length: 3,
+          },
+        },
+        {
+          content: 'enter',
+          polygon: [6.5928, 1.3471, 6.803, 1.3468, 6.8031, 1.4735, 6.5929, 1.4732],
+          confidence: 0.994,
+          span: {
+            offset: 499,
+            length: 5,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [6.8277, 1.3468, 6.9761, 1.3467, 6.9761, 1.4736, 6.8278, 1.4735],
+          confidence: 0.998,
+          span: {
+            offset: 505,
+            length: 3,
+          },
+        },
+        {
+          content: 'business/disregarded',
+          polygon: [7.005, 1.3467, 7.9489, 1.3474, 7.9491, 1.474, 7.005, 1.4736],
+          confidence: 0.98,
+          span: {
+            offset: 509,
+            length: 20,
+          },
+        },
+        {
+          content: "entity's",
+          polygon: [1.007, 1.4702, 1.3179, 1.4714, 1.3179, 1.5886, 1.0073, 1.5888],
+          confidence: 0.992,
+          span: {
+            offset: 530,
+            length: 8,
+          },
+        },
+        {
+          content: 'name',
+          polygon: [1.3412, 1.4711, 1.5996, 1.4704, 1.5995, 1.5888, 1.3412, 1.5889],
+          confidence: 0.992,
+          span: {
+            offset: 539,
+            length: 4,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [1.6268, 1.4702, 1.722, 1.4697, 1.7219, 1.5885, 1.6267, 1.5886],
+          confidence: 0.998,
+          span: {
+            offset: 544,
+            length: 2,
+          },
+        },
+        {
+          content: 'line',
+          polygon: [1.7453, 1.4697, 1.9123, 1.4691, 1.9122, 1.5886, 1.7452, 1.5886],
+          confidence: 0.994,
+          span: {
+            offset: 547,
+            length: 4,
+          },
+        },
+        {
+          content: '2.)',
+          polygon: [1.9376, 1.4693, 2.0552, 1.4695, 2.0552, 1.5876, 1.9374, 1.5885],
+          confidence: 0.986,
+          span: {
+            offset: 552,
+            length: 3,
+          },
+        },
+        {
+          content: '2',
+          polygon: [0.8406, 1.8603, 0.9171, 1.8608, 0.9171, 1.9521, 0.8405, 1.9528],
+          confidence: 0.995,
+          span: {
+            offset: 557,
+            length: 1,
+          },
+        },
+        {
+          content: 'Business',
+          polygon: [1.0016, 1.8455, 1.3902, 1.8463, 1.3899, 1.9686, 1.0013, 1.9671],
+          confidence: 0.995,
+          span: {
+            offset: 559,
+            length: 8,
+          },
+        },
+        {
+          content: 'name/disregarded',
+          polygon: [1.4144, 1.8463, 2.224, 1.8461, 2.2231, 1.9713, 1.4141, 1.9688],
+          confidence: 0.992,
+          span: {
+            offset: 568,
+            length: 16,
+          },
+        },
+        {
+          content: 'entity',
+          polygon: [2.2563, 1.8461, 2.4749, 1.8461, 2.4742, 1.9705, 2.2555, 1.9711],
+          confidence: 0.996,
+          span: {
+            offset: 585,
+            length: 6,
+          },
+        },
+        {
+          content: 'name,',
+          polygon: [2.4992, 1.8461, 2.7805, 1.845, 2.7801, 1.9697, 2.4985, 1.9705],
+          confidence: 0.992,
+          span: {
+            offset: 592,
+            length: 5,
+          },
+        },
+        {
+          content: 'if',
+          polygon: [2.8169, 1.845, 2.8655, 1.845, 2.865, 1.9696, 2.8165, 1.9697],
+          confidence: 0.995,
+          span: {
+            offset: 598,
+            length: 2,
+          },
+        },
+        {
+          content: 'different',
+          polygon: [2.8918, 1.845, 3.248, 1.8455, 3.2474, 1.9689, 2.8913, 1.9696],
+          confidence: 0.993,
+          span: {
+            offset: 601,
+            length: 9,
+          },
+        },
+        {
+          content: 'from',
+          polygon: [3.2723, 1.8457, 3.4726, 1.8464, 3.4721, 1.9691, 3.2717, 1.969],
+          confidence: 0.992,
+          span: {
+            offset: 611,
+            length: 4,
+          },
+        },
+        {
+          content: 'above.',
+          polygon: [3.501, 1.8464, 3.7955, 1.8469, 3.7955, 1.9691, 3.5005, 1.969],
+          confidence: 0.992,
+          span: {
+            offset: 616,
+            length: 6,
+          },
+        },
+        {
+          content: '3a',
+          polygon: [0.8444, 2.1818, 0.9606, 2.1818, 0.9603, 2.3051, 0.8441, 2.305],
+          confidence: 0.977,
+          span: {
+            offset: 624,
+            length: 2,
+          },
+        },
+        {
+          content: 'Check',
+          polygon: [1.0157, 2.1818, 1.2767, 2.1819, 1.2764, 2.3056, 1.0154, 2.3051],
+          confidence: 0.995,
+          span: {
+            offset: 627,
+            length: 5,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.3011, 2.1819, 1.4581, 2.1822, 1.4579, 2.3065, 1.3009, 2.3058],
+          confidence: 0.997,
+          span: {
+            offset: 633,
+            length: 3,
+          },
+        },
+        {
+          content: 'appropriate',
+          polygon: [1.4846, 2.1822, 1.9699, 2.1814, 1.9695, 2.3061, 1.4844, 2.3066],
+          confidence: 0.992,
+          span: {
+            offset: 637,
+            length: 11,
+          },
+        },
+        {
+          content: 'box',
+          polygon: [1.9943, 2.1814, 2.1574, 2.1819, 2.1571, 2.3062, 1.9939, 2.3061],
+          confidence: 0.995,
+          span: {
+            offset: 649,
+            length: 3,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [2.1819, 2.182, 2.3042, 2.1824, 2.3039, 2.3064, 2.1815, 2.3062],
+          confidence: 0.993,
+          span: {
+            offset: 653,
+            length: 3,
+          },
+        },
+        {
+          content: 'federal',
+          polygon: [2.3287, 2.1825, 2.6406, 2.1828, 2.6403, 2.3064, 2.3283, 2.3064],
+          confidence: 0.993,
+          span: {
+            offset: 657,
+            length: 7,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [2.6692, 2.1828, 2.8058, 2.1826, 2.8054, 2.3062, 2.6688, 2.3063],
+          confidence: 0.996,
+          span: {
+            offset: 665,
+            length: 3,
+          },
+        },
+        {
+          content: 'classification',
+          polygon: [2.8303, 2.1825, 3.3869, 2.1811, 3.3866, 2.3056, 2.8299, 2.3062],
+          confidence: 0.992,
+          span: {
+            offset: 669,
+            length: 14,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [3.4174, 2.1811, 3.4868, 2.1811, 3.4865, 2.3056, 3.4171, 2.3056],
+          confidence: 0.996,
+          span: {
+            offset: 684,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [3.5112, 2.1811, 3.6682, 2.1809, 3.668, 2.3061, 3.5109, 2.3057],
+          confidence: 0.996,
+          span: {
+            offset: 687,
+            length: 3,
+          },
+        },
+        {
+          content: 'entity/individual',
+          polygon: [3.6947, 2.1809, 4.3696, 2.1803, 4.3693, 2.3062, 3.6945, 2.3061],
+          confidence: 0.992,
+          span: {
+            offset: 691,
+            length: 17,
+          },
+        },
+        {
+          content: 'whose',
+          polygon: [4.4002, 2.1803, 4.6693, 2.1801, 4.669, 2.3058, 4.3999, 2.3061],
+          confidence: 0.995,
+          span: {
+            offset: 709,
+            length: 5,
+          },
+        },
+        {
+          content: 'name',
+          polygon: [4.6938, 2.1801, 4.9384, 2.18, 4.9381, 2.3045, 4.6934, 2.3057],
+          confidence: 0.992,
+          span: {
+            offset: 715,
+            length: 4,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [4.9629, 2.18, 5.0485, 2.18, 5.0482, 2.3043, 4.9626, 2.3044],
+          confidence: 0.995,
+          span: {
+            offset: 720,
+            length: 2,
+          },
+        },
+        {
+          content: 'entered',
+          polygon: [5.075, 2.18, 5.4033, 2.1803, 5.4029, 2.3051, 5.0747, 2.3044],
+          confidence: 0.994,
+          span: {
+            offset: 723,
+            length: 7,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [5.4339, 2.1803, 5.5256, 2.1804, 5.5252, 2.3047, 5.4335, 2.305],
+          confidence: 0.997,
+          span: {
+            offset: 731,
+            length: 2,
+          },
+        },
+        {
+          content: 'line',
+          polygon: [5.5501, 2.1804, 5.7213, 2.1805, 5.7209, 2.3042, 5.5497, 2.3047],
+          confidence: 0.992,
+          span: {
+            offset: 734,
+            length: 4,
+          },
+        },
+        {
+          content: '1.',
+          polygon: [5.7499, 2.1806, 5.8233, 2.1806, 5.8229, 2.3042, 5.7495, 2.3041],
+          confidence: 0.992,
+          span: {
+            offset: 739,
+            length: 2,
+          },
+        },
+        {
+          content: 'Check',
+          polygon: [5.8539, 2.1807, 6.1436, 2.1811, 6.1436, 2.3047, 5.8535, 2.3042],
+          confidence: 0.997,
+          span: {
+            offset: 742,
+            length: 5,
+          },
+        },
+        {
+          content: 'only',
+          polygon: [1.0101, 2.3049, 1.1977, 2.3062, 1.198, 2.4217, 1.0104, 2.4222],
+          confidence: 0.992,
+          span: {
+            offset: 748,
+            length: 4,
+          },
+        },
+        {
+          content: 'one',
+          polygon: [1.2246, 2.3063, 1.3969, 2.3056, 1.3971, 2.4217, 1.2248, 2.4216],
+          confidence: 0.998,
+          span: {
+            offset: 753,
+            length: 3,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [1.4237, 2.3054, 1.5003, 2.305, 1.5005, 2.422, 1.4239, 2.4218],
+          confidence: 0.998,
+          span: {
+            offset: 757,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.5233, 2.305, 1.6727, 2.305, 1.6727, 2.4222, 1.5235, 2.4221],
+          confidence: 0.999,
+          span: {
+            offset: 760,
+            length: 3,
+          },
+        },
+        {
+          content: 'following',
+          polygon: [1.6976, 2.3051, 2.0825, 2.3048, 2.0826, 2.4224, 1.6976, 2.4221],
+          confidence: 0.994,
+          span: {
+            offset: 764,
+            length: 9,
+          },
+        },
+        {
+          content: 'seven',
+          polygon: [2.1151, 2.3047, 2.366, 2.3047, 2.366, 2.4223, 2.1152, 2.4223],
+          confidence: 0.995,
+          span: {
+            offset: 774,
+            length: 5,
+          },
+        },
+        {
+          content: 'boxes.',
+          polygon: [2.4005, 2.3046, 2.6961, 2.3056, 2.6961, 2.4217, 2.4004, 2.4223],
+          confidence: 0.994,
+          span: {
+            offset: 780,
+            length: 6,
+          },
+        },
+        {
+          content: 'Individual/sole',
+          polygon: [1.1855, 2.5001, 1.8236, 2.502, 1.8231, 2.6194, 1.1854, 2.6192],
+          confidence: 0.992,
+          span: {
+            offset: 790,
+            length: 15,
+          },
+        },
+        {
+          content: 'proprietor',
+          polygon: [1.8527, 2.5021, 2.2873, 2.5032, 2.2873, 2.6194, 1.8522, 2.6194],
+          confidence: 0.977,
+          span: {
+            offset: 806,
+            length: 10,
+          },
+        },
+        {
+          content: 'C',
+          polygon: [2.6738, 2.5055, 2.7511, 2.5061, 2.7506, 2.6157, 2.6732, 2.6156],
+          confidence: 0.992,
+          span: {
+            offset: 819,
+            length: 1,
+          },
+        },
+        {
+          content: 'corporation',
+          polygon: [2.7799, 2.5063, 3.2873, 2.5057, 3.2873, 2.6149, 2.7794, 2.6158],
+          confidence: 0.993,
+          span: {
+            offset: 821,
+            length: 11,
+          },
+        },
+        {
+          content: 'S',
+          polygon: [3.6716, 2.505, 3.7406, 2.5053, 3.7399, 2.6161, 3.671, 2.6161],
+          confidence: 0.994,
+          span: {
+            offset: 835,
+            length: 1,
+          },
+        },
+        {
+          content: 'corporation',
+          polygon: [3.7696, 2.5054, 4.2762, 2.5052, 4.2762, 2.6154, 3.769, 2.6165],
+          confidence: 0.992,
+          span: {
+            offset: 837,
+            length: 11,
+          },
+        },
+        {
+          content: 'Partnership',
+          polygon: [4.6715, 2.5038, 5.1865, 2.5055, 5.1859, 2.6139, 4.671, 2.6127],
+          confidence: 0.996,
+          span: {
+            offset: 851,
+            length: 11,
+          },
+        },
+        {
+          content: 'Trust/estate',
+          polygon: [5.5664, 2.5024, 6.1049, 2.5032, 6.1049, 2.6111, 5.5662, 2.61],
+          confidence: 0.994,
+          span: {
+            offset: 865,
+            length: 12,
+          },
+        },
+        {
+          content: 'LLC.',
+          polygon: [1.1876, 2.6853, 1.3963, 2.686, 1.3963, 2.8049, 1.1877, 2.8042],
+          confidence: 0.992,
+          span: {
+            offset: 880,
+            length: 4,
+          },
+        },
+        {
+          content: 'Enter',
+          polygon: [1.4317, 2.6861, 1.6442, 2.687, 1.6442, 2.8055, 1.4317, 2.8051],
+          confidence: 0.993,
+          span: {
+            offset: 885,
+            length: 5,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.6679, 2.6872, 1.8214, 2.6873, 1.8212, 2.8059, 1.6678, 2.8056],
+          confidence: 0.997,
+          span: {
+            offset: 891,
+            length: 3,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [1.845, 2.6873, 1.9788, 2.6872, 1.9786, 2.8061, 1.8448, 2.8059],
+          confidence: 0.995,
+          span: {
+            offset: 895,
+            length: 3,
+          },
+        },
+        {
+          content: 'classification',
+          polygon: [2.0064, 2.6872, 2.5653, 2.687, 2.565, 2.8076, 2.0062, 2.8062],
+          confidence: 0.987,
+          span: {
+            offset: 899,
+            length: 14,
+          },
+        },
+        {
+          content: '(C',
+          polygon: [2.5968, 2.687, 2.6873, 2.6869, 2.687, 2.8073, 2.5965, 2.8075],
+          confidence: 0.992,
+          span: {
+            offset: 914,
+            length: 2,
+          },
+        },
+        {
+          content: '=',
+          polygon: [2.7169, 2.6869, 2.7739, 2.6868, 2.7736, 2.8071, 2.7166, 2.8072],
+          confidence: 0.993,
+          span: {
+            offset: 917,
+            length: 1,
+          },
+        },
+        {
+          content: 'C',
+          polygon: [2.8035, 2.6868, 2.8704, 2.6871, 2.8701, 2.8072, 2.8031, 2.807],
+          confidence: 0.977,
+          span: {
+            offset: 919,
+            length: 1,
+          },
+        },
+        {
+          content: 'corporation,',
+          polygon: [2.8979, 2.6872, 3.4195, 2.6873, 3.4192, 2.8082, 2.8976, 2.8073],
+          confidence: 0.987,
+          span: {
+            offset: 921,
+            length: 12,
+          },
+        },
+        {
+          content: 'S',
+          polygon: [3.4549, 2.6873, 3.5139, 2.6874, 3.5135, 2.8083, 3.4546, 2.8082],
+          confidence: 0.992,
+          span: {
+            offset: 934,
+            length: 1,
+          },
+        },
+        {
+          content: '=',
+          polygon: [3.5435, 2.6874, 3.5986, 2.6874, 3.5981, 2.8084, 3.543, 2.8084],
+          confidence: 0.992,
+          span: {
+            offset: 936,
+            length: 1,
+          },
+        },
+        {
+          content: 'S',
+          polygon: [3.6281, 2.6875, 3.6911, 2.6876, 3.6906, 2.8087, 3.6276, 2.8085],
+          confidence: 0.992,
+          span: {
+            offset: 938,
+            length: 1,
+          },
+        },
+        {
+          content: 'corporation,',
+          polygon: [3.7167, 2.6877, 4.2402, 2.6881, 4.2397, 2.8096, 3.7162, 2.8088],
+          confidence: 0.977,
+          span: {
+            offset: 940,
+            length: 12,
+          },
+        },
+        {
+          content: 'P',
+          polygon: [4.2736, 2.6883, 4.3327, 2.6886, 4.3322, 2.8095, 4.2732, 2.8096],
+          confidence: 0.995,
+          span: {
+            offset: 953,
+            length: 1,
+          },
+        },
+        {
+          content: '=',
+          polygon: [4.3622, 2.6887, 4.4075, 2.689, 4.4069, 2.8095, 4.3617, 2.8095],
+          confidence: 0.995,
+          span: {
+            offset: 955,
+            length: 1,
+          },
+        },
+        {
+          content: 'Partnership)',
+          polygon: [4.4311, 2.6891, 4.9723, 2.6884, 4.9723, 2.8085, 4.4305, 2.8095],
+          confidence: 0.992,
+          span: {
+            offset: 957,
+            length: 12,
+          },
+        },
+        {
+          content: '.',
+          polygon: [5.6747, 2.7604, 5.6854, 2.7604, 5.6854, 2.7712, 5.6747, 2.7712],
+          confidence: 1,
+          span: {
+            offset: 970,
+            length: 1,
+          },
+        },
+        {
+          content: '.',
+          polygon: [5.508, 2.7604, 5.5188, 2.7604, 5.5188, 2.7712, 5.508, 2.7712],
+          confidence: 1,
+          span: {
+            offset: 972,
+            length: 1,
+          },
+        },
+        {
+          content: '.',
+          polygon: [5.1747, 2.7604, 5.1855, 2.7604, 5.1855, 2.7712, 5.1747, 2.7712],
+          confidence: 1,
+          span: {
+            offset: 974,
+            length: 1,
+          },
+        },
+        {
+          content: '.',
+          polygon: [5.3414, 2.7604, 5.3522, 2.7604, 5.3522, 2.7712, 5.3414, 2.7712],
+          confidence: 1,
+          span: {
+            offset: 976,
+            length: 1,
+          },
+        },
+        {
+          content: 'Note:',
+          polygon: [1.1864, 2.8233, 1.4391, 2.823, 1.4394, 2.9411, 1.1866, 2.9395],
+          confidence: 0.989,
+          span: {
+            offset: 979,
+            length: 5,
+          },
+        },
+        {
+          content: 'Check',
+          polygon: [1.4683, 2.823, 1.7307, 2.824, 1.7309, 2.9416, 1.4686, 2.9413],
+          confidence: 0.995,
+          span: {
+            offset: 985,
+            length: 5,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.754, 2.8241, 1.8939, 2.8244, 1.8942, 2.9418, 1.7543, 2.9416],
+          confidence: 0.997,
+          span: {
+            offset: 991,
+            length: 3,
+          },
+        },
+        {
+          content: '"LLC"',
+          polygon: [1.9172, 2.8243, 2.1874, 2.823, 2.1876, 2.943, 1.9175, 2.9419],
+          confidence: 0.847,
+          span: {
+            offset: 995,
+            length: 5,
+          },
+        },
+        {
+          content: 'box',
+          polygon: [2.2205, 2.8231, 2.3798, 2.8234, 2.38, 2.9427, 2.2206, 2.9429],
+          confidence: 0.996,
+          span: {
+            offset: 1001,
+            length: 3,
+          },
+        },
+        {
+          content: 'above',
+          polygon: [2.4051, 2.8234, 2.6695, 2.8243, 2.6696, 2.9432, 2.4053, 2.9426],
+          confidence: 0.993,
+          span: {
+            offset: 1005,
+            length: 5,
+          },
+        },
+        {
+          content: 'and,',
+          polygon: [2.6967, 2.8244, 2.8794, 2.8252, 2.8794, 2.9443, 2.6968, 2.9434],
+          confidence: 0.992,
+          span: {
+            offset: 1011,
+            length: 4,
+          },
+        },
+        {
+          content: 'in',
+          polygon: [2.9144, 2.8253, 2.9824, 2.8255, 2.9824, 2.9447, 2.9144, 2.9444],
+          confidence: 0.998,
+          span: {
+            offset: 1016,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [3.0116, 2.8256, 3.1476, 2.826, 3.1476, 2.9453, 3.0116, 2.9448],
+          confidence: 0.997,
+          span: {
+            offset: 1019,
+            length: 3,
+          },
+        },
+        {
+          content: 'entry',
+          polygon: [3.1748, 2.8261, 3.3925, 2.8259, 3.3925, 2.9455, 3.1749, 2.9454],
+          confidence: 0.995,
+          span: {
+            offset: 1023,
+            length: 5,
+          },
+        },
+        {
+          content: 'space,',
+          polygon: [3.4158, 2.8259, 3.6977, 2.8267, 3.6977, 2.9455, 3.4159, 2.9455],
+          confidence: 0.993,
+          span: {
+            offset: 1029,
+            length: 6,
+          },
+        },
+        {
+          content: 'enter',
+          polygon: [3.7307, 2.8269, 3.9387, 2.8273, 3.9387, 2.9455, 3.7308, 2.9455],
+          confidence: 0.992,
+          span: {
+            offset: 1036,
+            length: 5,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [3.962, 2.8272, 4.1117, 2.8269, 4.1117, 2.9455, 3.962, 2.9455],
+          confidence: 0.994,
+          span: {
+            offset: 1042,
+            length: 3,
+          },
+        },
+        {
+          content: 'appropriate',
+          polygon: [4.1389, 2.8269, 4.6346, 2.8259, 4.6344, 2.9455, 4.1389, 2.9455],
+          confidence: 0.991,
+          span: {
+            offset: 1046,
+            length: 11,
+          },
+        },
+        {
+          content: 'code',
+          polygon: [4.6598, 2.8259, 4.8775, 2.8259, 4.8774, 2.9452, 4.6597, 2.9455],
+          confidence: 0.992,
+          span: {
+            offset: 1058,
+            length: 4,
+          },
+        },
+        {
+          content: '(C,',
+          polygon: [4.9028, 2.8259, 5.0214, 2.826, 5.0212, 2.9452, 4.9026, 2.9452],
+          confidence: 0.934,
+          span: {
+            offset: 1063,
+            length: 3,
+          },
+        },
+        {
+          content: 'S,',
+          polygon: [5.0524, 2.826, 5.1341, 2.826, 5.1339, 2.9451, 5.0523, 2.9452],
+          confidence: 0.991,
+          span: {
+            offset: 1067,
+            length: 2,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [5.1671, 2.8261, 5.2565, 2.826, 5.2563, 2.9447, 5.1669, 2.9451],
+          confidence: 0.992,
+          span: {
+            offset: 1070,
+            length: 2,
+          },
+        },
+        {
+          content: 'P)',
+          polygon: [5.2838, 2.8259, 5.3654, 2.8259, 5.3651, 2.9442, 5.2835, 2.9446],
+          confidence: 0.992,
+          span: {
+            offset: 1073,
+            length: 2,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [5.3926, 2.8258, 5.5014, 2.8257, 5.5011, 2.9436, 5.3923, 2.9441],
+          confidence: 0.996,
+          span: {
+            offset: 1076,
+            length: 3,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [5.5248, 2.8258, 5.6725, 2.8265, 5.6722, 2.9436, 5.5244, 2.9436],
+          confidence: 0.995,
+          span: {
+            offset: 1080,
+            length: 3,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [5.6958, 2.8266, 5.8453, 2.8272, 5.8453, 2.9436, 5.6955, 2.9436],
+          confidence: 0.997,
+          span: {
+            offset: 1084,
+            length: 3,
+          },
+        },
+        {
+          content: 'classification',
+          polygon: [1.1867, 2.9362, 1.7494, 2.9368, 1.7496, 3.0543, 1.1867, 3.0518],
+          confidence: 0.992,
+          span: {
+            offset: 1088,
+            length: 14,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [1.7766, 2.9368, 1.8464, 2.9369, 1.8466, 3.0542, 1.7768, 3.0543],
+          confidence: 0.995,
+          span: {
+            offset: 1103,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.8697, 2.9369, 2.0094, 2.9368, 2.0096, 3.0545, 1.8699, 3.0542],
+          confidence: 0.997,
+          span: {
+            offset: 1106,
+            length: 3,
+          },
+        },
+        {
+          content: 'LLC,',
+          polygon: [2.0327, 2.9367, 2.248, 2.9365, 2.2482, 3.0551, 2.0329, 3.0546],
+          confidence: 0.992,
+          span: {
+            offset: 1110,
+            length: 4,
+          },
+        },
+        {
+          content: 'unless',
+          polygon: [2.283, 2.9366, 2.5371, 2.9374, 2.5373, 3.0558, 2.2831, 3.0552],
+          confidence: 0.993,
+          span: {
+            offset: 1115,
+            length: 6,
+          },
+        },
+        {
+          content: 'it',
+          polygon: [2.5604, 2.9375, 2.6148, 2.9377, 2.615, 3.0559, 2.5606, 3.0558],
+          confidence: 0.996,
+          span: {
+            offset: 1122,
+            length: 2,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [2.638, 2.9377, 2.7292, 2.9377, 2.7294, 3.0562, 2.6382, 3.056],
+          confidence: 0.995,
+          span: {
+            offset: 1125,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [2.7583, 2.9377, 2.8107, 2.9377, 2.8109, 3.0564, 2.7585, 3.0563],
+          confidence: 0.993,
+          span: {
+            offset: 1128,
+            length: 1,
+          },
+        },
+        {
+          content: 'disregarded',
+          polygon: [2.8359, 2.9377, 3.3443, 2.9386, 3.3444, 3.0576, 2.8361, 3.0565],
+          confidence: 0.992,
+          span: {
+            offset: 1130,
+            length: 11,
+          },
+        },
+        {
+          content: 'entity.',
+          polygon: [3.3773, 2.9387, 3.6334, 2.939, 3.6335, 3.0577, 3.3774, 3.0577],
+          confidence: 0.992,
+          span: {
+            offset: 1142,
+            length: 7,
+          },
+        },
+        {
+          content: 'A',
+          polygon: [3.6606, 2.939, 3.7285, 2.9391, 3.7285, 3.0579, 3.6606, 3.0577],
+          confidence: 0.994,
+          span: {
+            offset: 1150,
+            length: 1,
+          },
+        },
+        {
+          content: 'disregarded',
+          polygon: [3.7537, 2.9391, 4.264, 2.939, 4.2641, 3.0581, 3.7538, 3.0579],
+          confidence: 0.992,
+          span: {
+            offset: 1152,
+            length: 11,
+          },
+        },
+        {
+          content: 'entity',
+          polygon: [4.295, 2.9389, 4.5298, 2.9392, 4.5299, 3.0581, 4.2951, 3.058],
+          confidence: 0.993,
+          span: {
+            offset: 1164,
+            length: 6,
+          },
+        },
+        {
+          content: 'should',
+          polygon: [4.557, 2.9393, 4.8267, 2.9397, 4.8266, 3.0582, 4.557, 3.0582],
+          confidence: 0.994,
+          span: {
+            offset: 1171,
+            length: 6,
+          },
+        },
+        {
+          content: 'instead',
+          polygon: [4.8499, 2.9396, 5.1817, 2.9389, 5.1816, 3.0574, 4.8499, 3.0581],
+          confidence: 0.992,
+          span: {
+            offset: 1178,
+            length: 7,
+          },
+        },
+        {
+          content: 'check',
+          polygon: [5.2108, 2.9389, 5.4708, 2.9394, 5.4707, 3.0585, 5.2107, 3.0575],
+          confidence: 0.998,
+          span: {
+            offset: 1186,
+            length: 5,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [5.4941, 2.9395, 5.6319, 2.9403, 5.6318, 3.0586, 5.494, 3.0585],
+          confidence: 0.998,
+          span: {
+            offset: 1192,
+            length: 3,
+          },
+        },
+        {
+          content: 'appropriate',
+          polygon: [5.659, 2.9405, 6.1657, 2.9409, 6.1657, 3.0611, 5.659, 3.0586],
+          confidence: 0.993,
+          span: {
+            offset: 1196,
+            length: 11,
+          },
+        },
+        {
+          content: 'box',
+          polygon: [1.186, 3.0449, 1.3588, 3.0451, 1.359, 3.156, 1.1861, 3.1557],
+          confidence: 0.997,
+          span: {
+            offset: 1208,
+            length: 3,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [1.3808, 3.0451, 1.5022, 3.0449, 1.5022, 3.1562, 1.381, 3.156],
+          confidence: 0.997,
+          span: {
+            offset: 1212,
+            length: 3,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.5242, 3.0448, 1.6621, 3.0444, 1.6622, 3.157, 1.5243, 3.1562],
+          confidence: 0.999,
+          span: {
+            offset: 1216,
+            length: 3,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [1.686, 3.0443, 1.8202, 3.0445, 1.8203, 3.1575, 1.6861, 3.1572],
+          confidence: 0.998,
+          span: {
+            offset: 1220,
+            length: 3,
+          },
+        },
+        {
+          content: 'classification',
+          polygon: [1.8478, 3.0445, 2.3974, 3.0447, 2.3974, 3.1577, 1.8479, 3.1577],
+          confidence: 0.993,
+          span: {
+            offset: 1224,
+            length: 14,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [2.4287, 3.0447, 2.5022, 3.045, 2.5022, 3.1577, 2.4287, 3.1577],
+          confidence: 0.997,
+          span: {
+            offset: 1239,
+            length: 2,
+          },
+        },
+        {
+          content: 'its',
+          polygon: [2.5243, 3.0451, 2.6401, 3.0457, 2.64, 3.1577, 2.5242, 3.1578],
+          confidence: 0.998,
+          span: {
+            offset: 1242,
+            length: 3,
+          },
+        },
+        {
+          content: 'owner.',
+          polygon: [2.6658, 3.0458, 2.9655, 3.0467, 2.9655, 3.1576, 2.6658, 3.1577],
+          confidence: 0.992,
+          span: {
+            offset: 1246,
+            length: 6,
+          },
+        },
+        {
+          content: 'Other',
+          polygon: [1.1856, 3.1951, 1.4406, 3.1961, 1.4403, 3.3136, 1.1853, 3.3146],
+          confidence: 0.996,
+          span: {
+            offset: 1255,
+            length: 5,
+          },
+        },
+        {
+          content: '(see',
+          polygon: [1.4676, 3.1964, 1.6261, 3.1958, 1.6258, 3.3141, 1.4674, 3.3136],
+          confidence: 0.992,
+          span: {
+            offset: 1261,
+            length: 4,
+          },
+        },
+        {
+          content: 'instructions)',
+          polygon: [1.6493, 3.1957, 2.1989, 3.1967, 2.1989, 3.3148, 1.649, 3.314],
+          confidence: 0.992,
+          span: {
+            offset: 1266,
+            length: 13,
+          },
+        },
+        {
+          content: '3b',
+          polygon: [0.8455, 3.4199, 0.9651, 3.4198, 0.9652, 3.5408, 0.8456, 3.5404],
+          confidence: 0.992,
+          span: {
+            offset: 1281,
+            length: 2,
+          },
+        },
+        {
+          content: 'If',
+          polygon: [1.0089, 3.4198, 1.0607, 3.4198, 1.0608, 3.5412, 1.009, 3.541],
+          confidence: 0.695,
+          span: {
+            offset: 1284,
+            length: 2,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [1.0866, 3.4198, 1.1803, 3.4197, 1.1804, 3.5415, 1.0867, 3.5412],
+          confidence: 0.997,
+          span: {
+            offset: 1287,
+            length: 2,
+          },
+        },
+        {
+          content: 'line',
+          polygon: [1.2042, 3.4197, 1.3737, 3.4202, 1.3737, 3.5417, 1.2043, 3.5416],
+          confidence: 0.993,
+          span: {
+            offset: 1290,
+            length: 4,
+          },
+        },
+        {
+          content: '3a',
+          polygon: [1.3996, 3.4202, 1.4912, 3.4205, 1.4913, 3.5417, 1.3996, 3.5417],
+          confidence: 0.974,
+          span: {
+            offset: 1295,
+            length: 2,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [1.5152, 3.4206, 1.6866, 3.4205, 1.6866, 3.5419, 1.5152, 3.5417],
+          confidence: 0.994,
+          span: {
+            offset: 1298,
+            length: 3,
+          },
+        },
+        {
+          content: 'checked',
+          polygon: [1.7165, 3.4204, 2.0732, 3.4198, 2.0732, 3.5421, 1.7165, 3.5419],
+          confidence: 0.993,
+          span: {
+            offset: 1302,
+            length: 7,
+          },
+        },
+        {
+          content: '"Partnership"',
+          polygon: [2.0971, 3.4198, 2.6911, 3.4195, 2.6911, 3.5424, 2.0971, 3.5421],
+          confidence: 0.921,
+          span: {
+            offset: 1310,
+            length: 13,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [2.721, 3.4194, 2.7907, 3.4194, 2.7907, 3.5422, 2.721, 3.5423],
+          confidence: 0.993,
+          span: {
+            offset: 1324,
+            length: 2,
+          },
+        },
+        {
+          content: '"Trust/estate,"',
+          polygon: [2.8147, 3.4193, 3.4644, 3.4195, 3.4644, 3.5412, 2.8146, 3.5421],
+          confidence: 0.799,
+          span: {
+            offset: 1327,
+            length: 15,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [3.4943, 3.4195, 3.584, 3.4196, 3.584, 3.5417, 3.4943, 3.5413],
+          confidence: 0.995,
+          span: {
+            offset: 1343,
+            length: 2,
+          },
+        },
+        {
+          content: 'checked',
+          polygon: [3.6079, 3.4196, 3.9627, 3.4197, 3.9626, 3.5424, 3.6079, 3.5418],
+          confidence: 0.992,
+          span: {
+            offset: 1346,
+            length: 7,
+          },
+        },
+        {
+          content: '"LLC"',
+          polygon: [3.9866, 3.4197, 4.2636, 3.4198, 4.2635, 3.5421, 3.9865, 3.5423],
+          confidence: 0.892,
+          span: {
+            offset: 1354,
+            length: 5,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [4.2935, 3.4199, 4.453, 3.4204, 4.4529, 3.5421, 4.2934, 3.5421],
+          confidence: 0.992,
+          span: {
+            offset: 1360,
+            length: 3,
+          },
+        },
+        {
+          content: 'entered',
+          polygon: [4.4849, 3.4204, 4.7998, 3.4203, 4.7996, 3.5418, 4.4848, 3.5421],
+          confidence: 0.992,
+          span: {
+            offset: 1364,
+            length: 7,
+          },
+        },
+        {
+          content: '"P"',
+          polygon: [4.8237, 3.4203, 4.9831, 3.4203, 4.983, 3.5419, 4.8235, 3.5418],
+          confidence: 0.825,
+          span: {
+            offset: 1372,
+            length: 3,
+          },
+        },
+        {
+          content: 'as',
+          polygon: [5.015, 3.4204, 5.1027, 3.4206, 5.1026, 3.5422, 5.0149, 3.542],
+          confidence: 0.995,
+          span: {
+            offset: 1376,
+            length: 2,
+          },
+        },
+        {
+          content: 'its',
+          polygon: [5.1266, 3.4207, 5.2422, 3.4209, 5.2422, 3.5425, 5.1265, 3.5422],
+          confidence: 0.992,
+          span: {
+            offset: 1379,
+            length: 3,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [5.2682, 3.421, 5.4037, 3.4215, 5.4036, 3.5424, 5.2681, 3.5425],
+          confidence: 0.995,
+          span: {
+            offset: 1383,
+            length: 3,
+          },
+        },
+        {
+          content: 'classification,',
+          polygon: [5.4276, 3.4216, 6.022, 3.4246, 6.022, 3.5449, 5.4275, 3.5424],
+          confidence: 0.99,
+          span: {
+            offset: 1387,
+            length: 15,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [1.0063, 3.5413, 1.1767, 3.5418, 1.1769, 3.6612, 1.0065, 3.6604],
+          confidence: 0.996,
+          span: {
+            offset: 1403,
+            length: 3,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [1.2163, 3.5419, 1.3748, 3.5423, 1.375, 3.6621, 1.2165, 3.6614],
+          confidence: 0.998,
+          span: {
+            offset: 1407,
+            length: 3,
+          },
+        },
+        {
+          content: 'are',
+          polygon: [1.4124, 3.5423, 1.5511, 3.542, 1.5513, 3.6621, 1.4127, 3.6621],
+          confidence: 0.997,
+          span: {
+            offset: 1411,
+            length: 3,
+          },
+        },
+        {
+          content: 'providing',
+          polygon: [1.5887, 3.5419, 1.9868, 3.5405, 1.987, 3.6622, 1.5889, 3.6621],
+          confidence: 0.993,
+          span: {
+            offset: 1415,
+            length: 9,
+          },
+        },
+        {
+          content: 'this',
+          polygon: [2.0245, 3.5404, 2.181, 3.5398, 2.1811, 3.6621, 2.0246, 3.6622],
+          confidence: 0.992,
+          span: {
+            offset: 1425,
+            length: 4,
+          },
+        },
+        {
+          content: 'form',
+          polygon: [2.2146, 3.5397, 2.4147, 3.5391, 2.4149, 3.6618, 2.2148, 3.662],
+          confidence: 0.992,
+          span: {
+            offset: 1430,
+            length: 4,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [2.4504, 3.539, 2.5375, 3.5389, 2.5377, 3.6618, 2.4506, 3.6618],
+          confidence: 0.992,
+          span: {
+            offset: 1435,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [2.5751, 3.5389, 2.6286, 3.5388, 2.6288, 3.6618, 2.5754, 3.6618],
+          confidence: 0.995,
+          span: {
+            offset: 1438,
+            length: 1,
+          },
+        },
+        {
+          content: 'partnership,',
+          polygon: [2.6663, 3.5388, 3.1793, 3.539, 3.1795, 3.6615, 2.6665, 3.6618],
+          confidence: 0.992,
+          span: {
+            offset: 1440,
+            length: 12,
+          },
+        },
+        {
+          content: 'trust,',
+          polygon: [3.2169, 3.5391, 3.4368, 3.5395, 3.4369, 3.6612, 3.2171, 3.6614],
+          confidence: 0.995,
+          span: {
+            offset: 1453,
+            length: 6,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [3.4784, 3.5396, 3.5695, 3.5395, 3.5695, 3.661, 3.4784, 3.6612],
+          confidence: 0.998,
+          span: {
+            offset: 1460,
+            length: 2,
+          },
+        },
+        {
+          content: 'estate',
+          polygon: [3.6032, 3.5394, 3.8686, 3.5385, 3.8687, 3.6605, 3.6032, 3.661],
+          confidence: 0.997,
+          span: {
+            offset: 1463,
+            length: 6,
+          },
+        },
+        {
+          content: 'in',
+          polygon: [3.9082, 3.5385, 3.9776, 3.5385, 3.9776, 3.6604, 3.9083, 3.6605],
+          confidence: 0.998,
+          span: {
+            offset: 1470,
+            length: 2,
+          },
+        },
+        {
+          content: 'which',
+          polygon: [4.0152, 3.5385, 4.2688, 3.5386, 4.2689, 3.6602, 4.0153, 3.6604],
+          confidence: 0.998,
+          span: {
+            offset: 1473,
+            length: 5,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [4.3064, 3.5387, 4.4629, 3.5388, 4.4629, 3.66, 4.3065, 3.6602],
+          confidence: 0.994,
+          span: {
+            offset: 1479,
+            length: 3,
+          },
+        },
+        {
+          content: 'have',
+          polygon: [4.5045, 3.5388, 4.7105, 3.5388, 4.7105, 3.6598, 4.5045, 3.66],
+          confidence: 0.986,
+          span: {
+            offset: 1483,
+            length: 4,
+          },
+        },
+        {
+          content: 'an',
+          polygon: [4.7461, 3.5388, 4.8491, 3.5388, 4.8491, 3.6597, 4.7461, 3.6598],
+          confidence: 0.998,
+          span: {
+            offset: 1488,
+            length: 2,
+          },
+        },
+        {
+          content: 'ownership',
+          polygon: [4.8868, 3.5388, 5.3364, 3.5387, 5.3363, 3.659, 4.8868, 3.6597],
+          confidence: 0.995,
+          span: {
+            offset: 1491,
+            length: 9,
+          },
+        },
+        {
+          content: 'interest,',
+          polygon: [5.3741, 3.5388, 5.7167, 3.5397, 5.7167, 3.6581, 5.3739, 3.6589],
+          confidence: 0.993,
+          span: {
+            offset: 1501,
+            length: 9,
+          },
+        },
+        {
+          content: 'check',
+          polygon: [5.7583, 3.5398, 6.0331, 3.5402, 6.0331, 3.6579, 5.7583, 3.6581],
+          confidence: 0.998,
+          span: {
+            offset: 1511,
+            length: 5,
+          },
+        },
+        {
+          content: 'this',
+          polygon: [1.005, 3.6552, 1.1626, 3.6558, 1.1627, 3.7763, 1.005, 3.776],
+          confidence: 0.992,
+          span: {
+            offset: 1517,
+            length: 4,
+          },
+        },
+        {
+          content: 'box',
+          polygon: [1.1862, 3.6559, 1.3438, 3.6564, 1.3439, 3.7767, 1.1863, 3.7763],
+          confidence: 0.995,
+          span: {
+            offset: 1522,
+            length: 3,
+          },
+        },
+        {
+          content: 'if',
+          polygon: [1.3675, 3.6565, 1.4305, 3.6566, 1.4306, 3.7768, 1.3675, 3.7767],
+          confidence: 0.993,
+          span: {
+            offset: 1526,
+            length: 2,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [1.4541, 3.6567, 1.6117, 3.6563, 1.6118, 3.777, 1.4542, 3.7769],
+          confidence: 0.998,
+          span: {
+            offset: 1529,
+            length: 3,
+          },
+        },
+        {
+          content: 'have',
+          polygon: [1.6354, 3.6562, 1.86, 3.6553, 1.86, 3.777, 1.6354, 3.7769],
+          confidence: 0.992,
+          span: {
+            offset: 1533,
+            length: 4,
+          },
+        },
+        {
+          content: 'any',
+          polygon: [1.8856, 3.6553, 2.0294, 3.6552, 2.0294, 3.7774, 1.8856, 3.7771],
+          confidence: 0.998,
+          span: {
+            offset: 1538,
+            length: 3,
+          },
+        },
+        {
+          content: 'foreign',
+          polygon: [2.053, 3.6552, 2.3662, 3.6552, 2.3663, 3.7776, 2.0531, 3.7775],
+          confidence: 0.994,
+          span: {
+            offset: 1542,
+            length: 7,
+          },
+        },
+        {
+          content: 'partners,',
+          polygon: [2.3997, 3.6552, 2.778, 3.6558, 2.778, 3.7776, 2.3998, 3.7776],
+          confidence: 0.992,
+          span: {
+            offset: 1550,
+            length: 9,
+          },
+        },
+        {
+          content: 'owners,',
+          polygon: [2.8095, 3.6558, 3.1483, 3.6569, 3.1484, 3.7763, 2.8095, 3.7776],
+          confidence: 0.993,
+          span: {
+            offset: 1560,
+            length: 7,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [3.1779, 3.6568, 3.2586, 3.6566, 3.2587, 3.7757, 3.1779, 3.7761],
+          confidence: 0.996,
+          span: {
+            offset: 1568,
+            length: 2,
+          },
+        },
+        {
+          content: 'beneficiaries.',
+          polygon: [3.2823, 3.6565, 3.8615, 3.656, 3.8613, 3.7749, 3.2823, 3.7755],
+          confidence: 0.988,
+          span: {
+            offset: 1571,
+            length: 14,
+          },
+        },
+        {
+          content: 'See',
+          polygon: [3.8969, 3.6559, 4.0466, 3.6553, 4.0464, 3.7743, 3.8967, 3.7748],
+          confidence: 0.998,
+          span: {
+            offset: 1586,
+            length: 3,
+          },
+        },
+        {
+          content: 'instructions',
+          polygon: [4.0703, 3.6552, 4.6243, 3.6554, 4.6243, 3.7733, 4.0701, 3.7742],
+          confidence: 0.992,
+          span: {
+            offset: 1590,
+            length: 12,
+          },
+        },
+        {
+          content: "Requester's",
+          polygon: [5.4322, 3.8475, 5.9518, 3.8484, 5.9515, 3.9696, 5.4321, 3.9693],
+          confidence: 0.992,
+          span: {
+            offset: 1605,
+            length: 11,
+          },
+        },
+        {
+          content: 'name',
+          polygon: [5.9758, 3.8484, 6.2337, 3.8479, 6.2333, 3.9693, 5.9755, 3.9694],
+          confidence: 0.992,
+          span: {
+            offset: 1617,
+            length: 4,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [6.2616, 3.848, 6.4195, 3.8483, 6.4191, 3.9699, 6.2613, 3.9694],
+          confidence: 0.99,
+          span: {
+            offset: 1622,
+            length: 3,
+          },
+        },
+        {
+          content: 'address',
+          polygon: [6.4515, 3.8483, 6.8013, 3.8481, 6.8007, 3.971, 6.451, 3.97],
+          confidence: 0.994,
+          span: {
+            offset: 1626,
+            length: 7,
+          },
+        },
+        {
+          content: '(optional)',
+          polygon: [6.8293, 3.8481, 7.231, 3.8495, 7.2306, 3.9728, 6.8287, 3.9711],
+          confidence: 0.992,
+          span: {
+            offset: 1634,
+            length: 10,
+          },
+        },
+        {
+          content: '.',
+          polygon: [6.0083, 3.7257, 6.0191, 3.7257, 6.0191, 3.7365, 6.0083, 3.7365],
+          confidence: 1,
+          span: {
+            offset: 1645,
+            length: 1,
+          },
+        },
+        {
+          content: '.',
+          polygon: [5.8416, 3.7257, 5.8524, 3.7257, 5.8524, 3.7365, 5.8416, 3.7365],
+          confidence: 1,
+          span: {
+            offset: 1647,
+            length: 1,
+          },
+        },
+        {
+          content: '.',
+          polygon: [5.675, 3.7257, 5.6858, 3.7257, 5.6858, 3.7365, 5.675, 3.7365],
+          confidence: 1,
+          span: {
+            offset: 1649,
+            length: 1,
+          },
+        },
+        {
+          content: '.',
+          polygon: [5.5084, 3.7257, 5.5192, 3.7257, 5.5192, 3.7365, 5.5084, 3.7365],
+          confidence: 1,
+          span: {
+            offset: 1651,
+            length: 1,
+          },
+        },
+        {
+          content: '.',
+          polygon: [5.3417, 3.7257, 5.3525, 3.7257, 5.3525, 3.7365, 5.3417, 3.7365],
+          confidence: 1,
+          span: {
+            offset: 1653,
+            length: 1,
+          },
+        },
+        {
+          content: '.',
+          polygon: [5.1751, 3.7257, 5.1859, 3.7257, 5.1859, 3.7365, 5.1751, 3.7365],
+          confidence: 1,
+          span: {
+            offset: 1655,
+            length: 1,
+          },
+        },
+        {
+          content: '.',
+          polygon: [4.8418, 3.7257, 4.8526, 3.7257, 4.8526, 3.7365, 4.8418, 3.7365],
+          confidence: 1,
+          span: {
+            offset: 1657,
+            length: 1,
+          },
+        },
+        {
+          content: '.',
+          polygon: [5.0084, 3.7257, 5.0192, 3.7257, 5.0192, 3.7365, 5.0084, 3.7365],
+          confidence: 1,
+          span: {
+            offset: 1659,
+            length: 1,
+          },
+        },
+        {
+          content: '5',
+          polygon: [0.8526, 3.8494, 0.9068, 3.8496, 0.9066, 3.9661, 0.8525, 3.9654],
+          confidence: 0.994,
+          span: {
+            offset: 1662,
+            length: 1,
+          },
+        },
+        {
+          content: 'Address',
+          polygon: [1.0093, 3.8501, 1.3729, 3.8499, 1.3728, 3.9678, 1.0092, 3.9674],
+          confidence: 0.992,
+          span: {
+            offset: 1664,
+            length: 7,
+          },
+        },
+        {
+          content: '(number,',
+          polygon: [1.3999, 3.85, 1.779, 3.8488, 1.7788, 3.9678, 1.3998, 3.9678],
+          confidence: 0.992,
+          span: {
+            offset: 1672,
+            length: 8,
+          },
+        },
+        {
+          content: 'street,',
+          polygon: [1.8138, 3.8489, 2.0788, 3.8497, 2.0785, 3.9678, 1.8136, 3.9678],
+          confidence: 0.992,
+          span: {
+            offset: 1681,
+            length: 7,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [2.1136, 3.8498, 2.2702, 3.8508, 2.27, 3.9678, 2.1134, 3.9678],
+          confidence: 0.997,
+          span: {
+            offset: 1689,
+            length: 3,
+          },
+        },
+        {
+          content: 'apt.',
+          polygon: [2.3031, 3.851, 2.4636, 3.8496, 2.4634, 3.9678, 2.3029, 3.9678],
+          confidence: 0.992,
+          span: {
+            offset: 1693,
+            length: 4,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [2.4965, 3.8492, 2.5855, 3.8489, 2.5852, 3.9676, 2.4963, 3.9678],
+          confidence: 0.996,
+          span: {
+            offset: 1698,
+            length: 2,
+          },
+        },
+        {
+          content: 'suite',
+          polygon: [2.6087, 3.8489, 2.8175, 3.8491, 2.8173, 3.9675, 2.6084, 3.9676],
+          confidence: 0.995,
+          span: {
+            offset: 1701,
+            length: 5,
+          },
+        },
+        {
+          content: 'no.).',
+          polygon: [2.8485, 3.8491, 3.0303, 3.8494, 3.03, 3.9676, 2.8482, 3.9676],
+          confidence: 0.99,
+          span: {
+            offset: 1707,
+            length: 5,
+          },
+        },
+        {
+          content: 'See',
+          polygon: [3.0631, 3.8495, 3.2121, 3.8501, 3.2117, 3.9677, 3.0628, 3.9675],
+          confidence: 0.998,
+          span: {
+            offset: 1713,
+            length: 3,
+          },
+        },
+        {
+          content: 'instructions.',
+          polygon: [3.2353, 3.8502, 3.79, 3.8513, 3.79, 3.9675, 3.2349, 3.9678],
+          confidence: 0.992,
+          span: {
+            offset: 1717,
+            length: 13,
+          },
+        },
+        {
+          content: '6',
+          polygon: [0.846, 4.1892, 0.9147, 4.1877, 0.9143, 4.2829, 0.8458, 4.2854],
+          confidence: 0.993,
+          span: {
+            offset: 1732,
+            length: 1,
+          },
+        },
+        {
+          content: 'City,',
+          polygon: [1.0005, 4.1802, 1.2065, 4.1818, 1.2062, 4.301, 1.0002, 4.3018],
+          confidence: 0.995,
+          span: {
+            offset: 1734,
+            length: 5,
+          },
+        },
+        {
+          content: 'state,',
+          polygon: [1.2379, 4.1817, 1.4753, 4.1802, 1.4749, 4.3003, 1.2375, 4.3007],
+          confidence: 0.994,
+          span: {
+            offset: 1740,
+            length: 6,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [1.5067, 4.1804, 1.6657, 4.1812, 1.6651, 4.3004, 1.5062, 4.3004],
+          confidence: 0.999,
+          span: {
+            offset: 1747,
+            length: 3,
+          },
+        },
+        {
+          content: 'ZIP',
+          polygon: [1.6951, 4.1814, 1.8442, 4.18, 1.8436, 4.3004, 1.6945, 4.3005],
+          confidence: 0.993,
+          span: {
+            offset: 1751,
+            length: 3,
+          },
+        },
+        {
+          content: 'code',
+          polygon: [1.8717, 4.18, 2.0994, 4.1808, 2.0994, 4.2991, 1.8711, 4.3004],
+          confidence: 0.992,
+          span: {
+            offset: 1755,
+            length: 4,
+          },
+        },
+        {
+          content: '7',
+          polygon: [0.8426, 4.5196, 0.9164, 4.5189, 0.9159, 4.6132, 0.8424, 4.6136],
+          confidence: 0.995,
+          span: {
+            offset: 1761,
+            length: 1,
+          },
+        },
+        {
+          content: 'List',
+          polygon: [1.0038, 4.5068, 1.1706, 4.5073, 1.1703, 4.6353, 1.0034, 4.635],
+          confidence: 0.993,
+          span: {
+            offset: 1763,
+            length: 4,
+          },
+        },
+        {
+          content: 'account',
+          polygon: [1.1959, 4.5075, 1.5272, 4.5075, 1.5268, 4.6364, 1.1956, 4.6353],
+          confidence: 0.993,
+          span: {
+            offset: 1768,
+            length: 7,
+          },
+        },
+        {
+          content: 'number(s)',
+          polygon: [1.5526, 4.5075, 1.9915, 4.508, 1.991, 4.6365, 1.5521, 4.6363],
+          confidence: 0.992,
+          span: {
+            offset: 1776,
+            length: 9,
+          },
+        },
+        {
+          content: 'here',
+          polygon: [2.0169, 4.5081, 2.2216, 4.5078, 2.221, 4.6365, 2.0163, 4.6365],
+          confidence: 0.992,
+          span: {
+            offset: 1786,
+            length: 4,
+          },
+        },
+        {
+          content: '(optional)',
+          polygon: [2.2511, 4.508, 2.6519, 4.5083, 2.6519, 4.6365, 2.2506, 4.6365],
+          confidence: 0.974,
+          span: {
+            offset: 1791,
+            length: 10,
+          },
+        },
+        {
+          content: '4',
+          polygon: [6.3362, 2.1995, 6.3977, 2.199, 6.3973, 2.3137, 6.3358, 2.3137],
+          confidence: 0.995,
+          span: {
+            offset: 1803,
+            length: 1,
+          },
+        },
+        {
+          content: 'Exemptions',
+          polygon: [6.4554, 2.1987, 6.9648, 2.1979, 6.9644, 2.3165, 6.455, 2.3137],
+          confidence: 0.991,
+          span: {
+            offset: 1805,
+            length: 10,
+          },
+        },
+        {
+          content: '(codes',
+          polygon: [6.9918, 2.1981, 7.2821, 2.1985, 7.2814, 2.3174, 6.9913, 2.3167],
+          confidence: 0.993,
+          span: {
+            offset: 1816,
+            length: 6,
+          },
+        },
+        {
+          content: 'apply',
+          polygon: [7.3071, 2.1986, 7.5474, 2.1991, 7.5468, 2.3174, 7.3064, 2.3176],
+          confidence: 0.996,
+          span: {
+            offset: 1823,
+            length: 5,
+          },
+        },
+        {
+          content: 'only',
+          polygon: [7.5724, 2.1992, 7.7531, 2.1993, 7.7526, 2.3173, 7.5718, 2.3174],
+          confidence: 0.992,
+          span: {
+            offset: 1829,
+            length: 4,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [7.7762, 2.1994, 7.8729, 2.2001, 7.8729, 2.3165, 7.7757, 2.3171],
+          confidence: 0.999,
+          span: {
+            offset: 1834,
+            length: 2,
+          },
+        },
+        {
+          content: 'certain',
+          polygon: [6.443, 2.3177, 6.7461, 2.3167, 6.7463, 2.4272, 6.4435, 2.4267],
+          confidence: 0.994,
+          span: {
+            offset: 1837,
+            length: 7,
+          },
+        },
+        {
+          content: 'entities,',
+          polygon: [6.7753, 2.3165, 7.1003, 2.3157, 7.1006, 2.428, 6.7756, 2.4273],
+          confidence: 0.992,
+          span: {
+            offset: 1845,
+            length: 9,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [7.1222, 2.3158, 7.2682, 2.3155, 7.2684, 2.4281, 7.1225, 2.4282],
+          confidence: 0.997,
+          span: {
+            offset: 1855,
+            length: 3,
+          },
+        },
+        {
+          content: 'individuals;',
+          polygon: [7.2901, 2.3154, 7.801, 2.3159, 7.801, 2.4276, 7.2903, 2.428],
+          confidence: 0.992,
+          span: {
+            offset: 1859,
+            length: 12,
+          },
+        },
+        {
+          content: 'see',
+          polygon: [6.4426, 2.4337, 6.5877, 2.4334, 6.5879, 2.5471, 6.4429, 2.5467],
+          confidence: 0.998,
+          span: {
+            offset: 1872,
+            length: 3,
+          },
+        },
+        {
+          content: 'instructions',
+          polygon: [6.6107, 2.4334, 7.1377, 2.4325, 7.1376, 2.5506, 6.6108, 2.5473],
+          confidence: 0.993,
+          span: {
+            offset: 1876,
+            length: 12,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [7.1644, 2.4325, 7.2695, 2.4327, 7.2693, 2.5509, 7.1643, 2.5507],
+          confidence: 0.996,
+          span: {
+            offset: 1889,
+            length: 2,
+          },
+        },
+        {
+          content: 'page',
+          polygon: [7.3039, 2.433, 7.5197, 2.4339, 7.5193, 2.5512, 7.3037, 2.551],
+          confidence: 0.992,
+          span: {
+            offset: 1892,
+            length: 4,
+          },
+        },
+        {
+          content: '3):',
+          polygon: [7.5445, 2.4339, 7.6571, 2.4343, 7.6567, 2.5514, 7.5442, 2.551],
+          confidence: 0.992,
+          span: {
+            offset: 1897,
+            length: 3,
+          },
+        },
+        {
+          content: 'Exempt',
+          polygon: [6.3327, 2.6795, 6.6655, 2.6807, 6.665, 2.8011, 6.3321, 2.7997],
+          confidence: 0.993,
+          span: {
+            offset: 1902,
+            length: 6,
+          },
+        },
+        {
+          content: 'payee',
+          polygon: [6.6952, 2.6806, 6.9468, 2.6807, 6.9462, 2.8011, 6.6948, 2.8013],
+          confidence: 0.994,
+          span: {
+            offset: 1909,
+            length: 5,
+          },
+        },
+        {
+          content: 'code',
+          polygon: [6.9745, 2.6807, 7.1825, 2.6797, 7.1818, 2.8008, 6.9739, 2.801],
+          confidence: 0.992,
+          span: {
+            offset: 1915,
+            length: 4,
+          },
+        },
+        {
+          content: '(if',
+          polygon: [7.2122, 2.6799, 7.2855, 2.6798, 7.2846, 2.801, 7.2114, 2.8008],
+          confidence: 0.995,
+          span: {
+            offset: 1920,
+            length: 3,
+          },
+        },
+        {
+          content: 'any)',
+          polygon: [7.3112, 2.6796, 7.4916, 2.6796, 7.4916, 2.801, 7.3104, 2.8011],
+          confidence: 0.992,
+          span: {
+            offset: 1924,
+            length: 4,
+          },
+        },
+        {
+          content: 'Exemption',
+          polygon: [6.334, 2.9259, 6.805, 2.9243, 6.8046, 3.0447, 6.3339, 3.0433],
+          confidence: 0.994,
+          span: {
+            offset: 1930,
+            length: 9,
+          },
+        },
+        {
+          content: 'from',
+          polygon: [6.8324, 2.9242, 7.0317, 2.924, 7.0313, 3.0449, 6.832, 3.0448],
+          confidence: 0.992,
+          span: {
+            offset: 1940,
+            length: 4,
+          },
+        },
+        {
+          content: 'Foreign',
+          polygon: [7.065, 2.9242, 7.3855, 2.9244, 7.385, 3.0444, 7.0645, 3.0449],
+          confidence: 0.993,
+          span: {
+            offset: 1945,
+            length: 7,
+          },
+        },
+        {
+          content: 'Account',
+          polygon: [7.4109, 2.9244, 7.7803, 2.9252, 7.7797, 3.0433, 7.4104, 3.0445],
+          confidence: 0.995,
+          span: {
+            offset: 1953,
+            length: 7,
+          },
+        },
+        {
+          content: 'Tax',
+          polygon: [7.8038, 2.9251, 7.9723, 2.9256, 7.9723, 3.0434, 7.8032, 3.0433],
+          confidence: 0.998,
+          span: {
+            offset: 1961,
+            length: 3,
+          },
+        },
+        {
+          content: 'Compliance',
+          polygon: [6.3345, 3.0405, 6.8619, 3.0407, 6.8619, 3.1636, 6.3346, 3.1604],
+          confidence: 0.994,
+          span: {
+            offset: 1965,
+            length: 10,
+          },
+        },
+        {
+          content: 'Act',
+          polygon: [6.8859, 3.0407, 7.0338, 3.041, 7.0336, 3.1641, 6.8858, 3.1638],
+          confidence: 0.997,
+          span: {
+            offset: 1976,
+            length: 3,
+          },
+        },
+        {
+          content: '(FATCA)',
+          polygon: [7.0637, 3.0411, 7.4194, 3.0422, 7.4189, 3.1653, 7.0636, 3.1641],
+          confidence: 0.994,
+          span: {
+            offset: 1980,
+            length: 7,
+          },
+        },
+        {
+          content: 'reporting',
+          polygon: [7.4493, 3.0425, 7.8452, 3.0451, 7.8452, 3.1665, 7.4488, 3.1656],
+          confidence: 0.995,
+          span: {
+            offset: 1988,
+            length: 9,
+          },
+        },
+        {
+          content: 'code',
+          polygon: [6.3381, 3.174, 6.5665, 3.1722, 6.5665, 3.2889, 6.3382, 3.2889],
+          confidence: 0.992,
+          span: {
+            offset: 1998,
+            length: 4,
+          },
+        },
+        {
+          content: '(if',
+          polygon: [6.5933, 3.1722, 6.672, 3.1722, 6.6719, 3.2901, 6.5933, 3.2889],
+          confidence: 0.992,
+          span: {
+            offset: 2003,
+            length: 3,
+          },
+        },
+        {
+          content: 'any)',
+          polygon: [6.697, 3.1722, 6.8832, 3.1736, 6.8829, 3.2916, 6.6968, 3.2904],
+          confidence: 0.992,
+          span: {
+            offset: 2007,
+            length: 4,
+          },
+        },
+        {
+          content: '(Applies',
+          polygon: [6.4336, 3.486, 6.7884, 3.4858, 6.7881, 3.6019, 6.4336, 3.6051],
+          confidence: 0.992,
+          span: {
+            offset: 2013,
+            length: 8,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [6.8188, 3.4856, 6.9023, 3.4852, 6.902, 3.6016, 6.8185, 3.6019],
+          confidence: 0.998,
+          span: {
+            offset: 2022,
+            length: 2,
+          },
+        },
+        {
+          content: 'accounts',
+          polygon: [6.9251, 3.4851, 7.3255, 3.4837, 7.325, 3.5987, 6.9248, 3.6014],
+          confidence: 0.994,
+          span: {
+            offset: 2025,
+            length: 8,
+          },
+        },
+        {
+          content: 'maintained',
+          polygon: [7.3501, 3.4837, 7.8378, 3.4825, 7.8372, 3.5974, 7.3496, 3.5986],
+          confidence: 0.993,
+          span: {
+            offset: 2034,
+            length: 10,
+          },
+        },
+        {
+          content: 'outside',
+          polygon: [6.5502, 3.6049, 6.8782, 3.6034, 6.8784, 3.7146, 6.551, 3.7143],
+          confidence: 0.994,
+          span: {
+            offset: 2045,
+            length: 7,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [6.9093, 3.6032, 7.0431, 3.6026, 7.0432, 3.7149, 6.9096, 3.7147],
+          confidence: 0.993,
+          span: {
+            offset: 2053,
+            length: 3,
+          },
+        },
+        {
+          content: 'United',
+          polygon: [7.0742, 3.6028, 7.3601, 3.6024, 7.3602, 3.7153, 7.0743, 3.715],
+          confidence: 0.993,
+          span: {
+            offset: 2057,
+            length: 6,
+          },
+        },
+        {
+          content: 'States.)',
+          polygon: [7.3839, 3.6024, 7.7182, 3.6034, 7.7182, 3.7164, 7.384, 3.7152],
+          confidence: 0.993,
+          span: {
+            offset: 2064,
+            length: 8,
+          },
+        },
+        {
+          content: 'Part',
+          polygon: [0.5611, 4.8323, 0.8451, 4.8333, 0.8445, 4.9703, 0.5609, 4.9715],
+          confidence: 0.992,
+          span: {
+            offset: 2078,
+            length: 4,
+          },
+        },
+        {
+          content: 'I',
+          polygon: [0.8879, 4.8333, 0.9337, 4.8338, 0.9337, 4.9714, 0.8873, 4.9712],
+          confidence: 0.659,
+          span: {
+            offset: 2083,
+            length: 1,
+          },
+        },
+        {
+          content: 'Taxpayer',
+          polygon: [1.1901, 4.8294, 1.7926, 4.8301, 1.7924, 4.9883, 1.1896, 4.9884],
+          confidence: 0.995,
+          span: {
+            offset: 2085,
+            length: 8,
+          },
+        },
+        {
+          content: 'Identification',
+          polygon: [1.8238, 4.8301, 2.7015, 4.8288, 2.7011, 4.9864, 1.8235, 4.9883],
+          confidence: 0.989,
+          span: {
+            offset: 2094,
+            length: 14,
+          },
+        },
+        {
+          content: 'Number',
+          polygon: [2.7534, 4.8291, 3.2754, 4.8292, 3.2748, 4.9864, 2.753, 4.9862],
+          confidence: 0.995,
+          span: {
+            offset: 2109,
+            length: 6,
+          },
+        },
+        {
+          content: '(TIN)',
+          polygon: [3.3195, 4.829, 3.6243, 4.8287, 3.6243, 4.9872, 3.3189, 4.9866],
+          confidence: 0.992,
+          span: {
+            offset: 2116,
+            length: 5,
+          },
+        },
+        {
+          content: 'Enter',
+          polygon: [0.4939, 5.0465, 0.7444, 5.0459, 0.7444, 5.1821, 0.4935, 5.18],
+          confidence: 0.995,
+          span: {
+            offset: 2123,
+            length: 5,
+          },
+        },
+        {
+          content: 'your',
+          polygon: [0.7713, 5.0458, 1.0084, 5.0455, 1.0083, 5.183, 0.7712, 5.1824],
+          confidence: 0.992,
+          span: {
+            offset: 2129,
+            length: 4,
+          },
+        },
+        {
+          content: 'TIN',
+          polygon: [1.0352, 5.0454, 1.1806, 5.0453, 1.1804, 5.183, 1.0351, 5.183],
+          confidence: 0.992,
+          span: {
+            offset: 2134,
+            length: 3,
+          },
+        },
+        {
+          content: 'in',
+          polygon: [1.2187, 5.0453, 1.3238, 5.045, 1.3236, 5.1832, 1.2184, 5.183],
+          confidence: 0.996,
+          span: {
+            offset: 2138,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.3551, 5.0449, 1.5139, 5.0444, 1.5137, 5.1835, 1.3549, 5.1832],
+          confidence: 0.999,
+          span: {
+            offset: 2141,
+            length: 3,
+          },
+        },
+        {
+          content: 'appropriate',
+          polygon: [1.5453, 5.0444, 2.1045, 5.0446, 2.1044, 5.1829, 1.545, 5.1836],
+          confidence: 0.992,
+          span: {
+            offset: 2145,
+            length: 11,
+          },
+        },
+        {
+          content: 'box.',
+          polygon: [2.1313, 5.0446, 2.3595, 5.0443, 2.3593, 5.1827, 2.1312, 5.1829],
+          confidence: 0.992,
+          span: {
+            offset: 2157,
+            length: 4,
+          },
+        },
+        {
+          content: 'The',
+          polygon: [2.3953, 5.0443, 2.5832, 5.0444, 2.583, 5.1825, 2.3951, 5.1827],
+          confidence: 0.999,
+          span: {
+            offset: 2162,
+            length: 3,
+          },
+        },
+        {
+          content: 'TIN',
+          polygon: [2.61, 5.0444, 2.78, 5.0442, 2.7799, 5.1825, 2.6099, 5.1825],
+          confidence: 0.995,
+          span: {
+            offset: 2166,
+            length: 3,
+          },
+        },
+        {
+          content: 'provided',
+          polygon: [2.8203, 5.0441, 3.2408, 5.0445, 3.2406, 5.1816, 2.8201, 5.1825],
+          confidence: 0.994,
+          span: {
+            offset: 2170,
+            length: 8,
+          },
+        },
+        {
+          content: 'must',
+          polygon: [3.2677, 5.0445, 3.5182, 5.0448, 3.518, 5.1807, 3.2675, 5.1815],
+          confidence: 0.992,
+          span: {
+            offset: 2179,
+            length: 4,
+          },
+        },
+        {
+          content: 'match',
+          polygon: [3.545, 5.0448, 3.8671, 5.0444, 3.8669, 5.1805, 3.5448, 5.1807],
+          confidence: 0.995,
+          span: {
+            offset: 2184,
+            length: 5,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [3.9029, 5.0444, 4.0461, 5.0441, 4.0457, 5.1807, 3.9026, 5.1806],
+          confidence: 0.999,
+          span: {
+            offset: 2190,
+            length: 3,
+          },
+        },
+        {
+          content: 'name',
+          polygon: [4.0729, 5.044, 4.366, 5.045, 4.3656, 5.1809, 4.0726, 5.1807],
+          confidence: 0.992,
+          span: {
+            offset: 2194,
+            length: 4,
+          },
+        },
+        {
+          content: 'given',
+          polygon: [4.3973, 5.0451, 4.659, 5.0453, 4.6587, 5.1809, 4.3969, 5.1809],
+          confidence: 0.996,
+          span: {
+            offset: 2199,
+            length: 5,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [4.6925, 5.0453, 4.8156, 5.0453, 4.8153, 5.1808, 4.6922, 5.1808],
+          confidence: 0.998,
+          span: {
+            offset: 2205,
+            length: 2,
+          },
+        },
+        {
+          content: 'line',
+          polygon: [4.8536, 5.0454, 5.0214, 5.0462, 5.0212, 5.1803, 4.8533, 5.1807],
+          confidence: 0.992,
+          span: {
+            offset: 2208,
+            length: 4,
+          },
+        },
+        {
+          content: '1',
+          polygon: [5.0572, 5.0464, 5.0929, 5.0466, 5.0928, 5.1801, 5.057, 5.1802],
+          confidence: 0.992,
+          span: {
+            offset: 2213,
+            length: 1,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [5.1399, 5.0468, 5.2406, 5.0469, 5.2406, 5.1799, 5.1398, 5.1799],
+          confidence: 0.999,
+          span: {
+            offset: 2215,
+            length: 2,
+          },
+        },
+        {
+          content: 'avoid',
+          polygon: [5.2741, 5.0468, 5.5524, 5.046, 5.5524, 5.18, 5.2742, 5.1799],
+          confidence: 0.994,
+          span: {
+            offset: 2218,
+            length: 5,
+          },
+        },
+        {
+          content: 'backup',
+          polygon: [0.4918, 5.1821, 0.8655, 5.1805, 0.8657, 5.3169, 0.4915, 5.3148],
+          confidence: 0.996,
+          span: {
+            offset: 2224,
+            length: 6,
+          },
+        },
+        {
+          content: 'withholding.',
+          polygon: [0.8966, 5.1805, 1.4928, 5.179, 1.4928, 5.3177, 0.8968, 5.3169],
+          confidence: 0.993,
+          span: {
+            offset: 2231,
+            length: 12,
+          },
+        },
+        {
+          content: 'For',
+          polygon: [1.535, 5.1789, 1.6752, 5.1788, 1.6752, 5.3177, 1.5351, 5.3179],
+          confidence: 0.999,
+          span: {
+            offset: 2244,
+            length: 3,
+          },
+        },
+        {
+          content: 'individuals,',
+          polygon: [1.7019, 5.1789, 2.2735, 5.1798, 2.2735, 5.3175, 1.7019, 5.3175],
+          confidence: 0.992,
+          span: {
+            offset: 2248,
+            length: 12,
+          },
+        },
+        {
+          content: 'this',
+          polygon: [2.3091, 5.1799, 2.4671, 5.1801, 2.467, 5.318, 2.3091, 5.3176],
+          confidence: 0.992,
+          span: {
+            offset: 2261,
+            length: 4,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [2.4938, 5.1801, 2.5983, 5.1802, 2.5983, 5.3184, 2.4937, 5.3181],
+          confidence: 0.996,
+          span: {
+            offset: 2266,
+            length: 2,
+          },
+        },
+        {
+          content: 'generally',
+          polygon: [2.6317, 5.1802, 3.0766, 5.1803, 3.0765, 5.3179, 2.6317, 5.3184],
+          confidence: 0.993,
+          span: {
+            offset: 2269,
+            length: 9,
+          },
+        },
+        {
+          content: 'your',
+          polygon: [3.1033, 5.1804, 3.3257, 5.1809, 3.3257, 5.3166, 3.1032, 5.3177],
+          confidence: 0.992,
+          span: {
+            offset: 2279,
+            length: 4,
+          },
+        },
+        {
+          content: 'social',
+          polygon: [3.3546, 5.181, 3.6371, 5.1807, 3.6371, 5.3156, 3.3546, 5.3165],
+          confidence: 0.995,
+          span: {
+            offset: 2284,
+            length: 6,
+          },
+        },
+        {
+          content: 'security',
+          polygon: [3.6727, 5.1807, 4.062, 5.1806, 4.062, 5.3156, 3.6727, 5.3155],
+          confidence: 0.994,
+          span: {
+            offset: 2291,
+            length: 8,
+          },
+        },
+        {
+          content: 'number',
+          polygon: [4.0954, 5.1807, 4.4757, 5.1799, 4.4758, 5.3149, 4.0954, 5.3156],
+          confidence: 0.996,
+          span: {
+            offset: 2300,
+            length: 6,
+          },
+        },
+        {
+          content: '(SSN).',
+          polygon: [4.5047, 5.1798, 4.8094, 5.1797, 4.8093, 5.3151, 4.5047, 5.3149],
+          confidence: 0.993,
+          span: {
+            offset: 2307,
+            length: 6,
+          },
+        },
+        {
+          content: 'However,',
+          polygon: [4.8495, 5.1797, 5.3099, 5.1814, 5.3099, 5.3133, 4.8493, 5.3151],
+          confidence: 0.994,
+          span: {
+            offset: 2314,
+            length: 8,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [5.3455, 5.1814, 5.4856, 5.1812, 5.4857, 5.3139, 5.3455, 5.3134],
+          confidence: 0.992,
+          span: {
+            offset: 2323,
+            length: 3,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [5.5123, 5.1811, 5.5856, 5.1811, 5.5856, 5.3143, 5.5124, 5.314],
+          confidence: 0.994,
+          span: {
+            offset: 2327,
+            length: 1,
+          },
+        },
+        {
+          content: 'resident',
+          polygon: [0.4893, 5.3176, 0.8954, 5.3158, 0.8955, 5.4476, 0.4893, 5.4462],
+          confidence: 0.993,
+          span: {
+            offset: 2329,
+            length: 8,
+          },
+        },
+        {
+          content: 'alien,',
+          polygon: [0.9257, 5.3158, 1.1819, 5.3162, 1.182, 5.4488, 0.9259, 5.4478],
+          confidence: 0.993,
+          span: {
+            offset: 2338,
+            length: 6,
+          },
+        },
+        {
+          content: 'sole',
+          polygon: [1.2189, 5.3162, 1.4099, 5.3158, 1.41, 5.4488, 1.2189, 5.4488],
+          confidence: 0.992,
+          span: {
+            offset: 2345,
+            length: 4,
+          },
+        },
+        {
+          content: 'proprietor,',
+          polygon: [1.436, 5.3158, 1.9657, 5.3145, 1.9657, 5.4488, 1.436, 5.4488],
+          confidence: 0.992,
+          span: {
+            offset: 2350,
+            length: 11,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [2.0027, 5.3145, 2.1069, 5.3145, 2.1068, 5.4488, 2.0026, 5.4488],
+          confidence: 0.998,
+          span: {
+            offset: 2362,
+            length: 2,
+          },
+        },
+        {
+          content: 'disregarded',
+          polygon: [2.1351, 5.3145, 2.7235, 5.3134, 2.7235, 5.4488, 2.135, 5.4488],
+          confidence: 0.992,
+          span: {
+            offset: 2365,
+            length: 11,
+          },
+        },
+        {
+          content: 'entity,',
+          polygon: [2.7604, 5.3135, 3.0557, 5.3137, 3.0556, 5.4475, 2.7604, 5.4488],
+          confidence: 0.994,
+          span: {
+            offset: 2377,
+            length: 7,
+          },
+        },
+        {
+          content: 'see',
+          polygon: [3.0926, 5.3137, 3.2663, 5.3136, 3.2662, 5.446, 3.0925, 5.4472],
+          confidence: 0.998,
+          span: {
+            offset: 2385,
+            length: 3,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [3.2945, 5.3137, 3.4335, 5.3139, 3.4334, 5.4456, 3.2944, 5.4459],
+          confidence: 0.995,
+          span: {
+            offset: 2389,
+            length: 3,
+          },
+        },
+        {
+          content: 'instructions',
+          polygon: [3.4595, 5.3139, 4.0588, 5.3126, 4.0587, 5.4447, 3.4594, 5.4456],
+          confidence: 0.993,
+          span: {
+            offset: 2393,
+            length: 12,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [4.0892, 5.3126, 4.226, 5.3126, 4.2259, 5.4445, 4.0891, 5.4447],
+          confidence: 0.998,
+          span: {
+            offset: 2406,
+            length: 3,
+          },
+        },
+        {
+          content: 'Part',
+          polygon: [4.2585, 5.3125, 4.4409, 5.3127, 4.4408, 5.4444, 4.2585, 5.4445],
+          confidence: 0.992,
+          span: {
+            offset: 2410,
+            length: 4,
+          },
+        },
+        {
+          content: 'I,',
+          polygon: [4.467, 5.3127, 4.5429, 5.3128, 4.5429, 5.4444, 4.4669, 5.4444],
+          confidence: 0.901,
+          span: {
+            offset: 2415,
+            length: 2,
+          },
+        },
+        {
+          content: 'later.',
+          polygon: [4.582, 5.3128, 4.8187, 5.3129, 4.8186, 5.4439, 4.582, 5.4444],
+          confidence: 0.992,
+          span: {
+            offset: 2418,
+            length: 6,
+          },
+        },
+        {
+          content: 'For',
+          polygon: [4.8599, 5.313, 5.0228, 5.3132, 5.0228, 5.4433, 4.8599, 5.4438],
+          confidence: 0.998,
+          span: {
+            offset: 2425,
+            length: 3,
+          },
+        },
+        {
+          content: 'other',
+          polygon: [5.0532, 5.3134, 5.3181, 5.3145, 5.318, 5.4426, 5.0532, 5.4432],
+          confidence: 0.996,
+          span: {
+            offset: 2429,
+            length: 5,
+          },
+        },
+        {
+          content: 'entities,',
+          polygon: [0.4912, 5.4481, 0.8638, 5.4469, 0.8639, 5.5813, 0.4912, 5.5784],
+          confidence: 0.989,
+          span: {
+            offset: 2435,
+            length: 9,
+          },
+        },
+        {
+          content: 'it',
+          polygon: [0.8904, 5.447, 0.9525, 5.447, 0.9526, 5.5815, 0.8905, 5.5814],
+          confidence: 0.996,
+          span: {
+            offset: 2445,
+            length: 2,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [0.9791, 5.447, 1.0833, 5.4471, 1.0834, 5.5815, 0.9792, 5.5815],
+          confidence: 0.996,
+          span: {
+            offset: 2448,
+            length: 2,
+          },
+        },
+        {
+          content: 'your',
+          polygon: [1.1143, 5.4472, 1.3361, 5.447, 1.3362, 5.5815, 1.1145, 5.5815],
+          confidence: 0.993,
+          span: {
+            offset: 2451,
+            length: 4,
+          },
+        },
+        {
+          content: 'employer',
+          polygon: [1.3627, 5.4469, 1.804, 5.4458, 1.804, 5.5815, 1.3628, 5.5815],
+          confidence: 0.993,
+          span: {
+            offset: 2456,
+            length: 8,
+          },
+        },
+        {
+          content: 'identification',
+          polygon: [1.8306, 5.4457, 2.4848, 5.4453, 2.4848, 5.5815, 1.8307, 5.5815],
+          confidence: 0.992,
+          span: {
+            offset: 2465,
+            length: 14,
+          },
+        },
+        {
+          content: 'number',
+          polygon: [2.5203, 5.4453, 2.9017, 5.4454, 2.9016, 5.5815, 2.5203, 5.5815],
+          confidence: 0.995,
+          span: {
+            offset: 2480,
+            length: 6,
+          },
+        },
+        {
+          content: '(EIN).',
+          polygon: [2.9327, 5.4455, 3.1789, 5.4457, 3.1789, 5.5815, 2.9327, 5.5815],
+          confidence: 0.977,
+          span: {
+            offset: 2487,
+            length: 6,
+          },
+        },
+        {
+          content: 'If',
+          polygon: [3.2055, 5.4457, 3.2765, 5.4458, 3.2765, 5.5815, 3.2055, 5.5815],
+          confidence: 0.992,
+          span: {
+            offset: 2494,
+            length: 2,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [3.3031, 5.4459, 3.496, 5.4459, 3.496, 5.5815, 3.3031, 5.5815],
+          confidence: 0.998,
+          span: {
+            offset: 2497,
+            length: 3,
+          },
+        },
+        {
+          content: 'do',
+          polygon: [3.5293, 5.4458, 3.6579, 5.4457, 3.6578, 5.5815, 3.5293, 5.5815],
+          confidence: 0.996,
+          span: {
+            offset: 2501,
+            length: 2,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [3.6934, 5.4457, 3.8486, 5.4458, 3.8485, 5.5815, 3.6933, 5.5815],
+          confidence: 0.997,
+          span: {
+            offset: 2504,
+            length: 3,
+          },
+        },
+        {
+          content: 'have',
+          polygon: [3.8841, 5.4458, 4.1169, 5.4461, 4.1168, 5.5811, 3.884, 5.5815],
+          confidence: 0.992,
+          span: {
+            offset: 2508,
+            length: 4,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [4.148, 5.4462, 4.2101, 5.4464, 4.2099, 5.5813, 4.1478, 5.5811],
+          confidence: 0.995,
+          span: {
+            offset: 2513,
+            length: 1,
+          },
+        },
+        {
+          content: 'number,',
+          polygon: [4.2411, 5.4465, 4.6447, 5.4471, 4.6446, 5.5815, 4.2409, 5.5813],
+          confidence: 0.994,
+          span: {
+            offset: 2515,
+            length: 7,
+          },
+        },
+        {
+          content: 'see',
+          polygon: [4.6802, 5.4471, 4.8554, 5.4472, 4.8553, 5.5815, 4.6801, 5.5815],
+          confidence: 0.998,
+          span: {
+            offset: 2523,
+            length: 3,
+          },
+        },
+        {
+          content: 'How',
+          polygon: [4.8842, 5.4472, 5.1148, 5.4471, 5.1148, 5.5811, 4.8842, 5.5815],
+          confidence: 0.999,
+          span: {
+            offset: 2527,
+            length: 3,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [5.1459, 5.4471, 5.239, 5.4473, 5.239, 5.5811, 5.1458, 5.5811],
+          confidence: 0.992,
+          span: {
+            offset: 2531,
+            length: 2,
+          },
+        },
+        {
+          content: 'get',
+          polygon: [5.27, 5.4473, 5.4319, 5.4476, 5.4319, 5.5814, 5.27, 5.5811],
+          confidence: 0.997,
+          span: {
+            offset: 2534,
+            length: 3,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [5.4585, 5.4477, 5.5303, 5.4478, 5.5303, 5.5815, 5.4585, 5.5814],
+          confidence: 0.995,
+          span: {
+            offset: 2538,
+            length: 1,
+          },
+        },
+        {
+          content: 'TIN,',
+          polygon: [0.494, 5.5806, 0.695, 5.582, 0.6946, 5.7058, 0.4937, 5.7053],
+          confidence: 0.983,
+          span: {
+            offset: 2540,
+            length: 4,
+          },
+        },
+        {
+          content: 'later.',
+          polygon: [0.7335, 5.5821, 0.9779, 5.5846, 0.9779, 5.7084, 0.7332, 5.7061],
+          confidence: 0.984,
+          span: {
+            offset: 2545,
+            length: 6,
+          },
+        },
+        {
+          content: 'Note:',
+          polygon: [0.4904, 5.8, 0.76, 5.7996, 0.7598, 5.9366, 0.4901, 5.9349],
+          confidence: 0.994,
+          span: {
+            offset: 2553,
+            length: 5,
+          },
+        },
+        {
+          content: 'If',
+          polygon: [0.787, 5.7996, 0.8589, 5.7995, 0.8587, 5.9372, 0.7868, 5.9368],
+          confidence: 0.935,
+          span: {
+            offset: 2559,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [0.8858, 5.7997, 1.0611, 5.8004, 1.0607, 5.9374, 0.8857, 5.9372],
+          confidence: 0.996,
+          span: {
+            offset: 2562,
+            length: 3,
+          },
+        },
+        {
+          content: 'account',
+          polygon: [1.0903, 5.8005, 1.47, 5.8008, 1.4695, 5.9378, 1.0899, 5.9374],
+          confidence: 0.994,
+          span: {
+            offset: 2566,
+            length: 7,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [1.4969, 5.8008, 1.5868, 5.8007, 1.5863, 5.9379, 1.4965, 5.9378],
+          confidence: 0.995,
+          span: {
+            offset: 2574,
+            length: 2,
+          },
+        },
+        {
+          content: 'in',
+          polygon: [1.6138, 5.8007, 1.7036, 5.8007, 1.7031, 5.938, 1.6133, 5.9379],
+          confidence: 0.995,
+          span: {
+            offset: 2577,
+            length: 2,
+          },
+        },
+        {
+          content: 'more',
+          polygon: [1.7306, 5.8007, 2.0047, 5.8008, 2.0041, 5.9383, 1.7301, 5.938],
+          confidence: 0.992,
+          span: {
+            offset: 2580,
+            length: 4,
+          },
+        },
+        {
+          content: 'than',
+          polygon: [2.0339, 5.8008, 2.2496, 5.801, 2.249, 5.9386, 2.0333, 5.9383],
+          confidence: 0.992,
+          span: {
+            offset: 2585,
+            length: 4,
+          },
+        },
+        {
+          content: 'one',
+          polygon: [2.2855, 5.801, 2.4585, 5.8014, 2.4579, 5.9385, 2.2849, 5.9386],
+          confidence: 0.995,
+          span: {
+            offset: 2590,
+            length: 3,
+          },
+        },
+        {
+          content: 'name,',
+          polygon: [2.4855, 5.8014, 2.8023, 5.8018, 2.8016, 5.9382, 2.4849, 5.9385],
+          confidence: 0.993,
+          span: {
+            offset: 2594,
+            length: 5,
+          },
+        },
+        {
+          content: 'see',
+          polygon: [2.8382, 5.8018, 3.0112, 5.8017, 3.0105, 5.9378, 2.8376, 5.9381],
+          confidence: 0.997,
+          span: {
+            offset: 2600,
+            length: 3,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [3.0404, 5.8017, 3.1864, 5.8014, 3.1858, 5.9378, 3.0397, 5.9377],
+          confidence: 0.998,
+          span: {
+            offset: 2604,
+            length: 3,
+          },
+        },
+        {
+          content: 'instructions',
+          polygon: [3.2134, 5.8013, 3.8065, 5.8006, 3.8059, 5.9383, 3.2128, 5.9378],
+          confidence: 0.992,
+          span: {
+            offset: 2608,
+            length: 12,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [3.8357, 5.8006, 3.9593, 5.8003, 3.9588, 5.9383, 3.8352, 5.9383],
+          confidence: 0.997,
+          span: {
+            offset: 2621,
+            length: 3,
+          },
+        },
+        {
+          content: 'line',
+          polygon: [3.9863, 5.8003, 4.1705, 5.7999, 4.17, 5.9383, 3.9857, 5.9383],
+          confidence: 0.993,
+          span: {
+            offset: 2625,
+            length: 4,
+          },
+        },
+        {
+          content: '1.',
+          polygon: [4.2064, 5.7998, 4.2896, 5.7996, 4.289, 5.9382, 4.2059, 5.9383],
+          confidence: 0.992,
+          span: {
+            offset: 2630,
+            length: 2,
+          },
+        },
+        {
+          content: 'See',
+          polygon: [4.3255, 5.7995, 4.5187, 5.7991, 4.5181, 5.938, 4.3249, 5.9381],
+          confidence: 0.997,
+          span: {
+            offset: 2633,
+            length: 3,
+          },
+        },
+        {
+          content: 'also',
+          polygon: [4.5502, 5.7991, 4.7501, 5.7991, 4.7495, 5.9381, 4.5495, 5.938],
+          confidence: 0.992,
+          span: {
+            offset: 2637,
+            length: 4,
+          },
+        },
+        {
+          content: 'What',
+          polygon: [4.7883, 5.7991, 5.0287, 5.7998, 5.0281, 5.9379, 4.7877, 5.9381],
+          confidence: 0.992,
+          span: {
+            offset: 2642,
+            length: 4,
+          },
+        },
+        {
+          content: 'Name',
+          polygon: [5.0557, 5.8, 5.359, 5.8013, 5.3584, 5.9376, 5.055, 5.9378],
+          confidence: 0.992,
+          span: {
+            offset: 2647,
+            length: 4,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [5.3859, 5.8015, 5.5856, 5.8024, 5.5856, 5.9377, 5.3854, 5.9376],
+          confidence: 0.996,
+          span: {
+            offset: 2652,
+            length: 3,
+          },
+        },
+        {
+          content: 'Number',
+          polygon: [0.4892, 5.9351, 0.9012, 5.9352, 0.9011, 6.0701, 0.4891, 6.0683],
+          confidence: 0.996,
+          span: {
+            offset: 2656,
+            length: 6,
+          },
+        },
+        {
+          content: 'To',
+          polygon: [0.9297, 5.9351, 1.0502, 5.935, 1.0501, 6.0702, 0.9296, 6.0702],
+          confidence: 0.998,
+          span: {
+            offset: 2663,
+            length: 2,
+          },
+        },
+        {
+          content: 'Give',
+          polygon: [1.0853, 5.935, 1.3044, 5.9353, 1.3042, 6.0699, 1.0851, 6.0701],
+          confidence: 0.992,
+          span: {
+            offset: 2666,
+            length: 4,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.3395, 5.9353, 1.4907, 5.9354, 1.4905, 6.0709, 1.3393, 6.0701],
+          confidence: 0.999,
+          span: {
+            offset: 2671,
+            length: 3,
+          },
+        },
+        {
+          content: 'Requester',
+          polygon: [1.5214, 5.9354, 2.0232, 5.9362, 2.0231, 6.0729, 1.5212, 6.0711],
+          confidence: 0.994,
+          span: {
+            offset: 2675,
+            length: 9,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [2.0495, 5.9363, 2.1985, 5.937, 2.1983, 6.0724, 2.0494, 6.0729],
+          confidence: 0.996,
+          span: {
+            offset: 2685,
+            length: 3,
+          },
+        },
+        {
+          content: 'guidelines',
+          polygon: [2.2292, 5.9371, 2.7288, 5.9385, 2.7286, 6.0712, 2.229, 6.0723],
+          confidence: 0.995,
+          span: {
+            offset: 2689,
+            length: 10,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [2.7595, 5.9386, 2.88, 5.9387, 2.8798, 6.0709, 2.7593, 6.071],
+          confidence: 0.999,
+          span: {
+            offset: 2700,
+            length: 2,
+          },
+        },
+        {
+          content: 'whose',
+          polygon: [2.9151, 5.9386, 3.2394, 5.9389, 3.2391, 6.071, 2.9148, 6.071],
+          confidence: 0.998,
+          span: {
+            offset: 2703,
+            length: 5,
+          },
+        },
+        {
+          content: 'number',
+          polygon: [3.2745, 5.939, 3.6536, 5.939, 3.6533, 6.071, 3.2742, 6.0709],
+          confidence: 0.998,
+          span: {
+            offset: 2709,
+            length: 6,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [3.6799, 5.9389, 3.7785, 5.9386, 3.7783, 6.0704, 3.6796, 6.0708],
+          confidence: 0.999,
+          span: {
+            offset: 2716,
+            length: 2,
+          },
+        },
+        {
+          content: 'enter.',
+          polygon: [3.8114, 5.9384, 4.0939, 5.9386, 4.0939, 6.0695, 3.8112, 6.0702],
+          confidence: 0.993,
+          span: {
+            offset: 2719,
+            length: 6,
+          },
+        },
+        {
+          content: 'Social',
+          polygon: [5.8326, 5.0014, 6.1254, 5.0013, 6.1251, 5.1144, 5.8325, 5.114],
+          confidence: 0.995,
+          span: {
+            offset: 2727,
+            length: 6,
+          },
+        },
+        {
+          content: 'security',
+          polygon: [6.1567, 5.0015, 6.5251, 5.0036, 6.5247, 5.1151, 6.1564, 5.1144],
+          confidence: 0.996,
+          span: {
+            offset: 2734,
+            length: 8,
+          },
+        },
+        {
+          content: 'number',
+          polygon: [6.5545, 5.0033, 6.9155, 5.0022, 6.9151, 5.114, 6.5543, 5.1149],
+          confidence: 0.993,
+          span: {
+            offset: 2743,
+            length: 6,
+          },
+        },
+        {
+          content: '–',
+          polygon: [6.4722, 5.3204, 6.5278, 5.3204, 6.5278, 5.334, 6.4722, 5.334],
+          confidence: 1,
+          span: {
+            offset: 2751,
+            length: 1,
+          },
+        },
+        {
+          content: '–',
+          polygon: [7.0722, 5.3204, 7.1278, 5.3204, 7.1278, 5.334, 7.0722, 5.334],
+          confidence: 1,
+          span: {
+            offset: 2754,
+            length: 1,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [5.7886, 5.527, 5.9171, 5.5259, 5.9171, 5.6198, 5.7882, 5.6198],
+          confidence: 0.998,
+          span: {
+            offset: 2757,
+            length: 2,
+          },
+        },
+        {
+          content: 'Employer',
+          polygon: [5.8309, 5.6689, 6.2709, 5.6678, 6.2706, 5.7842, 5.8308, 5.7858],
+          confidence: 0.995,
+          span: {
+            offset: 2761,
+            length: 8,
+          },
+        },
+        {
+          content: 'identification',
+          polygon: [6.2937, 5.6679, 6.9082, 5.6673, 6.9076, 5.7835, 6.2934, 5.7841],
+          confidence: 0.992,
+          span: {
+            offset: 2770,
+            length: 14,
+          },
+        },
+        {
+          content: 'number',
+          polygon: [6.9404, 5.6673, 7.3027, 5.6695, 7.3021, 5.7832, 6.9398, 5.7834],
+          confidence: 0.995,
+          span: {
+            offset: 2785,
+            length: 6,
+          },
+        },
+        {
+          content: '–',
+          polygon: [6.2722, 5.9871, 6.3278, 5.9871, 6.3278, 6.0007, 6.2722, 6.0007],
+          confidence: 1,
+          span: {
+            offset: 2793,
+            length: 1,
+          },
+        },
+        {
+          content: 'Part',
+          polygon: [0.5352, 6.1643, 0.8266, 6.1668, 0.8262, 6.3039, 0.5348, 6.3051],
+          confidence: 0.99,
+          span: {
+            offset: 2800,
+            length: 4,
+          },
+        },
+        {
+          content: 'II',
+          polygon: [0.8695, 6.1664, 0.9558, 6.1674, 0.9558, 6.3054, 0.869, 6.3038],
+          confidence: 0.655,
+          span: {
+            offset: 2805,
+            length: 2,
+          },
+        },
+        {
+          content: 'Certification',
+          polygon: [1.1893, 6.1625, 2.0166, 6.1636, 2.0166, 6.3101, 1.1894, 6.3064],
+          confidence: 0.992,
+          span: {
+            offset: 2808,
+            length: 13,
+          },
+        },
+        {
+          content: 'Under',
+          polygon: [0.4926, 6.3509, 0.785, 6.3538, 0.7848, 6.4955, 0.4923, 6.4933],
+          confidence: 0.996,
+          span: {
+            offset: 2823,
+            length: 5,
+          },
+        },
+        {
+          content: 'penalties',
+          polygon: [0.8133, 6.3536, 1.2756, 6.3534, 1.2753, 6.4981, 0.8131, 6.4956],
+          confidence: 0.993,
+          span: {
+            offset: 2829,
+            length: 9,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [1.3086, 6.3536, 1.3887, 6.3536, 1.3886, 6.4982, 1.3084, 6.4982],
+          confidence: 0.987,
+          span: {
+            offset: 2839,
+            length: 2,
+          },
+        },
+        {
+          content: 'perjury,',
+          polygon: [1.417, 6.3535, 1.7849, 6.353, 1.7848, 6.4986, 1.4169, 6.4982],
+          confidence: 0.992,
+          span: {
+            offset: 2842,
+            length: 8,
+          },
+        },
+        {
+          content: 'I',
+          polygon: [1.8132, 6.3528, 1.8628, 6.3526, 1.8626, 6.4985, 1.8131, 6.4986],
+          confidence: 0.963,
+          span: {
+            offset: 2851,
+            length: 1,
+          },
+        },
+        {
+          content: 'certify',
+          polygon: [1.8981, 6.3524, 2.2023, 6.3524, 2.2019, 6.497, 1.8979, 6.4984],
+          confidence: 0.993,
+          span: {
+            offset: 2853,
+            length: 7,
+          },
+        },
+        {
+          content: 'that:',
+          polygon: [2.2306, 6.3526, 2.4641, 6.3527, 2.4636, 6.4957, 2.2301, 6.4968],
+          confidence: 0.994,
+          span: {
+            offset: 2861,
+            length: 5,
+          },
+        },
+        {
+          content: '1.',
+          polygon: [0.4979, 6.518, 0.5835, 6.518, 0.5834, 6.6566, 0.4977, 6.6564],
+          confidence: 0.993,
+          span: {
+            offset: 2868,
+            length: 3,
+          },
+        },
+        {
+          content: 'The',
+          polygon: [0.6159, 6.518, 0.7848, 6.518, 0.7847, 6.6572, 0.6158, 6.6567],
+          confidence: 0.998,
+          span: {
+            offset: 2872,
+            length: 3,
+          },
+        },
+        {
+          content: 'number',
+          polygon: [0.8125, 6.518, 1.2196, 6.5178, 1.2196, 6.6586, 0.8125, 6.6573],
+          confidence: 0.996,
+          span: {
+            offset: 2876,
+            length: 6,
+          },
+        },
+        {
+          content: 'shown',
+          polygon: [1.2474, 6.5178, 1.5689, 6.5178, 1.5689, 6.6598, 1.2474, 6.6587],
+          confidence: 0.998,
+          span: {
+            offset: 2883,
+            length: 5,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [1.6036, 6.5178, 1.7285, 6.518, 1.7284, 6.6603, 1.6035, 6.6599],
+          confidence: 0.999,
+          span: {
+            offset: 2889,
+            length: 2,
+          },
+        },
+        {
+          content: 'this',
+          polygon: [1.7586, 6.518, 1.9228, 6.5183, 1.9227, 6.6608, 1.7585, 6.6604],
+          confidence: 0.989,
+          span: {
+            offset: 2892,
+            length: 4,
+          },
+        },
+        {
+          content: 'form',
+          polygon: [1.9506, 6.5184, 2.1518, 6.5191, 2.1517, 6.6605, 1.9505, 6.6608],
+          confidence: 0.989,
+          span: {
+            offset: 2897,
+            length: 4,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [2.2004, 6.5193, 2.2929, 6.5197, 2.2927, 6.6603, 2.2002, 6.6604],
+          confidence: 0.995,
+          span: {
+            offset: 2902,
+            length: 2,
+          },
+        },
+        {
+          content: 'my',
+          polygon: [2.3206, 6.5198, 2.4895, 6.5199, 2.4893, 6.6603, 2.3205, 6.6602],
+          confidence: 0.998,
+          span: {
+            offset: 2905,
+            length: 2,
+          },
+        },
+        {
+          content: 'correct',
+          polygon: [2.5219, 6.5199, 2.8688, 6.5196, 2.8684, 6.661, 2.5216, 6.6604],
+          confidence: 0.995,
+          span: {
+            offset: 2908,
+            length: 7,
+          },
+        },
+        {
+          content: 'taxpayer',
+          polygon: [2.8989, 6.5196, 3.3106, 6.5197, 3.3102, 6.6622, 2.8985, 6.6611],
+          confidence: 0.995,
+          span: {
+            offset: 2916,
+            length: 8,
+          },
+        },
+        {
+          content: 'identification',
+          polygon: [3.3384, 6.5197, 3.9768, 6.5188, 3.9764, 6.6613, 3.3379, 6.6622],
+          confidence: 0.992,
+          span: {
+            offset: 2925,
+            length: 14,
+          },
+        },
+        {
+          content: 'number',
+          polygon: [4.0046, 6.5188, 4.3932, 6.5186, 4.3929, 6.6618, 4.0042, 6.6614],
+          confidence: 0.996,
+          span: {
+            offset: 2940,
+            length: 6,
+          },
+        },
+        {
+          content: '(or',
+          polygon: [4.4209, 6.5185, 4.5504, 6.5183, 4.5501, 6.6618, 4.4206, 6.6618],
+          confidence: 0.995,
+          span: {
+            offset: 2947,
+            length: 3,
+          },
+        },
+        {
+          content: 'I',
+          polygon: [4.5782, 6.5183, 4.6198, 6.5182, 4.6195, 6.6618, 4.5779, 6.6618],
+          confidence: 0.637,
+          span: {
+            offset: 2951,
+            length: 1,
+          },
+        },
+        {
+          content: 'am',
+          polygon: [4.6568, 6.5181, 4.8072, 6.5181, 4.8069, 6.6616, 4.6565, 6.6619],
+          confidence: 0.998,
+          span: {
+            offset: 2953,
+            length: 2,
+          },
+        },
+        {
+          content: 'waiting',
+          polygon: [4.8396, 6.5181, 5.1912, 6.5185, 5.1909, 6.6599, 4.8393, 6.6614],
+          confidence: 0.996,
+          span: {
+            offset: 2956,
+            length: 7,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [5.2236, 6.5186, 5.36, 6.5187, 5.3598, 6.6597, 5.2232, 6.6598],
+          confidence: 0.998,
+          span: {
+            offset: 2964,
+            length: 3,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [5.3901, 6.5188, 5.4294, 6.5188, 5.4292, 6.6597, 5.3898, 6.6597],
+          confidence: 0.995,
+          span: {
+            offset: 2968,
+            length: 1,
+          },
+        },
+        {
+          content: 'number',
+          polygon: [5.4572, 6.5189, 5.8458, 6.5183, 5.8455, 6.659, 5.4569, 6.6597],
+          confidence: 0.995,
+          span: {
+            offset: 2970,
+            length: 6,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [5.8735, 6.5181, 5.9753, 6.5176, 5.9751, 6.6585, 5.8733, 6.6589],
+          confidence: 0.998,
+          span: {
+            offset: 2977,
+            length: 2,
+          },
+        },
+        {
+          content: 'be',
+          polygon: [6.0031, 6.5174, 6.1326, 6.5167, 6.1323, 6.6579, 6.0028, 6.6584],
+          confidence: 0.997,
+          span: {
+            offset: 2980,
+            length: 2,
+          },
+        },
+        {
+          content: 'issued',
+          polygon: [6.1603, 6.5166, 6.4957, 6.5174, 6.4954, 6.6579, 6.1601, 6.6578],
+          confidence: 0.995,
+          span: {
+            offset: 2983,
+            length: 6,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [6.5281, 6.5175, 6.6137, 6.5177, 6.6134, 6.6579, 6.5278, 6.6579],
+          confidence: 0.998,
+          span: {
+            offset: 2990,
+            length: 2,
+          },
+        },
+        {
+          content: 'me);',
+          polygon: [6.6415, 6.5177, 6.8681, 6.5176, 6.868, 6.6571, 6.6412, 6.6578],
+          confidence: 0.992,
+          span: {
+            offset: 2993,
+            length: 4,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [6.9051, 6.5175, 7.0994, 6.5174, 7.0994, 6.6563, 6.905, 6.657],
+          confidence: 0.997,
+          span: {
+            offset: 2998,
+            length: 3,
+          },
+        },
+        {
+          content: '2.',
+          polygon: [0.4896, 6.6697, 0.5725, 6.6696, 0.5722, 6.8071, 0.4892, 6.8067],
+          confidence: 0.995,
+          span: {
+            offset: 3003,
+            length: 3,
+          },
+        },
+        {
+          content: 'I',
+          polygon: [0.6001, 6.6696, 0.6462, 6.6695, 0.6459, 6.8074, 0.5998, 6.8072],
+          confidence: 0.843,
+          span: {
+            offset: 3007,
+            length: 1,
+          },
+        },
+        {
+          content: 'am',
+          polygon: [0.6807, 6.6695, 0.7912, 6.6693, 0.7911, 6.808, 0.6805, 6.8075],
+          confidence: 0.997,
+          span: {
+            offset: 3009,
+            length: 2,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [0.8396, 6.6693, 1.0238, 6.6691, 1.0238, 6.8091, 0.8395, 6.8082],
+          confidence: 0.996,
+          span: {
+            offset: 3012,
+            length: 3,
+          },
+        },
+        {
+          content: 'subject',
+          polygon: [1.0561, 6.6691, 1.4015, 6.6694, 1.4015, 6.8111, 1.0561, 6.8093],
+          confidence: 0.992,
+          span: {
+            offset: 3016,
+            length: 7,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [1.4291, 6.6694, 1.5304, 6.6695, 1.5304, 6.8118, 1.4291, 6.8113],
+          confidence: 0.997,
+          span: {
+            offset: 3024,
+            length: 2,
+          },
+        },
+        {
+          content: 'backup',
+          polygon: [1.558, 6.6694, 1.9472, 6.6685, 1.9472, 6.8112, 1.5581, 6.8118],
+          confidence: 0.997,
+          span: {
+            offset: 3027,
+            length: 6,
+          },
+        },
+        {
+          content: 'withholding',
+          polygon: [1.9794, 6.6684, 2.5344, 6.6683, 2.5343, 6.8096, 1.9794, 6.8112],
+          confidence: 0.992,
+          span: {
+            offset: 3034,
+            length: 11,
+          },
+        },
+        {
+          content: 'because',
+          polygon: [2.562, 6.6683, 2.9857, 6.6686, 2.9857, 6.8104, 2.562, 6.8096],
+          confidence: 0.996,
+          span: {
+            offset: 3046,
+            length: 7,
+          },
+        },
+        {
+          content: '(a)',
+          polygon: [3.0134, 6.6686, 3.1331, 6.6687, 3.1331, 6.8107, 3.0133, 6.8104],
+          confidence: 0.976,
+          span: {
+            offset: 3054,
+            length: 3,
+          },
+        },
+        {
+          content: 'I',
+          polygon: [3.1607, 6.6688, 3.2045, 6.6688, 3.2045, 6.811, 3.1607, 6.8108],
+          confidence: 0.963,
+          span: {
+            offset: 3058,
+            length: 1,
+          },
+        },
+        {
+          content: 'am',
+          polygon: [3.239, 6.6689, 3.391, 6.669, 3.3909, 6.8115, 3.239, 6.8111],
+          confidence: 0.995,
+          span: {
+            offset: 3060,
+            length: 2,
+          },
+        },
+        {
+          content: 'exempt',
+          polygon: [3.4278, 6.6691, 3.7963, 6.669, 3.7962, 6.8119, 3.4278, 6.8117],
+          confidence: 0.995,
+          span: {
+            offset: 3063,
+            length: 6,
+          },
+        },
+        {
+          content: 'from',
+          polygon: [3.8262, 6.669, 4.0519, 6.6687, 4.0518, 6.8115, 3.8261, 6.8119],
+          confidence: 0.992,
+          span: {
+            offset: 3070,
+            length: 4,
+          },
+        },
+        {
+          content: 'backup',
+          polygon: [4.091, 6.6686, 4.4548, 6.6687, 4.4548, 6.811, 4.091, 6.8114],
+          confidence: 0.997,
+          span: {
+            offset: 3075,
+            length: 6,
+          },
+        },
+        {
+          content: 'withholding,',
+          polygon: [4.4894, 6.6688, 5.0835, 6.6686, 5.0835, 6.8113, 4.4893, 6.811],
+          confidence: 0.992,
+          span: {
+            offset: 3082,
+            length: 12,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [5.1203, 6.6686, 5.224, 6.6686, 5.224, 6.8112, 5.1203, 6.8114],
+          confidence: 0.996,
+          span: {
+            offset: 3095,
+            length: 2,
+          },
+        },
+        {
+          content: '(b)',
+          polygon: [5.2562, 6.6686, 5.3621, 6.6686, 5.3621, 6.8107, 5.2562, 6.8111],
+          confidence: 0.991,
+          span: {
+            offset: 3098,
+            length: 3,
+          },
+        },
+        {
+          content: 'I',
+          polygon: [5.3897, 6.6686, 5.4174, 6.6686, 5.4173, 6.8104, 5.3897, 6.8106],
+          confidence: 0.947,
+          span: {
+            offset: 3102,
+            length: 1,
+          },
+        },
+        {
+          content: 'have',
+          polygon: [5.445, 6.6686, 5.6845, 6.6686, 5.6844, 6.8094, 5.445, 6.8103],
+          confidence: 0.992,
+          span: {
+            offset: 3104,
+            length: 4,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [5.7121, 6.6687, 5.8779, 6.6692, 5.8778, 6.8096, 5.712, 6.8093],
+          confidence: 0.997,
+          span: {
+            offset: 3109,
+            length: 3,
+          },
+        },
+        {
+          content: 'been',
+          polygon: [5.9055, 6.6693, 6.1542, 6.67, 6.1541, 6.81, 5.9054, 6.8096],
+          confidence: 0.991,
+          span: {
+            offset: 3113,
+            length: 4,
+          },
+        },
+        {
+          content: 'notified',
+          polygon: [6.1819, 6.6701, 6.5641, 6.6697, 6.5641, 6.8095, 6.1818, 6.8101],
+          confidence: 0.993,
+          span: {
+            offset: 3118,
+            length: 8,
+          },
+        },
+        {
+          content: 'by',
+          polygon: [6.6056, 6.6696, 6.7207, 6.6694, 6.7207, 6.8092, 6.6055, 6.8094],
+          confidence: 0.997,
+          span: {
+            offset: 3127,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [6.7483, 6.6694, 6.8911, 6.6697, 6.8911, 6.8087, 6.7483, 6.8091],
+          confidence: 0.998,
+          span: {
+            offset: 3130,
+            length: 3,
+          },
+        },
+        {
+          content: 'Internal',
+          polygon: [6.9187, 6.6697, 7.3033, 6.6705, 7.3032, 6.8075, 6.9187, 6.8086],
+          confidence: 0.977,
+          span: {
+            offset: 3134,
+            length: 8,
+          },
+        },
+        {
+          content: 'Revenue',
+          polygon: [7.3424, 6.6706, 7.7845, 6.6725, 7.7845, 6.8073, 7.3424, 6.8075],
+          confidence: 0.994,
+          span: {
+            offset: 3143,
+            length: 7,
+          },
+        },
+        {
+          content: 'Service',
+          polygon: [0.6135, 6.7996, 0.973, 6.8, 0.9728, 6.9415, 0.613, 6.9403],
+          confidence: 0.994,
+          span: {
+            offset: 3151,
+            length: 7,
+          },
+        },
+        {
+          content: '(IRS)',
+          polygon: [1.0007, 6.8, 1.2519, 6.8006, 1.2518, 6.9424, 1.0004, 6.9416],
+          confidence: 0.963,
+          span: {
+            offset: 3159,
+            length: 5,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [1.2842, 6.8007, 1.4617, 6.8012, 1.4616, 6.9429, 1.284, 6.9424],
+          confidence: 0.992,
+          span: {
+            offset: 3165,
+            length: 4,
+          },
+        },
+        {
+          content: 'I',
+          polygon: [1.4893, 6.8013, 1.5308, 6.8014, 1.5307, 6.943, 1.4892, 6.9429],
+          confidence: 0.806,
+          span: {
+            offset: 3170,
+            length: 1,
+          },
+        },
+        {
+          content: 'am',
+          polygon: [1.5654, 6.8016, 1.7175, 6.802, 1.7174, 6.9433, 1.5653, 6.9431],
+          confidence: 0.998,
+          span: {
+            offset: 3172,
+            length: 2,
+          },
+        },
+        {
+          content: 'subject',
+          polygon: [1.7521, 6.8021, 2.1116, 6.8029, 2.1115, 6.9431, 1.752, 6.9433],
+          confidence: 0.994,
+          span: {
+            offset: 3175,
+            length: 7,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [2.1416, 6.8029, 2.2269, 6.8029, 2.2268, 6.943, 2.1415, 6.9431],
+          confidence: 0.997,
+          span: {
+            offset: 3183,
+            length: 2,
+          },
+        },
+        {
+          content: 'backup',
+          polygon: [2.2545, 6.8029, 2.6441, 6.8022, 2.6439, 6.9427, 2.2544, 6.943],
+          confidence: 0.996,
+          span: {
+            offset: 3186,
+            length: 6,
+          },
+        },
+        {
+          content: 'withholding',
+          polygon: [2.674, 6.8021, 3.2433, 6.802, 3.2433, 6.9419, 2.6739, 6.9427],
+          confidence: 0.993,
+          span: {
+            offset: 3193,
+            length: 11,
+          },
+        },
+        {
+          content: 'as',
+          polygon: [3.2779, 6.8021, 3.3908, 6.8024, 3.3908, 6.9425, 3.2779, 6.942],
+          confidence: 0.996,
+          span: {
+            offset: 3205,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [3.4231, 6.8025, 3.4623, 6.8026, 3.4623, 6.9428, 3.4231, 6.9427],
+          confidence: 0.994,
+          span: {
+            offset: 3208,
+            length: 1,
+          },
+        },
+        {
+          content: 'result',
+          polygon: [3.49, 6.8027, 3.785, 6.8033, 3.785, 6.9442, 3.49, 6.943],
+          confidence: 0.993,
+          span: {
+            offset: 3210,
+            length: 6,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [3.8172, 6.8032, 3.9164, 6.803, 3.9163, 6.9444, 3.8172, 6.9442],
+          confidence: 0.995,
+          span: {
+            offset: 3217,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [3.944, 6.803, 3.9878, 6.8029, 3.9878, 6.9445, 3.944, 6.9444],
+          confidence: 0.989,
+          span: {
+            offset: 3220,
+            length: 1,
+          },
+        },
+        {
+          content: 'failure',
+          polygon: [4.0155, 6.8028, 4.3197, 6.8023, 4.3197, 6.9449, 4.0154, 6.9446],
+          confidence: 0.993,
+          span: {
+            offset: 3222,
+            length: 7,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [4.3474, 6.8024, 4.4488, 6.8025, 4.4487, 6.9446, 4.3473, 6.9448],
+          confidence: 0.998,
+          span: {
+            offset: 3230,
+            length: 2,
+          },
+        },
+        {
+          content: 'report',
+          polygon: [4.4764, 6.8025, 4.7922, 6.8029, 4.7922, 6.9438, 4.4764, 6.9445],
+          confidence: 0.995,
+          span: {
+            offset: 3233,
+            length: 6,
+          },
+        },
+        {
+          content: 'all',
+          polygon: [4.8245, 6.8029, 4.9282, 6.8029, 4.9282, 6.9439, 4.8245, 6.9438],
+          confidence: 0.992,
+          span: {
+            offset: 3240,
+            length: 3,
+          },
+        },
+        {
+          content: 'interest',
+          polygon: [4.9674, 6.8029, 5.3292, 6.8029, 5.3292, 6.9444, 4.9673, 6.944],
+          confidence: 0.992,
+          span: {
+            offset: 3244,
+            length: 8,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [5.3615, 6.8029, 5.4652, 6.8029, 5.4652, 6.944, 5.3615, 6.9443],
+          confidence: 0.996,
+          span: {
+            offset: 3253,
+            length: 2,
+          },
+        },
+        {
+          content: 'dividends,',
+          polygon: [5.4929, 6.8029, 5.9954, 6.8028, 5.9952, 6.9432, 5.4928, 6.9439],
+          confidence: 0.992,
+          span: {
+            offset: 3256,
+            length: 10,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [6.0345, 6.8028, 6.1383, 6.8028, 6.1382, 6.9435, 6.0344, 6.9433],
+          confidence: 0.995,
+          span: {
+            offset: 3267,
+            length: 2,
+          },
+        },
+        {
+          content: '(c)',
+          polygon: [6.1659, 6.8027, 6.2789, 6.8027, 6.2788, 6.9437, 6.1658, 6.9435],
+          confidence: 0.992,
+          span: {
+            offset: 3270,
+            length: 3,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [6.3111, 6.8026, 6.4702, 6.8024, 6.4701, 6.9436, 6.311, 6.9438],
+          confidence: 0.998,
+          span: {
+            offset: 3274,
+            length: 3,
+          },
+        },
+        {
+          content: 'IRS',
+          polygon: [6.5047, 6.8023, 6.673, 6.8019, 6.6729, 6.9431, 6.5047, 6.9435],
+          confidence: 0.989,
+          span: {
+            offset: 3278,
+            length: 3,
+          },
+        },
+        {
+          content: 'has',
+          polygon: [6.7099, 6.8019, 6.885, 6.8015, 6.8849, 6.9425, 6.7098, 6.943],
+          confidence: 0.996,
+          span: {
+            offset: 3282,
+            length: 3,
+          },
+        },
+        {
+          content: 'notified',
+          polygon: [6.9196, 6.8015, 7.2792, 6.8016, 7.2791, 6.9414, 6.9195, 6.9424],
+          confidence: 0.992,
+          span: {
+            offset: 3286,
+            length: 8,
+          },
+        },
+        {
+          content: 'me',
+          polygon: [7.3161, 6.8016, 7.4682, 6.8018, 7.4681, 6.9411, 7.316, 6.9413],
+          confidence: 0.996,
+          span: {
+            offset: 3295,
+            length: 2,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [7.4958, 6.8019, 7.6756, 6.8024, 7.6756, 6.9412, 7.4958, 6.9411],
+          confidence: 0.992,
+          span: {
+            offset: 3298,
+            length: 4,
+          },
+        },
+        {
+          content: 'I',
+          polygon: [7.7033, 6.8025, 7.7448, 6.8027, 7.7447, 6.9412, 7.7032, 6.9412],
+          confidence: 0.667,
+          span: {
+            offset: 3303,
+            length: 1,
+          },
+        },
+        {
+          content: 'am',
+          polygon: [7.7816, 6.8028, 7.9447, 6.8033, 7.9447, 6.9413, 7.7816, 6.9412],
+          confidence: 0.998,
+          span: {
+            offset: 3305,
+            length: 2,
+          },
+        },
+        {
+          content: 'no',
+          polygon: [0.6109, 6.9407, 0.7267, 6.9411, 0.7267, 7.0763, 0.6108, 7.0753],
+          confidence: 0.998,
+          span: {
+            offset: 3308,
+            length: 2,
+          },
+        },
+        {
+          content: 'longer',
+          polygon: [0.7534, 6.9411, 1.0919, 6.9408, 1.0919, 7.0769, 0.7535, 7.0765],
+          confidence: 0.997,
+          span: {
+            offset: 3311,
+            length: 6,
+          },
+        },
+        {
+          content: 'subject',
+          polygon: [1.1186, 6.9406, 1.4794, 6.9398, 1.4794, 7.0768, 1.1186, 7.0769],
+          confidence: 0.997,
+          span: {
+            offset: 3318,
+            length: 7,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [1.5083, 6.9398, 1.6086, 6.9395, 1.6085, 7.0766, 1.5083, 7.0768],
+          confidence: 0.999,
+          span: {
+            offset: 3326,
+            length: 2,
+          },
+        },
+        {
+          content: 'backup',
+          polygon: [1.6442, 6.9391, 2.0094, 6.9387, 2.0093, 7.0749, 1.6441, 7.0762],
+          confidence: 0.998,
+          span: {
+            offset: 3329,
+            length: 6,
+          },
+        },
+        {
+          content: 'withholding;',
+          polygon: [2.0406, 6.9385, 2.6352, 6.9402, 2.6349, 7.0747, 2.0404, 7.0748],
+          confidence: 0.995,
+          span: {
+            offset: 3336,
+            length: 12,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [2.6753, 6.9402, 2.8729, 6.9396, 2.8729, 7.0739, 2.675, 7.0746],
+          confidence: 0.999,
+          span: {
+            offset: 3349,
+            length: 3,
+          },
+        },
+        {
+          content: '3.',
+          polygon: [0.4869, 7.103, 0.5705, 7.1031, 0.5704, 7.2417, 0.4867, 7.2409],
+          confidence: 0.995,
+          span: {
+            offset: 3354,
+            length: 3,
+          },
+        },
+        {
+          content: 'I',
+          polygon: [0.5984, 7.1031, 0.6449, 7.1032, 0.6448, 7.2424, 0.5983, 7.2419],
+          confidence: 0.659,
+          span: {
+            offset: 3358,
+            length: 1,
+          },
+        },
+        {
+          content: 'am',
+          polygon: [0.682, 7.1033, 0.8284, 7.1033, 0.8283, 7.2437, 0.682, 7.2427],
+          confidence: 0.997,
+          span: {
+            offset: 3360,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [0.8632, 7.1033, 0.9259, 7.1033, 0.9259, 7.2443, 0.8631, 7.2439],
+          confidence: 0.992,
+          span: {
+            offset: 3363,
+            length: 1,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [0.9584, 7.1032, 1.1652, 7.1028, 1.165, 7.2436, 0.9584, 7.2442],
+          confidence: 0.993,
+          span: {
+            offset: 3365,
+            length: 4,
+          },
+        },
+        {
+          content: 'citizen',
+          polygon: [1.2, 7.1029, 1.5136, 7.1034, 1.5134, 7.2451, 1.1998, 7.2438],
+          confidence: 0.995,
+          span: {
+            offset: 3370,
+            length: 7,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [1.5485, 7.1033, 1.653, 7.1032, 1.6527, 7.2456, 1.5482, 7.2452],
+          confidence: 0.993,
+          span: {
+            offset: 3378,
+            length: 2,
+          },
+        },
+        {
+          content: 'other',
+          polygon: [1.6809, 7.1032, 1.941, 7.1034, 1.9407, 7.2461, 1.6806, 7.2456],
+          confidence: 0.997,
+          span: {
+            offset: 3381,
+            length: 5,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [1.9712, 7.1034, 2.1756, 7.1038, 2.1753, 7.2459, 1.9709, 7.2461],
+          confidence: 0.983,
+          span: {
+            offset: 3387,
+            length: 4,
+          },
+        },
+        {
+          content: 'person',
+          polygon: [2.2174, 7.1039, 2.5519, 7.1037, 2.5516, 7.2469, 2.2171, 7.2458],
+          confidence: 0.994,
+          span: {
+            offset: 3392,
+            length: 6,
+          },
+        },
+        {
+          content: '(defined',
+          polygon: [2.5891, 7.1036, 2.9817, 7.1036, 2.981, 7.2467, 2.5887, 7.2468],
+          confidence: 0.994,
+          span: {
+            offset: 3399,
+            length: 8,
+          },
+        },
+        {
+          content: 'below);',
+          polygon: [3.0188, 7.1038, 3.3696, 7.1048, 3.3688, 7.2481, 3.0181, 7.2469],
+          confidence: 0.993,
+          span: {
+            offset: 3408,
+            length: 7,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [3.4044, 7.105, 3.6022, 7.1063, 3.6022, 7.2471, 3.4037, 7.248],
+          confidence: 0.999,
+          span: {
+            offset: 3416,
+            length: 3,
+          },
+        },
+        {
+          content: '4.',
+          polygon: [0.4909, 7.2696, 0.5846, 7.2695, 0.5845, 7.4091, 0.4907, 7.4085],
+          confidence: 0.992,
+          span: {
+            offset: 3421,
+            length: 3,
+          },
+        },
+        {
+          content: 'The',
+          polygon: [0.6174, 7.2694, 0.7909, 7.2691, 0.7908, 7.4104, 0.6173, 7.4093],
+          confidence: 0.996,
+          span: {
+            offset: 3425,
+            length: 3,
+          },
+        },
+        {
+          content: 'FATCA',
+          polygon: [0.819, 7.2691, 1.1893, 7.2696, 1.1892, 7.4126, 0.819, 7.4106],
+          confidence: 0.993,
+          span: {
+            offset: 3429,
+            length: 5,
+          },
+        },
+        {
+          content: 'code(s)',
+          polygon: [1.2174, 7.2697, 1.5783, 7.27, 1.5784, 7.4128, 1.2173, 7.4127],
+          confidence: 0.992,
+          span: {
+            offset: 3435,
+            length: 7,
+          },
+        },
+        {
+          content: 'entered',
+          polygon: [1.6112, 7.27, 1.9838, 7.2703, 1.9838, 7.4136, 1.6112, 7.4128],
+          confidence: 0.994,
+          span: {
+            offset: 3443,
+            length: 7,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [2.019, 7.2704, 2.1408, 7.2705, 2.1408, 7.4141, 2.0189, 7.4136],
+          confidence: 0.998,
+          span: {
+            offset: 3451,
+            length: 2,
+          },
+        },
+        {
+          content: 'this',
+          polygon: [2.1736, 7.2705, 2.3518, 7.2707, 2.3516, 7.4148, 2.1736, 7.4142],
+          confidence: 0.992,
+          span: {
+            offset: 3454,
+            length: 4,
+          },
+        },
+        {
+          content: 'form',
+          polygon: [2.3822, 7.2707, 2.6072, 7.2708, 2.6071, 7.4155, 2.3821, 7.4149],
+          confidence: 0.989,
+          span: {
+            offset: 3459,
+            length: 4,
+          },
+        },
+        {
+          content: '(if',
+          polygon: [2.6424, 7.2708, 2.7291, 7.2707, 2.729, 7.4157, 2.6423, 7.4156],
+          confidence: 0.992,
+          span: {
+            offset: 3464,
+            length: 3,
+          },
+        },
+        {
+          content: 'any)',
+          polygon: [2.7596, 7.2707, 2.9471, 7.2707, 2.9471, 7.4158, 2.7595, 7.4158],
+          confidence: 0.993,
+          span: {
+            offset: 3468,
+            length: 4,
+          },
+        },
+        {
+          content: 'indicating',
+          polygon: [2.9752, 7.2706, 3.472, 7.2702, 3.4721, 7.4144, 2.9752, 7.4157],
+          confidence: 0.993,
+          span: {
+            offset: 3473,
+            length: 10,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [3.5049, 7.2702, 3.6783, 7.2702, 3.6783, 7.4138, 3.5049, 7.4143],
+          confidence: 0.993,
+          span: {
+            offset: 3484,
+            length: 4,
+          },
+        },
+        {
+          content: 'I',
+          polygon: [3.7064, 7.2703, 3.7533, 7.2705, 3.7533, 7.4137, 3.7064, 7.4138],
+          confidence: 0.862,
+          span: {
+            offset: 3489,
+            length: 1,
+          },
+        },
+        {
+          content: 'am',
+          polygon: [3.7884, 7.2707, 3.9384, 7.2713, 3.9383, 7.4135, 3.7884, 7.4137],
+          confidence: 0.992,
+          span: {
+            offset: 3491,
+            length: 2,
+          },
+        },
+        {
+          content: 'exempt',
+          polygon: [3.9736, 7.2715, 4.3439, 7.2718, 4.3437, 7.4146, 3.9735, 7.4135],
+          confidence: 0.995,
+          span: {
+            offset: 3494,
+            length: 6,
+          },
+        },
+        {
+          content: 'from',
+          polygon: [4.3744, 7.2718, 4.6017, 7.2718, 4.6014, 7.4148, 4.3742, 7.4147],
+          confidence: 0.992,
+          span: {
+            offset: 3501,
+            length: 4,
+          },
+        },
+        {
+          content: 'FATCA',
+          polygon: [4.6416, 7.2718, 4.972, 7.2716, 4.9716, 7.4153, 4.6412, 7.4148],
+          confidence: 0.995,
+          span: {
+            offset: 3506,
+            length: 5,
+          },
+        },
+        {
+          content: 'reporting',
+          polygon: [5.0001, 7.2716, 5.4501, 7.2717, 5.4497, 7.4156, 4.9997, 7.4154],
+          confidence: 0.995,
+          span: {
+            offset: 3512,
+            length: 9,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [5.4783, 7.2717, 5.5743, 7.2719, 5.574, 7.4154, 5.4779, 7.4155],
+          confidence: 0.995,
+          span: {
+            offset: 3522,
+            length: 2,
+          },
+        },
+        {
+          content: 'correct.',
+          polygon: [5.6072, 7.272, 5.9889, 7.2735, 5.9889, 7.4149, 5.6068, 7.4153],
+          confidence: 0.992,
+          span: {
+            offset: 3525,
+            length: 8,
+          },
+        },
+        {
+          content: 'Certification',
+          polygon: [0.492, 7.4478, 1.0984, 7.4468, 1.0982, 7.588, 0.4911, 7.5865],
+          confidence: 0.992,
+          span: {
+            offset: 3535,
+            length: 13,
+          },
+        },
+        {
+          content: 'instructions.',
+          polygon: [1.1264, 7.4468, 1.7793, 7.4468, 1.7792, 7.5882, 1.1262, 7.588],
+          confidence: 0.977,
+          span: {
+            offset: 3549,
+            length: 13,
+          },
+        },
+        {
+          content: 'You',
+          polygon: [1.812, 7.4468, 1.9845, 7.4468, 1.9844, 7.5883, 1.8118, 7.5882],
+          confidence: 0.996,
+          span: {
+            offset: 3563,
+            length: 3,
+          },
+        },
+        {
+          content: 'must',
+          polygon: [2.0125, 7.4468, 2.269, 7.447, 2.269, 7.5883, 2.0124, 7.5883],
+          confidence: 0.993,
+          span: {
+            offset: 3567,
+            length: 4,
+          },
+        },
+        {
+          content: 'cross',
+          polygon: [2.297, 7.447, 2.5582, 7.447, 2.5582, 7.5885, 2.2969, 7.5883],
+          confidence: 0.992,
+          span: {
+            offset: 3572,
+            length: 5,
+          },
+        },
+        {
+          content: 'out',
+          polygon: [2.5885, 7.447, 2.7214, 7.4467, 2.7214, 7.5889, 2.5885, 7.5885],
+          confidence: 0.992,
+          span: {
+            offset: 3578,
+            length: 3,
+          },
+        },
+        {
+          content: 'item',
+          polygon: [2.7494, 7.4467, 2.971, 7.4462, 2.9709, 7.5895, 2.7494, 7.5889],
+          confidence: 0.992,
+          span: {
+            offset: 3582,
+            length: 4,
+          },
+        },
+        {
+          content: '2',
+          polygon: [3.0036, 7.4462, 3.0619, 7.4461, 3.0619, 7.5897, 3.0036, 7.5895],
+          confidence: 0.992,
+          span: {
+            offset: 3587,
+            length: 1,
+          },
+        },
+        {
+          content: 'above',
+          polygon: [3.0946, 7.4461, 3.3651, 7.4458, 3.365, 7.59, 3.0945, 7.5897],
+          confidence: 0.992,
+          span: {
+            offset: 3589,
+            length: 5,
+          },
+        },
+        {
+          content: 'if',
+          polygon: [3.3931, 7.4457, 3.4584, 7.4457, 3.4583, 7.59, 3.393, 7.59],
+          confidence: 0.977,
+          span: {
+            offset: 3595,
+            length: 2,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [3.4863, 7.4456, 3.6543, 7.4457, 3.6542, 7.5899, 3.4863, 7.5901],
+          confidence: 0.997,
+          span: {
+            offset: 3598,
+            length: 3,
+          },
+        },
+        {
+          content: 'have',
+          polygon: [3.6822, 7.4457, 3.9154, 7.446, 3.9155, 7.5894, 3.6822, 7.5899],
+          confidence: 0.992,
+          span: {
+            offset: 3602,
+            length: 4,
+          },
+        },
+        {
+          content: 'been',
+          polygon: [3.9434, 7.446, 4.1766, 7.446, 4.1767, 7.5891, 3.9435, 7.5894],
+          confidence: 0.992,
+          span: {
+            offset: 3607,
+            length: 4,
+          },
+        },
+        {
+          content: 'notified',
+          polygon: [4.2046, 7.446, 4.5754, 7.4455, 4.5755, 7.589, 4.2047, 7.5891],
+          confidence: 0.992,
+          span: {
+            offset: 3612,
+            length: 8,
+          },
+        },
+        {
+          content: 'by',
+          polygon: [4.615, 7.4456, 4.7083, 7.4458, 4.7083, 7.5896, 4.6151, 7.5892],
+          confidence: 0.995,
+          span: {
+            offset: 3621,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [4.7363, 7.4458, 4.8856, 7.4461, 4.8855, 7.5903, 4.7363, 7.5897],
+          confidence: 0.998,
+          span: {
+            offset: 3624,
+            length: 3,
+          },
+        },
+        {
+          content: 'IRS',
+          polygon: [4.9135, 7.4462, 5.1048, 7.4465, 5.1047, 7.591, 4.9135, 7.5904],
+          confidence: 0.983,
+          span: {
+            offset: 3628,
+            length: 3,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [5.1327, 7.4466, 5.317, 7.4468, 5.3169, 7.5907, 5.1327, 7.591],
+          confidence: 0.992,
+          span: {
+            offset: 3632,
+            length: 4,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [5.345, 7.4469, 5.5175, 7.4471, 5.5174, 7.5904, 5.3448, 7.5906],
+          confidence: 0.998,
+          span: {
+            offset: 3637,
+            length: 3,
+          },
+        },
+        {
+          content: 'are',
+          polygon: [5.5502, 7.4472, 5.7018, 7.4475, 5.7016, 7.5901, 5.55, 7.5903],
+          confidence: 0.995,
+          span: {
+            offset: 3641,
+            length: 3,
+          },
+        },
+        {
+          content: 'currently',
+          polygon: [5.7297, 7.4476, 6.1448, 7.4484, 6.1445, 7.5899, 5.7295, 7.5901],
+          confidence: 0.993,
+          span: {
+            offset: 3645,
+            length: 9,
+          },
+        },
+        {
+          content: 'subject',
+          polygon: [6.1752, 7.4484, 6.5203, 7.4475, 6.5199, 7.59, 6.1748, 7.5899],
+          confidence: 0.995,
+          span: {
+            offset: 3655,
+            length: 7,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [6.5483, 7.4474, 6.6299, 7.4474, 6.6294, 7.59, 6.5478, 7.5901],
+          confidence: 0.998,
+          span: {
+            offset: 3663,
+            length: 2,
+          },
+        },
+        {
+          content: 'backup',
+          polygon: [6.6579, 7.4474, 7.0287, 7.448, 7.0282, 7.5898, 6.6574, 7.59],
+          confidence: 0.995,
+          span: {
+            offset: 3666,
+            length: 6,
+          },
+        },
+        {
+          content: 'withholding',
+          polygon: [7.059, 7.4481, 7.6132, 7.4495, 7.6132, 7.5927, 7.0585, 7.5898],
+          confidence: 0.992,
+          span: {
+            offset: 3673,
+            length: 11,
+          },
+        },
+        {
+          content: 'because',
+          polygon: [0.4888, 7.5818, 0.8808, 7.583, 0.8807, 7.7206, 0.4883, 7.7188],
+          confidence: 0.993,
+          span: {
+            offset: 3685,
+            length: 7,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [0.9081, 7.583, 1.0995, 7.5832, 1.0996, 7.7211, 0.9081, 7.7207],
+          confidence: 0.993,
+          span: {
+            offset: 3693,
+            length: 3,
+          },
+        },
+        {
+          content: 'have',
+          polygon: [1.1383, 7.5832, 1.3457, 7.5828, 1.3457, 7.7207, 1.1383, 7.7211],
+          confidence: 0.992,
+          span: {
+            offset: 3697,
+            length: 4,
+          },
+        },
+        {
+          content: 'failed',
+          polygon: [1.373, 7.5828, 1.6283, 7.5824, 1.6283, 7.7203, 1.3731, 7.7207],
+          confidence: 0.992,
+          span: {
+            offset: 3702,
+            length: 6,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [1.6556, 7.5824, 1.7559, 7.5823, 1.7559, 7.7203, 1.6556, 7.7203],
+          confidence: 0.997,
+          span: {
+            offset: 3709,
+            length: 2,
+          },
+        },
+        {
+          content: 'report',
+          polygon: [1.7833, 7.5823, 2.0886, 7.5821, 2.0885, 7.7204, 1.7832, 7.7203],
+          confidence: 0.993,
+          span: {
+            offset: 3712,
+            length: 6,
+          },
+        },
+        {
+          content: 'all',
+          polygon: [2.1183, 7.5821, 2.2026, 7.582, 2.2025, 7.7201, 2.1182, 7.7203],
+          confidence: 0.993,
+          span: {
+            offset: 3719,
+            length: 3,
+          },
+        },
+        {
+          content: 'interest',
+          polygon: [2.2299, 7.5819, 2.6014, 7.5815, 2.6014, 7.719, 2.2299, 7.72],
+          confidence: 0.992,
+          span: {
+            offset: 3723,
+            length: 8,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [2.6333, 7.5815, 2.8088, 7.5812, 2.8088, 7.7194, 2.6333, 7.719],
+          confidence: 0.996,
+          span: {
+            offset: 3732,
+            length: 3,
+          },
+        },
+        {
+          content: 'dividends',
+          polygon: [2.843, 7.5811, 3.3034, 7.5809, 3.3034, 7.7203, 2.843, 7.7194],
+          confidence: 0.992,
+          span: {
+            offset: 3736,
+            length: 9,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [3.333, 7.581, 3.4333, 7.5812, 3.4333, 7.7204, 3.3331, 7.7203],
+          confidence: 0.997,
+          span: {
+            offset: 3746,
+            length: 2,
+          },
+        },
+        {
+          content: 'your',
+          polygon: [3.4606, 7.5812, 3.6794, 7.5817, 3.6795, 7.7207, 3.4607, 7.7205],
+          confidence: 0.992,
+          span: {
+            offset: 3749,
+            length: 4,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [3.7068, 7.5817, 3.8526, 7.5818, 3.8527, 7.7207, 3.7068, 7.7207],
+          confidence: 0.995,
+          span: {
+            offset: 3754,
+            length: 3,
+          },
+        },
+        {
+          content: 'return.',
+          polygon: [3.88, 7.5818, 4.1899, 7.5819, 4.19, 7.7206, 3.88, 7.7207],
+          confidence: 0.992,
+          span: {
+            offset: 3758,
+            length: 7,
+          },
+        },
+        {
+          content: 'For',
+          polygon: [4.2173, 7.582, 4.3723, 7.582, 4.3723, 7.7203, 4.2173, 7.7205],
+          confidence: 0.993,
+          span: {
+            offset: 3766,
+            length: 3,
+          },
+        },
+        {
+          content: 'real',
+          polygon: [4.3996, 7.582, 4.591, 7.5819, 4.5911, 7.72, 4.3996, 7.7203],
+          confidence: 0.993,
+          span: {
+            offset: 3770,
+            length: 4,
+          },
+        },
+        {
+          content: 'estate',
+          polygon: [4.6252, 7.5819, 4.901, 7.582, 4.9011, 7.7201, 4.6253, 7.7199],
+          confidence: 0.994,
+          span: {
+            offset: 3775,
+            length: 6,
+          },
+        },
+        {
+          content: 'transactions,',
+          polygon: [4.9283, 7.582, 5.5391, 7.5822, 5.5391, 7.7214, 4.9284, 7.7202],
+          confidence: 0.988,
+          span: {
+            offset: 3782,
+            length: 13,
+          },
+        },
+        {
+          content: 'item',
+          polygon: [5.5665, 7.5823, 5.7898, 7.5824, 5.7897, 7.7216, 5.5665, 7.7214],
+          confidence: 0.992,
+          span: {
+            offset: 3796,
+            length: 4,
+          },
+        },
+        {
+          content: '2',
+          polygon: [5.824, 7.5824, 5.881, 7.5824, 5.8809, 7.7217, 5.8239, 7.7217],
+          confidence: 0.993,
+          span: {
+            offset: 3801,
+            length: 1,
+          },
+        },
+        {
+          content: 'does',
+          polygon: [5.9152, 7.5824, 6.1317, 7.5822, 6.1316, 7.7219, 5.9151, 7.7217],
+          confidence: 0.992,
+          span: {
+            offset: 3803,
+            length: 4,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [6.159, 7.5821, 6.3322, 7.582, 6.3322, 7.722, 6.159, 7.7219],
+          confidence: 0.997,
+          span: {
+            offset: 3808,
+            length: 3,
+          },
+        },
+        {
+          content: 'apply.',
+          polygon: [6.3619, 7.5819, 6.6445, 7.5823, 6.6443, 7.7226, 6.3619, 7.722],
+          confidence: 0.994,
+          span: {
+            offset: 3812,
+            length: 6,
+          },
+        },
+        {
+          content: 'For',
+          polygon: [6.6832, 7.5823, 6.8245, 7.5825, 6.8242, 7.723, 6.683, 7.7227],
+          confidence: 0.997,
+          span: {
+            offset: 3819,
+            length: 3,
+          },
+        },
+        {
+          content: 'mortgage',
+          polygon: [6.8519, 7.5825, 7.3077, 7.5817, 7.3075, 7.7236, 6.8516, 7.7231],
+          confidence: 0.993,
+          span: {
+            offset: 3823,
+            length: 8,
+          },
+        },
+        {
+          content: 'interest',
+          polygon: [7.335, 7.5817, 7.7065, 7.5815, 7.7065, 7.7236, 7.3349, 7.7236],
+          confidence: 0.992,
+          span: {
+            offset: 3832,
+            length: 8,
+          },
+        },
+        {
+          content: 'paid,',
+          polygon: [7.7407, 7.5815, 7.9778, 7.5815, 7.9778, 7.7234, 7.7407, 7.7235],
+          confidence: 0.993,
+          span: {
+            offset: 3841,
+            length: 5,
+          },
+        },
+        {
+          content: 'acquisition',
+          polygon: [0.4884, 7.718, 1.0093, 7.7169, 1.0093, 7.8533, 0.4882, 7.8532],
+          confidence: 0.992,
+          span: {
+            offset: 3847,
+            length: 11,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [1.0405, 7.7169, 1.1389, 7.717, 1.139, 7.8531, 1.0406, 7.8532],
+          confidence: 0.993,
+          span: {
+            offset: 3859,
+            length: 2,
+          },
+        },
+        {
+          content: 'abandonment',
+          polygon: [1.168, 7.717, 1.8274, 7.717, 1.8274, 7.8524, 1.168, 7.8531],
+          confidence: 0.992,
+          span: {
+            offset: 3862,
+            length: 11,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [1.8587, 7.717, 1.9548, 7.717, 1.9548, 7.8522, 1.8587, 7.8523],
+          confidence: 0.996,
+          span: {
+            offset: 3874,
+            length: 2,
+          },
+        },
+        {
+          content: 'secured',
+          polygon: [1.9817, 7.717, 2.3483, 7.7167, 2.3482, 7.8521, 1.9816, 7.8522],
+          confidence: 0.992,
+          span: {
+            offset: 3877,
+            length: 7,
+          },
+        },
+        {
+          content: 'property,',
+          polygon: [2.3751, 7.7167, 2.8177, 7.7162, 2.8177, 7.8525, 2.3751, 7.8521],
+          confidence: 0.992,
+          span: {
+            offset: 3885,
+            length: 9,
+          },
+        },
+        {
+          content: 'cancellation',
+          polygon: [2.8535, 7.7162, 3.4213, 7.716, 3.4212, 7.8528, 2.8535, 7.8525],
+          confidence: 0.992,
+          span: {
+            offset: 3895,
+            length: 12,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [3.4548, 7.716, 3.5487, 7.7161, 3.5485, 7.8527, 3.4547, 7.8528],
+          confidence: 0.994,
+          span: {
+            offset: 3908,
+            length: 2,
+          },
+        },
+        {
+          content: 'debt,',
+          polygon: [3.5778, 7.7161, 3.817, 7.7158, 3.8168, 7.8523, 3.5776, 7.8526],
+          confidence: 0.992,
+          span: {
+            offset: 3911,
+            length: 5,
+          },
+        },
+        {
+          content: 'contributions',
+          polygon: [3.8527, 7.7157, 4.4742, 7.7152, 4.4741, 7.8515, 3.8526, 7.8522],
+          confidence: 0.992,
+          span: {
+            offset: 3917,
+            length: 13,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [4.5033, 7.7152, 4.5971, 7.7153, 4.5971, 7.8515, 4.5032, 7.8515],
+          confidence: 0.996,
+          span: {
+            offset: 3931,
+            length: 2,
+          },
+        },
+        {
+          content: 'an',
+          polygon: [4.6307, 7.7154, 4.7268, 7.7155, 4.7267, 7.8515, 4.6306, 7.8515],
+          confidence: 0.996,
+          span: {
+            offset: 3934,
+            length: 2,
+          },
+        },
+        {
+          content: 'individual',
+          polygon: [4.7536, 7.7155, 5.2097, 7.7154, 5.2096, 7.8528, 4.7536, 7.8516],
+          confidence: 0.992,
+          span: {
+            offset: 3937,
+            length: 10,
+          },
+        },
+        {
+          content: 'retirement',
+          polygon: [5.2365, 7.7154, 5.7372, 7.7165, 5.737, 7.8531, 5.2364, 7.8529],
+          confidence: 0.992,
+          span: {
+            offset: 3948,
+            length: 10,
+          },
+        },
+        {
+          content: 'arrangement',
+          polygon: [5.7685, 7.7165, 6.3698, 7.7157, 6.3697, 7.8538, 5.7682, 7.8532],
+          confidence: 0.992,
+          span: {
+            offset: 3959,
+            length: 11,
+          },
+        },
+        {
+          content: '(IRA),',
+          polygon: [6.4011, 7.7156, 6.6493, 7.7155, 6.6491, 7.8548, 6.401, 7.8539],
+          confidence: 0.953,
+          span: {
+            offset: 3971,
+            length: 6,
+          },
+        },
+        {
+          content: 'and,',
+          polygon: [6.6873, 7.7155, 6.8885, 7.7158, 6.8883, 7.8554, 6.6871, 7.855],
+          confidence: 0.988,
+          span: {
+            offset: 3978,
+            length: 4,
+          },
+        },
+        {
+          content: 'generally,',
+          polygon: [6.9242, 7.716, 7.3758, 7.7184, 7.3757, 7.8549, 6.9241, 7.8553],
+          confidence: 0.99,
+          span: {
+            offset: 3983,
+            length: 10,
+          },
+        },
+        {
+          content: 'payments',
+          polygon: [7.4138, 7.7186, 7.8839, 7.7211, 7.8839, 7.855, 7.4137, 7.8549],
+          confidence: 0.994,
+          span: {
+            offset: 3994,
+            length: 8,
+          },
+        },
+        {
+          content: 'other',
+          polygon: [0.488, 7.848, 0.7275, 7.8488, 0.7275, 7.9831, 0.4879, 7.9822],
+          confidence: 0.995,
+          span: {
+            offset: 4003,
+            length: 5,
+          },
+        },
+        {
+          content: 'than',
+          polygon: [0.7541, 7.8489, 0.9581, 7.8495, 0.9581, 7.984, 0.7541, 7.9832],
+          confidence: 0.992,
+          span: {
+            offset: 4009,
+            length: 4,
+          },
+        },
+        {
+          content: 'interest',
+          polygon: [0.9848, 7.8496, 1.3639, 7.85, 1.3639, 7.9851, 0.9848, 7.9842],
+          confidence: 0.992,
+          span: {
+            offset: 4014,
+            length: 8,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [1.395, 7.85, 1.568, 7.8501, 1.5679, 7.9854, 1.3949, 7.9852],
+          confidence: 0.998,
+          span: {
+            offset: 4023,
+            length: 3,
+          },
+        },
+        {
+          content: 'dividends,',
+          polygon: [1.6057, 7.8501, 2.0869, 7.85, 2.0868, 7.9852, 1.6056, 7.9854],
+          confidence: 0.992,
+          span: {
+            offset: 4027,
+            length: 10,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [2.1201, 7.85, 2.2931, 7.85, 2.2931, 7.9842, 2.1201, 7.9851],
+          confidence: 0.996,
+          span: {
+            offset: 4038,
+            length: 3,
+          },
+        },
+        {
+          content: 'are',
+          polygon: [2.3286, 7.8499, 2.4572, 7.8499, 2.4572, 7.9834, 2.3285, 7.9841],
+          confidence: 0.996,
+          span: {
+            offset: 4042,
+            length: 3,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [2.4838, 7.8499, 2.6435, 7.8498, 2.6435, 7.9831, 2.4838, 7.9833],
+          confidence: 0.997,
+          span: {
+            offset: 4046,
+            length: 3,
+          },
+        },
+        {
+          content: 'required',
+          polygon: [2.6701, 7.8498, 3.0803, 7.8493, 3.0804, 7.9853, 2.6701, 7.9833],
+          confidence: 0.993,
+          span: {
+            offset: 4050,
+            length: 8,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [3.1114, 7.8492, 3.2045, 7.8492, 3.2045, 7.9854, 3.1114, 7.9854],
+          confidence: 0.996,
+          span: {
+            offset: 4059,
+            length: 2,
+          },
+        },
+        {
+          content: 'sign',
+          polygon: [3.2378, 7.8492, 3.4307, 7.8491, 3.4307, 7.9854, 3.2378, 7.9854],
+          confidence: 0.992,
+          span: {
+            offset: 4062,
+            length: 4,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [3.4617, 7.8491, 3.6125, 7.849, 3.6125, 7.9854, 3.4618, 7.9854],
+          confidence: 0.994,
+          span: {
+            offset: 4067,
+            length: 3,
+          },
+        },
+        {
+          content: 'certification,',
+          polygon: [3.6436, 7.849, 4.2201, 7.8493, 4.2202, 7.9854, 3.6436, 7.9854],
+          confidence: 0.977,
+          span: {
+            offset: 4071,
+            length: 14,
+          },
+        },
+        {
+          content: 'but',
+          polygon: [4.2601, 7.8493, 4.4131, 7.8493, 4.4131, 7.9854, 4.2601, 7.9854],
+          confidence: 0.995,
+          span: {
+            offset: 4086,
+            length: 3,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [4.4419, 7.8493, 4.5949, 7.8494, 4.595, 7.9854, 4.442, 7.9854],
+          confidence: 0.997,
+          span: {
+            offset: 4090,
+            length: 3,
+          },
+        },
+        {
+          content: 'must',
+          polygon: [4.6215, 7.8494, 4.8699, 7.8493, 4.8699, 7.9854, 4.6216, 7.9854],
+          confidence: 0.987,
+          span: {
+            offset: 4094,
+            length: 4,
+          },
+        },
+        {
+          content: 'provide',
+          polygon: [4.8965, 7.8493, 5.269, 7.8491, 5.2691, 7.9854, 4.8965, 7.9854],
+          confidence: 0.992,
+          span: {
+            offset: 4099,
+            length: 7,
+          },
+        },
+        {
+          content: 'your',
+          polygon: [5.2979, 7.8492, 5.5107, 7.8493, 5.5108, 7.9844, 5.2979, 7.9854],
+          confidence: 0.992,
+          span: {
+            offset: 4107,
+            length: 4,
+          },
+        },
+        {
+          content: 'correct',
+          polygon: [5.5374, 7.8493, 5.8722, 7.8489, 5.8722, 7.9832, 5.5374, 7.9843],
+          confidence: 0.992,
+          span: {
+            offset: 4112,
+            length: 7,
+          },
+        },
+        {
+          content: 'TIN.',
+          polygon: [5.901, 7.8488, 6.0917, 7.8481, 6.0917, 7.9829, 5.901, 7.9832],
+          confidence: 0.989,
+          span: {
+            offset: 4120,
+            length: 4,
+          },
+        },
+        {
+          content: 'See',
+          polygon: [6.1294, 7.848, 6.3113, 7.8474, 6.3112, 7.9827, 6.1294, 7.9829],
+          confidence: 0.995,
+          span: {
+            offset: 4125,
+            length: 3,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [6.3401, 7.8474, 6.4754, 7.8473, 6.4753, 7.9828, 6.34, 7.9827],
+          confidence: 0.997,
+          span: {
+            offset: 4129,
+            length: 3,
+          },
+        },
+        {
+          content: 'instructions',
+          polygon: [6.502, 7.8473, 7.0719, 7.8474, 7.0718, 7.9829, 6.5019, 7.9828],
+          confidence: 0.992,
+          span: {
+            offset: 4133,
+            length: 12,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [7.1007, 7.8474, 7.2205, 7.8475, 7.2204, 7.983, 7.1007, 7.9829],
+          confidence: 0.995,
+          span: {
+            offset: 4146,
+            length: 3,
+          },
+        },
+        {
+          content: 'Part',
+          polygon: [7.2471, 7.8475, 7.4422, 7.8479, 7.4422, 7.9829, 7.247, 7.983],
+          confidence: 0.992,
+          span: {
+            offset: 4150,
+            length: 4,
+          },
+        },
+        {
+          content: 'II,',
+          polygon: [7.4688, 7.848, 7.5642, 7.8483, 7.5642, 7.9829, 7.4688, 7.9829],
+          confidence: 0.687,
+          span: {
+            offset: 4155,
+            length: 3,
+          },
+        },
+        {
+          content: 'later.',
+          polygon: [7.6041, 7.8484, 7.8397, 7.8491, 7.8397, 7.9829, 7.6041, 7.9829],
+          confidence: 0.992,
+          span: {
+            offset: 4159,
+            length: 6,
+          },
+        },
+        {
+          content: 'Sign',
+          polygon: [0.4908, 8.0188, 0.7956, 8.0217, 0.7956, 8.1622, 0.4897, 8.1618],
+          confidence: 0.992,
+          span: {
+            offset: 4167,
+            length: 4,
+          },
+        },
+        {
+          content: 'Here',
+          polygon: [0.4929, 8.1633, 0.8232, 8.1674, 0.8232, 8.2893, 0.4931, 8.2893],
+          confidence: 0.992,
+          span: {
+            offset: 4172,
+            length: 4,
+          },
+        },
+        {
+          content: 'Signature',
+          polygon: [1.0415, 8.0584, 1.4977, 8.0587, 1.4971, 8.1733, 1.0414, 8.1733],
+          confidence: 0.995,
+          span: {
+            offset: 4178,
+            length: 9,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [1.5241, 8.059, 1.6296, 8.06, 1.6292, 8.1733, 1.5235, 8.1733],
+          confidence: 0.993,
+          span: {
+            offset: 4188,
+            length: 2,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [1.046, 8.1788, 1.2369, 8.1783, 1.2368, 8.2886, 1.0459, 8.2884],
+          confidence: 0.992,
+          span: {
+            offset: 4191,
+            length: 4,
+          },
+        },
+        {
+          content: 'person',
+          polygon: [1.2694, 8.1793, 1.5967, 8.181, 1.5967, 8.2893, 1.2694, 8.2893],
+          confidence: 0.996,
+          span: {
+            offset: 4196,
+            length: 6,
+          },
+        },
+        {
+          content: 'Date',
+          polygon: [5.3389, 8.1814, 5.569, 8.1811, 5.569, 8.2808, 5.3385, 8.2807],
+          confidence: 0.992,
+          span: {
+            offset: 4204,
+            length: 4,
+          },
+        },
+        {
+          content: 'General',
+          polygon: [0.4965, 8.4352, 1.2102, 8.4378, 1.2097, 8.6264, 0.496, 8.625],
+          confidence: 0.996,
+          span: {
+            offset: 4214,
+            length: 7,
+          },
+        },
+        {
+          content: 'Instructions',
+          polygon: [1.2843, 8.4382, 2.3867, 8.4423, 2.3867, 8.6264, 1.2839, 8.6263],
+          confidence: 0.993,
+          span: {
+            offset: 4222,
+            length: 12,
+          },
+        },
+        {
+          content: 'Section',
+          polygon: [0.4902, 8.6861, 0.856, 8.688, 0.8559, 8.8175, 0.4902, 8.8157],
+          confidence: 0.995,
+          span: {
+            offset: 4236,
+            length: 7,
+          },
+        },
+        {
+          content: 'references',
+          polygon: [0.8815, 8.6881, 1.426, 8.6884, 1.4258, 8.8179, 0.8814, 8.8176],
+          confidence: 0.993,
+          span: {
+            offset: 4244,
+            length: 10,
+          },
+        },
+        {
+          content: 'are',
+          polygon: [1.4579, 8.6885, 1.6131, 8.688, 1.613, 8.8184, 1.4577, 8.8181],
+          confidence: 0.997,
+          span: {
+            offset: 4255,
+            length: 3,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [1.6407, 8.6879, 1.7407, 8.6876, 1.7406, 8.8186, 1.6406, 8.8185],
+          confidence: 0.998,
+          span: {
+            offset: 4259,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.7705, 8.6877, 1.9278, 8.6883, 1.9277, 8.819, 1.7704, 8.8187],
+          confidence: 0.998,
+          span: {
+            offset: 4262,
+            length: 3,
+          },
+        },
+        {
+          content: 'Internal',
+          polygon: [1.964, 8.6884, 2.3213, 8.6888, 2.321, 8.8188, 1.9638, 8.8191],
+          confidence: 0.989,
+          span: {
+            offset: 4266,
+            length: 8,
+          },
+        },
+        {
+          content: 'Revenue',
+          polygon: [2.3617, 8.6888, 2.7912, 8.6889, 2.7909, 8.8183, 2.3614, 8.8188],
+          confidence: 0.995,
+          span: {
+            offset: 4275,
+            length: 7,
+          },
+        },
+        {
+          content: 'Code',
+          polygon: [2.8231, 8.6887, 3.0932, 8.6886, 3.0928, 8.8186, 2.8228, 8.8184],
+          confidence: 0.992,
+          span: {
+            offset: 4283,
+            length: 4,
+          },
+        },
+        {
+          content: 'unless',
+          polygon: [3.1251, 8.6887, 3.442, 8.6888, 3.4416, 8.8187, 3.1247, 8.8185],
+          confidence: 0.997,
+          span: {
+            offset: 4288,
+            length: 6,
+          },
+        },
+        {
+          content: 'otherwise',
+          polygon: [3.4718, 8.6887, 3.9609, 8.6883, 3.9605, 8.8175, 3.4713, 8.8187],
+          confidence: 0.995,
+          span: {
+            offset: 4295,
+            length: 9,
+          },
+        },
+        {
+          content: 'noted.',
+          polygon: [0.491, 8.8228, 0.8157, 8.8222, 0.8159, 8.9317, 0.4918, 8.9334],
+          confidence: 0.995,
+          span: {
+            offset: 4305,
+            length: 6,
+          },
+        },
+        {
+          content: 'Future',
+          polygon: [0.4911, 8.9774, 0.8386, 8.9773, 0.8384, 9.1056, 0.4909, 9.1039],
+          confidence: 0.993,
+          span: {
+            offset: 4313,
+            length: 6,
+          },
+        },
+        {
+          content: 'developments.',
+          polygon: [0.872, 8.9775, 1.6424, 8.9771, 1.6421, 9.1053, 0.8718, 9.1056],
+          confidence: 0.992,
+          span: {
+            offset: 4320,
+            length: 13,
+          },
+        },
+        {
+          content: 'For',
+          polygon: [1.6822, 8.9771, 1.8455, 8.9774, 1.8451, 9.1053, 1.6818, 9.1052],
+          confidence: 0.992,
+          span: {
+            offset: 4334,
+            length: 3,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.8706, 8.9775, 2.0276, 8.978, 2.0271, 9.1055, 1.8702, 9.1054],
+          confidence: 0.999,
+          span: {
+            offset: 4338,
+            length: 3,
+          },
+        },
+        {
+          content: 'latest',
+          polygon: [2.0653, 8.978, 2.3165, 8.978, 2.3159, 9.105, 2.0648, 9.1054],
+          confidence: 0.995,
+          span: {
+            offset: 4342,
+            length: 6,
+          },
+        },
+        {
+          content: 'information',
+          polygon: [2.3416, 8.978, 2.9152, 8.9777, 2.9146, 9.106, 2.341, 9.105],
+          confidence: 0.992,
+          span: {
+            offset: 4349,
+            length: 11,
+          },
+        },
+        {
+          content: 'about',
+          polygon: [2.9529, 8.9776, 3.2376, 8.9788, 3.237, 9.1063, 2.9523, 9.1063],
+          confidence: 0.995,
+          span: {
+            offset: 4361,
+            length: 5,
+          },
+        },
+        {
+          content: 'developments',
+          polygon: [3.269, 8.9788, 3.9779, 8.9801, 3.9779, 9.1067, 3.2684, 9.1065],
+          confidence: 0.993,
+          span: {
+            offset: 4367,
+            length: 12,
+          },
+        },
+        {
+          content: 'related',
+          polygon: [0.4897, 9.1075, 0.8344, 9.1064, 0.8348, 9.2327, 0.49, 9.2325],
+          confidence: 0.995,
+          span: {
+            offset: 4380,
+            length: 7,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [0.8655, 9.1062, 0.9652, 9.1055, 0.9656, 9.2327, 0.866, 9.2327],
+          confidence: 0.998,
+          span: {
+            offset: 4388,
+            length: 2,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [1.0026, 9.1055, 1.2539, 9.1058, 1.2542, 9.2324, 1.003, 9.2326],
+          confidence: 0.992,
+          span: {
+            offset: 4391,
+            length: 4,
+          },
+        },
+        {
+          content: 'W-9',
+          polygon: [1.2871, 9.1056, 1.4906, 9.105, 1.4908, 9.2332, 1.2874, 9.2325],
+          confidence: 0.994,
+          span: {
+            offset: 4396,
+            length: 3,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [1.528, 9.1049, 1.7086, 9.1046, 1.7088, 9.2333, 1.5282, 9.2332],
+          confidence: 0.998,
+          span: {
+            offset: 4400,
+            length: 3,
+          },
+        },
+        {
+          content: 'its',
+          polygon: [1.7481, 9.1047, 1.8436, 9.1048, 1.8437, 9.2332, 1.7483, 9.2332],
+          confidence: 0.997,
+          span: {
+            offset: 4404,
+            length: 3,
+          },
+        },
+        {
+          content: 'instructions,',
+          polygon: [1.8685, 9.1048, 2.4894, 9.1057, 2.4896, 9.2332, 1.8686, 9.2332],
+          confidence: 0.992,
+          span: {
+            offset: 4408,
+            length: 13,
+          },
+        },
+        {
+          content: 'such',
+          polygon: [2.5268, 9.1057, 2.7615, 9.1058, 2.7616, 9.2334, 2.5269, 9.2332],
+          confidence: 0.992,
+          span: {
+            offset: 4422,
+            length: 4,
+          },
+        },
+        {
+          content: 'as',
+          polygon: [2.7968, 9.1059, 2.8985, 9.106, 2.8986, 9.234, 2.7969, 9.2335],
+          confidence: 0.998,
+          span: {
+            offset: 4427,
+            length: 2,
+          },
+        },
+        {
+          content: 'legislation',
+          polygon: [2.9235, 9.1061, 3.4364, 9.1074, 3.4362, 9.2334, 2.9235, 9.234],
+          confidence: 0.993,
+          span: {
+            offset: 4430,
+            length: 11,
+          },
+        },
+        {
+          content: 'enacted',
+          polygon: [3.4717, 9.1075, 3.8784, 9.1084, 3.8784, 9.2325, 3.4715, 9.2334],
+          confidence: 0.994,
+          span: {
+            offset: 4442,
+            length: 7,
+          },
+        },
+        {
+          content: 'after',
+          polygon: [0.4882, 9.2348, 0.7086, 9.2353, 0.7088, 9.3644, 0.4884, 9.3635],
+          confidence: 0.993,
+          span: {
+            offset: 4450,
+            length: 5,
+          },
+        },
+        {
+          content: 'they',
+          polygon: [0.7341, 9.2353, 0.9652, 9.2352, 0.9654, 9.3655, 0.7343, 9.3645],
+          confidence: 0.992,
+          span: {
+            offset: 4456,
+            length: 4,
+          },
+        },
+        {
+          content: 'were',
+          polygon: [0.9948, 9.2351, 1.2344, 9.2345, 1.2346, 9.3661, 0.9951, 9.3656],
+          confidence: 0.992,
+          span: {
+            offset: 4461,
+            length: 4,
+          },
+        },
+        {
+          content: 'published,',
+          polygon: [1.2683, 9.2344, 1.775, 9.2343, 1.7751, 9.3655, 1.2686, 9.3662],
+          confidence: 0.994,
+          span: {
+            offset: 4466,
+            length: 10,
+          },
+        },
+        {
+          content: 'go',
+          polygon: [1.8132, 9.2344, 1.9383, 9.2344, 1.9383, 9.3649, 1.8132, 9.3652],
+          confidence: 0.998,
+          span: {
+            offset: 4477,
+            length: 2,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [1.9658, 9.2344, 2.0655, 9.2344, 2.0655, 9.3645, 1.9658, 9.3648],
+          confidence: 0.999,
+          span: {
+            offset: 4480,
+            length: 2,
+          },
+        },
+        {
+          content: 'www.irs.gov/FormW9.',
+          polygon: [2.1015, 9.2345, 3.2044, 9.2347, 3.2044, 9.3587, 2.1015, 9.3643],
+          confidence: 0.989,
+          span: {
+            offset: 4483,
+            length: 19,
+          },
+        },
+        {
+          content: "What's",
+          polygon: [0.4884, 9.4339, 1.039, 9.4364, 1.0389, 9.5986, 0.4885, 9.596],
+          confidence: 0.995,
+          span: {
+            offset: 4508,
+            length: 6,
+          },
+        },
+        {
+          content: 'New',
+          polygon: [1.0973, 9.4371, 1.452, 9.4383, 1.4514, 9.599, 1.097, 9.5986],
+          confidence: 0.998,
+          span: {
+            offset: 4515,
+            length: 3,
+          },
+        },
+        {
+          content: 'Line',
+          polygon: [0.4905, 9.6559, 0.7048, 9.6553, 0.7051, 9.7835, 0.4906, 9.7823],
+          confidence: 0.992,
+          span: {
+            offset: 4520,
+            length: 4,
+          },
+        },
+        {
+          content: '3a',
+          polygon: [0.7364, 9.6552, 0.8435, 9.6557, 0.8437, 9.784, 0.7366, 9.7837],
+          confidence: 0.982,
+          span: {
+            offset: 4525,
+            length: 2,
+          },
+        },
+        {
+          content: 'has',
+          polygon: [0.8687, 9.6558, 1.062, 9.6565, 1.0622, 9.7842, 0.8689, 9.7841],
+          confidence: 0.998,
+          span: {
+            offset: 4528,
+            length: 3,
+          },
+        },
+        {
+          content: 'been',
+          polygon: [1.0977, 9.6566, 1.3372, 9.6567, 1.3373, 9.7838, 1.0979, 9.7841],
+          confidence: 0.992,
+          span: {
+            offset: 4532,
+            length: 4,
+          },
+        },
+        {
+          content: 'modified',
+          polygon: [1.375, 9.6567, 1.8015, 9.6563, 1.8014, 9.7845, 1.3751, 9.784],
+          confidence: 0.994,
+          span: {
+            offset: 4537,
+            length: 8,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [1.833, 9.6563, 1.9339, 9.6562, 1.9335, 9.785, 1.8328, 9.7846],
+          confidence: 0.992,
+          span: {
+            offset: 4546,
+            length: 2,
+          },
+        },
+        {
+          content: 'clarify',
+          polygon: [1.9633, 9.6561, 2.2469, 9.657, 2.2464, 9.7854, 1.9628, 9.7851],
+          confidence: 0.995,
+          span: {
+            offset: 4549,
+            length: 7,
+          },
+        },
+        {
+          content: 'how',
+          polygon: [2.2721, 9.6571, 2.4969, 9.6584, 2.4967, 9.7867, 2.2717, 9.7855],
+          confidence: 0.999,
+          span: {
+            offset: 4557,
+            length: 3,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [2.5284, 9.6586, 2.5894, 9.6586, 2.5891, 9.7868, 2.5282, 9.7869],
+          confidence: 0.995,
+          span: {
+            offset: 4561,
+            length: 1,
+          },
+        },
+        {
+          content: 'disregarded',
+          polygon: [2.6209, 9.6585, 3.2091, 9.6586, 3.2086, 9.7869, 2.6206, 9.7868],
+          confidence: 0.993,
+          span: {
+            offset: 4563,
+            length: 11,
+          },
+        },
+        {
+          content: 'entity',
+          polygon: [3.2448, 9.6585, 3.5138, 9.6592, 3.5133, 9.7869, 3.2443, 9.7869],
+          confidence: 0.996,
+          span: {
+            offset: 4575,
+            length: 6,
+          },
+        },
+        {
+          content: 'completes',
+          polygon: [3.5453, 9.6593, 4.0718, 9.6593, 4.0718, 9.7865, 3.5448, 9.7869],
+          confidence: 0.995,
+          span: {
+            offset: 4582,
+            length: 9,
+          },
+        },
+        {
+          content: 'this',
+          polygon: [0.4872, 9.7847, 0.657, 9.7841, 0.6575, 9.9079, 0.4875, 9.9073],
+          confidence: 0.988,
+          span: {
+            offset: 4592,
+            length: 4,
+          },
+        },
+        {
+          content: 'line.',
+          polygon: [0.6812, 9.784, 0.8996, 9.7841, 0.9001, 9.9081, 0.6817, 9.908],
+          confidence: 0.992,
+          span: {
+            offset: 4597,
+            length: 5,
+          },
+        },
+        {
+          content: 'An',
+          polygon: [0.9319, 9.7842, 1.0653, 9.7842, 1.0658, 9.9082, 0.9324, 9.9081],
+          confidence: 0.998,
+          span: {
+            offset: 4603,
+            length: 2,
+          },
+        },
+        {
+          content: 'LLC',
+          polygon: [1.1058, 9.7842, 1.3018, 9.7847, 1.3023, 9.909, 1.1062, 9.9083],
+          confidence: 0.995,
+          span: {
+            offset: 4606,
+            length: 3,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [1.3342, 9.7848, 1.5141, 9.7845, 1.5145, 9.9093, 1.3346, 9.9091],
+          confidence: 0.992,
+          span: {
+            offset: 4610,
+            length: 4,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [1.5384, 9.7845, 1.6354, 9.7845, 1.6357, 9.9096, 1.5387, 9.9093],
+          confidence: 0.996,
+          span: {
+            offset: 4615,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [1.6697, 9.7846, 1.7284, 9.7847, 1.7287, 9.9101, 1.6701, 9.9098],
+          confidence: 0.995,
+          span: {
+            offset: 4618,
+            length: 1,
+          },
+        },
+        {
+          content: 'disregarded',
+          polygon: [1.7587, 9.7848, 2.3469, 9.7874, 2.3471, 9.911, 1.759, 9.9103],
+          confidence: 0.992,
+          span: {
+            offset: 4620,
+            length: 11,
+          },
+        },
+        {
+          content: 'entity',
+          polygon: [2.3833, 9.7874, 2.6542, 9.7873, 2.6543, 9.9108, 2.3835, 9.911],
+          confidence: 0.997,
+          span: {
+            offset: 4632,
+            length: 6,
+          },
+        },
+        {
+          content: 'should',
+          polygon: [2.6865, 9.7874, 3.014, 9.7874, 3.0142, 9.9098, 2.6867, 9.9107],
+          confidence: 0.998,
+          span: {
+            offset: 4639,
+            length: 6,
+          },
+        },
+        {
+          content: 'check',
+          polygon: [3.0484, 9.7874, 3.3476, 9.7875, 3.3475, 9.9084, 3.0485, 9.9096],
+          confidence: 0.998,
+          span: {
+            offset: 4646,
+            length: 5,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [3.3759, 9.7875, 3.5414, 9.7871, 3.5414, 9.9075, 3.3758, 9.9083],
+          confidence: 0.999,
+          span: {
+            offset: 4652,
+            length: 3,
+          },
+        },
+        {
+          content: 'appropriate',
+          polygon: [0.4896, 9.9207, 1.0693, 9.9175, 1.0699, 10.039, 0.4904, 10.0411],
+          confidence: 0.994,
+          span: {
+            offset: 4656,
+            length: 11,
+          },
+        },
+        {
+          content: 'box',
+          polygon: [1.1069, 9.9174, 1.287, 9.9167, 1.2876, 10.0386, 1.1075, 10.0388],
+          confidence: 0.992,
+          span: {
+            offset: 4668,
+            length: 3,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [1.3167, 9.9166, 1.4532, 9.9163, 1.4539, 10.0386, 1.3173, 10.0387],
+          confidence: 0.999,
+          span: {
+            offset: 4672,
+            length: 3,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.4809, 9.9163, 1.6372, 9.9163, 1.638, 10.0369, 1.4816, 10.0384],
+          confidence: 0.999,
+          span: {
+            offset: 4676,
+            length: 3,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [1.6689, 9.9163, 1.8213, 9.9156, 1.8217, 10.0364, 1.6696, 10.0366],
+          confidence: 0.998,
+          span: {
+            offset: 4680,
+            length: 3,
+          },
+        },
+        {
+          content: 'classification',
+          polygon: [1.8529, 9.9154, 2.4901, 9.9151, 2.4903, 10.0361, 1.8534, 10.0363],
+          confidence: 0.993,
+          span: {
+            offset: 4684,
+            length: 14,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [2.5257, 9.9151, 2.6108, 9.915, 2.611, 10.0357, 2.5259, 10.036],
+          confidence: 0.998,
+          span: {
+            offset: 4699,
+            length: 2,
+          },
+        },
+        {
+          content: 'its',
+          polygon: [2.6345, 9.9151, 2.7671, 9.9155, 2.7672, 10.0355, 2.6347, 10.0356],
+          confidence: 0.998,
+          span: {
+            offset: 4702,
+            length: 3,
+          },
+        },
+        {
+          content: 'owner.',
+          polygon: [2.7988, 9.9156, 3.1272, 9.9149, 3.1274, 10.0349, 2.7989, 10.0354],
+          confidence: 0.997,
+          span: {
+            offset: 4706,
+            length: 6,
+          },
+        },
+        {
+          content: 'Otherwise,',
+          polygon: [3.1668, 9.9149, 3.6912, 9.9149, 3.6914, 10.034, 3.167, 10.0349],
+          confidence: 0.992,
+          span: {
+            offset: 4713,
+            length: 10,
+          },
+        },
+        {
+          content: 'it',
+          polygon: [3.7308, 9.9148, 3.8011, 9.9145, 3.8011, 10.0335, 3.731, 10.0338],
+          confidence: 0.998,
+          span: {
+            offset: 4724,
+            length: 2,
+          },
+        },
+        {
+          content: 'should',
+          polygon: [0.4878, 10.0395, 0.8273, 10.0383, 0.8279, 10.1579, 0.4888, 10.1572],
+          confidence: 0.995,
+          span: {
+            offset: 4727,
+            length: 6,
+          },
+        },
+        {
+          content: 'check',
+          polygon: [0.8607, 10.0381, 1.159, 10.0371, 1.1594, 10.1575, 0.8613, 10.1578],
+          confidence: 0.993,
+          span: {
+            offset: 4734,
+            length: 5,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.1884, 10.0371, 1.3356, 10.037, 1.336, 10.158, 1.1888, 10.1575],
+          confidence: 0.998,
+          span: {
+            offset: 4740,
+            length: 3,
+          },
+        },
+        {
+          content: '"LLC"',
+          polygon: [1.3591, 10.037, 1.6692, 10.0375, 1.6695, 10.158, 1.3595, 10.1582],
+          confidence: 0.89,
+          span: {
+            offset: 4744,
+            length: 5,
+          },
+        },
+        {
+          content: 'box',
+          polygon: [1.7085, 10.0376, 1.8929, 10.0382, 1.8932, 10.1577, 1.7087, 10.1578],
+          confidence: 0.997,
+          span: {
+            offset: 4750,
+            length: 3,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [1.9243, 10.0384, 2.1049, 10.0391, 2.105, 10.1583, 1.9246, 10.1578],
+          confidence: 0.998,
+          span: {
+            offset: 4754,
+            length: 3,
+          },
+        },
+        {
+          content: 'enter',
+          polygon: [2.1402, 10.0392, 2.3953, 10.0394, 2.3955, 10.1591, 2.1404, 10.1585],
+          confidence: 0.997,
+          span: {
+            offset: 4758,
+            length: 5,
+          },
+        },
+        {
+          content: 'its',
+          polygon: [2.4267, 10.0393, 2.5406, 10.0391, 2.5407, 10.1591, 2.4269, 10.159],
+          confidence: 0.997,
+          span: {
+            offset: 4764,
+            length: 3,
+          },
+        },
+        {
+          content: 'appropriate',
+          polygon: [2.57, 10.0391, 3.143, 10.0394, 3.1432, 10.1592, 2.5702, 10.1591],
+          confidence: 0.993,
+          span: {
+            offset: 4768,
+            length: 11,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [3.1705, 10.0394, 3.3256, 10.0396, 3.3257, 10.1589, 3.1706, 10.1591],
+          confidence: 0.998,
+          span: {
+            offset: 4780,
+            length: 3,
+          },
+        },
+        {
+          content: 'classification.',
+          polygon: [3.357, 10.0396, 4.0276, 10.0393, 4.0276, 10.1586, 3.3571, 10.159],
+          confidence: 0.992,
+          span: {
+            offset: 4784,
+            length: 15,
+          },
+        },
+        {
+          content: 'New',
+          polygon: [4.4891, 8.4362, 4.6987, 8.4358, 4.6984, 8.5687, 4.4888, 8.569],
+          confidence: 0.994,
+          span: {
+            offset: 4801,
+            length: 3,
+          },
+        },
+        {
+          content: 'line',
+          polygon: [4.7362, 8.4358, 4.9281, 8.4358, 4.9279, 8.5695, 4.7359, 8.5687],
+          confidence: 0.993,
+          span: {
+            offset: 4805,
+            length: 4,
+          },
+        },
+        {
+          content: '3b',
+          polygon: [4.959, 8.4358, 5.0693, 8.4354, 5.0691, 8.5697, 4.9588, 8.5697],
+          confidence: 0.99,
+          span: {
+            offset: 4810,
+            length: 2,
+          },
+        },
+        {
+          content: 'has',
+          polygon: [5.098, 8.4353, 5.2921, 8.4348, 5.2918, 8.5699, 5.0977, 8.5698],
+          confidence: 0.996,
+          span: {
+            offset: 4813,
+            length: 3,
+          },
+        },
+        {
+          content: 'been',
+          polygon: [5.3274, 8.4348, 5.5679, 8.4352, 5.5677, 8.5699, 5.3271, 8.5699],
+          confidence: 0.992,
+          span: {
+            offset: 4817,
+            length: 4,
+          },
+        },
+        {
+          content: 'added',
+          polygon: [5.6009, 8.4354, 5.912, 8.4362, 5.9117, 8.5703, 5.6008, 8.5699],
+          confidence: 0.997,
+          span: {
+            offset: 4822,
+            length: 5,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [5.9473, 8.4363, 6.0466, 8.4364, 6.0463, 8.5703, 5.947, 8.5703],
+          confidence: 0.998,
+          span: {
+            offset: 4828,
+            length: 2,
+          },
+        },
+        {
+          content: 'this',
+          polygon: [6.0752, 8.4365, 6.2539, 8.4369, 6.2537, 8.5711, 6.075, 8.5703],
+          confidence: 0.992,
+          span: {
+            offset: 4831,
+            length: 4,
+          },
+        },
+        {
+          content: 'form.',
+          polygon: [6.2848, 8.437, 6.5363, 8.4372, 6.5361, 8.5716, 6.2845, 8.5713],
+          confidence: 0.993,
+          span: {
+            offset: 4836,
+            length: 5,
+          },
+        },
+        {
+          content: 'A',
+          polygon: [6.5716, 8.4373, 6.6334, 8.4373, 6.6332, 8.5719, 6.5715, 8.5716],
+          confidence: 0.996,
+          span: {
+            offset: 4842,
+            length: 1,
+          },
+        },
+        {
+          content: 'flow-through',
+          polygon: [6.6598, 8.4373, 7.3084, 8.4381, 7.3082, 8.5746, 6.6597, 8.572],
+          confidence: 0.992,
+          span: {
+            offset: 4844,
+            length: 12,
+          },
+        },
+        {
+          content: 'entity',
+          polygon: [7.3415, 8.4383, 7.5952, 8.439, 7.5948, 8.5754, 7.3412, 8.5748],
+          confidence: 0.993,
+          span: {
+            offset: 4857,
+            length: 6,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [7.6216, 8.439, 7.7347, 8.4389, 7.7347, 8.5749, 7.6212, 8.5753],
+          confidence: 0.997,
+          span: {
+            offset: 4864,
+            length: 2,
+          },
+        },
+        {
+          content: 'required',
+          polygon: [4.3818, 8.5683, 4.7957, 8.5672, 4.7961, 8.6949, 4.3819, 8.6957],
+          confidence: 0.993,
+          span: {
+            offset: 4867,
+            length: 8,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [4.8314, 8.567, 4.9301, 8.5667, 4.9306, 8.6949, 4.8318, 8.6949],
+          confidence: 0.999,
+          span: {
+            offset: 4876,
+            length: 2,
+          },
+        },
+        {
+          content: 'complete',
+          polygon: [4.9617, 8.5666, 5.4238, 8.5645, 5.4242, 8.6945, 4.9621, 8.695],
+          confidence: 0.995,
+          span: {
+            offset: 4879,
+            length: 8,
+          },
+        },
+        {
+          content: 'this',
+          polygon: [5.4532, 8.5645, 5.6171, 8.5641, 5.6175, 8.6932, 5.4536, 8.6943],
+          confidence: 0.992,
+          span: {
+            offset: 4888,
+            length: 4,
+          },
+        },
+        {
+          content: 'line',
+          polygon: [5.6423, 8.5641, 5.8335, 8.5641, 5.8338, 8.6932, 5.6427, 8.6932],
+          confidence: 0.992,
+          span: {
+            offset: 4893,
+            length: 4,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [5.8608, 8.5641, 5.9448, 8.5641, 5.9451, 8.6929, 5.8611, 8.6931],
+          confidence: 0.999,
+          span: {
+            offset: 4898,
+            length: 2,
+          },
+        },
+        {
+          content: 'indicate',
+          polygon: [5.9701, 8.5641, 6.3839, 8.5635, 6.384, 8.6924, 5.9703, 8.6929],
+          confidence: 0.995,
+          span: {
+            offset: 4901,
+            length: 8,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [6.4133, 8.5635, 6.5919, 8.5632, 6.592, 8.6917, 6.4135, 8.6923],
+          confidence: 0.989,
+          span: {
+            offset: 4910,
+            length: 4,
+          },
+        },
+        {
+          content: 'it',
+          polygon: [6.6171, 8.5631, 6.6843, 8.563, 6.6845, 8.6914, 6.6172, 8.6916],
+          confidence: 0.999,
+          span: {
+            offset: 4915,
+            length: 2,
+          },
+        },
+        {
+          content: 'has',
+          polygon: [6.7095, 8.5629, 6.9007, 8.5629, 6.9008, 8.6909, 6.7097, 8.6914],
+          confidence: 0.998,
+          span: {
+            offset: 4918,
+            length: 3,
+          },
+        },
+        {
+          content: 'direct',
+          polygon: [6.9343, 8.563, 7.2158, 8.5629, 7.2159, 8.6912, 6.9344, 8.6908],
+          confidence: 0.995,
+          span: {
+            offset: 4922,
+            length: 6,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [7.2474, 8.5629, 7.3314, 8.5627, 7.3314, 8.6909, 7.2474, 8.6913],
+          confidence: 0.998,
+          span: {
+            offset: 4929,
+            length: 2,
+          },
+        },
+        {
+          content: 'indirect',
+          polygon: [7.3566, 8.5626, 7.7568, 8.5631, 7.7568, 8.6883, 7.3566, 8.6907],
+          confidence: 0.994,
+          span: {
+            offset: 4932,
+            length: 8,
+          },
+        },
+        {
+          content: 'foreign',
+          polygon: [4.3799, 8.6908, 4.7209, 8.6915, 4.7211, 8.8232, 4.3799, 8.822],
+          confidence: 0.994,
+          span: {
+            offset: 4941,
+            length: 7,
+          },
+        },
+        {
+          content: 'partners,',
+          polygon: [4.7465, 8.6915, 5.1983, 8.691, 5.1986, 8.8221, 4.7467, 8.8231],
+          confidence: 0.992,
+          span: {
+            offset: 4949,
+            length: 9,
+          },
+        },
+        {
+          content: 'owners,',
+          polygon: [5.2388, 8.691, 5.6246, 8.6908, 5.6249, 8.821, 5.2391, 8.8221],
+          confidence: 0.995,
+          span: {
+            offset: 4959,
+            length: 7,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [5.6587, 8.6907, 5.7525, 8.6909, 5.7528, 8.8206, 5.659, 8.8208],
+          confidence: 0.998,
+          span: {
+            offset: 4967,
+            length: 2,
+          },
+        },
+        {
+          content: 'beneficiaries',
+          polygon: [5.7781, 8.691, 6.4153, 8.6906, 6.4154, 8.8206, 5.7783, 8.8206],
+          confidence: 0.989,
+          span: {
+            offset: 4970,
+            length: 13,
+          },
+        },
+        {
+          content: 'when',
+          polygon: [6.4452, 8.6905, 6.6988, 8.6902, 6.6988, 8.8191, 6.4452, 8.8205],
+          confidence: 0.992,
+          span: {
+            offset: 4984,
+            length: 4,
+          },
+        },
+        {
+          content: 'it',
+          polygon: [6.7244, 8.6903, 6.8054, 8.6904, 6.8054, 8.819, 6.7244, 8.8191],
+          confidence: 0.998,
+          span: {
+            offset: 4989,
+            length: 2,
+          },
+        },
+        {
+          content: 'provides',
+          polygon: [6.8374, 8.6904, 7.2615, 8.6888, 7.2615, 8.8196, 6.8374, 8.819],
+          confidence: 0.995,
+          span: {
+            offset: 4992,
+            length: 8,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [7.2913, 8.6888, 7.4405, 8.689, 7.4406, 8.8193, 7.2914, 8.8196],
+          confidence: 0.999,
+          span: {
+            offset: 5001,
+            length: 3,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [7.4661, 8.6891, 7.7347, 8.6881, 7.7348, 8.8169, 7.4662, 8.8192],
+          confidence: 0.99,
+          span: {
+            offset: 5005,
+            length: 4,
+          },
+        },
+        {
+          content: 'W-9',
+          polygon: [7.7688, 8.6879, 7.9834, 8.6871, 7.9834, 8.8156, 7.7688, 8.8167],
+          confidence: 0.993,
+          span: {
+            offset: 5010,
+            length: 3,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [4.3805, 8.8138, 4.4888, 8.8136, 4.489, 8.9417, 4.3806, 8.9413],
+          confidence: 0.998,
+          span: {
+            offset: 5014,
+            length: 2,
+          },
+        },
+        {
+          content: 'another',
+          polygon: [4.5207, 8.8136, 4.9006, 8.8126, 4.901, 8.9421, 4.5208, 8.9419],
+          confidence: 0.996,
+          span: {
+            offset: 5017,
+            length: 7,
+          },
+        },
+        {
+          content: 'flow-through',
+          polygon: [4.9261, 8.8125, 5.5566, 8.8121, 5.5569, 8.9429, 4.9265, 8.9421],
+          confidence: 0.993,
+          span: {
+            offset: 5025,
+            length: 12,
+          },
+        },
+        {
+          content: 'entity',
+          polygon: [5.5927, 8.8121, 5.8496, 8.8123, 5.8498, 8.9428, 5.593, 8.9429],
+          confidence: 0.998,
+          span: {
+            offset: 5038,
+            length: 6,
+          },
+        },
+        {
+          content: 'in',
+          polygon: [5.875, 8.8123, 5.9769, 8.8124, 5.9771, 8.943, 5.8753, 8.9428],
+          confidence: 0.999,
+          span: {
+            offset: 5045,
+            length: 2,
+          },
+        },
+        {
+          content: 'which',
+          polygon: [6.0109, 8.8125, 6.2911, 8.8127, 6.2911, 8.9428, 6.011, 8.9431],
+          confidence: 0.997,
+          span: {
+            offset: 5048,
+            length: 5,
+          },
+        },
+        {
+          content: 'it',
+          polygon: [6.3166, 8.8126, 6.393, 8.8125, 6.393, 8.9421, 6.3166, 8.9426],
+          confidence: 0.999,
+          span: {
+            offset: 5054,
+            length: 2,
+          },
+        },
+        {
+          content: 'has',
+          polygon: [6.427, 8.8125, 6.6011, 8.8128, 6.601, 8.941, 6.4269, 8.9419],
+          confidence: 0.998,
+          span: {
+            offset: 5057,
+            length: 3,
+          },
+        },
+        {
+          content: 'an',
+          polygon: [6.6329, 8.8128, 6.7497, 8.8129, 6.7496, 8.9407, 6.6328, 8.9408],
+          confidence: 0.999,
+          span: {
+            offset: 5061,
+            length: 2,
+          },
+        },
+        {
+          content: 'ownership',
+          polygon: [6.7857, 8.8129, 7.2846, 8.8118, 7.2846, 8.9419, 6.7857, 8.9407],
+          confidence: 0.995,
+          span: {
+            offset: 5064,
+            length: 9,
+          },
+        },
+        {
+          content: 'interest.',
+          polygon: [7.3101, 8.8118, 7.7219, 8.8105, 7.7218, 8.9395, 7.31, 8.942],
+          confidence: 0.993,
+          span: {
+            offset: 5074,
+            length: 9,
+          },
+        },
+        {
+          content: 'This',
+          polygon: [7.7538, 8.8105, 7.9723, 8.8102, 7.9723, 8.9394, 7.7537, 8.9395],
+          confidence: 0.988,
+          span: {
+            offset: 5084,
+            length: 4,
+          },
+        },
+        {
+          content: 'change',
+          polygon: [4.3839, 8.9386, 4.7378, 8.9389, 4.7381, 9.0719, 4.3839, 9.0703],
+          confidence: 0.998,
+          span: {
+            offset: 5089,
+            length: 6,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [4.7637, 8.9389, 4.8501, 8.9389, 4.8504, 9.0717, 4.764, 9.0718],
+          confidence: 0.998,
+          span: {
+            offset: 5096,
+            length: 2,
+          },
+        },
+        {
+          content: 'intended',
+          polygon: [4.876, 8.9388, 5.327, 8.9391, 5.3273, 9.0711, 4.8763, 9.0716],
+          confidence: 0.996,
+          span: {
+            offset: 5099,
+            length: 8,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [5.3616, 8.9392, 5.4609, 8.9392, 5.4611, 9.0711, 5.3618, 9.0711],
+          confidence: 0.999,
+          span: {
+            offset: 5108,
+            length: 2,
+          },
+        },
+        {
+          content: 'provide',
+          polygon: [5.4954, 8.9393, 5.8645, 8.9398, 5.8645, 9.0705, 5.4957, 9.0711],
+          confidence: 0.998,
+          span: {
+            offset: 5111,
+            length: 7,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [5.8968, 8.9397, 5.9551, 8.9396, 5.9552, 9.0705, 5.8969, 9.0705],
+          confidence: 0.992,
+          span: {
+            offset: 5119,
+            length: 1,
+          },
+        },
+        {
+          content: 'flow-through',
+          polygon: [5.9853, 8.9395, 6.6134, 8.9396, 6.6134, 9.071, 5.9854, 9.0705],
+          confidence: 0.995,
+          span: {
+            offset: 5121,
+            length: 12,
+          },
+        },
+        {
+          content: 'entity',
+          polygon: [6.6479, 8.9394, 6.9199, 8.9386, 6.9198, 9.0719, 6.6479, 9.0712],
+          confidence: 0.996,
+          span: {
+            offset: 5134,
+            length: 6,
+          },
+        },
+        {
+          content: 'with',
+          polygon: [6.9501, 8.9386, 7.153, 8.9387, 7.1528, 9.0714, 6.95, 9.0719],
+          confidence: 0.992,
+          span: {
+            offset: 5141,
+            length: 4,
+          },
+        },
+        {
+          content: 'information',
+          polygon: [7.1897, 8.9388, 7.7513, 8.9393, 7.7513, 9.0685, 7.1894, 9.0713],
+          confidence: 0.995,
+          span: {
+            offset: 5146,
+            length: 11,
+          },
+        },
+        {
+          content: 'regarding',
+          polygon: [4.3829, 9.0701, 4.8589, 9.0688, 4.8592, 9.198, 4.3829, 9.1989],
+          confidence: 0.995,
+          span: {
+            offset: 5158,
+            length: 9,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [4.8926, 9.0687, 5.0505, 9.0681, 5.0508, 9.1972, 4.8929, 9.1978],
+          confidence: 0.999,
+          span: {
+            offset: 5168,
+            length: 3,
+          },
+        },
+        {
+          content: 'status',
+          polygon: [5.0821, 9.0682, 5.3812, 9.0689, 5.3815, 9.1974, 5.0824, 9.1972],
+          confidence: 0.998,
+          span: {
+            offset: 5172,
+            length: 6,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [5.4149, 9.069, 5.4949, 9.0692, 5.4952, 9.1975, 5.4152, 9.1974],
+          confidence: 0.999,
+          span: {
+            offset: 5179,
+            length: 2,
+          },
+        },
+        {
+          content: 'its',
+          polygon: [5.5202, 9.0691, 5.6381, 9.0685, 5.6383, 9.1972, 5.5205, 9.1974],
+          confidence: 0.998,
+          span: {
+            offset: 5182,
+            length: 3,
+          },
+        },
+        {
+          content: 'indirect',
+          polygon: [5.6634, 9.0684, 6.0425, 9.0684, 6.0425, 9.1977, 5.6636, 9.1972],
+          confidence: 0.995,
+          span: {
+            offset: 5186,
+            length: 8,
+          },
+        },
+        {
+          content: 'foreign',
+          polygon: [6.0678, 9.0685, 6.4237, 9.069, 6.4237, 9.1984, 6.0678, 9.1979],
+          confidence: 0.997,
+          span: {
+            offset: 5195,
+            length: 7,
+          },
+        },
+        {
+          content: 'partners,',
+          polygon: [6.4616, 9.0691, 6.8955, 9.0705, 6.8952, 9.199, 6.4616, 9.1986],
+          confidence: 0.993,
+          span: {
+            offset: 5203,
+            length: 9,
+          },
+        },
+        {
+          content: 'owners,',
+          polygon: [6.9313, 9.0709, 7.3188, 9.0717, 7.3183, 9.1982, 6.9309, 9.199],
+          confidence: 0.995,
+          span: {
+            offset: 5213,
+            length: 7,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [7.3567, 9.072, 7.464, 9.0727, 7.464, 9.1978, 7.3562, 9.1981],
+          confidence: 0.998,
+          span: {
+            offset: 5221,
+            length: 2,
+          },
+        },
+        {
+          content: 'beneficiaries,',
+          polygon: [4.3831, 9.19, 5.038, 9.1899, 5.0383, 9.317, 4.3832, 9.3156],
+          confidence: 0.992,
+          span: {
+            offset: 5224,
+            length: 14,
+          },
+        },
+        {
+          content: 'so',
+          polygon: [5.0757, 9.1901, 5.195, 9.1907, 5.1952, 9.3177, 5.0759, 9.3171],
+          confidence: 0.998,
+          span: {
+            offset: 5239,
+            length: 2,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [5.2243, 9.1908, 5.4042, 9.1914, 5.4044, 9.3199, 5.2245, 9.3179],
+          confidence: 0.992,
+          span: {
+            offset: 5242,
+            length: 4,
+          },
+        },
+        {
+          content: 'it',
+          polygon: [5.4293, 9.1914, 5.5088, 9.1919, 5.509, 9.3199, 5.4295, 9.3201],
+          confidence: 0.998,
+          span: {
+            offset: 5247,
+            length: 2,
+          },
+        },
+        {
+          content: 'can',
+          polygon: [5.5402, 9.1921, 5.716, 9.1923, 5.7161, 9.3198, 5.5404, 9.3198],
+          confidence: 0.999,
+          span: {
+            offset: 5250,
+            length: 3,
+          },
+        },
+        {
+          content: 'satisfy',
+          polygon: [5.7494, 9.1922, 6.0696, 9.1936, 6.0694, 9.3225, 5.7495, 9.3199],
+          confidence: 0.995,
+          span: {
+            offset: 5254,
+            length: 7,
+          },
+        },
+        {
+          content: 'any',
+          polygon: [6.1009, 9.1936, 6.2767, 9.1938, 6.2767, 9.3225, 6.1008, 9.3225],
+          confidence: 0.998,
+          span: {
+            offset: 5262,
+            length: 3,
+          },
+        },
+        {
+          content: 'applicable',
+          polygon: [6.3081, 9.1938, 6.8165, 9.1947, 6.8162, 9.3224, 6.3081, 9.3225],
+          confidence: 0.995,
+          span: {
+            offset: 5266,
+            length: 10,
+          },
+        },
+        {
+          content: 'reporting',
+          polygon: [6.85, 9.1947, 7.3038, 9.1939, 7.3038, 9.3227, 6.8496, 9.3224],
+          confidence: 0.995,
+          span: {
+            offset: 5277,
+            length: 9,
+          },
+        },
+        {
+          content: 'requirements.',
+          polygon: [4.3834, 9.3182, 5.0658, 9.318, 5.0662, 9.4444, 4.3837, 9.4452],
+          confidence: 0.991,
+          span: {
+            offset: 5287,
+            length: 13,
+          },
+        },
+        {
+          content: 'For',
+          polygon: [5.1075, 9.3178, 5.2703, 9.3175, 5.2706, 9.4456, 5.1079, 9.4444],
+          confidence: 0.999,
+          span: {
+            offset: 5301,
+            length: 3,
+          },
+        },
+        {
+          content: 'example,',
+          polygon: [5.2995, 9.3175, 5.7461, 9.3177, 5.7464, 9.4453, 5.2999, 9.4459],
+          confidence: 0.992,
+          span: {
+            offset: 5305,
+            length: 8,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [5.7816, 9.3177, 5.8421, 9.3175, 5.8423, 9.4452, 5.7819, 9.4453],
+          confidence: 0.995,
+          span: {
+            offset: 5314,
+            length: 1,
+          },
+        },
+        {
+          content: 'partnership',
+          polygon: [5.8755, 9.3175, 6.4326, 9.3187, 6.4328, 9.4451, 5.8757, 9.4452],
+          confidence: 0.989,
+          span: {
+            offset: 5316,
+            length: 11,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [6.4639, 9.3187, 6.6455, 9.3183, 6.6455, 9.4458, 6.4641, 9.4452],
+          confidence: 0.992,
+          span: {
+            offset: 5328,
+            length: 4,
+          },
+        },
+        {
+          content: 'has',
+          polygon: [6.6705, 9.3183, 6.8625, 9.318, 6.8626, 9.4459, 6.6705, 9.4458],
+          confidence: 0.998,
+          span: {
+            offset: 5333,
+            length: 3,
+          },
+        },
+        {
+          content: 'any',
+          polygon: [6.8959, 9.318, 7.0712, 9.3177, 7.0712, 9.4463, 6.896, 9.4459],
+          confidence: 0.999,
+          span: {
+            offset: 5337,
+            length: 3,
+          },
+        },
+        {
+          content: 'indirect',
+          polygon: [7.1067, 9.3177, 7.4698, 9.3171, 7.4696, 9.4447, 7.1067, 9.4463],
+          confidence: 0.995,
+          span: {
+            offset: 5341,
+            length: 8,
+          },
+        },
+        {
+          content: 'foreign',
+          polygon: [7.499, 9.3169, 7.8508, 9.3173, 7.8508, 9.4438, 7.4988, 9.4447],
+          confidence: 0.996,
+          span: {
+            offset: 5350,
+            length: 7,
+          },
+        },
+        {
+          content: 'partners',
+          polygon: [4.3835, 9.4449, 4.8, 9.4427, 4.8004, 9.5659, 4.3838, 9.5659],
+          confidence: 0.992,
+          span: {
+            offset: 5358,
+            length: 8,
+          },
+        },
+        {
+          content: 'may',
+          polygon: [4.837, 9.4426, 5.0319, 9.4416, 5.0323, 9.5659, 4.8374, 9.5659],
+          confidence: 0.997,
+          span: {
+            offset: 5367,
+            length: 3,
+          },
+        },
+        {
+          content: 'be',
+          polygon: [5.0565, 9.4414, 5.1878, 9.441, 5.1882, 9.5659, 5.0569, 9.5659],
+          confidence: 0.997,
+          span: {
+            offset: 5371,
+            length: 2,
+          },
+        },
+        {
+          content: 'required',
+          polygon: [5.2125, 9.4411, 5.6351, 9.4398, 5.6356, 9.5655, 5.2128, 9.5659],
+          confidence: 0.994,
+          span: {
+            offset: 5374,
+            length: 8,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [5.67, 9.4398, 5.7685, 9.4397, 5.7689, 9.5647, 5.6705, 9.5653],
+          confidence: 0.995,
+          span: {
+            offset: 5383,
+            length: 2,
+          },
+        },
+        {
+          content: 'complete',
+          polygon: [5.7993, 9.4396, 6.263, 9.4391, 6.2632, 9.5649, 5.7996, 9.5646],
+          confidence: 0.994,
+          span: {
+            offset: 5386,
+            length: 8,
+          },
+        },
+        {
+          content: 'Schedules',
+          polygon: [6.2958, 9.439, 6.8109, 9.4383, 6.8111, 9.5633, 6.296, 9.5647],
+          confidence: 0.993,
+          span: {
+            offset: 5395,
+            length: 9,
+          },
+        },
+        {
+          content: 'K-2',
+          polygon: [6.8478, 9.4383, 7.0202, 9.4376, 7.0203, 9.5628, 6.848, 9.5631],
+          confidence: 0.996,
+          span: {
+            offset: 5405,
+            length: 3,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [7.053, 9.4374, 7.2377, 9.4365, 7.2378, 9.5627, 7.0532, 9.5627],
+          confidence: 0.997,
+          span: {
+            offset: 5409,
+            length: 3,
+          },
+        },
+        {
+          content: 'K-3.',
+          polygon: [7.2766, 9.4364, 7.4941, 9.4359, 7.4943, 9.5623, 7.2768, 9.5627],
+          confidence: 0.992,
+          span: {
+            offset: 5413,
+            length: 4,
+          },
+        },
+        {
+          content: 'See',
+          polygon: [7.5188, 9.4359, 7.7014, 9.436, 7.7015, 9.5614, 7.5189, 9.5622],
+          confidence: 0.998,
+          span: {
+            offset: 5418,
+            length: 3,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [7.7322, 9.4359, 7.9005, 9.4355, 7.9005, 9.5606, 7.7323, 9.5612],
+          confidence: 0.998,
+          span: {
+            offset: 5422,
+            length: 3,
+          },
+        },
+        {
+          content: 'Partnership',
+          polygon: [4.3852, 9.5637, 4.9442, 9.5648, 4.9445, 9.6925, 4.3852, 9.6918],
+          confidence: 0.992,
+          span: {
+            offset: 5426,
+            length: 11,
+          },
+        },
+        {
+          content: 'Instructions',
+          polygon: [4.9718, 9.5647, 5.5691, 9.5632, 5.5693, 9.693, 4.9722, 9.6924],
+          confidence: 0.99,
+          span: {
+            offset: 5438,
+            length: 12,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [5.5988, 9.5632, 5.7349, 9.5632, 5.735, 9.6926, 5.5991, 9.6929],
+          confidence: 0.994,
+          span: {
+            offset: 5451,
+            length: 3,
+          },
+        },
+        {
+          content: 'Schedules',
+          polygon: [5.7646, 9.5633, 6.2726, 9.5642, 6.2725, 9.6943, 5.7648, 9.6925],
+          confidence: 0.993,
+          span: {
+            offset: 5455,
+            length: 9,
+          },
+        },
+        {
+          content: 'K-2',
+          polygon: [6.2981, 9.5642, 6.4915, 9.5642, 6.4915, 9.694, 6.298, 9.6942],
+          confidence: 0.989,
+          span: {
+            offset: 5465,
+            length: 3,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [6.5255, 9.5642, 6.7083, 9.5642, 6.7083, 9.6943, 6.5255, 9.694],
+          confidence: 0.998,
+          span: {
+            offset: 5469,
+            length: 3,
+          },
+        },
+        {
+          content: 'K-3',
+          polygon: [6.7487, 9.5641, 6.9188, 9.5638, 6.9188, 9.6947, 6.7487, 9.6944],
+          confidence: 0.996,
+          span: {
+            offset: 5473,
+            length: 3,
+          },
+        },
+        {
+          content: '(Form',
+          polygon: [6.9549, 9.5637, 7.2376, 9.5634, 7.2375, 9.6954, 6.9549, 9.6947],
+          confidence: 0.992,
+          span: {
+            offset: 5477,
+            length: 5,
+          },
+        },
+        {
+          content: '1065).',
+          polygon: [7.278, 9.5634, 7.58, 9.5629, 7.58, 9.6957, 7.2778, 9.6956],
+          confidence: 0.992,
+          span: {
+            offset: 5483,
+            length: 6,
+          },
+        },
+        {
+          content: 'Purpose',
+          polygon: [4.3827, 9.7751, 5.0514, 9.7768, 5.0518, 9.9472, 4.3824, 9.9443],
+          confidence: 0.996,
+          span: {
+            offset: 5496,
+            length: 7,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [5.1035, 9.778, 5.2597, 9.7781, 5.2596, 9.9453, 5.1037, 9.9464],
+          confidence: 0.998,
+          span: {
+            offset: 5504,
+            length: 2,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [5.3117, 9.7781, 5.7237, 9.7797, 5.7237, 9.9439, 5.3117, 9.9448],
+          confidence: 0.992,
+          span: {
+            offset: 5507,
+            length: 4,
+          },
+        },
+        {
+          content: 'An',
+          polygon: [4.3804, 9.9931, 4.5069, 9.9928, 4.5068, 10.1191, 4.3803, 10.1191],
+          confidence: 0.996,
+          span: {
+            offset: 5513,
+            length: 2,
+          },
+        },
+        {
+          content: 'individual',
+          polygon: [4.5322, 9.9928, 5.0193, 9.9926, 5.0193, 10.1205, 4.5322, 10.1191],
+          confidence: 0.993,
+          span: {
+            offset: 5516,
+            length: 10,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [5.053, 9.9926, 5.1584, 9.9927, 5.1585, 10.121, 5.0531, 10.1206],
+          confidence: 0.996,
+          span: {
+            offset: 5527,
+            length: 2,
+          },
+        },
+        {
+          content: 'entity',
+          polygon: [5.1858, 9.9927, 5.4578, 9.9926, 5.458, 10.122, 5.1859, 10.1211],
+          confidence: 0.994,
+          span: {
+            offset: 5530,
+            length: 6,
+          },
+        },
+        {
+          content: '(Form',
+          polygon: [5.4895, 9.9926, 5.772, 9.993, 5.7719, 10.1219, 5.4896, 10.1221],
+          confidence: 0.996,
+          span: {
+            offset: 5537,
+            length: 5,
+          },
+        },
+        {
+          content: 'W-9',
+          polygon: [5.8057, 9.9931, 6.0102, 9.9938, 6.01, 10.1225, 5.8056, 10.1218],
+          confidence: 0.995,
+          span: {
+            offset: 5543,
+            length: 3,
+          },
+        },
+        {
+          content: 'requester)',
+          polygon: [6.0482, 9.9939, 6.5415, 9.9937, 6.5413, 10.123, 6.0479, 10.1227],
+          confidence: 0.994,
+          span: {
+            offset: 5547,
+            length: 10,
+          },
+        },
+        {
+          content: 'who',
+          polygon: [6.5753, 9.9937, 6.784, 9.994, 6.7838, 10.1238, 6.5751, 10.123],
+          confidence: 0.997,
+          span: {
+            offset: 5558,
+            length: 3,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [6.8198, 9.994, 6.8852, 9.994, 6.8849, 10.1239, 6.8196, 10.1239],
+          confidence: 0.996,
+          span: {
+            offset: 5562,
+            length: 2,
+          },
+        },
+        {
+          content: 'required',
+          polygon: [6.9105, 9.9941, 7.3322, 9.9943, 7.3318, 10.1236, 6.9102, 10.1239],
+          confidence: 0.992,
+          span: {
+            offset: 5565,
+            length: 8,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [7.3659, 9.9942, 7.465, 9.994, 7.4646, 10.1233, 7.3655, 10.1235],
+          confidence: 0.999,
+          span: {
+            offset: 5574,
+            length: 2,
+          },
+        },
+        {
+          content: 'file',
+          polygon: [7.4945, 9.9939, 7.64, 9.9941, 7.6396, 10.1231, 7.4941, 10.1232],
+          confidence: 0.994,
+          span: {
+            offset: 5577,
+            length: 4,
+          },
+        },
+        {
+          content: 'an',
+          polygon: [7.6695, 9.9942, 7.801, 9.9946, 7.801, 10.1232, 7.6691, 10.1231],
+          confidence: 0.998,
+          span: {
+            offset: 5582,
+            length: 2,
+          },
+        },
+        {
+          content: 'information',
+          polygon: [4.3821, 10.1189, 4.945, 10.1183, 4.9453, 10.2431, 4.3821, 10.2441],
+          confidence: 0.992,
+          span: {
+            offset: 5585,
+            length: 11,
+          },
+        },
+        {
+          content: 'return',
+          polygon: [4.9824, 10.1183, 5.2691, 10.1185, 5.2693, 10.2442, 4.9827, 10.2431],
+          confidence: 0.997,
+          span: {
+            offset: 5597,
+            length: 6,
+          },
+        },
+        {
+          content: 'with',
+          polygon: [5.3023, 10.1186, 5.5038, 10.1181, 5.504, 10.2448, 5.3025, 10.2444],
+          confidence: 0.992,
+          span: {
+            offset: 5604,
+            length: 4,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [5.5371, 10.118, 5.6867, 10.1181, 5.6868, 10.2458, 5.5373, 10.2448],
+          confidence: 0.999,
+          span: {
+            offset: 5609,
+            length: 3,
+          },
+        },
+        {
+          content: 'IRS',
+          polygon: [5.7116, 10.1182, 5.9006, 10.1189, 5.9006, 10.2471, 5.7117, 10.246],
+          confidence: 0.992,
+          span: {
+            offset: 5613,
+            length: 3,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [5.938, 10.1192, 6.0128, 10.1196, 6.0128, 10.2476, 5.938, 10.2473],
+          confidence: 0.998,
+          span: {
+            offset: 5617,
+            length: 2,
+          },
+        },
+        {
+          content: 'giving',
+          polygon: [6.046, 10.1198, 6.3348, 10.12, 6.3348, 10.2475, 6.046, 10.2477],
+          confidence: 0.996,
+          span: {
+            offset: 5620,
+            length: 6,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [6.368, 10.12, 6.5467, 10.1199, 6.5467, 10.2479, 6.368, 10.2476],
+          confidence: 0.999,
+          span: {
+            offset: 5627,
+            length: 3,
+          },
+        },
+        {
+          content: 'this',
+          polygon: [6.5778, 10.1199, 6.7565, 10.1199, 6.7564, 10.2478, 6.5778, 10.2479],
+          confidence: 0.992,
+          span: {
+            offset: 5631,
+            length: 4,
+          },
+        },
+        {
+          content: 'form',
+          polygon: [6.7876, 10.1202, 7.012, 10.1219, 7.0118, 10.248, 6.7876, 10.2478],
+          confidence: 0.992,
+          span: {
+            offset: 5636,
+            length: 4,
+          },
+        },
+        {
+          content: 'because',
+          polygon: [7.0515, 10.1219, 7.469, 10.1216, 7.4688, 10.249, 7.0513, 10.2482],
+          confidence: 0.996,
+          span: {
+            offset: 5641,
+            length: 7,
+          },
+        },
+        {
+          content: 'they',
+          polygon: [7.4981, 10.1216, 7.7182, 10.1212, 7.7182, 10.25, 7.4979, 10.2491],
+          confidence: 0.99,
+          span: {
+            offset: 5649,
+            length: 4,
+          },
+        },
+        {
+          content: 'Cat.',
+          polygon: [3.2768, 10.3707, 3.4584, 10.3713, 3.4583, 10.4749, 3.2769, 10.4752],
+          confidence: 0.989,
+          span: {
+            offset: 5672,
+            length: 4,
+          },
+        },
+        {
+          content: 'No.',
+          polygon: [3.4944, 10.3716, 3.64, 10.3718, 3.6399, 10.4759, 3.4943, 10.4752],
+          confidence: 0.995,
+          span: {
+            offset: 5677,
+            length: 3,
+          },
+        },
+        {
+          content: '10231X',
+          polygon: [3.676, 10.3721, 4.011, 10.3697, 4.011, 10.4756, 3.6759, 10.4761],
+          confidence: 0.995,
+          span: {
+            offset: 5681,
+            length: 6,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [6.8516, 10.3554, 7.0837, 10.3537, 7.0842, 10.4833, 6.8522, 10.4822],
+          confidence: 0.992,
+          span: {
+            offset: 5710,
+            length: 4,
+          },
+        },
+        {
+          content: 'W-9',
+          polygon: [7.1132, 10.3537, 7.3791, 10.3538, 7.3792, 10.4836, 7.1136, 10.4833],
+          confidence: 0.989,
+          span: {
+            offset: 5715,
+            length: 3,
+          },
+        },
+        {
+          content: '(Rev.',
+          polygon: [7.4065, 10.3539, 7.6217, 10.3557, 7.622, 10.4841, 7.4066, 10.4837],
+          confidence: 0.992,
+          span: {
+            offset: 5719,
+            length: 5,
+          },
+        },
+        {
+          content: '3-2024)',
+          polygon: [7.6513, 10.356, 7.9889, 10.3592, 7.9889, 10.4872, 7.6515, 10.4846],
+          confidence: 0.995,
+          span: {
+            offset: 5725,
+            length: 7,
+          },
+        },
+        {
+          content: 'Print',
+          polygon: [0.4943, 3.4253, 0.499, 3.1684, 0.6108, 3.1688, 0.6041, 3.4258],
+          confidence: 0.995,
+          span: {
+            offset: 5739,
+            length: 5,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [0.4997, 3.1313, 0.5002, 3.0255, 0.6158, 3.0264, 0.612, 3.1318],
+          confidence: 0.999,
+          span: {
+            offset: 5745,
+            length: 2,
+          },
+        },
+        {
+          content: 'type.',
+          polygon: [0.5008, 2.9922, 0.5017, 2.7253, 0.6131, 2.725, 0.6167, 2.9932],
+          confidence: 0.996,
+          span: {
+            offset: 5748,
+            length: 5,
+          },
+        },
+        {
+          content: 'See',
+          polygon: [0.6224, 4.0219, 0.6264, 3.825, 0.7415, 3.8261, 0.7374, 4.0228],
+          confidence: 0.996,
+          span: {
+            offset: 5754,
+            length: 3,
+          },
+        },
+        {
+          content: 'Specific',
+          polygon: [0.6261, 3.7871, 0.63, 3.3686, 0.7439, 3.3701, 0.7416, 3.7882],
+          confidence: 0.995,
+          span: {
+            offset: 5758,
+            length: 8,
+          },
+        },
+        {
+          content: 'Instructions',
+          polygon: [0.6304, 3.3345, 0.6318, 2.7049, 0.7468, 2.7062, 0.7443, 3.3361],
+          confidence: 0.992,
+          span: {
+            offset: 5767,
+            length: 12,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [0.6322, 2.6689, 0.6335, 2.5499, 0.7481, 2.551, 0.7468, 2.6702],
+          confidence: 0.999,
+          span: {
+            offset: 5780,
+            length: 2,
+          },
+        },
+        {
+          content: 'page',
+          polygon: [0.6333, 2.5123, 0.633, 2.2653, 0.7488, 2.2654, 0.7484, 2.5132],
+          confidence: 0.989,
+          span: {
+            offset: 5783,
+            length: 4,
+          },
+        },
+        {
+          content: '3.',
+          polygon: [0.6324, 2.2331, 0.6306, 2.1401, 0.7471, 2.1405, 0.7483, 2.2332],
+          confidence: 0.992,
+          span: {
+            offset: 5788,
+            length: 2,
+          },
+        },
+      ],
+      selectionMarks: [
+        {
+          state: 'unselected',
+          polygon: [1.007, 2.4934, 1.1281, 2.4925, 1.1274, 2.6175, 1.0064, 2.6169],
+          confidence: 0.991,
+          span: {
+            offset: 788,
+            length: 1,
+          },
+          path: 'pages/1/selection_marks/1',
+        },
+        {
+          state: 'unselected',
+          polygon: [2.4902, 2.4918, 2.6149, 2.4932, 2.6145, 2.6171, 2.4914, 2.618],
+          confidence: 0.991,
+          span: {
+            offset: 817,
+            length: 1,
+          },
+          path: 'pages/1/selection_marks/2',
+        },
+        {
+          state: 'unselected',
+          polygon: [3.4893, 2.4935, 3.6131, 2.4943, 3.613, 2.6164, 3.4896, 2.6162],
+          confidence: 0.991,
+          span: {
+            offset: 833,
+            length: 1,
+          },
+          path: 'pages/1/selection_marks/3',
+        },
+        {
+          state: 'unselected',
+          polygon: [4.485, 2.4917, 4.6105, 2.4929, 4.6097, 2.6176, 4.4854, 2.6177],
+          confidence: 0.991,
+          span: {
+            offset: 849,
+            length: 1,
+          },
+          path: 'pages/1/selection_marks/4',
+        },
+        {
+          state: 'unselected',
+          polygon: [5.386, 2.4923, 5.5098, 2.4934, 5.5096, 2.617, 5.3848, 2.6163],
+          confidence: 0.991,
+          span: {
+            offset: 863,
+            length: 1,
+          },
+          path: 'pages/1/selection_marks/5',
+        },
+        {
+          state: 'unselected',
+          polygon: [1.0055, 2.6787, 1.1275, 2.6789, 1.1265, 2.8011, 1.0055, 2.8005],
+          confidence: 0.991,
+          span: {
+            offset: 878,
+            length: 1,
+          },
+          path: 'pages/1/selection_marks/6',
+        },
+        {
+          state: 'unselected',
+          polygon: [1.0063, 3.1823, 1.127, 3.1833, 1.1261, 3.3069, 1.0052, 3.3054],
+          confidence: 0.991,
+          span: {
+            offset: 1253,
+            length: 1,
+          },
+          path: 'pages/1/selection_marks/7',
+        },
+        {
+          state: 'unselected',
+          polygon: [6.1033, 3.6388, 6.2268, 3.6404, 6.2253, 3.7629, 6.1034, 3.7639],
+          confidence: 0.991,
+          span: {
+            offset: 1603,
+            length: 1,
+          },
+          path: 'pages/1/selection_marks/8',
+        },
+      ],
+      lines: [
+        {
+          content: 'Form',
+          polygon: [0.4918, 0.6492, 0.731, 0.6521, 0.7299, 0.7493, 0.4917, 0.7464],
+          spans: [
+            {
+              offset: 0,
+              length: 4,
+            },
+          ],
+          path: 'pages/1/lines/1',
+        },
+        {
+          content: 'W-9',
+          polygon: [0.775, 0.4706, 1.3305, 0.4716, 1.33, 0.7605, 0.7744, 0.7595],
+          spans: [
+            {
+              offset: 5,
+              length: 3,
+            },
+          ],
+          path: 'pages/1/lines/2',
+        },
+        {
+          content: '(Rev. March 2024)',
+          polygon: [0.4933, 0.7775, 1.2907, 0.7759, 1.2909, 0.8884, 0.4935, 0.8897],
+          spans: [
+            {
+              offset: 9,
+              length: 17,
+            },
+          ],
+          path: 'pages/1/lines/3',
+        },
+        {
+          content: 'Department of the Treasury',
+          polygon: [0.4933, 0.9128, 1.6557, 0.9174, 1.6553, 1.0325, 0.4929, 1.0279],
+          spans: [
+            {
+              offset: 27,
+              length: 26,
+            },
+          ],
+          path: 'pages/1/lines/4',
+        },
+        {
+          content: 'Internal Revenue Service',
+          polygon: [0.4908, 1.0332, 1.5491, 1.0344, 1.549, 1.1428, 0.4907, 1.1415],
+          spans: [
+            {
+              offset: 54,
+              length: 24,
+            },
+          ],
+          path: 'pages/1/lines/5',
+        },
+        {
+          content: 'Request for Taxpayer',
+          polygon: [3.3098, 0.5139, 5.1783, 0.5202, 5.1774, 0.7228, 3.3089, 0.7146],
+          spans: [
+            {
+              offset: 83,
+              length: 20,
+            },
+          ],
+          path: 'pages/1/lines/6',
+        },
+        {
+          content: 'Identification Number and Certification',
+          polygon: [2.5412, 0.7222, 5.9368, 0.7231, 5.9367, 0.9143, 2.5412, 0.9135],
+          spans: [
+            {
+              offset: 104,
+              length: 39,
+            },
+          ],
+          path: 'pages/1/lines/7',
+        },
+        {
+          content: 'Go to www.irs.gov/FormW9 for instructions and the latest information.',
+          polygon: [2.3754, 0.9726, 6.1024, 0.9749, 6.1022, 1.1074, 2.3753, 1.1044],
+          spans: [
+            {
+              offset: 144,
+              length: 69,
+            },
+          ],
+          path: 'pages/1/lines/8',
+        },
+        {
+          content: 'Give form to the',
+          polygon: [6.878, 0.6126, 7.8469, 0.6138, 7.8468, 0.744, 6.8778, 0.7427],
+          spans: [
+            {
+              offset: 215,
+              length: 16,
+            },
+          ],
+          path: 'pages/1/lines/9',
+        },
+        {
+          content: 'requester. Do not',
+          polygon: [6.8757, 0.7717, 7.9337, 0.7665, 7.9343, 0.8927, 6.8763, 0.8979],
+          spans: [
+            {
+              offset: 232,
+              length: 17,
+            },
+          ],
+          path: 'pages/1/lines/10',
+        },
+        {
+          content: 'send to the IRS.',
+          polygon: [6.8742, 0.9173, 7.8308, 0.9121, 7.8315, 1.0389, 6.8749, 1.0441],
+          spans: [
+            {
+              offset: 250,
+              length: 16,
+            },
+          ],
+          path: 'pages/1/lines/11',
+        },
+        {
+          content:
+            'Before you begin. For guidance related to the purpose of Form W-9, see Purpose of Form, below.',
+          polygon: [0.4943, 1.1826, 5.3823, 1.1851, 5.3822, 1.3188, 0.4942, 1.3162],
+          spans: [
+            {
+              offset: 268,
+              length: 94,
+            },
+          ],
+          path: 'pages/1/lines/12',
+        },
+        {
+          content:
+            "1 Name of entity/individual. An entry is required. (For a sole proprietor or disregarded entity, enter the owner's name on line 1, and enter the business/disregarded",
+          polygon: [0.8509, 1.3464, 7.9448, 1.3467, 7.9448, 1.4737, 0.8509, 1.4733],
+          spans: [
+            {
+              offset: 364,
+              length: 165,
+            },
+          ],
+          path: 'pages/1/lines/13',
+        },
+        {
+          content: "entity's name on line 2.)",
+          polygon: [1.007, 1.4702, 2.0519, 1.4689, 2.052, 1.5872, 1.0072, 1.5885],
+          spans: [
+            {
+              offset: 530,
+              length: 25,
+            },
+          ],
+          path: 'pages/1/lines/14',
+        },
+        {
+          content: '2',
+          polygon: [0.8406, 1.8599, 0.9145, 1.86, 0.9144, 1.9514, 0.8405, 1.9513],
+          spans: [
+            {
+              offset: 557,
+              length: 1,
+            },
+          ],
+          path: 'pages/1/lines/15',
+        },
+        {
+          content: 'Business name/disregarded entity name, if different from above.',
+          polygon: [0.9932, 1.8455, 3.7947, 1.8447, 3.7947, 1.969, 0.9932, 1.9698],
+          spans: [
+            {
+              offset: 559,
+              length: 63,
+            },
+          ],
+          path: 'pages/1/lines/16',
+        },
+        {
+          content:
+            '3a Check the appropriate box for federal tax classification of the entity/individual whose name is entered on line 1. Check',
+          polygon: [0.8441, 2.1818, 6.1431, 2.1795, 6.1432, 2.3035, 0.8441, 2.3058],
+          spans: [
+            {
+              offset: 624,
+              length: 123,
+            },
+          ],
+          path: 'pages/1/lines/17',
+        },
+        {
+          content: 'only one of the following seven boxes.',
+          polygon: [1.0101, 2.3046, 2.6937, 2.3044, 2.6937, 2.4204, 1.0101, 2.4206],
+          spans: [
+            {
+              offset: 748,
+              length: 38,
+            },
+          ],
+          path: 'pages/1/lines/18',
+        },
+        {
+          content: 'Individual/sole proprietor',
+          polygon: [1.1855, 2.5001, 2.2855, 2.5013, 2.2854, 2.6189, 1.1854, 2.6178],
+          spans: [
+            {
+              offset: 790,
+              length: 26,
+            },
+          ],
+          path: 'pages/1/lines/19',
+        },
+        {
+          content: 'C corporation',
+          polygon: [2.6733, 2.5051, 3.2839, 2.5053, 3.2839, 2.6142, 2.6732, 2.614],
+          spans: [
+            {
+              offset: 819,
+              length: 13,
+            },
+          ],
+          path: 'pages/1/lines/20',
+        },
+        {
+          content: 'S corporation',
+          polygon: [3.6708, 2.5049, 4.275, 2.5039, 4.2752, 2.6141, 3.671, 2.615],
+          spans: [
+            {
+              offset: 835,
+              length: 13,
+            },
+          ],
+          path: 'pages/1/lines/21',
+        },
+        {
+          content: 'Partnership',
+          polygon: [4.6715, 2.5034, 5.1827, 2.5048, 5.1822, 2.6134, 4.671, 2.611],
+          spans: [
+            {
+              offset: 851,
+              length: 11,
+            },
+          ],
+          path: 'pages/1/lines/22',
+        },
+        {
+          content: 'Trust/estate',
+          polygon: [5.5664, 2.5018, 6.1014, 2.5029, 6.1012, 2.6096, 5.5662, 2.6085],
+          spans: [
+            {
+              offset: 865,
+              length: 12,
+            },
+          ],
+          path: 'pages/1/lines/23',
+        },
+        {
+          content:
+            'LLC. Enter the tax classification (C = C corporation, S = S corporation, P = Partnership)',
+          polygon: [1.1876, 2.6853, 4.971, 2.6884, 4.9709, 2.8082, 1.1875, 2.8052],
+          spans: [
+            {
+              offset: 880,
+              length: 89,
+            },
+          ],
+          path: 'pages/1/lines/24',
+        },
+        {
+          content: '.',
+          polygon: [5.6747, 2.7604, 5.6854, 2.7604, 5.6854, 2.7712, 5.6747, 2.7712],
+          spans: [
+            {
+              offset: 970,
+              length: 1,
+            },
+          ],
+          path: 'pages/1/lines/25',
+        },
+        {
+          content: '.',
+          polygon: [5.508, 2.7604, 5.5188, 2.7604, 5.5188, 2.7712, 5.508, 2.7712],
+          spans: [
+            {
+              offset: 972,
+              length: 1,
+            },
+          ],
+          path: 'pages/1/lines/26',
+        },
+        {
+          content: '.',
+          polygon: [5.1747, 2.7604, 5.1855, 2.7604, 5.1855, 2.7712, 5.1747, 2.7712],
+          spans: [
+            {
+              offset: 974,
+              length: 1,
+            },
+          ],
+          path: 'pages/1/lines/27',
+        },
+        {
+          content: '.',
+          polygon: [5.3414, 2.7604, 5.3522, 2.7604, 5.3522, 2.7712, 5.3414, 2.7712],
+          spans: [
+            {
+              offset: 976,
+              length: 1,
+            },
+          ],
+          path: 'pages/1/lines/28',
+        },
+        {
+          content:
+            'Note: Check the "LLC" box above and, in the entry space, enter the appropriate code (C, S, or P) for the tax',
+          polygon: [1.1864, 2.8222, 5.8416, 2.826, 5.8415, 2.9455, 1.1863, 2.9424],
+          spans: [
+            {
+              offset: 979,
+              length: 108,
+            },
+          ],
+          path: 'pages/1/lines/29',
+        },
+        {
+          content:
+            'classification of the LLC, unless it is a disregarded entity. A disregarded entity should instead check the appropriate',
+          polygon: [1.1867, 2.9344, 6.1642, 2.94, 6.1641, 3.0591, 1.1866, 3.0533],
+          spans: [
+            {
+              offset: 1088,
+              length: 119,
+            },
+          ],
+          path: 'pages/1/lines/30',
+        },
+        {
+          content: 'box for the tax classification of its owner.',
+          polygon: [1.186, 3.0446, 2.9614, 3.0433, 2.9615, 3.1557, 1.186, 3.157],
+          spans: [
+            {
+              offset: 1208,
+              length: 44,
+            },
+          ],
+          path: 'pages/1/lines/31',
+        },
+        {
+          content: 'Other (see instructions)',
+          polygon: [1.1854, 3.1951, 2.1988, 3.1958, 2.1988, 3.3133, 1.1853, 3.3126],
+          spans: [
+            {
+              offset: 1255,
+              length: 24,
+            },
+          ],
+          path: 'pages/1/lines/32',
+        },
+        {
+          content:
+            '3b If on line 3a you checked "Partnership" or "Trust/estate," or checked "LLC" and entered "P" as its tax classification,',
+          polygon: [0.8455, 3.4175, 6.0182, 3.4208, 6.0181, 3.5428, 0.8454, 3.5395],
+          spans: [
+            {
+              offset: 1281,
+              length: 121,
+            },
+          ],
+          path: 'pages/1/lines/33',
+        },
+        {
+          content:
+            'and you are providing this form to a partnership, trust, or estate in which you have an ownership interest, check',
+          polygon: [1.0063, 3.5397, 6.0282, 3.5368, 6.0283, 3.6578, 1.0064, 3.6608],
+          spans: [
+            {
+              offset: 1403,
+              length: 113,
+            },
+          ],
+          path: 'pages/1/lines/34',
+        },
+        {
+          content:
+            'this box if you have any foreign partners, owners, or beneficiaries. See instructions',
+          polygon: [1.005, 3.6551, 4.6228, 3.6551, 4.6228, 3.7756, 1.005, 3.7756],
+          spans: [
+            {
+              offset: 1517,
+              length: 85,
+            },
+          ],
+          path: 'pages/1/lines/35',
+        },
+        {
+          content: "Requester's name and address (optional)",
+          polygon: [5.4322, 3.8462, 7.2287, 3.8489, 7.2284, 3.9707, 5.4319, 3.9673],
+          spans: [
+            {
+              offset: 1605,
+              length: 39,
+            },
+          ],
+          path: 'pages/1/lines/36',
+        },
+        {
+          content: '.',
+          polygon: [6.0083, 3.7257, 6.0191, 3.7257, 6.0191, 3.7365, 6.0083, 3.7365],
+          spans: [
+            {
+              offset: 1645,
+              length: 1,
+            },
+          ],
+          path: 'pages/1/lines/37',
+        },
+        {
+          content: '.',
+          polygon: [5.8416, 3.7257, 5.8524, 3.7257, 5.8524, 3.7365, 5.8416, 3.7365],
+          spans: [
+            {
+              offset: 1647,
+              length: 1,
+            },
+          ],
+          path: 'pages/1/lines/38',
+        },
+        {
+          content: '.',
+          polygon: [5.675, 3.7257, 5.6858, 3.7257, 5.6858, 3.7365, 5.675, 3.7365],
+          spans: [
+            {
+              offset: 1649,
+              length: 1,
+            },
+          ],
+          path: 'pages/1/lines/39',
+        },
+        {
+          content: '.',
+          polygon: [5.5084, 3.7257, 5.5192, 3.7257, 5.5192, 3.7365, 5.5084, 3.7365],
+          spans: [
+            {
+              offset: 1651,
+              length: 1,
+            },
+          ],
+          path: 'pages/1/lines/40',
+        },
+        {
+          content: '.',
+          polygon: [5.3417, 3.7257, 5.3525, 3.7257, 5.3525, 3.7365, 5.3417, 3.7365],
+          spans: [
+            {
+              offset: 1653,
+              length: 1,
+            },
+          ],
+          path: 'pages/1/lines/41',
+        },
+        {
+          content: '.',
+          polygon: [5.1751, 3.7257, 5.1859, 3.7257, 5.1859, 3.7365, 5.1751, 3.7365],
+          spans: [
+            {
+              offset: 1655,
+              length: 1,
+            },
+          ],
+          path: 'pages/1/lines/42',
+        },
+        {
+          content: '.',
+          polygon: [4.8418, 3.7257, 4.8526, 3.7257, 4.8526, 3.7365, 4.8418, 3.7365],
+          spans: [
+            {
+              offset: 1657,
+              length: 1,
+            },
+          ],
+          path: 'pages/1/lines/43',
+        },
+        {
+          content: '.',
+          polygon: [5.0084, 3.7257, 5.0192, 3.7257, 5.0192, 3.7365, 5.0084, 3.7365],
+          spans: [
+            {
+              offset: 1659,
+              length: 1,
+            },
+          ],
+          path: 'pages/1/lines/44',
+        },
+        {
+          content: '5 Address (number, street, and apt. or suite no.). See instructions.',
+          polygon: [0.8525, 3.8483, 3.7872, 3.8492, 3.7872, 3.9678, 0.8525, 3.9672],
+          spans: [
+            {
+              offset: 1662,
+              length: 68,
+            },
+          ],
+          path: 'pages/1/lines/45',
+        },
+        {
+          content: '6',
+          polygon: [0.846, 4.1876, 0.9131, 4.1878, 0.9129, 4.284, 0.8458, 4.2838],
+          spans: [
+            {
+              offset: 1732,
+              length: 1,
+            },
+          ],
+          path: 'pages/1/lines/46',
+        },
+        {
+          content: 'City, state, and ZIP code',
+          polygon: [1.0002, 4.1802, 2.0983, 4.1793, 2.0984, 4.2994, 1.0003, 4.3003],
+          spans: [
+            {
+              offset: 1734,
+              length: 25,
+            },
+          ],
+          path: 'pages/1/lines/47',
+        },
+        {
+          content: '7',
+          polygon: [0.8426, 4.5187, 0.912, 4.5189, 0.9117, 4.6125, 0.8424, 4.6123],
+          spans: [
+            {
+              offset: 1761,
+              length: 1,
+            },
+          ],
+          path: 'pages/1/lines/48',
+        },
+        {
+          content: 'List account number(s) here (optional)',
+          polygon: [1.0036, 4.5054, 2.6514, 4.5083, 2.6512, 4.6365, 1.0034, 4.634],
+          spans: [
+            {
+              offset: 1763,
+              length: 38,
+            },
+          ],
+          path: 'pages/1/lines/49',
+        },
+        {
+          content: '4 Exemptions (codes apply only to',
+          polygon: [6.336, 2.1963, 7.87, 2.1995, 7.8698, 2.3168, 6.3358, 2.3136],
+          spans: [
+            {
+              offset: 1803,
+              length: 33,
+            },
+          ],
+          path: 'pages/1/lines/50',
+        },
+        {
+          content: 'certain entities, not individuals;',
+          polygon: [6.443, 2.3154, 7.7978, 2.315, 7.7978, 2.4263, 6.443, 2.4267],
+          spans: [
+            {
+              offset: 1837,
+              length: 34,
+            },
+          ],
+          path: 'pages/1/lines/51',
+        },
+        {
+          content: 'see instructions on page 3):',
+          polygon: [6.4426, 2.4315, 7.6541, 2.434, 7.6537, 2.5506, 6.4422, 2.546],
+          spans: [
+            {
+              offset: 1872,
+              length: 28,
+            },
+          ],
+          path: 'pages/1/lines/52',
+        },
+        {
+          content: 'Exempt payee code (if any)',
+          polygon: [6.3321, 2.6795, 7.4887, 2.6795, 7.4887, 2.8, 6.3321, 2.8],
+          spans: [
+            {
+              offset: 1902,
+              length: 26,
+            },
+          ],
+          path: 'pages/1/lines/53',
+        },
+        {
+          content: 'Exemption from Foreign Account Tax',
+          polygon: [6.3339, 2.9235, 7.9687, 2.9246, 7.9686, 3.0441, 6.3339, 3.0429],
+          spans: [
+            {
+              offset: 1930,
+              length: 34,
+            },
+          ],
+          path: 'pages/1/lines/54',
+        },
+        {
+          content: 'Compliance Act (FATCA) reporting',
+          polygon: [6.3346, 3.0394, 7.844, 3.0441, 7.8435, 3.1663, 6.334, 3.1594],
+          spans: [
+            {
+              offset: 1965,
+              length: 32,
+            },
+          ],
+          path: 'pages/1/lines/55',
+        },
+        {
+          content: 'code (if any)',
+          polygon: [6.3381, 3.1705, 6.879, 3.1729, 6.8785, 3.2896, 6.3376, 3.2872],
+          spans: [
+            {
+              offset: 1998,
+              length: 13,
+            },
+          ],
+          path: 'pages/1/lines/56',
+        },
+        {
+          content: '(Applies to accounts maintained',
+          polygon: [6.4333, 3.486, 7.8352, 3.482, 7.8355, 3.5991, 6.4336, 3.6031],
+          spans: [
+            {
+              offset: 2013,
+              length: 31,
+            },
+          ],
+          path: 'pages/1/lines/57',
+        },
+        {
+          content: 'outside the United States.)',
+          polygon: [6.5502, 3.6012, 7.7138, 3.6028, 7.7137, 3.7146, 6.55, 3.713],
+          spans: [
+            {
+              offset: 2045,
+              length: 27,
+            },
+          ],
+          path: 'pages/1/lines/58',
+        },
+        {
+          content: 'Part I',
+          polygon: [0.5611, 4.8323, 0.9296, 4.8331, 0.9293, 4.9704, 0.5609, 4.9696],
+          spans: [
+            {
+              offset: 2078,
+              length: 6,
+            },
+          ],
+          path: 'pages/1/lines/59',
+        },
+        {
+          content: 'Taxpayer Identification Number (TIN)',
+          polygon: [1.1895, 4.8294, 3.6215, 4.8266, 3.6217, 4.9847, 1.1896, 4.9875],
+          spans: [
+            {
+              offset: 2085,
+              length: 36,
+            },
+          ],
+          path: 'pages/1/lines/60',
+        },
+        {
+          content:
+            'Enter your TIN in the appropriate box. The TIN provided must match the name given on line 1 to avoid',
+          polygon: [0.4934, 5.045, 5.5515, 5.0415, 5.5516, 5.1785, 0.4935, 5.1821],
+          spans: [
+            {
+              offset: 2123,
+              length: 100,
+            },
+          ],
+          path: 'pages/1/lines/61',
+        },
+        {
+          content:
+            'backup withholding. For individuals, this is generally your social security number (SSN). However, for a',
+          polygon: [0.4916, 5.1784, 5.5818, 5.1799, 5.5818, 5.3171, 0.4915, 5.3156],
+          spans: [
+            {
+              offset: 2224,
+              length: 104,
+            },
+          ],
+          path: 'pages/1/lines/62',
+        },
+        {
+          content:
+            'resident alien, sole proprietor, or disregarded entity, see the instructions for Part I, later. For other',
+          polygon: [0.4892, 5.3146, 5.3152, 5.3109, 5.3153, 5.4454, 0.4893, 5.4488],
+          spans: [
+            {
+              offset: 2329,
+              length: 105,
+            },
+          ],
+          path: 'pages/1/lines/63',
+        },
+        {
+          content:
+            'entities, it is your employer identification number (EIN). If you do not have a number, see How to get a',
+          polygon: [0.4911, 5.446, 5.5285, 5.4437, 5.5285, 5.5793, 0.4912, 5.5815],
+          spans: [
+            {
+              offset: 2435,
+              length: 104,
+            },
+          ],
+          path: 'pages/1/lines/64',
+        },
+        {
+          content: 'TIN, later.',
+          polygon: [0.494, 5.5806, 0.975, 5.5836, 0.9742, 5.7063, 0.4932, 5.7032],
+          spans: [
+            {
+              offset: 2540,
+              length: 11,
+            },
+          ],
+          path: 'pages/1/lines/65',
+        },
+        {
+          content:
+            'Note: If the account is in more than one name, see the instructions for line 1. See also What Name and',
+          polygon: [0.4901, 5.7996, 5.5852, 5.799, 5.5852, 5.936, 0.4901, 5.9366],
+          spans: [
+            {
+              offset: 2553,
+              length: 102,
+            },
+          ],
+          path: 'pages/1/lines/66',
+        },
+        {
+          content: 'Number To Give the Requester for guidelines on whose number to enter.',
+          polygon: [0.4892, 5.9341, 4.0934, 5.9386, 4.0933, 6.0733, 0.4891, 6.0688],
+          spans: [
+            {
+              offset: 2656,
+              length: 69,
+            },
+          ],
+          path: 'pages/1/lines/67',
+        },
+        {
+          content: 'Social security number',
+          polygon: [5.8326, 5.0005, 6.9127, 5.0015, 6.9126, 5.1139, 5.8325, 5.1128],
+          spans: [
+            {
+              offset: 2727,
+              length: 22,
+            },
+          ],
+          path: 'pages/1/lines/68',
+        },
+        {
+          content: '–',
+          polygon: [6.4722, 5.3204, 6.5278, 5.3204, 6.5278, 5.334, 6.4722, 5.334],
+          spans: [
+            {
+              offset: 2751,
+              length: 1,
+            },
+          ],
+          path: 'pages/1/lines/69',
+        },
+        {
+          content: '–',
+          polygon: [7.0722, 5.3204, 7.1278, 5.3204, 7.1278, 5.334, 7.0722, 5.334],
+          spans: [
+            {
+              offset: 2754,
+              length: 1,
+            },
+          ],
+          path: 'pages/1/lines/70',
+        },
+        {
+          content: 'or',
+          polygon: [5.7886, 5.5252, 5.9168, 5.5258, 5.9164, 5.6191, 5.7882, 5.6186],
+          spans: [
+            {
+              offset: 2757,
+              length: 2,
+            },
+          ],
+          path: 'pages/1/lines/71',
+        },
+        {
+          content: 'Employer identification number',
+          polygon: [5.8306, 5.6681, 7.3003, 5.6656, 7.3005, 5.7813, 5.8308, 5.7838],
+          spans: [
+            {
+              offset: 2761,
+              length: 30,
+            },
+          ],
+          path: 'pages/1/lines/72',
+        },
+        {
+          content: '–',
+          polygon: [6.2722, 5.9871, 6.3278, 5.9871, 6.3278, 6.0007, 6.2722, 6.0007],
+          spans: [
+            {
+              offset: 2793,
+              length: 1,
+            },
+          ],
+          path: 'pages/1/lines/73',
+        },
+        {
+          content: 'Part II',
+          polygon: [0.5352, 6.1643, 0.9548, 6.1657, 0.9544, 6.3041, 0.5348, 6.3027],
+          spans: [
+            {
+              offset: 2800,
+              length: 7,
+            },
+          ],
+          path: 'pages/1/lines/74',
+        },
+        {
+          content: 'Certification',
+          polygon: [1.1893, 6.1625, 2.0156, 6.1632, 2.0155, 6.3078, 1.1892, 6.3071],
+          spans: [
+            {
+              offset: 2808,
+              length: 13,
+            },
+          ],
+          path: 'pages/1/lines/75',
+        },
+        {
+          content: 'Under penalties of perjury, I certify that:',
+          polygon: [0.4924, 6.3509, 2.4603, 6.3525, 2.4602, 6.4968, 0.4923, 6.4952],
+          spans: [
+            {
+              offset: 2823,
+              length: 43,
+            },
+          ],
+          path: 'pages/1/lines/76',
+        },
+        {
+          content:
+            '1. The number shown on this form is my correct taxpayer identification number (or I am waiting for a number to be issued to me); and',
+          polygon: [0.4977, 6.5178, 7.0989, 6.5164, 7.099, 6.6591, 0.4977, 6.6605],
+          spans: [
+            {
+              offset: 2868,
+              length: 133,
+            },
+          ],
+          path: 'pages/1/lines/77',
+        },
+        {
+          content:
+            '2. I am not subject to backup withholding because (a) I am exempt from backup withholding, or (b) I have not been notified by the Internal Revenue',
+          polygon: [0.4892, 6.668, 7.7799, 6.6689, 7.7799, 6.8103, 0.4892, 6.8095],
+          spans: [
+            {
+              offset: 3003,
+              length: 147,
+            },
+          ],
+          path: 'pages/1/lines/78',
+        },
+        {
+          content:
+            'Service (IRS) that I am subject to backup withholding as a result of a failure to report all interest or dividends, or (c) the IRS has notified me that I am',
+          polygon: [0.6131, 6.7996, 7.9421, 6.8018, 7.942, 6.9437, 0.613, 6.9415],
+          spans: [
+            {
+              offset: 3151,
+              length: 156,
+            },
+          ],
+          path: 'pages/1/lines/79',
+        },
+        {
+          content: 'no longer subject to backup withholding; and',
+          polygon: [0.6105, 6.9401, 2.8674, 6.9359, 2.8676, 7.0721, 0.6108, 7.0764],
+          spans: [
+            {
+              offset: 3308,
+              length: 44,
+            },
+          ],
+          path: 'pages/1/lines/80',
+        },
+        {
+          content: '3. I am a U.S. citizen or other U.S. person (defined below); and',
+          polygon: [0.4869, 7.1012, 3.5973, 7.1043, 3.5971, 7.246, 0.4867, 7.2421],
+          spans: [
+            {
+              offset: 3354,
+              length: 65,
+            },
+          ],
+          path: 'pages/1/lines/81',
+        },
+        {
+          content:
+            '4. The FATCA code(s) entered on this form (if any) indicating that I am exempt from FATCA reporting is correct.',
+          polygon: [0.4907, 7.2688, 5.9874, 7.271, 5.9873, 7.4148, 0.4907, 7.4126],
+          spans: [
+            {
+              offset: 3421,
+              length: 112,
+            },
+          ],
+          path: 'pages/1/lines/82',
+        },
+        {
+          content:
+            'Certification instructions. You must cross out item 2 above if you have been notified by the IRS that you are currently subject to backup withholding',
+          polygon: [0.4912, 7.4438, 7.6117, 7.4475, 7.6116, 7.5903, 0.4911, 7.5858],
+          spans: [
+            {
+              offset: 3535,
+              length: 149,
+            },
+          ],
+          path: 'pages/1/lines/83',
+        },
+        {
+          content:
+            'because you have failed to report all interest and dividends on your tax return. For real estate transactions, item 2 does not apply. For mortgage interest paid,',
+          polygon: [0.4884, 7.5801, 7.9759, 7.5815, 7.9759, 7.7215, 0.4883, 7.72],
+          spans: [
+            {
+              offset: 3685,
+              length: 161,
+            },
+          ],
+          path: 'pages/1/lines/84',
+        },
+        {
+          content:
+            'acquisition or abandonment of secured property, cancellation of debt, contributions to an individual retirement arrangement (IRA), and, generally, payments',
+          polygon: [0.4883, 7.7146, 7.8838, 7.7157, 7.8838, 7.8534, 0.4882, 7.8517],
+          spans: [
+            {
+              offset: 3847,
+              length: 155,
+            },
+          ],
+          path: 'pages/1/lines/85',
+        },
+        {
+          content:
+            'other than interest and dividends, you are not required to sign the certification, but you must provide your correct TIN. See the instructions for Part II, later.',
+          polygon: [0.4879, 7.848, 7.8386, 7.847, 7.8386, 7.9837, 0.4879, 7.9847],
+          spans: [
+            {
+              offset: 4003,
+              length: 162,
+            },
+          ],
+          path: 'pages/1/lines/86',
+        },
+        {
+          content: 'Sign',
+          polygon: [0.4908, 8.0167, 0.7952, 8.0189, 0.7942, 8.1622, 0.4898, 8.1603],
+          spans: [
+            {
+              offset: 4167,
+              length: 4,
+            },
+          ],
+          path: 'pages/1/lines/87',
+        },
+        {
+          content: 'Here',
+          polygon: [0.4929, 8.1633, 0.8192, 8.1654, 0.8184, 8.2893, 0.4921, 8.2878],
+          spans: [
+            {
+              offset: 4172,
+              length: 4,
+            },
+          ],
+          path: 'pages/1/lines/88',
+        },
+        {
+          content: 'Signature of',
+          polygon: [1.0415, 8.0584, 1.6261, 8.0587, 1.626, 8.1732, 1.0414, 8.1729],
+          spans: [
+            {
+              offset: 4178,
+              length: 12,
+            },
+          ],
+          path: 'pages/1/lines/89',
+        },
+        {
+          content: 'U.S. person',
+          polygon: [1.046, 8.1771, 1.5937, 8.1804, 1.593, 8.2893, 1.0453, 8.2865],
+          spans: [
+            {
+              offset: 4191,
+              length: 11,
+            },
+          ],
+          path: 'pages/1/lines/90',
+        },
+        {
+          content: 'Date',
+          polygon: [5.3387, 8.1806, 5.5672, 8.1811, 5.567, 8.2797, 5.3385, 8.2793],
+          spans: [
+            {
+              offset: 4204,
+              length: 4,
+            },
+          ],
+          path: 'pages/1/lines/91',
+        },
+        {
+          content: 'General Instructions',
+          polygon: [0.4965, 8.435, 2.3817, 8.4398, 2.3812, 8.6264, 0.496, 8.6227],
+          spans: [
+            {
+              offset: 4214,
+              length: 20,
+            },
+          ],
+          path: 'pages/1/lines/92',
+        },
+        {
+          content: 'Section references are to the Internal Revenue Code unless otherwise',
+          polygon: [0.4902, 8.6861, 3.9579, 8.6883, 3.9578, 8.8182, 0.4902, 8.816],
+          spans: [
+            {
+              offset: 4236,
+              length: 68,
+            },
+          ],
+          path: 'pages/1/lines/93',
+        },
+        {
+          content: 'noted.',
+          polygon: [0.491, 8.8228, 0.8131, 8.8213, 0.8136, 8.9306, 0.4915, 8.9322],
+          spans: [
+            {
+              offset: 4305,
+              length: 6,
+            },
+          ],
+          path: 'pages/1/lines/94',
+        },
+        {
+          content: 'Future developments. For the latest information about developments',
+          polygon: [0.4909, 8.9757, 3.9741, 8.9783, 3.974, 9.1061, 0.4909, 9.1035],
+          spans: [
+            {
+              offset: 4313,
+              length: 66,
+            },
+          ],
+          path: 'pages/1/lines/95',
+        },
+        {
+          content: 'related to Form W-9 and its instructions, such as legislation enacted',
+          polygon: [0.4897, 9.1039, 3.8782, 9.1059, 3.8781, 9.2325, 0.4896, 9.2305],
+          spans: [
+            {
+              offset: 4380,
+              length: 69,
+            },
+          ],
+          path: 'pages/1/lines/96',
+        },
+        {
+          content: 'after they were published, go to www.irs.gov/FormW9.',
+          polygon: [0.4882, 9.2346, 3.2007, 9.2332, 3.2008, 9.3633, 0.4882, 9.3646],
+          spans: [
+            {
+              offset: 4450,
+              length: 52,
+            },
+          ],
+          path: 'pages/1/lines/97',
+        },
+        {
+          content: "What's New",
+          polygon: [0.4885, 9.4332, 1.4483, 9.4383, 1.4474, 9.599, 0.4875, 9.5934],
+          spans: [
+            {
+              offset: 4508,
+              length: 10,
+            },
+          ],
+          path: 'pages/1/lines/98',
+        },
+        {
+          content: 'Line 3a has been modified to clarify how a disregarded entity completes',
+          polygon: [0.4906, 9.6543, 4.0691, 9.6593, 4.0689, 9.7869, 0.4904, 9.7822],
+          spans: [
+            {
+              offset: 4520,
+              length: 71,
+            },
+          ],
+          path: 'pages/1/lines/99',
+        },
+        {
+          content: 'this line. An LLC that is a disregarded entity should check the',
+          polygon: [0.4872, 9.7828, 3.539, 9.7871, 3.5388, 9.9108, 0.487, 9.9065],
+          spans: [
+            {
+              offset: 4592,
+              length: 63,
+            },
+          ],
+          path: 'pages/1/lines/100',
+        },
+        {
+          content: 'appropriate box for the tax classification of its owner. Otherwise, it',
+          polygon: [0.4895, 9.9189, 3.7987, 9.914, 3.799, 10.032, 0.4899, 10.041],
+          spans: [
+            {
+              offset: 4656,
+              length: 70,
+            },
+          ],
+          path: 'pages/1/lines/101',
+        },
+        {
+          content: 'should check the "LLC" box and enter its appropriate tax classification.',
+          polygon: [0.4878, 10.0365, 4.0271, 10.0385, 4.027, 10.1582, 0.4877, 10.1562],
+          spans: [
+            {
+              offset: 4727,
+              length: 72,
+            },
+          ],
+          path: 'pages/1/lines/102',
+        },
+        {
+          content: 'New line 3b has been added to this form. A flow-through entity is',
+          polygon: [4.4891, 8.433, 7.73, 8.4389, 7.7297, 8.5741, 4.4888, 8.5668],
+          spans: [
+            {
+              offset: 4801,
+              length: 65,
+            },
+          ],
+          path: 'pages/1/lines/103',
+        },
+        {
+          content: 'required to complete this line to indicate that it has direct or indirect',
+          polygon: [4.3816, 8.5664, 7.7544, 8.5601, 7.7547, 8.6883, 4.3819, 8.6948],
+          spans: [
+            {
+              offset: 4867,
+              length: 73,
+            },
+          ],
+          path: 'pages/1/lines/104',
+        },
+        {
+          content: 'foreign partners, owners, or beneficiaries when it provides the Form W-9',
+          polygon: [4.3797, 8.6908, 7.9815, 8.6871, 7.9816, 8.8178, 4.3799, 8.8215],
+          spans: [
+            {
+              offset: 4941,
+              length: 72,
+            },
+          ],
+          path: 'pages/1/lines/105',
+        },
+        {
+          content: 'to another flow-through entity in which it has an ownership interest. This',
+          polygon: [4.3805, 8.8118, 7.9708, 8.8102, 7.9709, 8.9406, 4.3806, 8.9423],
+          spans: [
+            {
+              offset: 5014,
+              length: 74,
+            },
+          ],
+          path: 'pages/1/lines/106',
+        },
+        {
+          content: 'change is intended to provide a flow-through entity with information',
+          polygon: [4.3839, 8.9381, 7.7505, 8.9378, 7.7505, 9.0697, 4.3839, 9.0699],
+          spans: [
+            {
+              offset: 5089,
+              length: 68,
+            },
+          ],
+          path: 'pages/1/lines/107',
+        },
+        {
+          content: 'regarding the status of its indirect foreign partners, owners, or',
+          polygon: [4.3829, 9.068, 7.462, 9.0682, 7.462, 9.1969, 4.3829, 9.1968],
+          spans: [
+            {
+              offset: 5158,
+              length: 65,
+            },
+          ],
+          path: 'pages/1/lines/108',
+        },
+        {
+          content: 'beneficiaries, so that it can satisfy any applicable reporting',
+          polygon: [4.3831, 9.1887, 7.3023, 9.1938, 7.3021, 9.3225, 4.3829, 9.3174],
+          spans: [
+            {
+              offset: 5224,
+              length: 62,
+            },
+          ],
+          path: 'pages/1/lines/109',
+        },
+        {
+          content: 'requirements. For example, a partnership that has any indirect foreign',
+          polygon: [4.3834, 9.3179, 7.8507, 9.3162, 7.8507, 9.4438, 4.3835, 9.4456],
+          spans: [
+            {
+              offset: 5287,
+              length: 70,
+            },
+          ],
+          path: 'pages/1/lines/110',
+        },
+        {
+          content: 'partners may be required to complete Schedules K-2 and K-3. See the',
+          polygon: [4.3835, 9.4425, 7.895, 9.4347, 7.8953, 9.5595, 4.3838, 9.5659],
+          spans: [
+            {
+              offset: 5358,
+              length: 67,
+            },
+          ],
+          path: 'pages/1/lines/111',
+        },
+        {
+          content: 'Partnership Instructions for Schedules K-2 and K-3 (Form 1065).',
+          polygon: [4.3852, 9.5633, 7.576, 9.5629, 7.576, 9.6936, 4.3852, 9.694],
+          spans: [
+            {
+              offset: 5426,
+              length: 63,
+            },
+          ],
+          path: 'pages/1/lines/112',
+        },
+        {
+          content: 'Purpose of Form',
+          polygon: [4.3827, 9.7751, 5.723, 9.7785, 5.7225, 9.9461, 4.3823, 9.9428],
+          spans: [
+            {
+              offset: 5496,
+              length: 15,
+            },
+          ],
+          path: 'pages/1/lines/113',
+        },
+        {
+          content: 'An individual or entity (Form W-9 requester) who is required to file an',
+          polygon: [4.3804, 9.9914, 7.796, 9.994, 7.7959, 10.1225, 4.3803, 10.1199],
+          spans: [
+            {
+              offset: 5513,
+              length: 71,
+            },
+          ],
+          path: 'pages/1/lines/114',
+        },
+        {
+          content: 'information return with the IRS is giving you this form because they',
+          polygon: [4.3821, 10.1161, 7.7156, 10.1211, 7.7154, 10.2481, 4.3819, 10.243],
+          spans: [
+            {
+              offset: 5585,
+              length: 68,
+            },
+          ],
+          path: 'pages/1/lines/115',
+        },
+        {
+          content: 'Cat. No. 10231X',
+          polygon: [3.2768, 10.3707, 4.0087, 10.37, 4.0088, 10.4754, 3.2769, 10.4761],
+          spans: [
+            {
+              offset: 5672,
+              length: 15,
+            },
+          ],
+          path: 'pages/1/lines/116',
+        },
+        {
+          content: 'Form W-9 (Rev. 3-2024)',
+          polygon: [6.8516, 10.3513, 7.9879, 10.3557, 7.9874, 10.4854, 6.8511, 10.481],
+          spans: [
+            {
+              offset: 5710,
+              length: 22,
+            },
+          ],
+          path: 'pages/1/lines/117',
+        },
+        {
+          content: 'Print or type.',
+          polygon: [0.4941, 3.4262, 0.5035, 2.7273, 0.6188, 2.7288, 0.6111, 3.4278],
+          spans: [
+            {
+              offset: 5739,
+              length: 14,
+            },
+          ],
+          path: 'pages/1/lines/118',
+        },
+        {
+          content: 'See Specific Instructions on page 3.',
+          polygon: [0.6243, 4.0224, 0.6325, 2.1419, 0.7514, 2.1425, 0.7436, 4.0229],
+          spans: [
+            {
+              offset: 5754,
+              length: 36,
+            },
+          ],
+          path: 'pages/1/lines/119',
+        },
+      ],
+      spans: [
+        {
+          offset: 0,
+          length: 5812,
+        },
+      ],
+      path: 'pages/1',
+    },
+    {
+      pageNumber: 2,
+      angle: 0.014394319616258144,
+      width: 8.4861,
+      height: 10.9861,
+      unit: 'inch',
+      words: [
+        {
+          content: 'Page',
+          polygon: [7.6517, 0.5108, 7.8812, 0.5048, 7.8818, 0.6424, 7.6524, 0.6445],
+          confidence: 0.993,
+          span: {
+            offset: 5829,
+            length: 4,
+          },
+        },
+        {
+          content: '2',
+          polygon: [7.9079, 0.5033, 7.9944, 0.5016, 7.9944, 0.6385, 7.9085, 0.6417],
+          confidence: 0.989,
+          span: {
+            offset: 5834,
+            length: 1,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [0.4859, 0.5059, 0.6911, 0.5062, 0.6906, 0.6274, 0.4859, 0.6269],
+          confidence: 0.989,
+          span: {
+            offset: 5858,
+            length: 4,
+          },
+        },
+        {
+          content: 'W-9',
+          polygon: [0.7329, 0.5061, 0.9321, 0.5055, 0.9316, 0.6283, 0.7324, 0.6276],
+          confidence: 0.992,
+          span: {
+            offset: 5863,
+            length: 3,
+          },
+        },
+        {
+          content: '(Rev.',
+          polygon: [0.962, 0.5057, 1.1751, 0.5075, 1.1745, 0.6288, 0.9614, 0.6283],
+          confidence: 0.993,
+          span: {
+            offset: 5867,
+            length: 5,
+          },
+        },
+        {
+          content: '3-2024)',
+          polygon: [1.205, 0.5074, 1.5457, 0.5073, 1.545, 0.6291, 1.2043, 0.629],
+          confidence: 0.994,
+          span: {
+            offset: 5873,
+            length: 7,
+          },
+        },
+        {
+          content: 'must',
+          polygon: [0.4892, 0.7864, 0.7452, 0.786, 0.7453, 0.9134, 0.4892, 0.9125],
+          confidence: 0.992,
+          span: {
+            offset: 5887,
+            length: 4,
+          },
+        },
+        {
+          content: 'obtain',
+          polygon: [0.775, 0.7859, 1.0801, 0.7848, 1.08, 0.9139, 0.7751, 0.9134],
+          confidence: 0.997,
+          span: {
+            offset: 5892,
+            length: 6,
+          },
+        },
+        {
+          content: 'your',
+          polygon: [1.1143, 0.7848, 1.3361, 0.7845, 1.336, 0.9144, 1.1141, 0.9139],
+          confidence: 0.992,
+          span: {
+            offset: 5899,
+            length: 4,
+          },
+        },
+        {
+          content: 'correct',
+          polygon: [1.366, 0.7844, 1.7138, 0.7841, 1.7136, 0.914, 1.3659, 0.9145],
+          confidence: 0.995,
+          span: {
+            offset: 5904,
+            length: 7,
+          },
+        },
+        {
+          content: 'taxpayer',
+          polygon: [1.7436, 0.7841, 2.1618, 0.7833, 2.1616, 0.9136, 1.7434, 0.9141],
+          confidence: 0.995,
+          span: {
+            offset: 5912,
+            length: 8,
+          },
+        },
+        {
+          content: 'identification',
+          polygon: [2.1874, 0.7833, 2.836, 0.7825, 2.8357, 0.9132, 2.1873, 0.9135],
+          confidence: 0.992,
+          span: {
+            offset: 5921,
+            length: 14,
+          },
+        },
+        {
+          content: 'number',
+          polygon: [2.8723, 0.7825, 3.2542, 0.7814, 3.2539, 0.913, 2.872, 0.9133],
+          confidence: 0.994,
+          span: {
+            offset: 5936,
+            length: 6,
+          },
+        },
+        {
+          content: '(TIN),',
+          polygon: [3.284, 0.7814, 3.5358, 0.7803, 3.5356, 0.9129, 3.2838, 0.913],
+          confidence: 0.989,
+          span: {
+            offset: 5943,
+            length: 6,
+          },
+        },
+        {
+          content: 'which',
+          polygon: [3.572, 0.78, 3.8729, 0.7785, 3.8729, 0.9103, 3.5718, 0.9129],
+          confidence: 0.998,
+          span: {
+            offset: 5950,
+            length: 5,
+          },
+        },
+        {
+          content: 'may',
+          polygon: [0.4907, 0.9157, 0.7059, 0.9146, 0.706, 1.0423, 0.4906, 1.0408],
+          confidence: 0.998,
+          span: {
+            offset: 5956,
+            length: 3,
+          },
+        },
+        {
+          content: 'be',
+          polygon: [0.7414, 0.9142, 0.8501, 0.9131, 0.8503, 1.0412, 0.7416, 1.0421],
+          confidence: 0.997,
+          span: {
+            offset: 5960,
+            length: 2,
+          },
+        },
+        {
+          content: 'your',
+          polygon: [0.8752, 0.9128, 1.1134, 0.9123, 1.1135, 1.04, 0.8754, 1.041],
+          confidence: 0.986,
+          span: {
+            offset: 5963,
+            length: 4,
+          },
+        },
+        {
+          content: 'social',
+          polygon: [1.1427, 0.9123, 1.4248, 0.9119, 1.4248, 1.0398, 1.1427, 1.0399],
+          confidence: 0.995,
+          span: {
+            offset: 5968,
+            length: 6,
+          },
+        },
+        {
+          content: 'security',
+          polygon: [1.4603, 0.9119, 1.8365, 0.9109, 1.8365, 1.0396, 1.4604, 1.0398],
+          confidence: 0.995,
+          span: {
+            offset: 5975,
+            length: 8,
+          },
+        },
+        {
+          content: 'number',
+          polygon: [1.8616, 0.9109, 2.2628, 0.9109, 2.2627, 1.0405, 1.8616, 1.0396],
+          confidence: 0.995,
+          span: {
+            offset: 5984,
+            length: 6,
+          },
+        },
+        {
+          content: '(SSN),',
+          polygon: [2.2941, 0.9108, 2.5888, 0.9104, 2.5887, 1.0397, 2.294, 1.0405],
+          confidence: 0.992,
+          span: {
+            offset: 5991,
+            length: 6,
+          },
+        },
+        {
+          content: 'individual',
+          polygon: [2.6139, 0.9104, 3.0987, 0.9116, 3.0984, 1.0381, 2.6138, 1.0396],
+          confidence: 0.993,
+          span: {
+            offset: 5998,
+            length: 10,
+          },
+        },
+        {
+          content: 'taxpayer',
+          polygon: [3.1301, 0.9117, 3.569, 0.9135, 3.569, 1.0374, 3.1297, 1.0381],
+          confidence: 0.995,
+          span: {
+            offset: 6009,
+            length: 8,
+          },
+        },
+        {
+          content: 'identification',
+          polygon: [0.4892, 1.0305, 1.1169, 1.0313, 1.1168, 1.1602, 0.4892, 1.157],
+          confidence: 0.993,
+          span: {
+            offset: 6018,
+            length: 14,
+          },
+        },
+        {
+          content: 'number',
+          polygon: [1.1423, 1.0313, 1.5431, 1.0311, 1.5431, 1.1616, 1.1423, 1.1603],
+          confidence: 0.997,
+          span: {
+            offset: 6033,
+            length: 6,
+          },
+        },
+        {
+          content: '(ITIN),',
+          polygon: [1.5728, 1.031, 1.8569, 1.0308, 1.8568, 1.1623, 1.5728, 1.1616],
+          confidence: 0.989,
+          span: {
+            offset: 6040,
+            length: 7,
+          },
+        },
+        {
+          content: 'adoption',
+          polygon: [1.8929, 1.0307, 2.3255, 1.0315, 2.3254, 1.1629, 1.8928, 1.1624],
+          confidence: 0.996,
+          span: {
+            offset: 6048,
+            length: 8,
+          },
+        },
+        {
+          content: 'taxpayer',
+          polygon: [2.3616, 1.0315, 2.7793, 1.032, 2.7792, 1.1617, 2.3615, 1.1627],
+          confidence: 0.994,
+          span: {
+            offset: 6057,
+            length: 8,
+          },
+        },
+        {
+          content: 'identification',
+          polygon: [2.8048, 1.032, 3.4536, 1.0323, 3.4533, 1.1611, 2.8047, 1.1617],
+          confidence: 0.994,
+          span: {
+            offset: 6066,
+            length: 14,
+          },
+        },
+        {
+          content: 'number',
+          polygon: [3.4897, 1.0322, 3.8784, 1.031, 3.8784, 1.159, 3.4894, 1.161],
+          confidence: 0.998,
+          span: {
+            offset: 6081,
+            length: 6,
+          },
+        },
+        {
+          content: '(ATIN),',
+          polygon: [0.4926, 1.1586, 0.8218, 1.159, 0.8218, 1.2914, 0.4925, 1.2907],
+          confidence: 0.988,
+          span: {
+            offset: 6088,
+            length: 7,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [0.8608, 1.1593, 0.9648, 1.1597, 0.9648, 1.2916, 0.8608, 1.2915],
+          confidence: 0.998,
+          span: {
+            offset: 6096,
+            length: 2,
+          },
+        },
+        {
+          content: 'employer',
+          polygon: [0.9908, 1.1595, 1.4371, 1.1575, 1.4372, 1.2904, 0.9908, 1.2917],
+          confidence: 0.995,
+          span: {
+            offset: 6099,
+            length: 8,
+          },
+        },
+        {
+          content: 'identification',
+          polygon: [1.4631, 1.1573, 2.1108, 1.1579, 2.1106, 1.2916, 1.4632, 1.2904],
+          confidence: 0.993,
+          span: {
+            offset: 6108,
+            length: 14,
+          },
+        },
+        {
+          content: 'number',
+          polygon: [2.1498, 1.1579, 2.531, 1.1592, 2.5309, 1.2912, 2.1496, 1.2914],
+          confidence: 0.995,
+          span: {
+            offset: 6123,
+            length: 6,
+          },
+        },
+        {
+          content: '(EIN),',
+          polygon: [2.5614, 1.1593, 2.817, 1.1588, 2.8168, 1.291, 2.5612, 1.2911],
+          confidence: 0.989,
+          span: {
+            offset: 6130,
+            length: 6,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [2.8495, 1.1585, 2.9361, 1.158, 2.9359, 1.2916, 2.8493, 1.2912],
+          confidence: 0.999,
+          span: {
+            offset: 6137,
+            length: 2,
+          },
+        },
+        {
+          content: 'report',
+          polygon: [2.9621, 1.1582, 3.2806, 1.1595, 3.2803, 1.2901, 2.9619, 1.2914],
+          confidence: 0.997,
+          span: {
+            offset: 6140,
+            length: 6,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [3.3131, 1.1595, 3.4344, 1.1599, 3.4341, 1.2897, 3.3128, 1.2901],
+          confidence: 0.998,
+          span: {
+            offset: 6147,
+            length: 2,
+          },
+        },
+        {
+          content: 'an',
+          polygon: [3.469, 1.1601, 3.5911, 1.1608, 3.5911, 1.289, 3.4688, 1.2895],
+          confidence: 0.998,
+          span: {
+            offset: 6150,
+            length: 2,
+          },
+        },
+        {
+          content: 'information',
+          polygon: [0.4875, 1.2789, 1.041, 1.2806, 1.0412, 1.4082, 0.4878, 1.407],
+          confidence: 0.993,
+          span: {
+            offset: 6153,
+            length: 11,
+          },
+        },
+        {
+          content: 'return',
+          polygon: [1.0661, 1.2807, 1.3743, 1.282, 1.3744, 1.4098, 1.0663, 1.4083],
+          confidence: 0.995,
+          span: {
+            offset: 6165,
+            length: 6,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.4057, 1.282, 1.5651, 1.2819, 1.5652, 1.4103, 1.4059, 1.4099],
+          confidence: 0.992,
+          span: {
+            offset: 6172,
+            length: 3,
+          },
+        },
+        {
+          content: 'amount',
+          polygon: [1.5986, 1.2819, 1.9718, 1.2822, 1.9718, 1.411, 1.5987, 1.4103],
+          confidence: 0.998,
+          span: {
+            offset: 6176,
+            length: 6,
+          },
+        },
+        {
+          content: 'paid',
+          polygon: [2.0074, 1.2823, 2.2149, 1.2824, 2.2149, 1.4116, 2.0074, 1.4111],
+          confidence: 0.992,
+          span: {
+            offset: 6183,
+            length: 4,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [2.2464, 1.2825, 2.347, 1.2825, 2.347, 1.4118, 2.2464, 1.4117],
+          confidence: 0.999,
+          span: {
+            offset: 6188,
+            length: 2,
+          },
+        },
+        {
+          content: 'you,',
+          polygon: [2.3785, 1.2826, 2.586, 1.2831, 2.586, 1.4115, 2.3785, 1.4118],
+          confidence: 0.994,
+          span: {
+            offset: 6191,
+            length: 4,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [2.6216, 1.2832, 2.7244, 1.2836, 2.7243, 1.411, 2.6216, 1.4114],
+          confidence: 0.999,
+          span: {
+            offset: 6196,
+            length: 2,
+          },
+        },
+        {
+          content: 'other',
+          polygon: [2.7537, 1.2836, 3.0116, 1.2838, 3.0114, 1.4107, 2.7536, 1.411],
+          confidence: 0.997,
+          span: {
+            offset: 6199,
+            length: 5,
+          },
+        },
+        {
+          content: 'amount',
+          polygon: [3.0409, 1.284, 3.4162, 1.2839, 3.4159, 1.4107, 3.0407, 1.4107],
+          confidence: 0.998,
+          span: {
+            offset: 6205,
+            length: 6,
+          },
+        },
+        {
+          content: 'reportable',
+          polygon: [3.4518, 1.2838, 3.9613, 1.2811, 3.9613, 1.4099, 3.4515, 1.4108],
+          confidence: 0.995,
+          span: {
+            offset: 6212,
+            length: 10,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [0.4876, 1.4084, 0.6191, 1.4085, 0.6193, 1.5363, 0.4877, 1.5353],
+          confidence: 0.998,
+          span: {
+            offset: 6223,
+            length: 2,
+          },
+        },
+        {
+          content: 'an',
+          polygon: [0.6531, 1.4086, 0.7591, 1.4085, 0.7594, 1.5363, 0.6533, 1.5363],
+          confidence: 0.996,
+          span: {
+            offset: 6226,
+            length: 2,
+          },
+        },
+        {
+          content: 'information',
+          polygon: [0.7846, 1.4085, 1.3596, 1.4075, 1.3596, 1.5363, 0.7848, 1.5363],
+          confidence: 0.993,
+          span: {
+            offset: 6229,
+            length: 11,
+          },
+        },
+        {
+          content: 'return.',
+          polygon: [1.3977, 1.4074, 1.7117, 1.4064, 1.7118, 1.5363, 1.3978, 1.5363],
+          confidence: 0.993,
+          span: {
+            offset: 6241,
+            length: 7,
+          },
+        },
+        {
+          content: 'Examples',
+          polygon: [1.7521, 1.4065, 2.2315, 1.407, 2.2315, 1.5363, 1.7521, 1.5363],
+          confidence: 0.993,
+          span: {
+            offset: 6249,
+            length: 8,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [2.2634, 1.4071, 2.3461, 1.4074, 2.3461, 1.5363, 2.2633, 1.5363],
+          confidence: 0.993,
+          span: {
+            offset: 6258,
+            length: 2,
+          },
+        },
+        {
+          content: 'information',
+          polygon: [2.3716, 1.4075, 2.9444, 1.4063, 2.9443, 1.5363, 2.3715, 1.5363],
+          confidence: 0.994,
+          span: {
+            offset: 6261,
+            length: 11,
+          },
+        },
+        {
+          content: 'returns',
+          polygon: [2.9847, 1.4063, 3.3136, 1.4072, 3.3135, 1.5363, 2.9846, 1.5363],
+          confidence: 0.993,
+          span: {
+            offset: 6273,
+            length: 7,
+          },
+        },
+        {
+          content: 'include,',
+          polygon: [3.339, 1.4072, 3.74, 1.407, 3.74, 1.5363, 3.339, 1.5363],
+          confidence: 0.993,
+          span: {
+            offset: 6281,
+            length: 8,
+          },
+        },
+        {
+          content: 'but',
+          polygon: [3.7803, 1.4069, 3.9558, 1.4065, 3.9558, 1.5363, 3.7803, 1.5363],
+          confidence: 0.997,
+          span: {
+            offset: 6290,
+            length: 3,
+          },
+        },
+        {
+          content: 'are',
+          polygon: [0.4876, 1.5313, 0.6399, 1.532, 0.64, 1.6587, 0.4878, 1.6576],
+          confidence: 0.998,
+          span: {
+            offset: 6294,
+            length: 3,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [0.6652, 1.532, 0.8344, 1.5306, 0.8345, 1.6593, 0.6654, 1.6587],
+          confidence: 0.997,
+          span: {
+            offset: 6298,
+            length: 3,
+          },
+        },
+        {
+          content: 'limited',
+          polygon: [0.8598, 1.5306, 1.2003, 1.5297, 1.2003, 1.6591, 0.8599, 1.6594],
+          confidence: 0.996,
+          span: {
+            offset: 6302,
+            length: 7,
+          },
+        },
+        {
+          content: 'to,',
+          polygon: [1.232, 1.5297, 1.3589, 1.5298, 1.3588, 1.6599, 1.232, 1.6595],
+          confidence: 0.997,
+          span: {
+            offset: 6310,
+            length: 3,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.3927, 1.5298, 1.5514, 1.5296, 1.5512, 1.6601, 1.3927, 1.6599],
+          confidence: 0.999,
+          span: {
+            offset: 6314,
+            length: 3,
+          },
+        },
+        {
+          content: 'following.',
+          polygon: [1.581, 1.5297, 2.0552, 1.5319, 2.0552, 1.6606, 1.5808, 1.66],
+          confidence: 0.994,
+          span: {
+            offset: 6318,
+            length: 10,
+          },
+        },
+        {
+          content: '·',
+          polygon: [0.4952, 1.6978, 0.5393, 1.6978, 0.5397, 1.829, 0.4957, 1.8286],
+          confidence: 0.227,
+          span: {
+            offset: 6330,
+            length: 1,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [0.5657, 1.6979, 0.8387, 1.6975, 0.839, 1.8307, 0.5661, 1.8292],
+          confidence: 0.992,
+          span: {
+            offset: 6332,
+            length: 4,
+          },
+        },
+        {
+          content: '1099-INT',
+          polygon: [0.8806, 1.6972, 1.3231, 1.6967, 1.3234, 1.8316, 0.8808, 1.831],
+          confidence: 0.992,
+          span: {
+            offset: 6337,
+            length: 8,
+          },
+        },
+        {
+          content: '(interest',
+          polygon: [1.3496, 1.6968, 1.7613, 1.6976, 1.7614, 1.832, 1.3498, 1.8317],
+          confidence: 0.992,
+          span: {
+            offset: 6346,
+            length: 9,
+          },
+        },
+        {
+          content: 'earned',
+          polygon: [1.7943, 1.6978, 2.1312, 1.6988, 2.131, 1.8332, 1.7944, 1.8322],
+          confidence: 0.995,
+          span: {
+            offset: 6356,
+            length: 6,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [2.1687, 1.6987, 2.2567, 1.6987, 2.2564, 1.8334, 2.1684, 1.8333],
+          confidence: 0.996,
+          span: {
+            offset: 6363,
+            length: 2,
+          },
+        },
+        {
+          content: 'paid).',
+          polygon: [2.2832, 1.6986, 2.5738, 1.698, 2.5736, 1.834, 2.2829, 1.8336],
+          confidence: 0.992,
+          span: {
+            offset: 6366,
+            length: 6,
+          },
+        },
+        {
+          content: '.',
+          polygon: [0.4959, 1.8634, 0.5394, 1.8635, 0.5397, 1.9911, 0.4962, 1.9907],
+          confidence: 0.691,
+          span: {
+            offset: 6374,
+            length: 1,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [0.5654, 1.8635, 0.8392, 1.8634, 0.8397, 1.9937, 0.5658, 1.9914],
+          confidence: 0.992,
+          span: {
+            offset: 6376,
+            length: 4,
+          },
+        },
+        {
+          content: '1099-DIV',
+          polygon: [0.8805, 1.8633, 1.339, 1.8625, 1.3393, 1.9962, 0.881, 1.9939],
+          confidence: 0.992,
+          span: {
+            offset: 6381,
+            length: 8,
+          },
+        },
+        {
+          content: '(dividends,',
+          polygon: [1.3716, 1.8626, 1.8996, 1.8621, 1.8997, 1.9976, 1.3719, 1.9963],
+          confidence: 0.993,
+          span: {
+            offset: 6390,
+            length: 11,
+          },
+        },
+        {
+          content: 'including',
+          polygon: [1.9409, 1.8622, 2.3798, 1.8628, 2.3799, 1.9979, 1.941, 1.9977],
+          confidence: 0.995,
+          span: {
+            offset: 6402,
+            length: 9,
+          },
+        },
+        {
+          content: 'those',
+          polygon: [2.4146, 1.8629, 2.6905, 1.8635, 2.6906, 1.9971, 2.4147, 1.9978],
+          confidence: 0.997,
+          span: {
+            offset: 6412,
+            length: 5,
+          },
+        },
+        {
+          content: 'from',
+          polygon: [2.7209, 1.8634, 2.9491, 1.8635, 2.949, 1.997, 2.721, 1.9972],
+          confidence: 0.992,
+          span: {
+            offset: 6418,
+            length: 4,
+          },
+        },
+        {
+          content: 'stocks',
+          polygon: [2.9817, 1.8636, 3.3076, 1.8641, 3.3075, 1.9952, 2.9816, 1.9968],
+          confidence: 0.997,
+          span: {
+            offset: 6423,
+            length: 6,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [3.3402, 1.8641, 3.4424, 1.864, 3.4423, 1.9951, 3.3401, 1.9951],
+          confidence: 0.997,
+          span: {
+            offset: 6430,
+            length: 2,
+          },
+        },
+        {
+          content: 'mutual',
+          polygon: [3.4728, 1.8639, 3.8176, 1.8637, 3.8176, 1.9944, 3.4727, 1.9951],
+          confidence: 0.996,
+          span: {
+            offset: 6433,
+            length: 6,
+          },
+        },
+        {
+          content: 'funds).',
+          polygon: [0.4856, 1.9881, 0.8342, 1.9912, 0.8342, 2.1165, 0.4856, 2.114],
+          confidence: 0.995,
+          span: {
+            offset: 6440,
+            length: 7,
+          },
+        },
+        {
+          content: '·',
+          polygon: [0.4949, 2.1494, 0.5393, 2.1493, 0.5395, 2.2806, 0.4951, 2.2801],
+          confidence: 0.42,
+          span: {
+            offset: 6449,
+            length: 1,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [0.566, 2.1492, 0.8392, 2.1488, 0.8393, 2.2831, 0.5662, 2.2809],
+          confidence: 0.992,
+          span: {
+            offset: 6451,
+            length: 4,
+          },
+        },
+        {
+          content: '1099-MISC',
+          polygon: [0.8792, 2.1488, 1.4368, 2.1489, 1.4366, 2.2865, 0.8793, 2.2831],
+          confidence: 0.992,
+          span: {
+            offset: 6456,
+            length: 9,
+          },
+        },
+        {
+          content: '(various',
+          polygon: [1.4724, 2.1488, 1.8567, 2.1494, 1.8564, 2.2876, 1.4722, 2.2868],
+          confidence: 0.993,
+          span: {
+            offset: 6466,
+            length: 8,
+          },
+        },
+        {
+          content: 'types',
+          polygon: [1.8856, 2.1496, 2.1588, 2.1503, 2.1584, 2.2882, 1.8853, 2.2877],
+          confidence: 0.994,
+          span: {
+            offset: 6475,
+            length: 5,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [2.1899, 2.1503, 2.2721, 2.1506, 2.2717, 2.2883, 2.1895, 2.2882],
+          confidence: 0.997,
+          span: {
+            offset: 6481,
+            length: 2,
+          },
+        },
+        {
+          content: 'income,',
+          polygon: [2.2988, 2.1508, 2.6987, 2.1525, 2.6983, 2.2881, 2.2984, 2.2884],
+          confidence: 0.994,
+          span: {
+            offset: 6484,
+            length: 7,
+          },
+        },
+        {
+          content: 'prizes,',
+          polygon: [2.7253, 2.1525, 3.0652, 2.1527, 3.0648, 2.2895, 2.725, 2.2882],
+          confidence: 0.993,
+          span: {
+            offset: 6492,
+            length: 7,
+          },
+        },
+        {
+          content: 'awards,',
+          polygon: [3.1008, 2.1529, 3.4851, 2.1545, 3.4847, 2.2896, 3.1003, 2.2894],
+          confidence: 0.992,
+          span: {
+            offset: 6500,
+            length: 7,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [3.5228, 2.155, 3.625, 2.1563, 3.6247, 2.29, 3.5225, 2.2897],
+          confidence: 0.997,
+          span: {
+            offset: 6508,
+            length: 2,
+          },
+        },
+        {
+          content: 'gross',
+          polygon: [3.6539, 2.1566, 3.9392, 2.1565, 3.9392, 2.2892, 3.6535, 2.2901],
+          confidence: 0.995,
+          span: {
+            offset: 6511,
+            length: 5,
+          },
+        },
+        {
+          content: 'proceeds).',
+          polygon: [0.491, 2.2886, 1.0217, 2.2857, 1.0219, 2.4145, 0.4921, 2.4176],
+          confidence: 0.992,
+          span: {
+            offset: 6517,
+            length: 10,
+          },
+        },
+        {
+          content: '·',
+          polygon: [0.4971, 2.4436, 0.5483, 2.4437, 0.5488, 2.5744, 0.4976, 2.5739],
+          confidence: 0.309,
+          span: {
+            offset: 6529,
+            length: 1,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [0.5862, 2.4437, 0.8401, 2.4433, 0.8403, 2.5778, 0.5867, 2.5748],
+          confidence: 0.992,
+          span: {
+            offset: 6531,
+            length: 4,
+          },
+        },
+        {
+          content: '1099-NEC',
+          polygon: [0.8801, 2.4431, 1.3878, 2.442, 1.3878, 2.5799, 0.8804, 2.578],
+          confidence: 0.992,
+          span: {
+            offset: 6536,
+            length: 8,
+          },
+        },
+        {
+          content: '(nonemployee',
+          polygon: [1.4235, 2.4422, 2.1204, 2.4448, 2.1201, 2.5807, 1.4234, 2.58],
+          confidence: 0.984,
+          span: {
+            offset: 6545,
+            length: 12,
+          },
+        },
+        {
+          content: 'compensation).',
+          polygon: [2.1516, 2.4448, 2.9116, 2.4449, 2.9116, 2.5807, 2.1513, 2.5807],
+          confidence: 0.992,
+          span: {
+            offset: 6558,
+            length: 14,
+          },
+        },
+        {
+          content: '.',
+          polygon: [0.4966, 2.6118, 0.5391, 2.6116, 0.5392, 2.737, 0.4966, 2.7366],
+          confidence: 0.699,
+          span: {
+            offset: 6574,
+            length: 1,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [0.5646, 2.6115, 0.8387, 2.6106, 0.8389, 2.7393, 0.5647, 2.7372],
+          confidence: 0.992,
+          span: {
+            offset: 6576,
+            length: 4,
+          },
+        },
+        {
+          content: '1099-B',
+          polygon: [0.8791, 2.6105, 1.2361, 2.6109, 1.2361, 2.7407, 0.8793, 2.7396],
+          confidence: 0.994,
+          span: {
+            offset: 6581,
+            length: 6,
+          },
+        },
+        {
+          content: '(stock',
+          polygon: [1.2722, 2.611, 1.5719, 2.6102, 1.5719, 2.741, 1.2722, 2.7408],
+          confidence: 0.993,
+          span: {
+            offset: 6588,
+            length: 6,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [1.6016, 2.6102, 1.6866, 2.6103, 1.6865, 2.741, 1.6016, 2.741],
+          confidence: 0.997,
+          span: {
+            offset: 6595,
+            length: 2,
+          },
+        },
+        {
+          content: 'mutual',
+          polygon: [1.7121, 2.6103, 2.0649, 2.611, 2.0647, 2.741, 1.712, 2.741],
+          confidence: 0.993,
+          span: {
+            offset: 6598,
+            length: 6,
+          },
+        },
+        {
+          content: 'fund',
+          polygon: [2.0968, 2.611, 2.3178, 2.6111, 2.3175, 2.741, 2.0965, 2.741],
+          confidence: 0.992,
+          span: {
+            offset: 6605,
+            length: 4,
+          },
+        },
+        {
+          content: 'sales',
+          polygon: [2.3539, 2.6111, 2.6068, 2.6108, 2.6065, 2.741, 2.3536, 2.741],
+          confidence: 0.997,
+          span: {
+            offset: 6610,
+            length: 5,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [2.6386, 2.6108, 2.8214, 2.611, 2.8211, 2.741, 2.6384, 2.741],
+          confidence: 0.999,
+          span: {
+            offset: 6616,
+            length: 3,
+          },
+        },
+        {
+          content: 'certain',
+          polygon: [2.8575, 2.611, 3.189, 2.6111, 3.1887, 2.7409, 2.8573, 2.741],
+          confidence: 0.996,
+          span: {
+            offset: 6620,
+            length: 7,
+          },
+        },
+        {
+          content: 'other',
+          polygon: [3.223, 2.611, 3.4917, 2.6109, 3.4917, 2.7401, 3.2227, 2.7409],
+          confidence: 0.995,
+          span: {
+            offset: 6628,
+            length: 5,
+          },
+        },
+        {
+          content: 'transactions',
+          polygon: [0.4861, 2.7385, 1.1056, 2.737, 1.1056, 2.8748, 0.4868, 2.8733],
+          confidence: 0.992,
+          span: {
+            offset: 6634,
+            length: 12,
+          },
+        },
+        {
+          content: 'by',
+          polygon: [1.1415, 2.7375, 1.2582, 2.7374, 1.2583, 2.8744, 1.1415, 2.8747],
+          confidence: 0.998,
+          span: {
+            offset: 6647,
+            length: 2,
+          },
+        },
+        {
+          content: 'brokers).',
+          polygon: [1.2919, 2.7372, 1.7237, 2.7382, 1.7237, 2.8769, 1.2919, 2.8743],
+          confidence: 0.993,
+          span: {
+            offset: 6650,
+            length: 9,
+          },
+        },
+        {
+          content: '·',
+          polygon: [0.4961, 2.904, 0.5476, 2.9038, 0.5482, 3.0372, 0.4966, 3.037],
+          confidence: 0.188,
+          span: {
+            offset: 6661,
+            length: 1,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [0.588, 2.9037, 0.8391, 2.9024, 0.8395, 3.0377, 0.5885, 3.0372],
+          confidence: 0.992,
+          span: {
+            offset: 6663,
+            length: 4,
+          },
+        },
+        {
+          content: '1099-S',
+          polygon: [0.8795, 2.9022, 1.2315, 2.9006, 1.2318, 3.0378, 0.8799, 3.0377],
+          confidence: 0.992,
+          span: {
+            offset: 6668,
+            length: 6,
+          },
+        },
+        {
+          content: '(proceeds',
+          polygon: [1.2673, 2.9006, 1.7606, 2.9005, 1.7608, 3.0388, 1.2677, 3.0377],
+          confidence: 0.992,
+          span: {
+            offset: 6675,
+            length: 9,
+          },
+        },
+        {
+          content: 'from',
+          polygon: [1.7898, 2.9005, 1.9826, 2.9012, 1.9826, 3.0393, 1.7899, 3.0387],
+          confidence: 0.989,
+          span: {
+            offset: 6685,
+            length: 4,
+          },
+        },
+        {
+          content: 'real',
+          polygon: [2.0297, 2.9015, 2.227, 2.9022, 2.227, 3.0394, 2.0297, 3.0394],
+          confidence: 0.994,
+          span: {
+            offset: 6690,
+            length: 4,
+          },
+        },
+        {
+          content: 'estate',
+          polygon: [2.2628, 2.9023, 2.5498, 2.9026, 2.5497, 3.0394, 2.2629, 3.0394],
+          confidence: 0.996,
+          span: {
+            offset: 6695,
+            length: 6,
+          },
+        },
+        {
+          content: 'transactions).',
+          polygon: [2.5767, 2.9026, 3.2652, 2.9, 3.2652, 3.0384, 2.5766, 3.0394],
+          confidence: 0.992,
+          span: {
+            offset: 6702,
+            length: 14,
+          },
+        },
+        {
+          content: '.',
+          polygon: [0.4957, 3.0679, 0.547, 3.0676, 0.5479, 3.2003, 0.4967, 3.1999],
+          confidence: 0.788,
+          span: {
+            offset: 6718,
+            length: 1,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [0.5871, 3.0675, 0.8389, 3.0666, 0.8395, 3.2018, 0.588, 3.2006],
+          confidence: 0.992,
+          span: {
+            offset: 6720,
+            length: 4,
+          },
+        },
+        {
+          content: '1099-K',
+          polygon: [0.879, 3.0665, 1.2379, 3.0662, 1.2386, 3.203, 0.8796, 3.2018],
+          confidence: 0.993,
+          span: {
+            offset: 6725,
+            length: 6,
+          },
+        },
+        {
+          content: '(merchant',
+          polygon: [1.2691, 3.0663, 1.7638, 3.0665, 1.7645, 3.2032, 1.2697, 3.203],
+          confidence: 0.992,
+          span: {
+            offset: 6732,
+            length: 9,
+          },
+        },
+        {
+          content: 'card',
+          polygon: [1.7973, 3.0665, 2.0157, 3.0669, 2.0159, 3.204, 1.7978, 3.2032],
+          confidence: 0.992,
+          span: {
+            offset: 6742,
+            length: 4,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [2.0491, 3.0671, 2.2319, 3.0679, 2.2321, 3.2051, 2.0494, 3.2041],
+          confidence: 0.996,
+          span: {
+            offset: 6747,
+            length: 3,
+          },
+        },
+        {
+          content: 'third-party',
+          polygon: [2.2631, 3.0679, 2.789, 3.0696, 2.7892, 3.2052, 2.2633, 3.2052],
+          confidence: 0.992,
+          span: {
+            offset: 6751,
+            length: 11,
+          },
+        },
+        {
+          content: 'network',
+          polygon: [2.8202, 3.0694, 3.2169, 3.0703, 3.2171, 3.2052, 2.8204, 3.2052],
+          confidence: 0.996,
+          span: {
+            offset: 6763,
+            length: 7,
+          },
+        },
+        {
+          content: 'transactions).',
+          polygon: [3.2459, 3.0703, 3.9116, 3.0688, 3.9116, 3.2052, 3.246, 3.2052],
+          confidence: 0.989,
+          span: {
+            offset: 6771,
+            length: 14,
+          },
+        },
+        {
+          content: '.',
+          polygon: [0.4938, 3.234, 0.5387, 3.234, 0.5392, 3.3642, 0.4943, 3.3636],
+          confidence: 0.687,
+          span: {
+            offset: 6787,
+            length: 1,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [0.5656, 3.2339, 0.8391, 3.2333, 0.8395, 3.3673, 0.5661, 3.3645],
+          confidence: 0.992,
+          span: {
+            offset: 6789,
+            length: 4,
+          },
+        },
+        {
+          content: '1098',
+          polygon: [0.8795, 3.2332, 1.1037, 3.233, 1.1039, 3.3683, 0.8799, 3.3675],
+          confidence: 0.992,
+          span: {
+            offset: 6794,
+            length: 4,
+          },
+        },
+        {
+          content: '(home',
+          polygon: [1.1306, 3.233, 1.4445, 3.2329, 1.4447, 3.37, 1.1308, 3.3683],
+          confidence: 0.992,
+          span: {
+            offset: 6799,
+            length: 5,
+          },
+        },
+        {
+          content: 'mortgage',
+          polygon: [1.4714, 3.2329, 1.9468, 3.2324, 1.947, 3.371, 1.4716, 3.3702],
+          confidence: 0.994,
+          span: {
+            offset: 6805,
+            length: 8,
+          },
+        },
+        {
+          content: 'interest),',
+          polygon: [1.9737, 3.2323, 2.4199, 3.2327, 2.42, 3.371, 1.9739, 3.371],
+          confidence: 0.992,
+          span: {
+            offset: 6814,
+            length: 10,
+          },
+        },
+        {
+          content: '1098-E',
+          polygon: [2.4602, 3.2327, 2.8123, 3.2333, 2.8123, 3.371, 2.4604, 3.371],
+          confidence: 0.995,
+          span: {
+            offset: 6825,
+            length: 6,
+          },
+        },
+        {
+          content: '(student',
+          polygon: [2.8459, 3.2333, 3.2293, 3.2339, 3.2292, 3.3709, 2.8459, 3.371],
+          confidence: 0.993,
+          span: {
+            offset: 6832,
+            length: 8,
+          },
+        },
+        {
+          content: 'loan',
+          polygon: [3.2562, 3.234, 3.4715, 3.2348, 3.4713, 3.371, 3.2561, 3.3709],
+          confidence: 0.992,
+          span: {
+            offset: 6841,
+            length: 4,
+          },
+        },
+        {
+          content: 'interest),',
+          polygon: [3.4984, 3.2348, 3.9447, 3.2345, 3.9447, 3.371, 3.4982, 3.371],
+          confidence: 0.987,
+          span: {
+            offset: 6846,
+            length: 10,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [0.4891, 3.3629, 0.6791, 3.3623, 0.6795, 3.497, 0.4896, 3.4959],
+          confidence: 0.995,
+          span: {
+            offset: 6857,
+            length: 3,
+          },
+        },
+        {
+          content: '1098-T',
+          polygon: [0.7216, 3.362, 1.0705, 3.3601, 1.0707, 3.4979, 0.7219, 3.497],
+          confidence: 0.992,
+          span: {
+            offset: 6861,
+            length: 6,
+          },
+        },
+        {
+          content: '(tuition).',
+          polygon: [1.1018, 3.3605, 1.4917, 3.3599, 1.4917, 3.4973, 1.102, 3.4978],
+          confidence: 0.992,
+          span: {
+            offset: 6868,
+            length: 10,
+          },
+        },
+        {
+          content: '·',
+          polygon: [0.4949, 3.5249, 0.5463, 3.5256, 0.547, 3.6588, 0.4956, 3.6578],
+          confidence: 0.414,
+          span: {
+            offset: 6880,
+            length: 1,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [0.5865, 3.5262, 0.8389, 3.5254, 0.8394, 3.6613, 0.5872, 3.6595],
+          confidence: 0.992,
+          span: {
+            offset: 6882,
+            length: 4,
+          },
+        },
+        {
+          content: '1099-C',
+          polygon: [0.8791, 3.5253, 1.2411, 3.5255, 1.2414, 3.6629, 0.8796, 3.6615],
+          confidence: 0.993,
+          span: {
+            offset: 6887,
+            length: 6,
+          },
+        },
+        {
+          content: '(canceled',
+          polygon: [1.2746, 3.5258, 1.7505, 3.5264, 1.7503, 3.6636, 1.2749, 3.6628],
+          confidence: 0.992,
+          span: {
+            offset: 6894,
+            length: 9,
+          },
+        },
+        {
+          content: 'debt).',
+          polygon: [1.784, 3.5261, 2.0663, 3.5261, 2.0663, 3.6632, 1.7838, 3.6634],
+          confidence: 0.992,
+          span: {
+            offset: 6904,
+            length: 6,
+          },
+        },
+        {
+          content: '·',
+          polygon: [0.4965, 3.6926, 0.5466, 3.6924, 0.5472, 3.826, 0.497, 3.8256],
+          confidence: 0.376,
+          span: {
+            offset: 6912,
+            length: 1,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [0.5877, 3.6922, 0.8386, 3.6913, 0.8392, 3.8281, 0.5883, 3.8264],
+          confidence: 0.993,
+          span: {
+            offset: 6914,
+            length: 4,
+          },
+        },
+        {
+          content: '1099-A',
+          polygon: [0.8796, 3.6912, 1.2377, 3.6898, 1.2381, 3.8293, 0.8802, 3.8282],
+          confidence: 0.993,
+          span: {
+            offset: 6919,
+            length: 6,
+          },
+        },
+        {
+          content: '(acquisition',
+          polygon: [1.2673, 3.69, 1.826, 3.6907, 1.8263, 3.8303, 1.2678, 3.8294],
+          confidence: 0.99,
+          span: {
+            offset: 6926,
+            length: 12,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [1.8603, 3.6908, 1.9652, 3.6913, 1.9653, 3.8307, 1.8605, 3.8305],
+          confidence: 0.995,
+          span: {
+            offset: 6939,
+            length: 2,
+          },
+        },
+        {
+          content: 'abandonment',
+          polygon: [1.9925, 3.6914, 2.6813, 3.6927, 2.6812, 3.8322, 1.9927, 3.8307],
+          confidence: 0.993,
+          span: {
+            offset: 6942,
+            length: 11,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [2.7132, 3.6927, 2.8112, 3.6925, 2.8111, 3.8329, 2.7131, 3.8324],
+          confidence: 0.992,
+          span: {
+            offset: 6954,
+            length: 2,
+          },
+        },
+        {
+          content: 'secured',
+          polygon: [2.8409, 3.6926, 3.2332, 3.6935, 3.2329, 3.8338, 2.8408, 3.833],
+          confidence: 0.995,
+          span: {
+            offset: 6957,
+            length: 7,
+          },
+        },
+        {
+          content: 'property).',
+          polygon: [3.2742, 3.6936, 3.7458, 3.6932, 3.7458, 3.8352, 3.2739, 3.8339],
+          confidence: 0.991,
+          span: {
+            offset: 6965,
+            length: 10,
+          },
+        },
+        {
+          content: 'Use',
+          polygon: [0.5972, 3.8526, 0.8022, 3.8526, 0.8023, 3.9922, 0.5971, 3.9912],
+          confidence: 0.993,
+          span: {
+            offset: 6976,
+            length: 3,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [0.8395, 3.8527, 1.0887, 3.8533, 1.0887, 3.9934, 0.8396, 3.9924],
+          confidence: 0.992,
+          span: {
+            offset: 6980,
+            length: 4,
+          },
+        },
+        {
+          content: 'W-9',
+          polygon: [1.1236, 3.8531, 1.3285, 3.8523, 1.3285, 3.9939, 1.1236, 3.9934],
+          confidence: 0.993,
+          span: {
+            offset: 6985,
+            length: 3,
+          },
+        },
+        {
+          content: 'only',
+          polygon: [1.3612, 3.8524, 1.5475, 3.853, 1.5476, 3.9958, 1.3611, 3.9942],
+          confidence: 0.992,
+          span: {
+            offset: 6989,
+            length: 4,
+          },
+        },
+        {
+          content: 'if',
+          polygon: [1.5754, 3.8531, 1.6406, 3.8533, 1.6407, 3.9959, 1.5755, 3.9959],
+          confidence: 0.994,
+          span: {
+            offset: 6994,
+            length: 2,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [1.6686, 3.8534, 1.8619, 3.8536, 1.8619, 3.9963, 1.6687, 3.9959],
+          confidence: 0.998,
+          span: {
+            offset: 6997,
+            length: 3,
+          },
+        },
+        {
+          content: 'are',
+          polygon: [1.8968, 3.8536, 2.0552, 3.8539, 2.055, 3.9964, 1.8968, 3.9964],
+          confidence: 0.995,
+          span: {
+            offset: 7001,
+            length: 3,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [2.0855, 3.8541, 2.146, 3.8544, 2.1458, 3.9963, 2.0853, 3.9964],
+          confidence: 0.993,
+          span: {
+            offset: 7005,
+            length: 1,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [2.1786, 3.8545, 2.3813, 3.8548, 2.3811, 3.9968, 2.1784, 3.9962],
+          confidence: 0.984,
+          span: {
+            offset: 7007,
+            length: 4,
+          },
+        },
+        {
+          content: 'person',
+          polygon: [2.4232, 3.8549, 2.7609, 3.8544, 2.7607, 3.9984, 2.423, 3.997],
+          confidence: 0.994,
+          span: {
+            offset: 7012,
+            length: 6,
+          },
+        },
+        {
+          content: '(including',
+          polygon: [2.7958, 3.8544, 3.2663, 3.8546, 3.266, 3.9979, 2.7956, 3.9985],
+          confidence: 0.992,
+          span: {
+            offset: 7019,
+            length: 10,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [3.3012, 3.8547, 3.3618, 3.8547, 3.3615, 3.9979, 3.301, 3.9979],
+          confidence: 0.994,
+          span: {
+            offset: 7030,
+            length: 1,
+          },
+        },
+        {
+          content: 'resident',
+          polygon: [3.3944, 3.8546, 3.8066, 3.8535, 3.8066, 3.9955, 3.3941, 3.9979],
+          confidence: 0.993,
+          span: {
+            offset: 7032,
+            length: 8,
+          },
+        },
+        {
+          content: 'alien),',
+          polygon: [0.4873, 3.9875, 0.7791, 3.9888, 0.7793, 4.1247, 0.4874, 4.1235],
+          confidence: 0.993,
+          span: {
+            offset: 7041,
+            length: 7,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [0.8147, 3.9885, 0.915, 3.9876, 0.9152, 4.1253, 0.815, 4.1247],
+          confidence: 0.999,
+          span: {
+            offset: 7049,
+            length: 2,
+          },
+        },
+        {
+          content: 'provide',
+          polygon: [0.9506, 3.9873, 1.3182, 3.9871, 1.3183, 4.1237, 0.9509, 4.1256],
+          confidence: 0.995,
+          span: {
+            offset: 7052,
+            length: 7,
+          },
+        },
+        {
+          content: 'your',
+          polygon: [1.3493, 3.9871, 1.5699, 3.9864, 1.57, 4.1224, 1.3495, 4.1234],
+          confidence: 0.992,
+          span: {
+            offset: 7060,
+            length: 4,
+          },
+        },
+        {
+          content: 'correct',
+          polygon: [1.5988, 3.9863, 1.9485, 3.986, 1.9485, 4.1203, 1.5989, 4.1223],
+          confidence: 0.993,
+          span: {
+            offset: 7065,
+            length: 7,
+          },
+        },
+        {
+          content: 'TIN.',
+          polygon: [1.9753, 3.986, 2.1878, 3.9855, 2.1878, 4.1191, 1.9752, 4.1204],
+          confidence: 0.987,
+          span: {
+            offset: 7073,
+            length: 4,
+          },
+        },
+        {
+          content: 'Caution:',
+          polygon: [0.4896, 4.1468, 0.9255, 4.1482, 0.9254, 4.2861, 0.4893, 4.2829],
+          confidence: 0.992,
+          span: {
+            offset: 7079,
+            length: 8,
+          },
+        },
+        {
+          content: 'If',
+          polygon: [0.9528, 4.1483, 1.0163, 4.1483, 1.0162, 4.2864, 0.9526, 4.2863],
+          confidence: 0.896,
+          span: {
+            offset: 7088,
+            length: 2,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [1.0436, 4.1482, 1.2411, 4.1471, 1.241, 4.2851, 1.0434, 4.2863],
+          confidence: 0.997,
+          span: {
+            offset: 7091,
+            length: 3,
+          },
+        },
+        {
+          content: "don't",
+          polygon: [1.2752, 4.1471, 1.5158, 4.1469, 1.5157, 4.2855, 1.2751, 4.2851],
+          confidence: 0.992,
+          span: {
+            offset: 7095,
+            length: 5,
+          },
+        },
+        {
+          content: 'return',
+          polygon: [1.5431, 4.1469, 1.8519, 4.1466, 1.8516, 4.2859, 1.543, 4.2856],
+          confidence: 0.992,
+          span: {
+            offset: 7101,
+            length: 6,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [1.8905, 4.1466, 2.1425, 4.1465, 2.142, 4.2859, 1.8902, 4.2858],
+          confidence: 0.992,
+          span: {
+            offset: 7108,
+            length: 4,
+          },
+        },
+        {
+          content: 'W-9',
+          polygon: [2.1743, 4.1465, 2.3809, 4.1475, 2.3803, 4.2867, 2.1738, 4.2859],
+          confidence: 0.992,
+          span: {
+            offset: 7113,
+            length: 3,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [2.4127, 4.1478, 2.4967, 4.1483, 2.496, 4.2871, 2.4121, 4.2868],
+          confidence: 0.998,
+          span: {
+            offset: 7117,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [2.5239, 4.1482, 2.6874, 4.1481, 2.6865, 4.2865, 2.5233, 4.287],
+          confidence: 0.995,
+          span: {
+            offset: 7120,
+            length: 3,
+          },
+        },
+        {
+          content: 'requester',
+          polygon: [2.7147, 4.1481, 3.2051, 4.148, 3.2042, 4.2872, 2.7137, 4.2864],
+          confidence: 0.993,
+          span: {
+            offset: 7124,
+            length: 9,
+          },
+        },
+        {
+          content: 'with',
+          polygon: [3.2324, 4.148, 3.4344, 4.1488, 3.4335, 4.2872, 3.2315, 4.2872],
+          confidence: 0.992,
+          span: {
+            offset: 7134,
+            length: 4,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [3.4685, 4.149, 3.5298, 4.149, 3.5289, 4.2874, 3.4676, 4.2872],
+          confidence: 0.992,
+          span: {
+            offset: 7139,
+            length: 1,
+          },
+        },
+        {
+          content: 'TIN,',
+          polygon: [3.5593, 4.149, 3.7568, 4.1489, 3.7561, 4.2883, 3.5585, 4.2876],
+          confidence: 0.989,
+          span: {
+            offset: 7141,
+            length: 4,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [3.7909, 4.1489, 3.9834, 4.1486, 3.9834, 4.288, 3.7902, 4.2883],
+          confidence: 0.998,
+          span: {
+            offset: 7146,
+            length: 3,
+          },
+        },
+        {
+          content: 'might',
+          polygon: [0.4887, 4.2746, 0.7739, 4.2747, 0.7739, 4.4099, 0.4885, 4.4089],
+          confidence: 0.998,
+          span: {
+            offset: 7150,
+            length: 5,
+          },
+        },
+        {
+          content: 'be',
+          polygon: [0.8099, 4.2747, 0.9334, 4.2747, 0.9334, 4.4099, 0.8099, 4.4099],
+          confidence: 0.998,
+          span: {
+            offset: 7156,
+            length: 2,
+          },
+        },
+        {
+          content: 'subject',
+          polygon: [0.9649, 4.2746, 1.3242, 4.2739, 1.3241, 4.4099, 0.9649, 4.4099],
+          confidence: 0.995,
+          span: {
+            offset: 7159,
+            length: 7,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [1.3534, 4.2739, 1.441, 4.2735, 1.4409, 4.4099, 1.3533, 4.4099],
+          confidence: 0.998,
+          span: {
+            offset: 7167,
+            length: 2,
+          },
+        },
+        {
+          content: 'backup',
+          polygon: [1.468, 4.2733, 1.8566, 4.2726, 1.8564, 4.4099, 1.4679, 4.4099],
+          confidence: 0.998,
+          span: {
+            offset: 7170,
+            length: 6,
+          },
+        },
+        {
+          content: 'withholding.',
+          polygon: [1.8858, 4.2726, 2.481, 4.2731, 2.4807, 4.4099, 1.8856, 4.4099],
+          confidence: 0.994,
+          span: {
+            offset: 7177,
+            length: 12,
+          },
+        },
+        {
+          content: 'See',
+          polygon: [2.5214, 4.273, 2.7101, 4.2729, 2.7097, 4.4099, 2.5211, 4.4099],
+          confidence: 0.998,
+          span: {
+            offset: 7190,
+            length: 3,
+          },
+        },
+        {
+          content: 'What',
+          polygon: [2.7483, 4.273, 2.9864, 4.2734, 2.9857, 4.4099, 2.7479, 4.4099],
+          confidence: 0.989,
+          span: {
+            offset: 7194,
+            length: 4,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [3.0133, 4.2734, 3.1054, 4.2736, 3.1046, 4.4099, 3.0126, 4.4099],
+          confidence: 0.998,
+          span: {
+            offset: 7199,
+            length: 2,
+          },
+        },
+        {
+          content: 'backup',
+          polygon: [3.1346, 4.2736, 3.5083, 4.2742, 3.5083, 4.4098, 3.1338, 4.4099],
+          confidence: 0.998,
+          span: {
+            offset: 7202,
+            length: 6,
+          },
+        },
+        {
+          content: 'withholding,',
+          polygon: [0.4851, 4.3992, 1.0853, 4.4017, 1.0854, 4.538, 0.4856, 4.536],
+          confidence: 0.992,
+          span: {
+            offset: 7209,
+            length: 12,
+          },
+        },
+        {
+          content: 'later.',
+          polygon: [1.1121, 4.4017, 1.3757, 4.4023, 1.3757, 4.5398, 1.1123, 4.5384],
+          confidence: 0.993,
+          span: {
+            offset: 7222,
+            length: 6,
+          },
+        },
+        {
+          content: 'By',
+          polygon: [0.5835, 4.5627, 0.7328, 4.5635, 0.7328, 4.7077, 0.5833, 4.7069],
+          confidence: 0.998,
+          span: {
+            offset: 7230,
+            length: 2,
+          },
+        },
+        {
+          content: 'signing',
+          polygon: [0.7613, 4.5635, 1.138, 4.5627, 1.1379, 4.7081, 0.7613, 4.7079],
+          confidence: 0.995,
+          span: {
+            offset: 7233,
+            length: 7,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.1736, 4.5625, 1.3418, 4.5624, 1.3416, 4.7081, 1.1734, 4.708],
+          confidence: 0.999,
+          span: {
+            offset: 7241,
+            length: 3,
+          },
+        },
+        {
+          content: 'filled-out',
+          polygon: [1.3726, 4.5624, 1.8466, 4.5633, 1.846, 4.7074, 1.3724, 4.708],
+          confidence: 0.992,
+          span: {
+            offset: 7245,
+            length: 10,
+          },
+        },
+        {
+          content: 'form,',
+          polygon: [1.875, 4.5633, 2.1499, 4.5641, 2.1492, 4.7081, 1.8745, 4.7075],
+          confidence: 0.992,
+          span: {
+            offset: 7256,
+            length: 5,
+          },
+        },
+        {
+          content: 'you:',
+          polygon: [2.1878, 4.5641, 2.4088, 4.5641, 2.4088, 4.7082, 2.1872, 4.7082],
+          confidence: 0.988,
+          span: {
+            offset: 7262,
+            length: 4,
+          },
+        },
+        {
+          content: '1.',
+          polygon: [0.6035, 4.7264, 0.6956, 4.7264, 0.6957, 4.8673, 0.6034, 4.8664],
+          confidence: 0.989,
+          span: {
+            offset: 7268,
+            length: 3,
+          },
+        },
+        {
+          content: 'Certify',
+          polygon: [0.7311, 4.7265, 1.0384, 4.7274, 1.0384, 4.8689, 0.7311, 4.8677],
+          confidence: 0.993,
+          span: {
+            offset: 7272,
+            length: 7,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [1.0667, 4.7275, 1.2771, 4.7275, 1.277, 4.8698, 1.0668, 4.8689],
+          confidence: 0.992,
+          span: {
+            offset: 7280,
+            length: 4,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.3054, 4.7275, 1.4638, 4.7273, 1.4637, 4.8707, 1.3054, 4.8699],
+          confidence: 0.998,
+          span: {
+            offset: 7285,
+            length: 3,
+          },
+        },
+        {
+          content: 'TIN',
+          polygon: [1.4922, 4.7272, 1.6623, 4.7271, 1.6623, 4.8717, 1.4921, 4.8708],
+          confidence: 0.992,
+          span: {
+            offset: 7289,
+            length: 3,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [1.6978, 4.7272, 1.8774, 4.7274, 1.8774, 4.8728, 1.6978, 4.8719],
+          confidence: 0.997,
+          span: {
+            offset: 7293,
+            length: 3,
+          },
+        },
+        {
+          content: 'are',
+          polygon: [1.9105, 4.7275, 2.0665, 4.7281, 2.0664, 4.8733, 1.9104, 4.8729],
+          confidence: 0.998,
+          span: {
+            offset: 7297,
+            length: 3,
+          },
+        },
+        {
+          content: 'giving',
+          polygon: [2.0996, 4.7282, 2.3714, 4.7281, 2.3712, 4.8729, 2.0995, 4.8734],
+          confidence: 0.996,
+          span: {
+            offset: 7301,
+            length: 6,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [2.3998, 4.7282, 2.5014, 4.7284, 2.5011, 4.8738, 2.3995, 4.8731],
+          confidence: 0.995,
+          span: {
+            offset: 7308,
+            length: 2,
+          },
+        },
+        {
+          content: 'correct',
+          polygon: [2.5321, 4.7285, 2.8843, 4.7288, 2.8839, 4.8741, 2.5318, 4.874],
+          confidence: 0.995,
+          span: {
+            offset: 7311,
+            length: 7,
+          },
+        },
+        {
+          content: '(or',
+          polygon: [2.9198, 4.7289, 3.0332, 4.7289, 3.0327, 4.8741, 2.9193, 4.8741],
+          confidence: 0.994,
+          span: {
+            offset: 7319,
+            length: 3,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [3.0616, 4.7289, 3.253, 4.7292, 3.2525, 4.8741, 3.0611, 4.8741],
+          confidence: 0.999,
+          span: {
+            offset: 7323,
+            length: 3,
+          },
+        },
+        {
+          content: 'are',
+          polygon: [3.2885, 4.7292, 3.4421, 4.7298, 3.4415, 4.8741, 3.2879, 4.8741],
+          confidence: 0.998,
+          span: {
+            offset: 7327,
+            length: 3,
+          },
+        },
+        {
+          content: 'waiting',
+          polygon: [3.4728, 4.73, 3.8226, 4.7303, 3.8222, 4.8741, 3.4723, 4.8741],
+          confidence: 0.993,
+          span: {
+            offset: 7331,
+            length: 7,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [3.8581, 4.7302, 3.9952, 4.7296, 3.9949, 4.8741, 3.8576, 4.8741],
+          confidence: 0.995,
+          span: {
+            offset: 7339,
+            length: 3,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [4.0235, 4.7295, 4.0939, 4.7292, 4.0939, 4.8741, 4.0232, 4.8741],
+          confidence: 0.963,
+          span: {
+            offset: 7343,
+            length: 1,
+          },
+        },
+        {
+          content: 'number',
+          polygon: [0.4846, 4.8629, 0.8796, 4.8598, 0.8797, 4.996, 0.4852, 4.9958],
+          confidence: 0.997,
+          span: {
+            offset: 7345,
+            length: 6,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [0.9064, 4.8597, 0.9934, 4.8594, 0.9934, 4.9964, 0.9065, 4.996],
+          confidence: 0.999,
+          span: {
+            offset: 7352,
+            length: 2,
+          },
+        },
+        {
+          content: 'be',
+          polygon: [1.0202, 4.8593, 1.1452, 4.8598, 1.1451, 4.9969, 1.0201, 4.9967],
+          confidence: 0.993,
+          span: {
+            offset: 7355,
+            length: 2,
+          },
+        },
+        {
+          content: 'issued);',
+          polygon: [1.1719, 4.86, 1.5801, 4.8613, 1.5801, 4.9982, 1.1719, 4.9972],
+          confidence: 0.994,
+          span: {
+            offset: 7358,
+            length: 8,
+          },
+        },
+        {
+          content: '2.',
+          polygon: [0.5932, 5.0205, 0.695, 5.0202, 0.6947, 5.1639, 0.5929, 5.1634],
+          confidence: 0.994,
+          span: {
+            offset: 7368,
+            length: 3,
+          },
+        },
+        {
+          content: 'Certify',
+          polygon: [0.7329, 5.0201, 1.0385, 5.0213, 1.0382, 5.1649, 0.7326, 5.1641],
+          confidence: 0.994,
+          span: {
+            offset: 7372,
+            length: 7,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [1.0669, 5.0212, 1.2778, 5.0209, 1.2774, 5.1651, 1.0666, 5.1649],
+          confidence: 0.992,
+          span: {
+            offset: 7380,
+            length: 4,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [1.3062, 5.0209, 1.4862, 5.021, 1.4858, 5.1661, 1.3058, 5.1652],
+          confidence: 0.998,
+          span: {
+            offset: 7385,
+            length: 3,
+          },
+        },
+        {
+          content: 'are',
+          polygon: [1.5217, 5.021, 1.6544, 5.021, 1.6538, 5.167, 1.5213, 5.1663],
+          confidence: 0.998,
+          span: {
+            offset: 7389,
+            length: 3,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [1.6828, 5.021, 1.8676, 5.0206, 1.8669, 5.1658, 1.6822, 5.1669],
+          confidence: 0.998,
+          span: {
+            offset: 7393,
+            length: 3,
+          },
+        },
+        {
+          content: 'subject',
+          polygon: [1.8984, 5.0208, 2.2419, 5.0213, 2.2407, 5.1663, 1.8977, 5.1658],
+          confidence: 0.995,
+          span: {
+            offset: 7397,
+            length: 7,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [2.2703, 5.0211, 2.3745, 5.0208, 2.3734, 5.1666, 2.269, 5.1664],
+          confidence: 0.998,
+          span: {
+            offset: 7405,
+            length: 2,
+          },
+        },
+        {
+          content: 'backup',
+          polygon: [2.4029, 5.0207, 2.7891, 5.0214, 2.7882, 5.1664, 2.4018, 5.1667],
+          confidence: 0.998,
+          span: {
+            offset: 7408,
+            length: 6,
+          },
+        },
+        {
+          content: 'withholding;',
+          polygon: [2.8222, 5.0216, 3.4191, 5.0237, 3.4183, 5.167, 2.8213, 5.1663],
+          confidence: 0.994,
+          span: {
+            offset: 7415,
+            length: 12,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [3.4547, 5.0238, 3.5684, 5.0239, 3.5677, 5.167, 3.4539, 5.167],
+          confidence: 0.998,
+          span: {
+            offset: 7428,
+            length: 2,
+          },
+        },
+        {
+          content: '3.',
+          polygon: [0.5965, 5.1832, 0.6955, 5.1835, 0.6953, 5.3239, 0.5961, 5.3228],
+          confidence: 0.993,
+          span: {
+            offset: 7432,
+            length: 3,
+          },
+        },
+        {
+          content: 'Claim',
+          polygon: [0.7333, 5.1837, 1.0114, 5.1848, 1.0113, 5.3264, 0.733, 5.3243],
+          confidence: 0.994,
+          span: {
+            offset: 7436,
+            length: 5,
+          },
+        },
+        {
+          content: 'exemption',
+          polygon: [1.0468, 5.1849, 1.549, 5.1855, 1.5488, 5.329, 1.0467, 5.3266],
+          confidence: 0.993,
+          span: {
+            offset: 7442,
+            length: 9,
+          },
+        },
+        {
+          content: 'from',
+          polygon: [1.5773, 5.1855, 1.8224, 5.186, 1.8222, 5.3302, 1.5771, 5.3291],
+          confidence: 0.989,
+          span: {
+            offset: 7452,
+            length: 4,
+          },
+        },
+        {
+          content: 'backup',
+          polygon: [1.8602, 5.1861, 2.2091, 5.1865, 2.2086, 5.3322, 1.8599, 5.3305],
+          confidence: 0.995,
+          span: {
+            offset: 7457,
+            length: 6,
+          },
+        },
+        {
+          content: 'withholding',
+          polygon: [2.2374, 5.1864, 2.8126, 5.1873, 2.8121, 5.331, 2.2369, 5.3323],
+          confidence: 0.992,
+          span: {
+            offset: 7464,
+            length: 11,
+          },
+        },
+        {
+          content: 'if',
+          polygon: [2.8409, 5.1873, 2.9069, 5.1869, 2.9064, 5.3314, 2.8404, 5.3311],
+          confidence: 0.994,
+          span: {
+            offset: 7476,
+            length: 2,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [2.9352, 5.1867, 3.1262, 5.1859, 3.1255, 5.3322, 2.9346, 5.3316],
+          confidence: 0.998,
+          span: {
+            offset: 7479,
+            length: 3,
+          },
+        },
+        {
+          content: 'are',
+          polygon: [3.1615, 5.1859, 3.3171, 5.186, 3.3165, 5.3315, 3.1609, 5.3321],
+          confidence: 0.995,
+          span: {
+            offset: 7483,
+            length: 3,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [3.3478, 5.1862, 3.4091, 5.1866, 3.4084, 5.3315, 3.3471, 5.3314],
+          confidence: 0.994,
+          span: {
+            offset: 7487,
+            length: 1,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [3.4421, 5.1868, 3.6472, 5.1875, 3.6464, 5.3315, 3.4414, 5.3315],
+          confidence: 0.992,
+          span: {
+            offset: 7489,
+            length: 4,
+          },
+        },
+        {
+          content: 'exempt',
+          polygon: [3.6825, 5.1875, 4.0663, 5.1874, 4.0663, 5.3308, 3.6818, 5.3315],
+          confidence: 0.996,
+          span: {
+            offset: 7494,
+            length: 6,
+          },
+        },
+        {
+          content: 'payee;',
+          polygon: [0.4881, 5.3291, 0.8203, 5.3257, 0.8207, 5.4574, 0.4888, 5.4599],
+          confidence: 0.994,
+          span: {
+            offset: 7501,
+            length: 6,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [0.8591, 5.3252, 1.0552, 5.3241, 1.0552, 5.4555, 0.8596, 5.4568],
+          confidence: 0.999,
+          span: {
+            offset: 7508,
+            length: 3,
+          },
+        },
+        {
+          content: '4.',
+          polygon: [0.5985, 5.479, 0.6941, 5.4796, 0.6938, 5.6164, 0.5981, 5.6158],
+          confidence: 0.993,
+          span: {
+            offset: 7513,
+            length: 3,
+          },
+        },
+        {
+          content: 'Certify',
+          polygon: [0.7328, 5.4798, 1.056, 5.4815, 1.0556, 5.6185, 0.7325, 5.6167],
+          confidence: 0.995,
+          span: {
+            offset: 7517,
+            length: 7,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [1.0856, 5.4816, 1.1857, 5.4818, 1.1853, 5.6189, 1.0852, 5.6187],
+          confidence: 0.998,
+          span: {
+            offset: 7525,
+            length: 2,
+          },
+        },
+        {
+          content: 'your',
+          polygon: [1.2153, 5.4819, 1.4179, 5.4821, 1.4173, 5.6192, 1.2148, 5.6189],
+          confidence: 0.992,
+          span: {
+            offset: 7528,
+            length: 4,
+          },
+        },
+        {
+          content: 'non-foreign',
+          polygon: [1.4452, 5.4821, 2.0347, 5.4819, 2.0337, 5.6206, 1.4446, 5.6192],
+          confidence: 0.993,
+          span: {
+            offset: 7533,
+            length: 11,
+          },
+        },
+        {
+          content: 'status',
+          polygon: [2.0688, 5.4819, 2.3715, 5.4812, 2.3705, 5.6205, 2.0678, 5.6208],
+          confidence: 0.998,
+          span: {
+            offset: 7545,
+            length: 6,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [2.4011, 5.4813, 2.5376, 5.4819, 2.5367, 5.6208, 2.4001, 5.6205],
+          confidence: 0.999,
+          span: {
+            offset: 7552,
+            length: 3,
+          },
+        },
+        {
+          content: 'purposes',
+          polygon: [2.5718, 5.4821, 3.0293, 5.4815, 3.0283, 5.6211, 2.5709, 5.6209],
+          confidence: 0.996,
+          span: {
+            offset: 7556,
+            length: 8,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [3.0634, 5.4814, 3.159, 5.4813, 3.158, 5.6215, 3.0624, 5.6213],
+          confidence: 0.999,
+          span: {
+            offset: 7565,
+            length: 2,
+          },
+        },
+        {
+          content: 'withholding',
+          polygon: [3.1886, 5.4813, 3.7576, 5.4813, 3.7566, 5.6236, 3.1876, 5.6215],
+          confidence: 0.995,
+          span: {
+            offset: 7568,
+            length: 11,
+          },
+        },
+        {
+          content: 'under',
+          polygon: [3.794, 5.4812, 4.0884, 5.4823, 4.0884, 5.6226, 3.7931, 5.6236],
+          confidence: 0.997,
+          span: {
+            offset: 7580,
+            length: 5,
+          },
+        },
+        {
+          content: 'chapter',
+          polygon: [0.4881, 5.6031, 0.8779, 5.6039, 0.878, 5.743, 0.4881, 5.7424],
+          confidence: 0.995,
+          span: {
+            offset: 7586,
+            length: 7,
+          },
+        },
+        {
+          content: '3',
+          polygon: [0.9078, 5.6036, 0.9674, 5.603, 0.9674, 5.743, 0.9078, 5.743],
+          confidence: 0.995,
+          span: {
+            offset: 7594,
+            length: 1,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [0.9995, 5.6031, 1.1004, 5.6036, 1.1003, 5.7427, 0.9995, 5.7429],
+          confidence: 0.996,
+          span: {
+            offset: 7596,
+            length: 2,
+          },
+        },
+        {
+          content: '4',
+          polygon: [1.1279, 5.6038, 1.1898, 5.6038, 1.1897, 5.7432, 1.1278, 5.7426],
+          confidence: 0.995,
+          span: {
+            offset: 7599,
+            length: 1,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [1.2219, 5.6037, 1.3044, 5.6036, 1.3043, 5.7441, 1.2218, 5.7435],
+          confidence: 0.995,
+          span: {
+            offset: 7601,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.332, 5.6035, 1.5062, 5.6025, 1.5061, 5.7429, 1.3318, 5.7439],
+          confidence: 0.999,
+          span: {
+            offset: 7604,
+            length: 3,
+          },
+        },
+        {
+          content: 'Code',
+          polygon: [1.5383, 5.6024, 1.8066, 5.6029, 1.8063, 5.7445, 1.5382, 5.7429],
+          confidence: 0.992,
+          span: {
+            offset: 7608,
+            length: 4,
+          },
+        },
+        {
+          content: '(if',
+          polygon: [1.8387, 5.6029, 1.9259, 5.6031, 1.9256, 5.7446, 1.8385, 5.7445],
+          confidence: 0.992,
+          span: {
+            offset: 7613,
+            length: 3,
+          },
+        },
+        {
+          content: 'applicable);',
+          polygon: [1.9557, 5.6032, 2.5175, 5.6052, 2.5169, 5.7451, 1.9555, 5.7445],
+          confidence: 0.989,
+          span: {
+            offset: 7617,
+            length: 12,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [2.5541, 5.6052, 2.7514, 5.6054, 2.7514, 5.7435, 2.5536, 5.745],
+          confidence: 0.995,
+          span: {
+            offset: 7630,
+            length: 3,
+          },
+        },
+        {
+          content: '5.',
+          polygon: [0.5977, 5.7666, 0.694, 5.767, 0.6939, 5.909, 0.5975, 5.9082],
+          confidence: 0.993,
+          span: {
+            offset: 7635,
+            length: 3,
+          },
+        },
+        {
+          content: 'Certify',
+          polygon: [0.7317, 5.7672, 1.0396, 5.7691, 1.0395, 5.9109, 0.7316, 5.9093],
+          confidence: 0.993,
+          span: {
+            offset: 7639,
+            length: 7,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [1.0678, 5.7693, 1.277, 5.7693, 1.2768, 5.9121, 1.0677, 5.911],
+          confidence: 0.992,
+          span: {
+            offset: 7647,
+            length: 4,
+          },
+        },
+        {
+          content: 'FATCA',
+          polygon: [1.3122, 5.7693, 1.6624, 5.7699, 1.6623, 5.9134, 1.3121, 5.9123],
+          confidence: 0.996,
+          span: {
+            offset: 7652,
+            length: 5,
+          },
+        },
+        {
+          content: 'code(s)',
+          polygon: [1.693, 5.77, 2.0503, 5.7701, 2.0501, 5.9139, 1.6929, 5.9134],
+          confidence: 0.991,
+          span: {
+            offset: 7658,
+            length: 7,
+          },
+        },
+        {
+          content: 'entered',
+          polygon: [2.0855, 5.7701, 2.4569, 5.771, 2.4566, 5.9147, 2.0853, 5.9139],
+          confidence: 0.995,
+          span: {
+            offset: 7666,
+            length: 7,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [2.4945, 5.7712, 2.612, 5.7715, 2.6117, 5.9152, 2.4942, 5.9149],
+          confidence: 0.997,
+          span: {
+            offset: 7674,
+            length: 2,
+          },
+        },
+        {
+          content: 'this',
+          polygon: [2.6449, 5.7715, 2.8236, 5.7717, 2.8231, 5.916, 2.6446, 5.9153],
+          confidence: 0.989,
+          span: {
+            offset: 7677,
+            length: 4,
+          },
+        },
+        {
+          content: 'form',
+          polygon: [2.8541, 5.7716, 3.0821, 5.7715, 3.0814, 5.9165, 2.8536, 5.9162],
+          confidence: 0.992,
+          span: {
+            offset: 7682,
+            length: 4,
+          },
+        },
+        {
+          content: '(if',
+          polygon: [3.1174, 5.7715, 3.202, 5.7715, 3.2013, 5.9158, 3.1167, 5.9163],
+          confidence: 0.995,
+          span: {
+            offset: 7687,
+            length: 3,
+          },
+        },
+        {
+          content: 'any)',
+          polygon: [3.2302, 5.7715, 3.4347, 5.772, 3.434, 5.9164, 3.2295, 5.9157],
+          confidence: 0.992,
+          span: {
+            offset: 7691,
+            length: 4,
+          },
+        },
+        {
+          content: 'indicating',
+          polygon: [3.4723, 5.7721, 3.9558, 5.7742, 3.9558, 5.9171, 3.4716, 5.9166],
+          confidence: 0.995,
+          span: {
+            offset: 7696,
+            length: 10,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [0.4838, 5.895, 0.6861, 5.8969, 0.6861, 6.0327, 0.4835, 6.0301],
+          confidence: 0.992,
+          span: {
+            offset: 7707,
+            length: 4,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [0.7173, 5.8971, 0.8952, 5.8985, 0.8952, 6.0334, 0.7173, 6.0331],
+          confidence: 0.996,
+          span: {
+            offset: 7712,
+            length: 3,
+          },
+        },
+        {
+          content: 'are',
+          polygon: [0.9308, 5.8987, 1.0865, 5.8989, 1.0864, 6.0333, 0.9307, 6.0334],
+          confidence: 0.997,
+          span: {
+            offset: 7716,
+            length: 3,
+          },
+        },
+        {
+          content: 'exempt',
+          polygon: [1.1176, 5.8989, 1.4913, 5.8982, 1.4912, 6.0341, 1.1176, 6.0333],
+          confidence: 0.995,
+          span: {
+            offset: 7720,
+            length: 6,
+          },
+        },
+        {
+          content: 'from',
+          polygon: [1.5179, 5.8981, 1.7448, 5.897, 1.7447, 6.0346, 1.5179, 6.0341],
+          confidence: 0.992,
+          span: {
+            offset: 7727,
+            length: 4,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.7759, 5.897, 1.9338, 5.8967, 1.9337, 6.0343, 1.7759, 6.0345],
+          confidence: 0.999,
+          span: {
+            offset: 7732,
+            length: 3,
+          },
+        },
+        {
+          content: 'FATCA',
+          polygon: [1.9694, 5.8967, 2.3053, 5.8981, 2.3049, 6.0346, 1.9692, 6.0342],
+          confidence: 0.994,
+          span: {
+            offset: 7736,
+            length: 5,
+          },
+        },
+        {
+          content: 'reporting',
+          polygon: [2.3342, 5.8982, 2.779, 5.897, 2.7786, 6.0335, 2.3338, 6.0346],
+          confidence: 0.994,
+          span: {
+            offset: 7742,
+            length: 9,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [2.8057, 5.8968, 2.9058, 5.8961, 2.9054, 6.0329, 2.8053, 6.0334],
+          confidence: 0.992,
+          span: {
+            offset: 7752,
+            length: 2,
+          },
+        },
+        {
+          content: 'correct.',
+          polygon: [2.9369, 5.8959, 3.315, 5.8964, 3.3145, 6.0313, 2.9365, 6.0328],
+          confidence: 0.992,
+          span: {
+            offset: 7755,
+            length: 8,
+          },
+        },
+        {
+          content: 'See',
+          polygon: [3.3506, 5.8966, 3.5418, 5.8964, 3.5412, 6.0313, 3.35, 6.0314],
+          confidence: 0.997,
+          span: {
+            offset: 7764,
+            length: 3,
+          },
+        },
+        {
+          content: 'What',
+          polygon: [3.5797, 5.8962, 3.8332, 5.8955, 3.8326, 6.0299, 3.579, 6.0312],
+          confidence: 0.989,
+          span: {
+            offset: 7768,
+            length: 4,
+          },
+        },
+        {
+          content: 'Is',
+          polygon: [3.8599, 5.8955, 3.9502, 5.8955, 3.9502, 6.0292, 3.8593, 6.0297],
+          confidence: 0.912,
+          span: {
+            offset: 7773,
+            length: 2,
+          },
+        },
+        {
+          content: 'FATCA',
+          polygon: [0.4865, 6.0207, 0.8463, 6.0222, 0.846, 6.1615, 0.4862, 6.1601],
+          confidence: 0.996,
+          span: {
+            offset: 7776,
+            length: 5,
+          },
+        },
+        {
+          content: 'Reporting,',
+          polygon: [0.8802, 6.0222, 1.3825, 6.0232, 1.3824, 6.1617, 0.88, 6.1614],
+          confidence: 0.992,
+          span: {
+            offset: 7782,
+            length: 10,
+          },
+        },
+        {
+          content: 'later,',
+          polygon: [1.4097, 6.0232, 1.6722, 6.0227, 1.6719, 6.1617, 1.4096, 6.1617],
+          confidence: 0.992,
+          span: {
+            offset: 7793,
+            length: 6,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [1.7084, 6.0228, 1.8441, 6.023, 1.8438, 6.1617, 1.7081, 6.1617],
+          confidence: 0.999,
+          span: {
+            offset: 7800,
+            length: 3,
+          },
+        },
+        {
+          content: 'further',
+          polygon: [1.8713, 6.0232, 2.1994, 6.0239, 2.1989, 6.1617, 1.8709, 6.1617],
+          confidence: 0.996,
+          span: {
+            offset: 7804,
+            length: 7,
+          },
+        },
+        {
+          content: 'information.',
+          polygon: [2.2333, 6.0242, 2.8232, 6.0256, 2.8232, 6.1601, 2.2328, 6.1617],
+          confidence: 0.992,
+          span: {
+            offset: 7812,
+            length: 12,
+          },
+        },
+        {
+          content: 'Note:',
+          polygon: [0.4888, 6.1894, 0.7658, 6.1899, 0.7658, 6.3255, 0.4886, 6.3238],
+          confidence: 0.993,
+          span: {
+            offset: 7826,
+            length: 5,
+          },
+        },
+        {
+          content: 'If',
+          polygon: [0.7926, 6.19, 0.8641, 6.1901, 0.864, 6.3258, 0.7926, 6.3256],
+          confidence: 0.934,
+          span: {
+            offset: 7832,
+            length: 2,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [0.8909, 6.1901, 1.0808, 6.1903, 1.0806, 6.3264, 0.8908, 6.3258],
+          confidence: 0.998,
+          span: {
+            offset: 7835,
+            length: 3,
+          },
+        },
+        {
+          content: 'are',
+          polygon: [1.1143, 6.1903, 1.2707, 6.1903, 1.2705, 6.3271, 1.1141, 6.3265],
+          confidence: 0.994,
+          span: {
+            offset: 7839,
+            length: 3,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [1.3019, 6.1903, 1.3645, 6.1902, 1.3643, 6.3274, 1.3017, 6.3272],
+          confidence: 0.992,
+          span: {
+            offset: 7843,
+            length: 1,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [1.398, 6.1902, 1.6013, 6.1902, 1.601, 6.3275, 1.3978, 6.3275],
+          confidence: 0.993,
+          span: {
+            offset: 7845,
+            length: 4,
+          },
+        },
+        {
+          content: 'person',
+          polygon: [1.6415, 6.1902, 1.9788, 6.19, 1.9784, 6.3275, 1.6412, 6.3275],
+          confidence: 0.996,
+          span: {
+            offset: 7850,
+            length: 6,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [2.0123, 6.19, 2.1932, 6.1901, 2.1927, 6.3275, 2.0119, 6.3275],
+          confidence: 0.998,
+          span: {
+            offset: 7857,
+            length: 3,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [2.229, 6.1901, 2.2759, 6.1904, 2.2754, 6.3275, 2.2285, 6.3275],
+          confidence: 0.994,
+          span: {
+            offset: 7861,
+            length: 1,
+          },
+        },
+        {
+          content: 'requester',
+          polygon: [2.3027, 6.1905, 2.7942, 6.1908, 2.7937, 6.3275, 2.3022, 6.3275],
+          confidence: 0.995,
+          span: {
+            offset: 7863,
+            length: 9,
+          },
+        },
+        {
+          content: 'gives',
+          polygon: [2.821, 6.1907, 3.0779, 6.1908, 3.0773, 6.3274, 2.8205, 6.3275],
+          confidence: 0.995,
+          span: {
+            offset: 7873,
+            length: 5,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [3.1091, 6.1908, 3.2878, 6.1911, 3.2872, 6.3263, 3.1085, 6.3271],
+          confidence: 0.999,
+          span: {
+            offset: 7879,
+            length: 3,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [3.3236, 6.1911, 3.3839, 6.1912, 3.3832, 6.3261, 3.3229, 6.3262],
+          confidence: 0.995,
+          span: {
+            offset: 7883,
+            length: 1,
+          },
+        },
+        {
+          content: 'form',
+          polygon: [3.4107, 6.1912, 3.6363, 6.1916, 3.6357, 6.3258, 3.41, 6.3261],
+          confidence: 0.992,
+          span: {
+            offset: 7885,
+            length: 4,
+          },
+        },
+        {
+          content: 'other',
+          polygon: [3.6721, 6.1917, 3.9392, 6.1903, 3.9392, 6.3244, 3.6714, 6.3257],
+          confidence: 0.997,
+          span: {
+            offset: 7890,
+            length: 5,
+          },
+        },
+        {
+          content: 'than',
+          polygon: [0.4859, 6.3108, 0.7104, 6.3112, 0.7105, 6.4467, 0.4858, 6.4452],
+          confidence: 0.992,
+          span: {
+            offset: 7896,
+            length: 4,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [0.7504, 6.3112, 0.9994, 6.3107, 0.9994, 6.4464, 0.7505, 6.4469],
+          confidence: 0.992,
+          span: {
+            offset: 7901,
+            length: 4,
+          },
+        },
+        {
+          content: 'W-9',
+          polygon: [1.035, 6.3108, 1.2395, 6.3116, 1.2394, 6.4475, 1.035, 6.4466],
+          confidence: 0.993,
+          span: {
+            offset: 7906,
+            length: 3,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [1.2706, 6.3117, 1.3573, 6.3119, 1.3573, 6.4479, 1.2705, 6.4477],
+          confidence: 0.992,
+          span: {
+            offset: 7910,
+            length: 2,
+          },
+        },
+        {
+          content: 'request',
+          polygon: [1.384, 6.3119, 1.7775, 6.3121, 1.7776, 6.4482, 1.384, 6.448],
+          confidence: 0.994,
+          span: {
+            offset: 7913,
+            length: 7,
+          },
+        },
+        {
+          content: 'your',
+          polygon: [1.8086, 6.3121, 2.0331, 6.3124, 2.0329, 6.4485, 1.8086, 6.4482],
+          confidence: 0.989,
+          span: {
+            offset: 7921,
+            length: 4,
+          },
+        },
+        {
+          content: 'TIN,',
+          polygon: [2.0598, 6.3125, 2.2532, 6.3129, 2.2529, 6.4491, 2.0595, 6.4485],
+          confidence: 0.986,
+          span: {
+            offset: 7926,
+            length: 4,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [2.2888, 6.313, 2.4688, 6.3128, 2.4686, 6.4487, 2.2885, 6.4491],
+          confidence: 0.998,
+          span: {
+            offset: 7931,
+            length: 3,
+          },
+        },
+        {
+          content: 'must',
+          polygon: [2.5066, 6.3127, 2.7511, 6.313, 2.751, 6.4473, 2.5064, 6.4486],
+          confidence: 0.992,
+          span: {
+            offset: 7935,
+            length: 4,
+          },
+        },
+        {
+          content: 'use',
+          polygon: [2.7823, 6.313, 2.9557, 6.3127, 2.9553, 6.4476, 2.7821, 6.4472],
+          confidence: 0.997,
+          span: {
+            offset: 7940,
+            length: 3,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [2.9868, 6.3127, 3.1446, 6.3125, 3.1441, 6.4478, 2.9864, 6.4477],
+          confidence: 0.999,
+          span: {
+            offset: 7944,
+            length: 3,
+          },
+        },
+        {
+          content: "requester's",
+          polygon: [3.178, 6.3124, 3.7315, 6.3108, 3.731, 6.447, 3.1774, 6.4477],
+          confidence: 0.992,
+          span: {
+            offset: 7948,
+            length: 11,
+          },
+        },
+        {
+          content: 'form',
+          polygon: [3.7604, 6.3106, 3.9871, 6.3093, 3.9868, 6.4455, 3.7599, 6.4469],
+          confidence: 0.992,
+          span: {
+            offset: 7960,
+            length: 4,
+          },
+        },
+        {
+          content: 'if',
+          polygon: [4.0249, 6.3091, 4.0884, 6.3086, 4.0884, 6.4448, 4.0246, 6.4453],
+          confidence: 0.995,
+          span: {
+            offset: 7965,
+            length: 2,
+          },
+        },
+        {
+          content: 'it',
+          polygon: [0.4883, 6.4381, 0.5419, 6.4383, 0.5421, 6.5744, 0.4884, 6.5739],
+          confidence: 0.995,
+          span: {
+            offset: 7968,
+            length: 2,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [0.5688, 6.4384, 0.6672, 6.4386, 0.6674, 6.5752, 0.569, 6.5746],
+          confidence: 0.997,
+          span: {
+            offset: 7971,
+            length: 2,
+          },
+        },
+        {
+          content: 'substantially',
+          polygon: [0.6985, 6.4386, 1.318, 6.4376, 1.318, 6.5762, 0.6987, 6.5753],
+          confidence: 0.993,
+          span: {
+            offset: 7974,
+            length: 13,
+          },
+        },
+        {
+          content: 'similar',
+          polygon: [1.3471, 6.4376, 1.6692, 6.4372, 1.669, 6.5744, 1.347, 6.5762],
+          confidence: 0.995,
+          span: {
+            offset: 7988,
+            length: 7,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [1.696, 6.4374, 1.7966, 6.4379, 1.7965, 6.5744, 1.6959, 6.5743],
+          confidence: 0.997,
+          span: {
+            offset: 7996,
+            length: 2,
+          },
+        },
+        {
+          content: 'this',
+          polygon: [1.8257, 6.4381, 2.0046, 6.4377, 2.0044, 6.5739, 1.8256, 6.5744],
+          confidence: 0.992,
+          span: {
+            offset: 7999,
+            length: 4,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [2.0404, 6.4376, 2.2909, 6.4379, 2.2905, 6.5725, 2.0402, 6.5738],
+          confidence: 0.992,
+          span: {
+            offset: 8004,
+            length: 4,
+          },
+        },
+        {
+          content: 'W-9.',
+          polygon: [2.3245, 6.4383, 2.569, 6.4383, 2.569, 6.5712, 2.3241, 6.5723],
+          confidence: 0.992,
+          span: {
+            offset: 8009,
+            length: 4,
+          },
+        },
+        {
+          content: 'Definition',
+          polygon: [0.4903, 6.6021, 0.9997, 6.603, 0.9996, 6.739, 0.4901, 6.7367],
+          confidence: 0.992,
+          span: {
+            offset: 8015,
+            length: 10,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [1.0356, 6.603, 1.141, 6.603, 1.141, 6.7394, 1.0355, 6.7391],
+          confidence: 0.995,
+          span: {
+            offset: 8026,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [1.1702, 6.603, 1.2308, 6.6029, 1.2307, 6.7399, 1.1701, 6.7396],
+          confidence: 0.992,
+          span: {
+            offset: 8029,
+            length: 1,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [1.2689, 6.6028, 1.4754, 6.6027, 1.4754, 6.7409, 1.2689, 6.7401],
+          confidence: 0.992,
+          span: {
+            offset: 8031,
+            length: 4,
+          },
+        },
+        {
+          content: 'person.',
+          polygon: [1.5158, 6.6028, 1.9062, 6.6033, 1.906, 6.7418, 1.5157, 6.741],
+          confidence: 0.994,
+          span: {
+            offset: 8036,
+            length: 7,
+          },
+        },
+        {
+          content: 'For',
+          polygon: [1.9466, 6.6033, 2.1082, 6.6041, 2.1079, 6.7419, 1.9464, 6.7417],
+          confidence: 0.996,
+          span: {
+            offset: 8044,
+            length: 3,
+          },
+        },
+        {
+          content: 'federal',
+          polygon: [2.1351, 6.6045, 2.4695, 6.6065, 2.4689, 6.7434, 2.1348, 6.7421],
+          confidence: 0.993,
+          span: {
+            offset: 8048,
+            length: 7,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [2.5031, 6.6066, 2.6445, 6.607, 2.6438, 6.7449, 2.5026, 6.7437],
+          confidence: 0.997,
+          span: {
+            offset: 8056,
+            length: 3,
+          },
+        },
+        {
+          content: 'purposes,',
+          polygon: [2.6714, 6.6071, 3.1785, 6.6091, 3.1778, 6.7458, 2.6708, 6.7451],
+          confidence: 0.992,
+          span: {
+            offset: 8060,
+            length: 9,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [3.2122, 6.6092, 3.3917, 6.6095, 3.391, 6.7458, 3.2115, 6.7458],
+          confidence: 0.997,
+          span: {
+            offset: 8070,
+            length: 3,
+          },
+        },
+        {
+          content: 'are',
+          polygon: [3.4276, 6.6095, 3.5959, 6.6092, 3.5954, 6.7448, 3.4269, 6.7456],
+          confidence: 0.998,
+          span: {
+            offset: 8074,
+            length: 3,
+          },
+        },
+        {
+          content: 'considered',
+          polygon: [0.4902, 6.7357, 1.0455, 6.7342, 1.0457, 6.8698, 0.4906, 6.8683],
+          confidence: 0.993,
+          span: {
+            offset: 8078,
+            length: 10,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [1.0809, 6.7341, 1.1407, 6.7339, 1.1407, 6.8709, 1.081, 6.8703],
+          confidence: 0.992,
+          span: {
+            offset: 8089,
+            length: 1,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [1.1761, 6.7338, 1.3796, 6.7329, 1.3797, 6.8708, 1.1761, 6.8708],
+          confidence: 0.993,
+          span: {
+            offset: 8091,
+            length: 4,
+          },
+        },
+        {
+          content: 'person',
+          polygon: [1.4173, 6.733, 1.7558, 6.7343, 1.7557, 6.8707, 1.4173, 6.8707],
+          confidence: 0.995,
+          span: {
+            offset: 8096,
+            length: 6,
+          },
+        },
+        {
+          content: 'if',
+          polygon: [1.7934, 6.7345, 1.8355, 6.7349, 1.8353, 6.8713, 1.7933, 6.871],
+          confidence: 0.994,
+          span: {
+            offset: 8103,
+            length: 2,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [1.862, 6.7351, 2.0545, 6.7367, 2.0542, 6.8706, 1.8619, 6.8715],
+          confidence: 0.996,
+          span: {
+            offset: 8106,
+            length: 3,
+          },
+        },
+        {
+          content: 'are:',
+          polygon: [2.0899, 6.7367, 2.2817, 6.7374, 2.2817, 6.8704, 2.0896, 6.8707],
+          confidence: 0.992,
+          span: {
+            offset: 8110,
+            length: 4,
+          },
+        },
+        {
+          content: '·',
+          polygon: [0.4953, 6.8998, 0.5473, 6.8996, 0.5475, 7.0291, 0.4956, 7.0288],
+          confidence: 0.559,
+          span: {
+            offset: 8116,
+            length: 1,
+          },
+        },
+        {
+          content: 'An',
+          polygon: [0.5798, 6.8995, 0.7032, 6.8992, 0.7034, 7.0293, 0.58, 7.0293],
+          confidence: 0.992,
+          span: {
+            offset: 8118,
+            length: 2,
+          },
+        },
+        {
+          content: 'individual',
+          polygon: [0.7291, 6.899, 1.2119, 6.8972, 1.2121, 7.0293, 0.7294, 7.0293],
+          confidence: 0.992,
+          span: {
+            offset: 8121,
+            length: 10,
+          },
+        },
+        {
+          content: 'who',
+          polygon: [1.2465, 6.8973, 1.4392, 6.8967, 1.4394, 7.0293, 1.2467, 7.0293],
+          confidence: 0.997,
+          span: {
+            offset: 8132,
+            length: 3,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [1.4652, 6.8966, 1.5669, 6.8962, 1.5671, 7.0293, 1.4654, 7.0293],
+          confidence: 0.996,
+          span: {
+            offset: 8136,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [1.5994, 6.8962, 1.66, 6.8961, 1.6602, 7.0293, 1.5996, 7.0293],
+          confidence: 0.995,
+          span: {
+            offset: 8139,
+            length: 1,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [1.6925, 6.8961, 1.896, 6.8968, 1.8961, 7.0293, 1.6926, 7.0293],
+          confidence: 0.993,
+          span: {
+            offset: 8141,
+            length: 4,
+          },
+        },
+        {
+          content: 'citizen',
+          polygon: [1.9306, 6.8969, 2.2489, 6.8973, 2.2487, 7.0293, 1.9307, 7.0293],
+          confidence: 0.995,
+          span: {
+            offset: 8146,
+            length: 7,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [2.2835, 6.8974, 2.3874, 6.8975, 2.3872, 7.0291, 2.2833, 7.0293],
+          confidence: 0.995,
+          span: {
+            offset: 8154,
+            length: 2,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [2.4177, 6.8973, 2.6234, 6.8974, 2.623, 7.0292, 2.4174, 7.0291],
+          confidence: 0.994,
+          span: {
+            offset: 8157,
+            length: 4,
+          },
+        },
+        {
+          content: 'resident',
+          polygon: [2.6602, 6.8977, 3.0563, 6.8981, 3.0558, 7.0293, 2.6598, 7.0293],
+          confidence: 0.995,
+          span: {
+            offset: 8162,
+            length: 8,
+          },
+        },
+        {
+          content: 'alien;',
+          polygon: [3.0866, 6.898, 3.3591, 6.8983, 3.3591, 7.0293, 3.0861, 7.0293],
+          confidence: 0.993,
+          span: {
+            offset: 8171,
+            length: 6,
+          },
+        },
+        {
+          content: '.',
+          polygon: [0.4972, 7.0679, 0.5484, 7.0678, 0.5487, 7.1959, 0.4975, 7.1953],
+          confidence: 0.644,
+          span: {
+            offset: 8179,
+            length: 1,
+          },
+        },
+        {
+          content: 'A',
+          polygon: [0.5783, 7.0678, 0.6401, 7.0677, 0.6404, 7.1968, 0.5785, 7.1962],
+          confidence: 0.995,
+          span: {
+            offset: 8181,
+            length: 1,
+          },
+        },
+        {
+          content: 'partnership,',
+          polygon: [0.6678, 7.0677, 1.2754, 7.0674, 1.2755, 7.1993, 0.6681, 7.1971],
+          confidence: 0.99,
+          span: {
+            offset: 8183,
+            length: 12,
+          },
+        },
+        {
+          content: 'corporation,',
+          polygon: [1.3095, 7.0675, 1.9065, 7.0675, 1.9063, 7.1993, 1.3097, 7.1994],
+          confidence: 0.993,
+          span: {
+            offset: 8196,
+            length: 12,
+          },
+        },
+        {
+          content: 'company,',
+          polygon: [1.9427, 7.0674, 2.4289, 7.0677, 2.4287, 7.1978, 1.9426, 7.1992],
+          confidence: 0.995,
+          span: {
+            offset: 8209,
+            length: 8,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [2.4651, 7.0677, 2.5696, 7.0677, 2.5695, 7.1973, 2.4649, 7.1976],
+          confidence: 0.998,
+          span: {
+            offset: 8218,
+            length: 2,
+          },
+        },
+        {
+          content: 'association',
+          polygon: [2.5994, 7.0676, 3.1559, 7.0663, 3.1557, 7.1951, 2.5993, 7.1972],
+          confidence: 0.994,
+          span: {
+            offset: 8221,
+            length: 11,
+          },
+        },
+        {
+          content: 'created',
+          polygon: [3.19, 7.0663, 3.5631, 7.0657, 3.5628, 7.1931, 3.1898, 7.1951],
+          confidence: 0.995,
+          span: {
+            offset: 8233,
+            length: 7,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [3.5993, 7.0655, 3.7123, 7.065, 3.712, 7.1924, 3.599, 7.193],
+          confidence: 0.997,
+          span: {
+            offset: 8241,
+            length: 2,
+          },
+        },
+        {
+          content: 'organized',
+          polygon: [0.4901, 7.1943, 0.9663, 7.1928, 0.9666, 7.3278, 0.4905, 7.3278],
+          confidence: 0.992,
+          span: {
+            offset: 8244,
+            length: 9,
+          },
+        },
+        {
+          content: 'in',
+          polygon: [0.9928, 7.1927, 1.0986, 7.1926, 1.0988, 7.3273, 0.993, 7.3277],
+          confidence: 0.997,
+          span: {
+            offset: 8254,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.1295, 7.1926, 1.2904, 7.1924, 1.2906, 7.327, 1.1297, 7.3272],
+          confidence: 0.999,
+          span: {
+            offset: 8257,
+            length: 3,
+          },
+        },
+        {
+          content: 'United',
+          polygon: [1.3257, 7.1923, 1.6453, 7.1916, 1.6454, 7.3265, 1.3258, 7.3271],
+          confidence: 0.997,
+          span: {
+            offset: 8261,
+            length: 6,
+          },
+        },
+        {
+          content: 'States',
+          polygon: [1.6806, 7.1915, 1.9937, 7.1911, 1.9936, 7.3256, 1.6807, 7.3264],
+          confidence: 0.996,
+          span: {
+            offset: 8268,
+            length: 6,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [2.0267, 7.1911, 2.1281, 7.1913, 2.128, 7.3257, 2.0267, 7.3256],
+          confidence: 0.998,
+          span: {
+            offset: 8275,
+            length: 2,
+          },
+        },
+        {
+          content: 'under',
+          polygon: [2.1612, 7.1913, 2.4456, 7.1917, 2.4454, 7.3253, 2.161, 7.3257],
+          confidence: 0.998,
+          span: {
+            offset: 8278,
+            length: 5,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [2.472, 7.1918, 2.6153, 7.1921, 2.6152, 7.3251, 2.4719, 7.3253],
+          confidence: 0.999,
+          span: {
+            offset: 8284,
+            length: 3,
+          },
+        },
+        {
+          content: 'laws',
+          polygon: [2.6418, 7.1922, 2.8843, 7.1918, 2.884, 7.3252, 2.6416, 7.325],
+          confidence: 0.992,
+          span: {
+            offset: 8288,
+            length: 4,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [2.9152, 7.1917, 3.0144, 7.1914, 3.014, 7.325, 2.9148, 7.3252],
+          confidence: 0.997,
+          span: {
+            offset: 8293,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [3.0408, 7.1913, 3.1973, 7.1907, 3.197, 7.3242, 3.0404, 7.3249],
+          confidence: 0.999,
+          span: {
+            offset: 8296,
+            length: 3,
+          },
+        },
+        {
+          content: 'United',
+          polygon: [3.2348, 7.1906, 3.5523, 7.1899, 3.5519, 7.3255, 3.2344, 7.3245],
+          confidence: 0.997,
+          span: {
+            offset: 8300,
+            length: 6,
+          },
+        },
+        {
+          content: 'States;',
+          polygon: [3.5876, 7.1899, 3.9392, 7.1921, 3.9392, 7.3268, 3.5871, 7.3254],
+          confidence: 0.993,
+          span: {
+            offset: 8307,
+            length: 7,
+          },
+        },
+        {
+          content: '·',
+          polygon: [0.4953, 7.3582, 0.5463, 7.358, 0.5468, 7.4896, 0.4958, 7.4891],
+          confidence: 0.264,
+          span: {
+            offset: 8316,
+            length: 1,
+          },
+        },
+        {
+          content: 'An',
+          polygon: [0.5796, 7.3578, 0.7128, 7.3571, 0.7131, 7.4906, 0.58, 7.4899],
+          confidence: 0.998,
+          span: {
+            offset: 8318,
+            length: 2,
+          },
+        },
+        {
+          content: 'estate',
+          polygon: [0.7483, 7.3568, 1.0367, 7.3562, 1.0369, 7.4918, 0.7485, 7.4906],
+          confidence: 0.998,
+          span: {
+            offset: 8321,
+            length: 6,
+          },
+        },
+        {
+          content: '(other',
+          polygon: [1.0633, 7.3562, 1.3562, 7.3561, 1.3563, 7.4932, 1.0635, 7.4919],
+          confidence: 0.992,
+          span: {
+            offset: 8328,
+            length: 6,
+          },
+        },
+        {
+          content: 'than',
+          polygon: [1.3829, 7.3561, 1.6136, 7.3565, 1.6136, 7.4934, 1.383, 7.4932],
+          confidence: 0.992,
+          span: {
+            offset: 8335,
+            length: 4,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [1.6469, 7.3568, 1.6935, 7.3572, 1.6934, 7.4935, 1.6469, 7.4935],
+          confidence: 0.995,
+          span: {
+            offset: 8340,
+            length: 1,
+          },
+        },
+        {
+          content: 'foreign',
+          polygon: [1.7201, 7.3573, 2.0774, 7.3574, 2.0772, 7.4935, 1.7201, 7.4935],
+          confidence: 0.996,
+          span: {
+            offset: 8342,
+            length: 7,
+          },
+        },
+        {
+          content: 'estate);',
+          polygon: [2.1129, 7.3575, 2.4701, 7.3593, 2.4696, 7.4935, 2.1126, 7.4935],
+          confidence: 0.974,
+          span: {
+            offset: 8350,
+            length: 8,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [2.5056, 7.3595, 2.6166, 7.3598, 2.6161, 7.4935, 2.5051, 7.4935],
+          confidence: 0.998,
+          span: {
+            offset: 8359,
+            length: 2,
+          },
+        },
+        {
+          content: '·',
+          polygon: [0.4957, 7.5205, 0.5471, 7.5205, 0.5474, 7.653, 0.496, 7.6526],
+          confidence: 0.219,
+          span: {
+            offset: 8363,
+            length: 1,
+          },
+        },
+        {
+          content: 'A',
+          polygon: [0.5784, 7.5205, 0.6565, 7.5206, 0.657, 7.6537, 0.5787, 7.6532],
+          confidence: 0.995,
+          span: {
+            offset: 8365,
+            length: 1,
+          },
+        },
+        {
+          content: 'domestic',
+          polygon: [0.6856, 7.5206, 1.1435, 7.5203, 1.1438, 7.6551, 0.686, 7.6539],
+          confidence: 0.992,
+          span: {
+            offset: 8367,
+            length: 8,
+          },
+        },
+        {
+          content: 'trust',
+          polygon: [1.1725, 7.5202, 1.3981, 7.5202, 1.3985, 7.6564, 1.1728, 7.655],
+          confidence: 0.994,
+          span: {
+            offset: 8376,
+            length: 5,
+          },
+        },
+        {
+          content: '(as',
+          polygon: [1.4316, 7.5202, 1.5724, 7.5196, 1.5727, 7.6568, 1.4321, 7.6567],
+          confidence: 0.992,
+          span: {
+            offset: 8382,
+            length: 3,
+          },
+        },
+        {
+          content: 'defined',
+          polygon: [1.6036, 7.5195, 1.961, 7.519, 1.9612, 7.6576, 1.604, 7.6569],
+          confidence: 0.993,
+          span: {
+            offset: 8386,
+            length: 7,
+          },
+        },
+        {
+          content: 'in',
+          polygon: [1.9878, 7.5191, 2.0883, 7.5197, 2.0884, 7.6582, 1.988, 7.6577],
+          confidence: 0.996,
+          span: {
+            offset: 8394,
+            length: 2,
+          },
+        },
+        {
+          content: 'Regulations',
+          polygon: [2.1263, 7.5199, 2.7071, 7.5207, 2.7071, 7.6579, 2.1263, 7.6583],
+          confidence: 0.993,
+          span: {
+            offset: 8397,
+            length: 11,
+          },
+        },
+        {
+          content: 'section',
+          polygon: [2.7383, 7.5205, 3.0957, 7.5205, 3.0956, 7.6563, 2.7383, 7.6578],
+          confidence: 0.993,
+          span: {
+            offset: 8409,
+            length: 7,
+          },
+        },
+        {
+          content: '301.7701-7).',
+          polygon: [3.1292, 7.5205, 3.7624, 7.5178, 3.7624, 7.6556, 3.1291, 7.6562],
+          confidence: 0.99,
+          span: {
+            offset: 8417,
+            length: 12,
+          },
+        },
+        {
+          content: 'Establishing',
+          polygon: [0.4926, 7.684, 1.1388, 7.6853, 1.1387, 7.8225, 0.4923, 7.8194],
+          confidence: 0.992,
+          span: {
+            offset: 8431,
+            length: 12,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [1.1794, 7.6853, 1.3873, 7.6844, 1.3873, 7.8236, 1.1793, 7.8225],
+          confidence: 0.99,
+          span: {
+            offset: 8444,
+            length: 4,
+          },
+        },
+        {
+          content: 'status',
+          polygon: [1.4212, 7.6842, 1.7465, 7.6849, 1.7464, 7.8239, 1.4212, 7.8238],
+          confidence: 0.997,
+          span: {
+            offset: 8449,
+            length: 6,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [1.7759, 7.6849, 1.9273, 7.6848, 1.9271, 7.8238, 1.7758, 7.8238],
+          confidence: 0.998,
+          span: {
+            offset: 8456,
+            length: 3,
+          },
+        },
+        {
+          content: 'purposes',
+          polygon: [1.9612, 7.6848, 2.4515, 7.6853, 2.4513, 7.8241, 1.9609, 7.8238],
+          confidence: 0.993,
+          span: {
+            offset: 8460,
+            length: 8,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [2.4831, 7.6853, 2.5916, 7.6852, 2.5913, 7.8234, 2.4829, 7.8239],
+          confidence: 0.995,
+          span: {
+            offset: 8469,
+            length: 2,
+          },
+        },
+        {
+          content: 'chapter',
+          polygon: [2.6209, 7.6852, 3.0276, 7.685, 3.0272, 7.8239, 2.6207, 7.8233],
+          confidence: 0.994,
+          span: {
+            offset: 8472,
+            length: 7,
+          },
+        },
+        {
+          content: '3',
+          polygon: [3.0547, 7.685, 3.118, 7.685, 3.1176, 7.8235, 3.0544, 7.8238],
+          confidence: 0.995,
+          span: {
+            offset: 8480,
+            length: 1,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [3.1519, 7.685, 3.3417, 7.6851, 3.3413, 7.8232, 3.1515, 7.8233],
+          confidence: 0.998,
+          span: {
+            offset: 8482,
+            length: 3,
+          },
+        },
+        {
+          content: 'chapter',
+          polygon: [3.3801, 7.6852, 3.7868, 7.686, 3.7865, 7.8225, 3.3797, 7.8232],
+          confidence: 0.994,
+          span: {
+            offset: 8486,
+            length: 7,
+          },
+        },
+        {
+          content: '4',
+          polygon: [3.8139, 7.686, 3.8839, 7.6861, 3.8839, 7.8221, 3.8136, 7.8224],
+          confidence: 0.996,
+          span: {
+            offset: 8494,
+            length: 1,
+          },
+        },
+        {
+          content: 'withholding.',
+          polygon: [0.4871, 7.8163, 1.1398, 7.8165, 1.14, 7.9496, 0.4872, 7.9466],
+          confidence: 0.993,
+          span: {
+            offset: 8496,
+            length: 12,
+          },
+        },
+        {
+          content: 'Payments',
+          polygon: [1.1789, 7.8166, 1.6668, 7.817, 1.6669, 7.9495, 1.179, 7.9496],
+          confidence: 0.998,
+          span: {
+            offset: 8509,
+            length: 8,
+          },
+        },
+        {
+          content: 'made',
+          polygon: [1.7015, 7.817, 1.9791, 7.8168, 1.979, 7.9504, 1.7016, 7.9496],
+          confidence: 0.992,
+          span: {
+            offset: 8518,
+            length: 4,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [2.0073, 7.8167, 2.107, 7.8167, 2.1069, 7.9509, 2.0072, 7.9505],
+          confidence: 0.999,
+          span: {
+            offset: 8523,
+            length: 2,
+          },
+        },
+        {
+          content: 'foreign',
+          polygon: [2.1352, 7.8166, 2.4779, 7.8172, 2.4776, 7.95, 2.135, 7.951],
+          confidence: 0.996,
+          span: {
+            offset: 8526,
+            length: 7,
+          },
+        },
+        {
+          content: 'persons,',
+          polygon: [2.5169, 7.8174, 2.9354, 7.8171, 2.9352, 7.9502, 2.5166, 7.95],
+          confidence: 0.994,
+          span: {
+            offset: 8534,
+            length: 8,
+          },
+        },
+        {
+          content: 'including',
+          polygon: [2.9745, 7.8173, 3.4147, 7.8177, 3.4144, 7.949, 2.9743, 7.9501],
+          confidence: 0.992,
+          span: {
+            offset: 8543,
+            length: 9,
+          },
+        },
+        {
+          content: 'certain',
+          polygon: [3.4515, 7.8177, 3.7955, 7.8174, 3.7955, 7.9478, 3.4513, 7.9488],
+          confidence: 0.995,
+          span: {
+            offset: 8553,
+            length: 7,
+          },
+        },
+        {
+          content: 'distributions,',
+          polygon: [0.4899, 7.9367, 1.1324, 7.9384, 1.1324, 8.0692, 0.4897, 8.0668],
+          confidence: 0.989,
+          span: {
+            offset: 8561,
+            length: 14,
+          },
+        },
+        {
+          content: 'allocations',
+          polygon: [1.1688, 7.9385, 1.6999, 7.9389, 1.6998, 8.0696, 1.1688, 8.0692],
+          confidence: 0.994,
+          span: {
+            offset: 8576,
+            length: 11,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [1.732, 7.9389, 1.8091, 7.939, 1.809, 8.0699, 1.732, 8.0697],
+          confidence: 0.996,
+          span: {
+            offset: 8588,
+            length: 2,
+          },
+        },
+        {
+          content: 'income,',
+          polygon: [1.8348, 7.9391, 2.2482, 7.9396, 2.2479, 8.0708, 1.8347, 8.07],
+          confidence: 0.992,
+          span: {
+            offset: 8591,
+            length: 7,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [2.2846, 7.9396, 2.3874, 7.9395, 2.3872, 8.0704, 2.2844, 8.0708],
+          confidence: 0.992,
+          span: {
+            offset: 8599,
+            length: 2,
+          },
+        },
+        {
+          content: 'transfers',
+          polygon: [2.4152, 7.9395, 2.85, 7.9393, 2.8496, 8.0704, 2.415, 8.0704],
+          confidence: 0.992,
+          span: {
+            offset: 8602,
+            length: 9,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [2.8821, 7.9393, 2.9785, 7.9394, 2.9779, 8.0713, 2.8817, 8.0706],
+          confidence: 0.997,
+          span: {
+            offset: 8612,
+            length: 2,
+          },
+        },
+        {
+          content: 'sales',
+          polygon: [3.0085, 7.9394, 3.2612, 7.9404, 3.2608, 8.0705, 3.0078, 8.0715],
+          confidence: 0.995,
+          span: {
+            offset: 8615,
+            length: 5,
+          },
+        },
+        {
+          content: 'proceeds,',
+          polygon: [3.2976, 7.9406, 3.7838, 7.9423, 3.7831, 8.0729, 3.2972, 8.0706],
+          confidence: 0.992,
+          span: {
+            offset: 8621,
+            length: 9,
+          },
+        },
+        {
+          content: 'may',
+          polygon: [3.8245, 7.9425, 4.0365, 7.9434, 4.0357, 8.0733, 3.8238, 8.073],
+          confidence: 0.996,
+          span: {
+            offset: 8631,
+            length: 3,
+          },
+        },
+        {
+          content: 'be',
+          polygon: [0.4896, 8.0638, 0.622, 8.064, 0.622, 8.1969, 0.4895, 8.1958],
+          confidence: 0.996,
+          span: {
+            offset: 8635,
+            length: 2,
+          },
+        },
+        {
+          content: 'subject',
+          polygon: [0.6545, 8.064, 1.0017, 8.0644, 1.0018, 8.198, 0.6546, 8.1972],
+          confidence: 0.994,
+          span: {
+            offset: 8638,
+            length: 7,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [1.0278, 8.0644, 1.1428, 8.0644, 1.1428, 8.1982, 1.0278, 8.198],
+          confidence: 0.998,
+          span: {
+            offset: 8646,
+            length: 2,
+          },
+        },
+        {
+          content: 'withholding',
+          polygon: [1.1753, 8.0644, 1.7395, 8.0647, 1.7394, 8.1983, 1.1753, 8.1982],
+          confidence: 0.995,
+          span: {
+            offset: 8649,
+            length: 11,
+          },
+        },
+        {
+          content: 'under',
+          polygon: [1.7807, 8.0646, 2.0672, 8.0644, 2.067, 8.1979, 1.7806, 8.1983],
+          confidence: 0.997,
+          span: {
+            offset: 8661,
+            length: 5,
+          },
+        },
+        {
+          content: 'chapter',
+          polygon: [2.0954, 8.0643, 2.4751, 8.065, 2.4748, 8.1975, 2.0952, 8.1978],
+          confidence: 0.995,
+          span: {
+            offset: 8667,
+            length: 7,
+          },
+        },
+        {
+          content: '3',
+          polygon: [2.5055, 8.0651, 2.5619, 8.0652, 2.5617, 8.197, 2.5052, 8.1973],
+          confidence: 0.995,
+          span: {
+            offset: 8675,
+            length: 1,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [2.5945, 8.0653, 2.6965, 8.0651, 2.6962, 8.1967, 2.5942, 8.1969],
+          confidence: 0.996,
+          span: {
+            offset: 8677,
+            length: 2,
+          },
+        },
+        {
+          content: 'chapter',
+          polygon: [2.7268, 8.0649, 3.1066, 8.0642, 3.1064, 8.1959, 2.7266, 8.1967],
+          confidence: 0.996,
+          span: {
+            offset: 8680,
+            length: 7,
+          },
+        },
+        {
+          content: '4',
+          polygon: [3.1348, 8.0643, 3.1934, 8.0645, 3.1931, 8.1959, 3.1346, 8.1959],
+          confidence: 0.995,
+          span: {
+            offset: 8688,
+            length: 1,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [3.2281, 8.0646, 3.3258, 8.0649, 3.3254, 8.1959, 3.2278, 8.1959],
+          confidence: 0.996,
+          span: {
+            offset: 8690,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [3.354, 8.0649, 3.5124, 8.0644, 3.5118, 8.1951, 3.3536, 8.1959],
+          confidence: 0.995,
+          span: {
+            offset: 8693,
+            length: 3,
+          },
+        },
+        {
+          content: 'Code',
+          polygon: [3.5449, 8.0643, 3.8227, 8.0641, 3.8223, 8.1935, 3.5443, 8.1949],
+          confidence: 0.992,
+          span: {
+            offset: 8697,
+            length: 4,
+          },
+        },
+        {
+          content: '(sections',
+          polygon: [0.4933, 8.188, 0.9393, 8.1877, 0.9395, 8.317, 0.4932, 8.317],
+          confidence: 0.992,
+          span: {
+            offset: 8702,
+            length: 9,
+          },
+        },
+        {
+          content: '1441-1474).',
+          polygon: [0.9774, 8.1876, 1.5736, 8.1865, 1.5736, 8.3164, 0.9775, 8.317],
+          confidence: 0.99,
+          span: {
+            offset: 8712,
+            length: 11,
+          },
+        },
+        {
+          content: 'Under',
+          polygon: [1.6138, 8.1865, 1.9161, 8.1864, 1.916, 8.3158, 1.6138, 8.3163],
+          confidence: 0.997,
+          span: {
+            offset: 8724,
+            length: 5,
+          },
+        },
+        {
+          content: 'those',
+          polygon: [1.9415, 8.1864, 2.21, 8.187, 2.2097, 8.3158, 1.9413, 8.3158],
+          confidence: 0.997,
+          span: {
+            offset: 8730,
+            length: 5,
+          },
+        },
+        {
+          content: 'rules,',
+          polygon: [2.2353, 8.187, 2.5059, 8.1869, 2.5058, 8.3152, 2.2351, 8.3157],
+          confidence: 0.993,
+          span: {
+            offset: 8736,
+            length: 6,
+          },
+        },
+        {
+          content: 'if',
+          polygon: [2.5313, 8.1869, 2.6138, 8.1866, 2.6136, 8.3151, 2.5312, 8.3152],
+          confidence: 0.995,
+          span: {
+            offset: 8743,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [2.6391, 8.1865, 2.7004, 8.1863, 2.7002, 8.3151, 2.639, 8.3151],
+          confidence: 0.995,
+          span: {
+            offset: 8746,
+            length: 1,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [2.7343, 8.1862, 2.9858, 8.1866, 2.9856, 8.3154, 2.734, 8.315],
+          confidence: 0.992,
+          span: {
+            offset: 8748,
+            length: 4,
+          },
+        },
+        {
+          content: 'W-9',
+          polygon: [3.0197, 8.1866, 3.2269, 8.1865, 3.2264, 8.3147, 3.0194, 8.3153],
+          confidence: 0.996,
+          span: {
+            offset: 8753,
+            length: 3,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [3.2586, 8.1865, 3.3643, 8.1867, 3.3638, 8.3142, 3.2581, 8.3146],
+          confidence: 0.997,
+          span: {
+            offset: 8757,
+            length: 2,
+          },
+        },
+        {
+          content: 'other',
+          polygon: [3.3918, 8.1867, 3.6574, 8.1872, 3.6574, 8.3138, 3.3912, 8.3141],
+          confidence: 0.997,
+          span: {
+            offset: 8760,
+            length: 5,
+          },
+        },
+        {
+          content: 'certification',
+          polygon: [0.491, 8.3131, 1.0706, 8.3131, 1.0709, 8.4453, 0.4911, 8.4446],
+          confidence: 0.992,
+          span: {
+            offset: 8766,
+            length: 13,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [1.1052, 8.3131, 1.1917, 8.3131, 1.1919, 8.4455, 1.1055, 8.4454],
+          confidence: 0.992,
+          span: {
+            offset: 8780,
+            length: 2,
+          },
+        },
+        {
+          content: 'non-foreign',
+          polygon: [1.2177, 8.3131, 1.8017, 8.3143, 1.8019, 8.4466, 1.2179, 8.4456],
+          confidence: 0.992,
+          span: {
+            offset: 8783,
+            length: 11,
+          },
+        },
+        {
+          content: 'status',
+          polygon: [1.8363, 8.3142, 2.1261, 8.3138, 2.1262, 8.4462, 1.8365, 8.4466],
+          confidence: 0.998,
+          span: {
+            offset: 8795,
+            length: 6,
+          },
+        },
+        {
+          content: 'has',
+          polygon: [2.1521, 8.3137, 2.3338, 8.3141, 2.3337, 8.4463, 2.1521, 8.4462],
+          confidence: 0.999,
+          span: {
+            offset: 8802,
+            length: 3,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [2.3597, 8.3143, 2.5241, 8.3151, 2.524, 8.4466, 2.3597, 8.4464],
+          confidence: 0.998,
+          span: {
+            offset: 8806,
+            length: 3,
+          },
+        },
+        {
+          content: 'been',
+          polygon: [2.55, 8.3152, 2.8009, 8.3157, 2.8008, 8.4464, 2.55, 8.4465],
+          confidence: 0.992,
+          span: {
+            offset: 8810,
+            length: 4,
+          },
+        },
+        {
+          content: 'received,',
+          polygon: [2.8269, 8.3157, 3.2919, 8.315, 3.2917, 8.4463, 2.8268, 8.4465],
+          confidence: 0.995,
+          span: {
+            offset: 8815,
+            length: 9,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [3.3287, 8.3149, 3.3893, 8.3148, 3.389, 8.4467, 3.3285, 8.4464],
+          confidence: 0.996,
+          span: {
+            offset: 8825,
+            length: 1,
+          },
+        },
+        {
+          content: 'withholding',
+          polygon: [3.4174, 8.3148, 3.9944, 8.3152, 3.9944, 8.4492, 3.4171, 8.4468],
+          confidence: 0.993,
+          span: {
+            offset: 8827,
+            length: 11,
+          },
+        },
+        {
+          content: 'agent,',
+          polygon: [0.4894, 8.4432, 0.8001, 8.4433, 0.8004, 8.5757, 0.4896, 8.5756],
+          confidence: 0.993,
+          span: {
+            offset: 8839,
+            length: 6,
+          },
+        },
+        {
+          content: 'transferee,',
+          polygon: [0.8351, 8.4432, 1.3603, 8.4427, 1.3605, 8.5763, 0.8354, 8.5756],
+          confidence: 0.993,
+          span: {
+            offset: 8846,
+            length: 11,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [1.3953, 8.4427, 1.4872, 8.4425, 1.4874, 8.5767, 1.3955, 8.5764],
+          confidence: 0.998,
+          span: {
+            offset: 8858,
+            length: 2,
+          },
+        },
+        {
+          content: 'partnership',
+          polygon: [1.5135, 8.4425, 2.0911, 8.4419, 2.0911, 8.5767, 1.5137, 8.5767],
+          confidence: 0.994,
+          span: {
+            offset: 8861,
+            length: 11,
+          },
+        },
+        {
+          content: '(payor)',
+          polygon: [2.1239, 8.4419, 2.4587, 8.4421, 2.4586, 8.5767, 2.1239, 8.5767],
+          confidence: 0.994,
+          span: {
+            offset: 8873,
+            length: 7,
+          },
+        },
+        {
+          content: 'generally',
+          polygon: [2.4937, 8.4421, 2.9379, 8.4432, 2.9379, 8.5767, 2.4937, 8.5767],
+          confidence: 0.995,
+          span: {
+            offset: 8881,
+            length: 9,
+          },
+        },
+        {
+          content: 'applies',
+          polygon: [2.9686, 8.4433, 3.3209, 8.4435, 3.3206, 8.5765, 2.9685, 8.5767],
+          confidence: 0.995,
+          span: {
+            offset: 8891,
+            length: 7,
+          },
+        },
+        {
+          content: 'presumption',
+          polygon: [3.358, 8.4434, 3.9889, 8.4447, 3.9889, 8.5749, 3.3579, 8.5766],
+          confidence: 0.995,
+          span: {
+            offset: 8899,
+            length: 11,
+          },
+        },
+        {
+          content: 'rules',
+          polygon: [0.4885, 8.5663, 0.7339, 8.5657, 0.734, 8.6953, 0.4886, 8.6936],
+          confidence: 0.995,
+          span: {
+            offset: 8911,
+            length: 5,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [0.7656, 8.5658, 0.9454, 8.5662, 0.9456, 8.6961, 0.7657, 8.6954],
+          confidence: 0.992,
+          span: {
+            offset: 8917,
+            length: 4,
+          },
+        },
+        {
+          content: 'may',
+          polygon: [0.9708, 8.5663, 1.1823, 8.5666, 1.1825, 8.696, 0.971, 8.6962],
+          confidence: 0.998,
+          span: {
+            offset: 8922,
+            length: 3,
+          },
+        },
+        {
+          content: 'require',
+          polygon: [1.2077, 8.5667, 1.5737, 8.5661, 1.574, 8.6962, 1.2079, 8.696],
+          confidence: 0.992,
+          span: {
+            offset: 8926,
+            length: 7,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.6033, 8.5659, 1.7599, 8.5659, 1.7601, 8.6964, 1.6036, 8.6962],
+          confidence: 0.995,
+          span: {
+            offset: 8934,
+            length: 3,
+          },
+        },
+        {
+          content: 'payor',
+          polygon: [1.7958, 8.5661, 2.0751, 8.5661, 2.0752, 8.6964, 1.7961, 8.6965],
+          confidence: 0.998,
+          span: {
+            offset: 8938,
+            length: 5,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [2.1005, 8.566, 2.202, 8.5658, 2.2021, 8.6959, 2.1006, 8.6963],
+          confidence: 0.995,
+          span: {
+            offset: 8944,
+            length: 2,
+          },
+        },
+        {
+          content: 'withhold',
+          polygon: [2.2338, 8.5658, 2.6505, 8.5657, 2.6504, 8.6945, 2.2338, 8.6958],
+          confidence: 0.996,
+          span: {
+            offset: 8947,
+            length: 8,
+          },
+        },
+        {
+          content: 'applicable',
+          polygon: [2.6865, 8.5657, 3.1942, 8.5643, 3.194, 8.6927, 2.6864, 8.6946],
+          confidence: 0.995,
+          span: {
+            offset: 8956,
+            length: 10,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [3.2238, 8.5642, 3.3783, 8.564, 3.3779, 8.6916, 3.2236, 8.6925],
+          confidence: 0.995,
+          span: {
+            offset: 8967,
+            length: 3,
+          },
+        },
+        {
+          content: 'from',
+          polygon: [3.4079, 8.5639, 3.6321, 8.5634, 3.6318, 8.6915, 3.4075, 8.6916],
+          confidence: 0.992,
+          span: {
+            offset: 8971,
+            length: 4,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [3.666, 8.5633, 3.8342, 8.5628, 3.8342, 8.6907, 3.6656, 8.6914],
+          confidence: 0.999,
+          span: {
+            offset: 8976,
+            length: 3,
+          },
+        },
+        {
+          content: 'recipient,',
+          polygon: [0.4885, 8.6917, 0.9494, 8.692, 0.9497, 8.8224, 0.4888, 8.8213],
+          confidence: 0.993,
+          span: {
+            offset: 8980,
+            length: 10,
+          },
+        },
+        {
+          content: 'owner,',
+          polygon: [0.9858, 8.6919, 1.3159, 8.6918, 1.3163, 8.8226, 0.9861, 8.8222],
+          confidence: 0.994,
+          span: {
+            offset: 8991,
+            length: 6,
+          },
+        },
+        {
+          content: 'transferor,',
+          polygon: [1.3502, 8.6918, 1.8561, 8.6901, 1.8563, 8.8218, 1.3506, 8.8228],
+          confidence: 0.993,
+          span: {
+            offset: 8998,
+            length: 11,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [1.8926, 8.6903, 1.9976, 8.6907, 1.9978, 8.8219, 1.8928, 8.8218],
+          confidence: 0.998,
+          span: {
+            offset: 9010,
+            length: 2,
+          },
+        },
+        {
+          content: 'partner',
+          polygon: [2.0276, 8.6907, 2.3813, 8.6909, 2.3814, 8.8215, 2.0278, 8.822],
+          confidence: 0.995,
+          span: {
+            offset: 9013,
+            length: 7,
+          },
+        },
+        {
+          content: '(payee).',
+          polygon: [2.4135, 8.691, 2.7929, 8.69, 2.793, 8.8211, 2.4135, 8.8212],
+          confidence: 0.992,
+          span: {
+            offset: 9021,
+            length: 8,
+          },
+        },
+        {
+          content: 'See',
+          polygon: [2.8315, 8.6897, 3.0223, 8.689, 3.0222, 8.82, 2.8316, 8.821],
+          confidence: 0.998,
+          span: {
+            offset: 9030,
+            length: 3,
+          },
+        },
+        {
+          content: 'Pub.',
+          polygon: [3.0566, 8.6889, 3.2774, 8.6885, 3.2771, 8.8186, 3.0565, 8.8197],
+          confidence: 0.989,
+          span: {
+            offset: 9034,
+            length: 4,
+          },
+        },
+        {
+          content: '515,',
+          polygon: [3.3138, 8.6884, 3.5304, 8.6874, 3.5304, 8.8187, 3.3135, 8.8185],
+          confidence: 0.989,
+          span: {
+            offset: 9039,
+            length: 4,
+          },
+        },
+        {
+          content: 'Withholding',
+          polygon: [0.4865, 8.809, 1.0811, 8.8111, 1.0814, 8.9434, 0.4867, 8.9415],
+          confidence: 0.993,
+          span: {
+            offset: 9044,
+            length: 11,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [1.1176, 8.8112, 1.2164, 8.8111, 1.2166, 8.943, 1.1179, 8.9432],
+          confidence: 0.996,
+          span: {
+            offset: 9056,
+            length: 2,
+          },
+        },
+        {
+          content: 'Tax',
+          polygon: [1.2421, 8.811, 1.4246, 8.8106, 1.4249, 8.9429, 1.2424, 8.943],
+          confidence: 0.998,
+          span: {
+            offset: 9059,
+            length: 3,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [1.4568, 8.8107, 1.5684, 8.8109, 1.5688, 8.9427, 1.4571, 8.9428],
+          confidence: 0.999,
+          span: {
+            offset: 9063,
+            length: 2,
+          },
+        },
+        {
+          content: 'Nonresident',
+          polygon: [1.5942, 8.811, 2.2146, 8.8127, 2.2146, 8.943, 1.5945, 8.9427],
+          confidence: 0.993,
+          span: {
+            offset: 9066,
+            length: 11,
+          },
+        },
+        {
+          content: 'Aliens',
+          polygon: [2.2446, 8.8129, 2.5452, 8.8129, 2.5451, 8.9425, 2.2446, 8.9431],
+          confidence: 0.997,
+          span: {
+            offset: 9078,
+            length: 6,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [2.5774, 8.8128, 2.7577, 8.8128, 2.7576, 8.943, 2.5773, 8.9427],
+          confidence: 0.999,
+          span: {
+            offset: 9085,
+            length: 3,
+          },
+        },
+        {
+          content: 'Foreign',
+          polygon: [2.7985, 8.8129, 3.1634, 8.8129, 3.1633, 8.9424, 2.7984, 8.9428],
+          confidence: 0.994,
+          span: {
+            offset: 9089,
+            length: 7,
+          },
+        },
+        {
+          content: 'Entities.',
+          polygon: [3.2042, 8.8127, 3.5911, 8.812, 3.5911, 8.9423, 3.2041, 8.9423],
+          confidence: 0.992,
+          span: {
+            offset: 9097,
+            length: 9,
+          },
+        },
+        {
+          content: 'The',
+          polygon: [0.5933, 8.9729, 0.7939, 8.9733, 0.7938, 9.1094, 0.593, 9.1083],
+          confidence: 0.998,
+          span: {
+            offset: 9108,
+            length: 3,
+          },
+        },
+        {
+          content: 'following',
+          polygon: [0.821, 8.9733, 1.2628, 8.9739, 1.2626, 9.1114, 0.8209, 9.1095],
+          confidence: 0.995,
+          span: {
+            offset: 9112,
+            length: 9,
+          },
+        },
+        {
+          content: 'persons',
+          polygon: [1.3034, 8.9738, 1.6844, 8.9729, 1.6842, 9.1117, 1.3032, 9.1116],
+          confidence: 0.995,
+          span: {
+            offset: 9122,
+            length: 7,
+          },
+        },
+        {
+          content: 'must',
+          polygon: [1.7114, 8.9728, 1.9729, 8.9743, 1.9726, 9.1118, 1.7113, 9.1116],
+          confidence: 0.987,
+          span: {
+            offset: 9130,
+            length: 4,
+          },
+        },
+        {
+          content: 'provide',
+          polygon: [2.009, 8.9742, 2.3764, 8.9741, 2.376, 9.1113, 2.0087, 9.1116],
+          confidence: 0.996,
+          span: {
+            offset: 9135,
+            length: 7,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [2.4125, 8.974, 2.6627, 8.9735, 2.6623, 9.1111, 2.4121, 9.1112],
+          confidence: 0.992,
+          span: {
+            offset: 9143,
+            length: 4,
+          },
+        },
+        {
+          content: 'W-9',
+          polygon: [2.6943, 8.9734, 2.9039, 8.9735, 2.9033, 9.1119, 2.6938, 9.1113],
+          confidence: 0.995,
+          span: {
+            offset: 9148,
+            length: 3,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [2.9332, 8.9735, 3.0346, 8.9737, 3.034, 9.1118, 2.9326, 9.1119],
+          confidence: 0.999,
+          span: {
+            offset: 9152,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [3.0639, 8.9736, 3.2217, 8.9732, 3.2211, 9.1124, 3.0633, 9.1119],
+          confidence: 0.999,
+          span: {
+            offset: 9155,
+            length: 3,
+          },
+        },
+        {
+          content: 'payor',
+          polygon: [3.2578, 8.9731, 3.5238, 8.9736, 3.5233, 9.1122, 3.2571, 9.1125],
+          confidence: 0.996,
+          span: {
+            offset: 9159,
+            length: 5,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [3.5509, 8.9738, 3.7071, 8.9746, 3.7071, 9.1112, 3.5504, 9.1121],
+          confidence: 0.999,
+          span: {
+            offset: 9165,
+            length: 3,
+          },
+        },
+        {
+          content: 'purposes',
+          polygon: [0.4877, 9.1119, 0.9605, 9.1084, 0.9609, 9.2422, 0.4882, 9.2444],
+          confidence: 0.994,
+          span: {
+            offset: 9169,
+            length: 8,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [0.9869, 9.1083, 1.0925, 9.1075, 1.0927, 9.2421, 0.9873, 9.2423],
+          confidence: 0.997,
+          span: {
+            offset: 9178,
+            length: 2,
+          },
+        },
+        {
+          content: 'establishing',
+          polygon: [1.1211, 9.1073, 1.6929, 9.105, 1.6929, 9.2405, 1.1213, 9.2421],
+          confidence: 0.995,
+          span: {
+            offset: 9181,
+            length: 12,
+          },
+        },
+        {
+          content: 'its',
+          polygon: [1.7192, 9.105, 1.8424, 9.1049, 1.8424, 9.2395, 1.7192, 9.2403],
+          confidence: 0.996,
+          span: {
+            offset: 9194,
+            length: 3,
+          },
+        },
+        {
+          content: 'non-foreign',
+          polygon: [1.8688, 9.1049, 2.4582, 9.1052, 2.4578, 9.2398, 1.8688, 9.2394],
+          confidence: 0.993,
+          span: {
+            offset: 9198,
+            length: 11,
+          },
+        },
+        {
+          content: 'status.',
+          polygon: [2.4933, 9.1051, 2.8276, 9.1061, 2.8273, 9.2387, 2.493, 9.2397],
+          confidence: 0.994,
+          span: {
+            offset: 9210,
+            length: 7,
+          },
+        },
+        {
+          content: '.',
+          polygon: [0.4935, 9.2707, 0.536, 9.2707, 0.5364, 9.3965, 0.4939, 9.3962],
+          confidence: 0.746,
+          span: {
+            offset: 9219,
+            length: 1,
+          },
+        },
+        {
+          content: 'In',
+          polygon: [0.5615, 9.2707, 0.6678, 9.2706, 0.6683, 9.3974, 0.5619, 9.3967],
+          confidence: 0.995,
+          span: {
+            offset: 9221,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [0.7018, 9.2705, 0.8612, 9.2704, 0.8618, 9.3985, 0.7023, 9.3976],
+          confidence: 0.997,
+          span: {
+            offset: 9224,
+            length: 3,
+          },
+        },
+        {
+          content: 'case',
+          polygon: [0.891, 9.2704, 1.127, 9.2697, 1.1274, 9.3991, 0.8915, 9.3987],
+          confidence: 0.989,
+          span: {
+            offset: 9228,
+            length: 4,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [1.1567, 9.2696, 1.2545, 9.2691, 1.2549, 9.3991, 1.1572, 9.3991],
+          confidence: 0.995,
+          span: {
+            offset: 9233,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [1.2843, 9.2691, 1.3438, 9.269, 1.3442, 9.3995, 1.2847, 9.3992],
+          confidence: 0.995,
+          span: {
+            offset: 9236,
+            length: 1,
+          },
+        },
+        {
+          content: 'disregarded',
+          polygon: [1.3736, 9.269, 1.9646, 9.2673, 1.9647, 9.4001, 1.374, 9.3997],
+          confidence: 0.993,
+          span: {
+            offset: 9238,
+            length: 11,
+          },
+        },
+        {
+          content: 'entity',
+          polygon: [1.9986, 9.2673, 2.2707, 9.2685, 2.2708, 9.3992, 1.9987, 9.4001],
+          confidence: 0.995,
+          span: {
+            offset: 9250,
+            length: 6,
+          },
+        },
+        {
+          content: 'with',
+          polygon: [2.3004, 9.2686, 2.5024, 9.2691, 2.5025, 9.3998, 2.3005, 9.3993],
+          confidence: 0.992,
+          span: {
+            offset: 9257,
+            length: 4,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [2.5364, 9.2691, 2.5959, 9.2693, 2.596, 9.3994, 2.5365, 9.3996],
+          confidence: 0.981,
+          span: {
+            offset: 9262,
+            length: 1,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [2.6321, 9.2693, 2.834, 9.2689, 2.8339, 9.3989, 2.6322, 9.3992],
+          confidence: 0.994,
+          span: {
+            offset: 9264,
+            length: 4,
+          },
+        },
+        {
+          content: 'owner,',
+          polygon: [2.8702, 9.2687, 3.2039, 9.2693, 3.2036, 9.3983, 2.87, 9.399],
+          confidence: 0.996,
+          span: {
+            offset: 9269,
+            length: 6,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [3.2379, 9.2695, 3.3952, 9.2695, 3.3949, 9.3983, 3.2376, 9.3982],
+          confidence: 0.992,
+          span: {
+            offset: 9276,
+            length: 3,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [3.4293, 9.2695, 3.6355, 9.2692, 3.6352, 9.3985, 3.4289, 9.3983],
+          confidence: 0.994,
+          span: {
+            offset: 9280,
+            length: 4,
+          },
+        },
+        {
+          content: 'owner',
+          polygon: [3.6716, 9.2691, 3.9834, 9.2693, 3.9834, 9.3969, 3.6713, 9.3985],
+          confidence: 0.998,
+          span: {
+            offset: 9285,
+            length: 5,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [0.4922, 9.3989, 0.579, 9.3989, 0.5793, 9.5299, 0.4924, 9.5296],
+          confidence: 0.995,
+          span: {
+            offset: 9291,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [0.6051, 9.3989, 0.7789, 9.3989, 0.7792, 9.5308, 0.6054, 9.53],
+          confidence: 0.999,
+          span: {
+            offset: 9294,
+            length: 3,
+          },
+        },
+        {
+          content: 'disregarded',
+          polygon: [0.8114, 9.3989, 1.4022, 9.3976, 1.4024, 9.5318, 0.8118, 9.531],
+          confidence: 0.993,
+          span: {
+            offset: 9298,
+            length: 11,
+          },
+        },
+        {
+          content: 'entity',
+          polygon: [1.4348, 9.3974, 1.7085, 9.3976, 1.7085, 9.5323, 1.435, 9.5318],
+          confidence: 0.995,
+          span: {
+            offset: 9310,
+            length: 6,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [1.7367, 9.3977, 1.9213, 9.3981, 1.9213, 9.5327, 1.7368, 9.5323],
+          confidence: 0.999,
+          span: {
+            offset: 9317,
+            length: 3,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [1.9583, 9.3982, 2.1168, 9.399, 2.1167, 9.5327, 1.9582, 9.5327],
+          confidence: 0.998,
+          span: {
+            offset: 9321,
+            length: 3,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [2.145, 9.3993, 2.3036, 9.4004, 2.3035, 9.5316, 2.1449, 9.5325],
+          confidence: 0.999,
+          span: {
+            offset: 9325,
+            length: 3,
+          },
+        },
+        {
+          content: 'disregarded',
+          polygon: [2.334, 9.4003, 2.9226, 9.3992, 2.9225, 9.5311, 2.3339, 9.5317],
+          confidence: 0.993,
+          span: {
+            offset: 9329,
+            length: 11,
+          },
+        },
+        {
+          content: 'entity.',
+          polygon: [2.9595, 9.3993, 3.2652, 9.4004, 3.2652, 9.5301, 2.9594, 9.531],
+          confidence: 0.994,
+          span: {
+            offset: 9341,
+            length: 7,
+          },
+        },
+        {
+          content: '.',
+          polygon: [0.4938, 9.5656, 0.5357, 9.5654, 0.5361, 9.6898, 0.4943, 9.6895],
+          confidence: 0.663,
+          span: {
+            offset: 9350,
+            length: 1,
+          },
+        },
+        {
+          content: 'In',
+          polygon: [0.5608, 9.5652, 0.6696, 9.5646, 0.6701, 9.6907, 0.5613, 9.69],
+          confidence: 0.995,
+          span: {
+            offset: 9352,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [0.701, 9.5644, 0.8601, 9.564, 0.8607, 9.6918, 0.7015, 9.6909],
+          confidence: 0.999,
+          span: {
+            offset: 9355,
+            length: 3,
+          },
+        },
+        {
+          content: 'case',
+          polygon: [0.8915, 9.5639, 1.126, 9.5635, 1.1265, 9.6925, 0.8921, 9.692],
+          confidence: 0.992,
+          span: {
+            offset: 9359,
+            length: 4,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [1.1574, 9.5634, 1.2536, 9.5633, 1.2541, 9.6923, 1.1579, 9.6924],
+          confidence: 0.998,
+          span: {
+            offset: 9364,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [1.285, 9.5634, 1.3437, 9.5637, 1.3441, 9.6923, 1.2855, 9.6923],
+          confidence: 0.995,
+          span: {
+            offset: 9367,
+            length: 1,
+          },
+        },
+        {
+          content: 'grantor',
+          polygon: [1.3751, 9.5639, 1.7351, 9.5633, 1.7355, 9.6919, 1.3755, 9.6923],
+          confidence: 0.997,
+          span: {
+            offset: 9369,
+            length: 7,
+          },
+        },
+        {
+          content: 'trust',
+          polygon: [1.7602, 9.5632, 1.9842, 9.5626, 1.9844, 9.6917, 1.7606, 9.6918],
+          confidence: 0.997,
+          span: {
+            offset: 9377,
+            length: 5,
+          },
+        },
+        {
+          content: 'with',
+          polygon: [2.0177, 9.5626, 2.2186, 9.563, 2.2189, 9.6926, 2.0179, 9.6918],
+          confidence: 0.992,
+          span: {
+            offset: 9383,
+            length: 4,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [2.2521, 9.5631, 2.3128, 9.5633, 2.313, 9.6924, 2.2524, 9.6926],
+          confidence: 0.994,
+          span: {
+            offset: 9388,
+            length: 1,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [2.3505, 9.5634, 2.5514, 9.5639, 2.5516, 9.6917, 2.3507, 9.6923],
+          confidence: 0.989,
+          span: {
+            offset: 9390,
+            length: 4,
+          },
+        },
+        {
+          content: 'grantor',
+          polygon: [2.587, 9.564, 2.9492, 9.5635, 2.9493, 9.692, 2.5871, 9.6916],
+          confidence: 0.996,
+          span: {
+            offset: 9395,
+            length: 7,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [2.9764, 9.5634, 3.081, 9.5636, 3.0812, 9.692, 2.9765, 9.6921],
+          confidence: 0.998,
+          span: {
+            offset: 9403,
+            length: 2,
+          },
+        },
+        {
+          content: 'other',
+          polygon: [3.1082, 9.5636, 3.3678, 9.5641, 3.3678, 9.6915, 3.1084, 9.692],
+          confidence: 0.997,
+          span: {
+            offset: 9406,
+            length: 5,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [3.3992, 9.5641, 3.6022, 9.5641, 3.6021, 9.6915, 3.3992, 9.6915],
+          confidence: 0.994,
+          span: {
+            offset: 9412,
+            length: 4,
+          },
+        },
+        {
+          content: 'owner,',
+          polygon: [3.6378, 9.5641, 3.9779, 9.5647, 3.9779, 9.6906, 3.6376, 9.6916],
+          confidence: 0.993,
+          span: {
+            offset: 9417,
+            length: 6,
+          },
+        },
+        {
+          content: 'generally,',
+          polygon: [0.4906, 9.6924, 0.9669, 9.6888, 0.9673, 9.8201, 0.491, 9.8197],
+          confidence: 0.992,
+          span: {
+            offset: 9424,
+            length: 10,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.0009, 9.6885, 1.1604, 9.6876, 1.1606, 9.8196, 1.0013, 9.8201],
+          confidence: 0.998,
+          span: {
+            offset: 9435,
+            length: 3,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [1.1965, 9.6874, 1.3985, 9.6876, 1.3988, 9.8189, 1.1967, 9.8194],
+          confidence: 0.994,
+          span: {
+            offset: 9439,
+            length: 4,
+          },
+        },
+        {
+          content: 'grantor',
+          polygon: [1.4346, 9.6878, 1.7961, 9.6862, 1.7963, 9.8171, 1.4349, 9.8189],
+          confidence: 0.996,
+          span: {
+            offset: 9444,
+            length: 7,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [1.8237, 9.6862, 1.9279, 9.6863, 1.928, 9.8169, 1.8239, 9.8171],
+          confidence: 0.992,
+          span: {
+            offset: 9452,
+            length: 2,
+          },
+        },
+        {
+          content: 'other',
+          polygon: [1.9577, 9.6864, 2.215, 9.6872, 2.2149, 9.8178, 1.9577, 9.8168],
+          confidence: 0.995,
+          span: {
+            offset: 9455,
+            length: 5,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [2.2469, 9.6872, 2.451, 9.6865, 2.451, 9.8167, 2.2468, 9.8177],
+          confidence: 0.994,
+          span: {
+            offset: 9461,
+            length: 4,
+          },
+        },
+        {
+          content: 'owner',
+          polygon: [2.4893, 9.6864, 2.7976, 9.6857, 2.7975, 9.8155, 2.4893, 9.8165],
+          confidence: 0.998,
+          span: {
+            offset: 9466,
+            length: 5,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [2.8252, 9.6857, 2.923, 9.6853, 2.923, 9.8157, 2.8252, 9.8156],
+          confidence: 0.989,
+          span: {
+            offset: 9472,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [2.9506, 9.6852, 3.108, 9.6855, 3.108, 9.8152, 2.9506, 9.8158],
+          confidence: 0.999,
+          span: {
+            offset: 9475,
+            length: 3,
+          },
+        },
+        {
+          content: 'grantor',
+          polygon: [3.1399, 9.6856, 3.4971, 9.6852, 3.497, 9.8147, 3.1398, 9.815],
+          confidence: 0.995,
+          span: {
+            offset: 9479,
+            length: 7,
+          },
+        },
+        {
+          content: 'trust',
+          polygon: [3.5247, 9.6853, 3.7501, 9.6857, 3.7501, 9.8132, 3.5247, 9.8145],
+          confidence: 0.997,
+          span: {
+            offset: 9487,
+            length: 5,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [3.782, 9.6858, 3.9723, 9.6863, 3.9723, 9.8124, 3.782, 9.8131],
+          confidence: 0.999,
+          span: {
+            offset: 9493,
+            length: 3,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [0.4896, 9.8219, 0.6571, 9.8214, 0.6575, 9.9417, 0.4904, 9.9413],
+          confidence: 0.998,
+          span: {
+            offset: 9497,
+            length: 3,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [0.6866, 9.8214, 0.8442, 9.82, 0.8447, 9.9412, 0.687, 9.9416],
+          confidence: 0.999,
+          span: {
+            offset: 9501,
+            length: 3,
+          },
+        },
+        {
+          content: 'grantor',
+          polygon: [0.8757, 9.8199, 1.2361, 9.8185, 1.2365, 9.9399, 0.8762, 9.941],
+          confidence: 0.998,
+          span: {
+            offset: 9505,
+            length: 7,
+          },
+        },
+        {
+          content: 'trust.',
+          polygon: [1.2617, 9.8186, 1.5193, 9.8185, 1.5193, 9.9367, 1.2621, 9.9396],
+          confidence: 0.997,
+          span: {
+            offset: 9513,
+            length: 6,
+          },
+        },
+        {
+          content: '.',
+          polygon: [0.4927, 9.9812, 0.548, 9.981, 0.5486, 10.1017, 0.4931, 10.1013],
+          confidence: 0.7,
+          span: {
+            offset: 9521,
+            length: 1,
+          },
+        },
+        {
+          content: 'In',
+          polygon: [0.587, 9.9809, 0.6691, 9.9806, 0.6698, 10.1026, 0.5876, 10.102],
+          confidence: 0.993,
+          span: {
+            offset: 9523,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [0.7019, 9.9805, 0.8598, 9.9808, 0.8606, 10.1031, 0.7026, 10.1028],
+          confidence: 0.995,
+          span: {
+            offset: 9526,
+            length: 3,
+          },
+        },
+        {
+          content: 'case',
+          polygon: [0.8906, 9.9808, 1.1265, 9.9808, 1.1271, 10.1035, 0.8914, 10.1032],
+          confidence: 0.992,
+          span: {
+            offset: 9530,
+            length: 4,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [1.1573, 9.9808, 1.2537, 9.9806, 1.2542, 10.1038, 1.1578, 10.1035],
+          confidence: 0.995,
+          span: {
+            offset: 9535,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [1.2845, 9.9806, 1.3439, 9.9805, 1.3444, 10.1043, 1.2849, 10.104],
+          confidence: 0.994,
+          span: {
+            offset: 9538,
+            length: 1,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [1.3788, 9.9804, 1.5798, 9.9803, 1.5801, 10.105, 1.3792, 10.1045],
+          confidence: 0.99,
+          span: {
+            offset: 9540,
+            length: 4,
+          },
+        },
+        {
+          content: 'trust',
+          polygon: [1.6168, 9.9803, 1.8404, 9.98, 1.8404, 10.1052, 1.617, 10.105],
+          confidence: 0.997,
+          span: {
+            offset: 9545,
+            length: 5,
+          },
+        },
+        {
+          content: '(other',
+          polygon: [1.8752, 9.98, 2.1604, 9.9803, 2.1601, 10.1053, 1.8752, 10.1052],
+          confidence: 0.995,
+          span: {
+            offset: 9551,
+            length: 6,
+          },
+        },
+        {
+          content: 'than',
+          polygon: [2.1891, 9.9804, 2.4045, 9.9796, 2.4042, 10.1052, 2.1888, 10.1053],
+          confidence: 0.986,
+          span: {
+            offset: 9558,
+            length: 4,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [2.4393, 9.9795, 2.4988, 9.9794, 2.4985, 10.1052, 2.4391, 10.1052],
+          confidence: 0.995,
+          span: {
+            offset: 9563,
+            length: 1,
+          },
+        },
+        {
+          content: 'grantor',
+          polygon: [2.5296, 9.9794, 2.8886, 9.9791, 2.8883, 10.1058, 2.5293, 10.1052],
+          confidence: 0.994,
+          span: {
+            offset: 9565,
+            length: 7,
+          },
+        },
+        {
+          content: 'trust),',
+          polygon: [2.9152, 9.9791, 3.1942, 9.9779, 3.1941, 10.1059, 2.915, 10.1059],
+          confidence: 0.993,
+          span: {
+            offset: 9573,
+            length: 7,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [3.2291, 9.9778, 3.387, 9.9773, 3.3869, 10.106, 3.229, 10.1059],
+          confidence: 0.998,
+          span: {
+            offset: 9581,
+            length: 3,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [3.4219, 9.9773, 3.625, 9.9768, 3.6248, 10.1054, 3.4218, 10.106],
+          confidence: 0.992,
+          span: {
+            offset: 9585,
+            length: 4,
+          },
+        },
+        {
+          content: 'trust',
+          polygon: [3.6598, 9.9767, 3.9005, 9.9766, 3.9005, 10.1033, 3.6597, 10.1052],
+          confidence: 0.999,
+          span: {
+            offset: 9590,
+            length: 5,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [0.4868, 10.1092, 0.6799, 10.1092, 0.6803, 10.229, 0.4873, 10.229],
+          confidence: 0.992,
+          span: {
+            offset: 9596,
+            length: 3,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [0.7197, 10.1091, 0.8729, 10.1086, 0.8732, 10.229, 0.72, 10.229],
+          confidence: 0.996,
+          span: {
+            offset: 9600,
+            length: 3,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [0.9048, 10.1085, 1.06, 10.108, 1.0602, 10.229, 0.9051, 10.229],
+          confidence: 0.995,
+          span: {
+            offset: 9604,
+            length: 3,
+          },
+        },
+        {
+          content: 'beneficiaries',
+          polygon: [1.0959, 10.1079, 1.7169, 10.1071, 1.7169, 10.2287, 1.0961, 10.229],
+          confidence: 0.993,
+          span: {
+            offset: 9608,
+            length: 13,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [1.7487, 10.107, 1.8482, 10.107, 1.8482, 10.2282, 1.7488, 10.2286],
+          confidence: 0.989,
+          span: {
+            offset: 9622,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [1.8741, 10.107, 2.0313, 10.1072, 2.0313, 10.2277, 1.8741, 10.2281],
+          confidence: 0.999,
+          span: {
+            offset: 9625,
+            length: 3,
+          },
+        },
+        {
+          content: 'trust.',
+          polygon: [2.0612, 10.1073, 2.3204, 10.1076, 2.3204, 10.2266, 2.0612, 10.2276],
+          confidence: 0.995,
+          span: {
+            offset: 9629,
+            length: 6,
+          },
+        },
+        {
+          content: 'See',
+          polygon: [0.4884, 10.2686, 0.6773, 10.2683, 0.6774, 10.3946, 0.4885, 10.3948],
+          confidence: 0.996,
+          span: {
+            offset: 9637,
+            length: 3,
+          },
+        },
+        {
+          content: 'Pub.',
+          polygon: [0.702, 10.2683, 0.9442, 10.2692, 0.9443, 10.3944, 0.702, 10.3946],
+          confidence: 0.99,
+          span: {
+            offset: 9641,
+            length: 4,
+          },
+        },
+        {
+          content: '515',
+          polygon: [0.9812, 10.2693, 1.1619, 10.2699, 1.1619, 10.3944, 0.9812, 10.3944],
+          confidence: 0.995,
+          span: {
+            offset: 9646,
+            length: 3,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [1.1947, 10.2699, 1.3179, 10.27, 1.318, 10.3952, 1.1947, 10.3945],
+          confidence: 0.998,
+          span: {
+            offset: 9650,
+            length: 3,
+          },
+        },
+        {
+          content: 'more',
+          polygon: [1.3426, 10.27, 1.6136, 10.2706, 1.6135, 10.3954, 1.3426, 10.3953],
+          confidence: 0.992,
+          span: {
+            offset: 9654,
+            length: 4,
+          },
+        },
+        {
+          content: 'information',
+          polygon: [1.6485, 10.2706, 2.1987, 10.2717, 2.1985, 10.396, 1.6484, 10.3954],
+          confidence: 0.994,
+          span: {
+            offset: 9659,
+            length: 11,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [2.2357, 10.2717, 2.3568, 10.2715, 2.3566, 10.3964, 2.2355, 10.3961],
+          confidence: 0.998,
+          span: {
+            offset: 9671,
+            length: 2,
+          },
+        },
+        {
+          content: 'providing',
+          polygon: [2.3938, 10.2716, 2.8496, 10.2715, 2.8492, 10.3972, 2.3935, 10.3964],
+          confidence: 0.995,
+          span: {
+            offset: 9674,
+            length: 9,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [2.8865, 10.2715, 2.944, 10.2715, 2.9436, 10.3971, 2.8862, 10.3972],
+          confidence: 0.995,
+          span: {
+            offset: 9684,
+            length: 1,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [2.9789, 10.2714, 3.2294, 10.2709, 3.229, 10.3969, 2.9785, 10.3971],
+          confidence: 0.992,
+          span: {
+            offset: 9686,
+            length: 4,
+          },
+        },
+        {
+          content: 'W-9',
+          polygon: [3.2643, 10.2708, 3.4696, 10.2708, 3.4688, 10.3956, 3.2639, 10.3967],
+          confidence: 0.992,
+          span: {
+            offset: 9691,
+            length: 3,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [3.5045, 10.2706, 3.6072, 10.2699, 3.6066, 10.396, 3.5038, 10.3957],
+          confidence: 0.997,
+          span: {
+            offset: 9695,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [3.6339, 10.2697, 3.7016, 10.2693, 3.7016, 10.3963, 3.6334, 10.3961],
+          confidence: 0.994,
+          span: {
+            offset: 9698,
+            length: 1,
+          },
+        },
+        {
+          content: 'certification',
+          polygon: [0.4886, 10.397, 1.0696, 10.3974, 1.0697, 10.5215, 0.4891, 10.5219],
+          confidence: 0.993,
+          span: {
+            offset: 9700,
+            length: 13,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [1.1062, 10.3973, 1.1874, 10.3971, 1.1875, 10.5219, 1.1063, 10.5217],
+          confidence: 0.999,
+          span: {
+            offset: 9714,
+            length: 2,
+          },
+        },
+        {
+          content: 'non-foreign',
+          polygon: [1.2118, 10.397, 1.8009, 10.398, 1.8009, 10.5219, 1.2119, 10.5219],
+          confidence: 0.995,
+          span: {
+            offset: 9717,
+            length: 11,
+          },
+        },
+        {
+          content: 'status',
+          polygon: [1.8375, 10.3982, 2.1381, 10.3993, 2.1381, 10.5219, 1.8375, 10.5219],
+          confidence: 0.998,
+          span: {
+            offset: 9729,
+            length: 6,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [2.1686, 10.3995, 2.2681, 10.4, 2.2681, 10.5219, 2.1686, 10.5219],
+          confidence: 0.999,
+          span: {
+            offset: 9736,
+            length: 2,
+          },
+        },
+        {
+          content: 'avoid',
+          polygon: [2.3006, 10.4, 2.5627, 10.3997, 2.5627, 10.5219, 2.3006, 10.5219],
+          confidence: 0.998,
+          span: {
+            offset: 9739,
+            length: 5,
+          },
+        },
+        {
+          content: 'withholding.',
+          polygon: [2.5992, 10.3996, 3.2025, 10.3994, 3.2024, 10.5219, 2.5992, 10.5219],
+          confidence: 0.993,
+          span: {
+            offset: 9745,
+            length: 12,
+          },
+        },
+        {
+          content: 'Foreign',
+          polygon: [4.3808, 0.783, 4.7909, 0.7825, 4.7907, 0.9144, 4.3804, 0.9138],
+          confidence: 0.996,
+          span: {
+            offset: 9759,
+            length: 7,
+          },
+        },
+        {
+          content: 'person.',
+          polygon: [4.8272, 0.7827, 5.2096, 0.783, 5.2094, 0.9139, 4.8271, 0.9145],
+          confidence: 0.995,
+          span: {
+            offset: 9767,
+            length: 7,
+          },
+        },
+        {
+          content: 'If',
+          polygon: [5.2352, 0.783, 5.3036, 0.7833, 5.3034, 0.9139, 5.235, 0.9139],
+          confidence: 0.957,
+          span: {
+            offset: 9775,
+            length: 2,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [5.3292, 0.7834, 5.5236, 0.7834, 5.5235, 0.9131, 5.329, 0.9138],
+          confidence: 0.997,
+          span: {
+            offset: 9778,
+            length: 3,
+          },
+        },
+        {
+          content: 'are',
+          polygon: [5.5599, 0.7834, 5.7137, 0.7836, 5.7136, 0.9127, 5.5599, 0.913],
+          confidence: 0.998,
+          span: {
+            offset: 9782,
+            length: 3,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [5.7436, 0.7836, 5.7906, 0.7836, 5.7904, 0.9126, 5.7434, 0.9127],
+          confidence: 0.995,
+          span: {
+            offset: 9786,
+            length: 1,
+          },
+        },
+        {
+          content: 'foreign',
+          polygon: [5.8163, 0.7836, 6.1751, 0.783, 6.1749, 0.9128, 5.816, 0.9126],
+          confidence: 0.995,
+          span: {
+            offset: 9788,
+            length: 7,
+          },
+        },
+        {
+          content: 'person',
+          polygon: [6.2115, 0.7829, 6.5468, 0.782, 6.5467, 0.9117, 6.2112, 0.9128],
+          confidence: 0.994,
+          span: {
+            offset: 9796,
+            length: 6,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [6.5831, 0.782, 6.6857, 0.782, 6.6856, 0.9117, 6.5831, 0.9117],
+          confidence: 0.995,
+          span: {
+            offset: 9803,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [6.7134, 0.782, 6.8715, 0.7814, 6.8714, 0.9117, 6.7134, 0.9117],
+          confidence: 0.999,
+          span: {
+            offset: 9806,
+            length: 3,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [6.9057, 0.7812, 7.1086, 0.7807, 7.1084, 0.9112, 6.9056, 0.9117],
+          confidence: 0.993,
+          span: {
+            offset: 9810,
+            length: 4,
+          },
+        },
+        {
+          content: 'branch',
+          polygon: [7.1492, 0.7807, 7.4867, 0.78, 7.4864, 0.9109, 7.149, 0.911],
+          confidence: 0.997,
+          span: {
+            offset: 9815,
+            length: 6,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [7.5209, 0.7801, 7.6235, 0.7803, 7.6231, 0.9103, 7.5206, 0.9108],
+          confidence: 0.995,
+          span: {
+            offset: 9822,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [7.6491, 0.7803, 7.7182, 0.7804, 7.7182, 0.9098, 7.6487, 0.9102],
+          confidence: 0.995,
+          span: {
+            offset: 9825,
+            length: 1,
+          },
+        },
+        {
+          content: 'foreign',
+          polygon: [4.3776, 0.9093, 4.7303, 0.9091, 4.7304, 1.0389, 4.3775, 1.0389],
+          confidence: 0.995,
+          span: {
+            offset: 9827,
+            length: 7,
+          },
+        },
+        {
+          content: 'bank',
+          polygon: [4.7685, 0.9091, 5.0107, 0.909, 5.0108, 1.0383, 4.7686, 1.0389],
+          confidence: 0.992,
+          span: {
+            offset: 9835,
+            length: 4,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [5.0362, 0.909, 5.2189, 0.9086, 5.219, 1.0379, 5.0363, 1.0382],
+          confidence: 0.989,
+          span: {
+            offset: 9840,
+            length: 4,
+          },
+        },
+        {
+          content: 'has',
+          polygon: [5.2444, 0.9086, 5.4377, 0.9088, 5.4379, 1.0377, 5.2445, 1.0379],
+          confidence: 0.998,
+          span: {
+            offset: 9845,
+            length: 3,
+          },
+        },
+        {
+          content: 'elected',
+          polygon: [5.4717, 0.909, 5.8286, 0.9095, 5.8286, 1.0371, 5.4718, 1.0376],
+          confidence: 0.995,
+          span: {
+            offset: 9849,
+            length: 7,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [5.8625, 0.9094, 5.9496, 0.9091, 5.9496, 1.0375, 5.8626, 1.0372],
+          confidence: 0.999,
+          span: {
+            offset: 9857,
+            length: 2,
+          },
+        },
+        {
+          content: 'be',
+          polygon: [5.9751, 0.909, 6.1196, 0.9089, 6.1196, 1.0378, 5.9751, 1.0376],
+          confidence: 0.992,
+          span: {
+            offset: 9860,
+            length: 2,
+          },
+        },
+        {
+          content: 'treated',
+          polygon: [6.1472, 0.9089, 6.4977, 0.9087, 6.4978, 1.038, 6.1472, 1.0378],
+          confidence: 0.996,
+          span: {
+            offset: 9863,
+            length: 7,
+          },
+        },
+        {
+          content: 'as',
+          polygon: [6.5338, 0.9086, 6.6464, 0.9082, 6.6465, 1.0384, 6.5339, 1.0381],
+          confidence: 0.998,
+          span: {
+            offset: 9871,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [6.6783, 0.9081, 6.7399, 0.9079, 6.7399, 1.0387, 6.6783, 1.0385],
+          confidence: 0.994,
+          span: {
+            offset: 9874,
+            length: 1,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [6.7718, 0.9079, 6.9757, 0.908, 6.9757, 1.0388, 6.7718, 1.0388],
+          confidence: 0.989,
+          span: {
+            offset: 9876,
+            length: 4,
+          },
+        },
+        {
+          content: 'person',
+          polygon: [7.0182, 0.908, 7.3517, 0.9084, 7.3516, 1.0389, 7.0182, 1.0388],
+          confidence: 0.997,
+          span: {
+            offset: 9881,
+            length: 6,
+          },
+        },
+        {
+          content: '(under',
+          polygon: [7.3899, 0.9084, 7.7126, 0.9079, 7.7126, 1.0383, 7.3898, 1.0389],
+          confidence: 0.992,
+          span: {
+            offset: 9888,
+            length: 6,
+          },
+        },
+        {
+          content: 'Regulations',
+          polygon: [4.383, 1.0301, 4.9764, 1.0307, 4.9765, 1.1619, 4.3829, 1.1635],
+          confidence: 0.993,
+          span: {
+            offset: 9895,
+            length: 11,
+          },
+        },
+        {
+          content: 'section',
+          polygon: [5.009, 1.0306, 5.3634, 1.0299, 5.3634, 1.1625, 5.0091, 1.1618],
+          confidence: 0.995,
+          span: {
+            offset: 9907,
+            length: 7,
+          },
+        },
+        {
+          content: '1.1441-1(b)(2)(iv)',
+          polygon: [5.4047, 1.0299, 6.2199, 1.03, 6.2197, 1.1633, 5.4047, 1.1625],
+          confidence: 0.977,
+          span: {
+            offset: 9915,
+            length: 18,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [6.2525, 1.0301, 6.3547, 1.0302, 6.3545, 1.1634, 6.2523, 1.1634],
+          confidence: 0.997,
+          span: {
+            offset: 9934,
+            length: 2,
+          },
+        },
+        {
+          content: 'other',
+          polygon: [6.3829, 1.0301, 6.6438, 1.0297, 6.6437, 1.1629, 6.3828, 1.1633],
+          confidence: 0.996,
+          span: {
+            offset: 9937,
+            length: 5,
+          },
+        },
+        {
+          content: 'applicable',
+          polygon: [6.6721, 1.0298, 7.1808, 1.0295, 7.1806, 1.1619, 6.672, 1.1629],
+          confidence: 0.994,
+          span: {
+            offset: 9943,
+            length: 10,
+          },
+        },
+        {
+          content: 'section',
+          polygon: [7.2134, 1.0296, 7.5677, 1.0283, 7.5675, 1.1614, 7.2132, 1.1617],
+          confidence: 0.993,
+          span: {
+            offset: 9954,
+            length: 7,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [7.6003, 1.0281, 7.7458, 1.0275, 7.7458, 1.1611, 7.6001, 1.1614],
+          confidence: 0.994,
+          span: {
+            offset: 9962,
+            length: 3,
+          },
+        },
+        {
+          content: 'chapter',
+          polygon: [4.3831, 1.1594, 4.7714, 1.1598, 4.7714, 1.2915, 4.383, 1.2913],
+          confidence: 0.993,
+          span: {
+            offset: 9966,
+            length: 7,
+          },
+        },
+        {
+          content: '3',
+          polygon: [4.7993, 1.1599, 4.8594, 1.1599, 4.8594, 1.2913, 4.7993, 1.2915],
+          confidence: 0.995,
+          span: {
+            offset: 9974,
+            length: 1,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [4.8916, 1.1598, 4.9946, 1.1596, 4.9945, 1.2904, 4.8915, 1.2911],
+          confidence: 0.995,
+          span: {
+            offset: 9976,
+            length: 2,
+          },
+        },
+        {
+          content: '4',
+          polygon: [5.0246, 1.1596, 5.0825, 1.1594, 5.0825, 1.2899, 5.0245, 1.2902],
+          confidence: 0.995,
+          span: {
+            offset: 9979,
+            length: 1,
+          },
+        },
+        {
+          content: 'purposes),',
+          polygon: [5.119, 1.1593, 5.6339, 1.1578, 5.6339, 1.2891, 5.119, 1.2899],
+          confidence: 0.993,
+          span: {
+            offset: 9981,
+            length: 10,
+          },
+        },
+        {
+          content: 'do',
+          polygon: [5.6703, 1.1578, 5.7905, 1.1578, 5.7904, 1.2888, 5.6703, 1.289],
+          confidence: 0.998,
+          span: {
+            offset: 9992,
+            length: 2,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [5.8162, 1.1579, 5.99, 1.1581, 5.9899, 1.2898, 5.8162, 1.289],
+          confidence: 0.998,
+          span: {
+            offset: 9995,
+            length: 3,
+          },
+        },
+        {
+          content: 'use',
+          polygon: [6.0265, 1.1581, 6.1981, 1.158, 6.1979, 1.2892, 6.0264, 1.2897],
+          confidence: 0.998,
+          span: {
+            offset: 9999,
+            length: 3,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [6.2346, 1.1579, 6.4856, 1.1578, 6.4854, 1.2878, 6.2344, 1.289],
+          confidence: 0.992,
+          span: {
+            offset: 10003,
+            length: 4,
+          },
+        },
+        {
+          content: 'W-9.',
+          polygon: [6.5177, 1.1576, 6.7516, 1.1572, 6.7514, 1.2877, 6.5176, 1.2878],
+          confidence: 0.992,
+          span: {
+            offset: 10008,
+            length: 4,
+          },
+        },
+        {
+          content: 'Instead,',
+          polygon: [6.7923, 1.1573, 7.1807, 1.1574, 7.1804, 1.288, 6.7922, 1.2877],
+          confidence: 0.992,
+          span: {
+            offset: 10013,
+            length: 8,
+          },
+        },
+        {
+          content: 'use',
+          polygon: [7.2171, 1.1576, 7.393, 1.1584, 7.3927, 1.288, 7.2169, 1.288],
+          confidence: 0.998,
+          span: {
+            offset: 10022,
+            length: 3,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [7.4231, 1.1582, 7.5856, 1.1575, 7.5856, 1.2875, 7.4228, 1.2879],
+          confidence: 0.999,
+          span: {
+            offset: 10026,
+            length: 3,
+          },
+        },
+        {
+          content: 'appropriate',
+          polygon: [4.3825, 1.2858, 4.9647, 1.2832, 4.9649, 1.4112, 4.3825, 1.4146],
+          confidence: 0.992,
+          span: {
+            offset: 10030,
+            length: 11,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [4.9985, 1.2829, 5.2495, 1.2815, 5.2496, 1.41, 4.9986, 1.4108],
+          confidence: 0.992,
+          span: {
+            offset: 10042,
+            length: 4,
+          },
+        },
+        {
+          content: 'W-8',
+          polygon: [5.2833, 1.2813, 5.49, 1.2805, 5.4901, 1.4093, 5.2833, 1.4099],
+          confidence: 0.993,
+          span: {
+            offset: 10047,
+            length: 3,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [5.5238, 1.2804, 5.6145, 1.2802, 5.6145, 1.4087, 5.5239, 1.4092],
+          confidence: 0.992,
+          span: {
+            offset: 10051,
+            length: 2,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [5.6398, 1.2802, 5.9099, 1.2803, 5.9097, 1.4084, 5.6398, 1.4086],
+          confidence: 0.992,
+          span: {
+            offset: 10054,
+            length: 4,
+          },
+        },
+        {
+          content: '8233',
+          polygon: [5.9457, 1.2804, 6.1883, 1.2795, 6.1882, 1.4077, 5.9456, 1.4085],
+          confidence: 0.992,
+          span: {
+            offset: 10059,
+            length: 4,
+          },
+        },
+        {
+          content: '(see',
+          polygon: [6.2242, 1.2794, 6.4246, 1.2788, 6.4244, 1.409, 6.224, 1.4079],
+          confidence: 0.993,
+          span: {
+            offset: 10064,
+            length: 4,
+          },
+        },
+        {
+          content: 'Pub.',
+          polygon: [6.4605, 1.279, 6.6799, 1.2799, 6.6797, 1.4104, 6.4603, 1.4092],
+          confidence: 0.992,
+          span: {
+            offset: 10069,
+            length: 4,
+          },
+        },
+        {
+          content: '515).',
+          polygon: [6.7179, 1.28, 6.9563, 1.2806, 6.9561, 1.4102, 6.7177, 1.4104],
+          confidence: 0.992,
+          span: {
+            offset: 10074,
+            length: 5,
+          },
+        },
+        {
+          content: 'If',
+          polygon: [6.9984, 1.2806, 7.0554, 1.2807, 7.0553, 1.41, 6.9983, 1.4101],
+          confidence: 0.95,
+          span: {
+            offset: 10080,
+            length: 2,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [7.0849, 1.2808, 7.26, 1.2815, 7.2599, 1.4103, 7.0848, 1.41],
+          confidence: 0.998,
+          span: {
+            offset: 10083,
+            length: 3,
+          },
+        },
+        {
+          content: 'are',
+          polygon: [7.298, 1.2817, 7.452, 1.2823, 7.4518, 1.4103, 7.2979, 1.4104],
+          confidence: 0.993,
+          span: {
+            offset: 10087,
+            length: 3,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [7.4837, 1.2824, 7.5579, 1.2827, 7.5579, 1.4102, 7.4835, 1.4103],
+          confidence: 0.994,
+          span: {
+            offset: 10091,
+            length: 1,
+          },
+        },
+        {
+          content: 'qualified',
+          polygon: [4.3824, 1.4102, 4.8053, 1.4085, 4.8054, 1.5399, 4.3826, 1.5407],
+          confidence: 1,
+          span: {
+            offset: 10093,
+            length: 9,
+          },
+        },
+        {
+          content: 'foreign',
+          polygon: [4.838, 1.4085, 5.1803, 1.408, 5.1804, 1.54, 4.8381, 1.54],
+          confidence: 1,
+          span: {
+            offset: 10103,
+            length: 7,
+          },
+        },
+        {
+          content: 'pension',
+          polygon: [5.2173, 1.4078, 5.6032, 1.4072, 5.6033, 1.5397, 5.2175, 1.54],
+          confidence: 1,
+          span: {
+            offset: 10111,
+            length: 7,
+          },
+        },
+        {
+          content: 'fund',
+          polygon: [5.6359, 1.4072, 5.8561, 1.4068, 5.8561, 1.5393, 5.636, 1.5396],
+          confidence: 1,
+          span: {
+            offset: 10119,
+            length: 4,
+          },
+        },
+        {
+          content: 'under',
+          polygon: [5.8932, 1.4068, 6.1766, 1.4058, 6.1764, 1.5402, 5.8931, 1.5392],
+          confidence: 1,
+          span: {
+            offset: 10124,
+            length: 5,
+          },
+        },
+        {
+          content: 'Regulations',
+          polygon: [6.2114, 1.4057, 6.7913, 1.4052, 6.7911, 1.538, 6.2113, 1.5402],
+          confidence: 1,
+          span: {
+            offset: 10130,
+            length: 11,
+          },
+        },
+        {
+          content: 'section',
+          polygon: [6.824, 1.4052, 7.1816, 1.4046, 7.1814, 1.5385, 6.8239, 1.5381],
+          confidence: 1,
+          span: {
+            offset: 10142,
+            length: 7,
+          },
+        },
+        {
+          content: '1.897(l)-1(d),',
+          polygon: [7.2186, 1.4046, 7.8269, 1.4051, 7.8264, 1.5401, 7.2185, 1.5386],
+          confidence: 1,
+          span: {
+            offset: 10150,
+            length: 14,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [7.8639, 1.4052, 7.9723, 1.4057, 7.9723, 1.5387, 7.8634, 1.5397],
+          confidence: 1,
+          span: {
+            offset: 10165,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [4.3814, 1.5334, 4.4521, 1.5329, 4.4521, 1.6623, 4.3814, 1.6622],
+          confidence: 0.994,
+          span: {
+            offset: 10168,
+            length: 1,
+          },
+        },
+        {
+          content: 'partnership',
+          polygon: [4.4842, 1.5328, 5.0431, 1.5307, 5.0432, 1.6621, 4.4842, 1.6623],
+          confidence: 0.992,
+          span: {
+            offset: 10170,
+            length: 11,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [5.071, 1.5308, 5.2551, 1.5309, 5.2551, 1.662, 5.071, 1.6619],
+          confidence: 0.986,
+          span: {
+            offset: 10182,
+            length: 4,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [5.2808, 1.5309, 5.3751, 1.5309, 5.3751, 1.6622, 5.2808, 1.662],
+          confidence: 0.995,
+          span: {
+            offset: 10187,
+            length: 2,
+          },
+        },
+        {
+          content: 'wholly',
+          polygon: [5.4072, 1.5309, 5.7241, 1.5307, 5.7241, 1.6619, 5.4072, 1.6622],
+          confidence: 0.998,
+          span: {
+            offset: 10190,
+            length: 6,
+          },
+        },
+        {
+          content: 'owned',
+          polygon: [5.7541, 1.5306, 6.0839, 1.5307, 6.0837, 1.6615, 5.754, 1.6618],
+          confidence: 0.997,
+          span: {
+            offset: 10197,
+            length: 5,
+          },
+        },
+        {
+          content: 'by',
+          polygon: [6.1224, 1.5308, 6.2402, 1.5311, 6.24, 1.6617, 6.1222, 1.6615],
+          confidence: 0.998,
+          span: {
+            offset: 10203,
+            length: 2,
+          },
+        },
+        {
+          content: 'qualified',
+          polygon: [6.2723, 1.5311, 6.6856, 1.5307, 6.6853, 1.6624, 6.2722, 1.6617],
+          confidence: 0.993,
+          span: {
+            offset: 10206,
+            length: 9,
+          },
+        },
+        {
+          content: 'foreign',
+          polygon: [6.7199, 1.5307, 7.0603, 1.5306, 7.0602, 1.6622, 6.7196, 1.6625],
+          confidence: 0.994,
+          span: {
+            offset: 10216,
+            length: 7,
+          },
+        },
+        {
+          content: 'pension',
+          polygon: [7.0967, 1.5306, 7.4843, 1.5313, 7.484, 1.6606, 7.0966, 1.6621],
+          confidence: 0.992,
+          span: {
+            offset: 10224,
+            length: 7,
+          },
+        },
+        {
+          content: 'funds,',
+          polygon: [7.5165, 1.5313, 7.8287, 1.5323, 7.8287, 1.661, 7.5161, 1.6605],
+          confidence: 0.992,
+          span: {
+            offset: 10232,
+            length: 6,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [4.378, 1.6568, 4.5644, 1.6564, 4.5643, 1.7852, 4.378, 1.7856],
+          confidence: 0.992,
+          span: {
+            offset: 10239,
+            length: 4,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [4.5898, 1.6563, 4.6914, 1.6562, 4.6914, 1.7851, 4.5897, 1.7851],
+          confidence: 0.997,
+          span: {
+            offset: 10244,
+            length: 2,
+          },
+        },
+        {
+          content: 'treated',
+          polygon: [4.7211, 1.6562, 5.0705, 1.6565, 5.0705, 1.7855, 4.7211, 1.7852],
+          confidence: 0.995,
+          span: {
+            offset: 10247,
+            length: 7,
+          },
+        },
+        {
+          content: 'as',
+          polygon: [5.1065, 1.6566, 5.2208, 1.6564, 5.2209, 1.7862, 5.1065, 1.7856],
+          confidence: 0.996,
+          span: {
+            offset: 10255,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [5.2505, 1.6564, 5.3013, 1.6563, 5.3014, 1.7866, 5.2506, 1.7863],
+          confidence: 0.995,
+          span: {
+            offset: 10258,
+            length: 1,
+          },
+        },
+        {
+          content: 'non-foreign',
+          polygon: [5.3267, 1.6563, 5.9112, 1.6575, 5.9112, 1.7864, 5.3269, 1.7867],
+          confidence: 0.994,
+          span: {
+            offset: 10260,
+            length: 11,
+          },
+        },
+        {
+          content: 'person',
+          polygon: [5.9514, 1.6574, 6.286, 1.6571, 6.2859, 1.7865, 5.9514, 1.7865],
+          confidence: 0.994,
+          span: {
+            offset: 10272,
+            length: 6,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [6.3178, 1.6571, 6.4575, 1.6569, 6.4574, 1.7864, 6.3177, 1.7865],
+          confidence: 0.998,
+          span: {
+            offset: 10279,
+            length: 3,
+          },
+        },
+        {
+          content: 'purposes',
+          polygon: [6.4893, 1.6569, 6.9488, 1.6559, 6.9488, 1.7858, 6.4892, 1.7864],
+          confidence: 0.993,
+          span: {
+            offset: 10283,
+            length: 8,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [6.9806, 1.656, 7.078, 1.6562, 7.0779, 1.785, 6.9805, 1.7856],
+          confidence: 0.998,
+          span: {
+            offset: 10292,
+            length: 2,
+          },
+        },
+        {
+          content: 'section',
+          polygon: [7.1076, 1.6562, 7.4634, 1.6548, 7.4631, 1.7831, 7.1076, 1.7848],
+          confidence: 0.995,
+          span: {
+            offset: 10295,
+            length: 7,
+          },
+        },
+        {
+          content: '1445',
+          polygon: [7.5036, 1.6545, 7.7513, 1.6535, 7.7513, 1.7816, 7.5034, 1.7829],
+          confidence: 0.99,
+          span: {
+            offset: 10303,
+            length: 4,
+          },
+        },
+        {
+          content: 'withholding,',
+          polygon: [4.3781, 1.7814, 4.9865, 1.7819, 4.9867, 1.9131, 4.3781, 1.9126],
+          confidence: 0.993,
+          span: {
+            offset: 10308,
+            length: 12,
+          },
+        },
+        {
+          content: 'do',
+          polygon: [5.0233, 1.7818, 5.1403, 1.7816, 5.1404, 1.9126, 5.0235, 1.9129],
+          confidence: 0.998,
+          span: {
+            offset: 10321,
+            length: 2,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [5.1662, 1.7816, 5.3438, 1.7819, 5.3439, 1.9127, 5.1664, 1.9126],
+          confidence: 0.998,
+          span: {
+            offset: 10324,
+            length: 3,
+          },
+        },
+        {
+          content: 'use',
+          polygon: [5.3784, 1.7819, 5.5516, 1.7825, 5.5518, 1.9136, 5.3786, 1.9127],
+          confidence: 0.992,
+          span: {
+            offset: 10328,
+            length: 3,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [5.5863, 1.7826, 5.8374, 1.7824, 5.8374, 1.9126, 5.5864, 1.9138],
+          confidence: 0.992,
+          span: {
+            offset: 10332,
+            length: 4,
+          },
+        },
+        {
+          content: 'W-9.',
+          polygon: [5.8699, 1.7823, 6.1038, 1.7819, 6.1036, 1.9131, 5.8698, 1.9123],
+          confidence: 0.99,
+          span: {
+            offset: 10337,
+            length: 4,
+          },
+        },
+        {
+          content: 'Instead,',
+          polygon: [6.1471, 1.7818, 6.5303, 1.781, 6.5301, 1.9131, 6.1468, 1.9133],
+          confidence: 0.989,
+          span: {
+            offset: 10342,
+            length: 8,
+          },
+        },
+        {
+          content: 'use',
+          polygon: [6.5714, 1.7811, 6.7446, 1.7811, 6.7444, 1.9131, 6.5712, 1.913],
+          confidence: 0.998,
+          span: {
+            offset: 10351,
+            length: 3,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [6.7814, 1.781, 7.0326, 1.7805, 7.0324, 1.914, 6.7812, 1.9132],
+          confidence: 0.991,
+          span: {
+            offset: 10355,
+            length: 4,
+          },
+        },
+        {
+          content: 'W-8EXP',
+          polygon: [7.0651, 1.7806, 7.4808, 1.7795, 7.4805, 1.9146, 7.0649, 1.9141],
+          confidence: 0.992,
+          span: {
+            offset: 10360,
+            length: 6,
+          },
+        },
+        {
+          content: '(or',
+          polygon: [7.5154, 1.7795, 7.6453, 1.7796, 7.6451, 1.9142, 7.5151, 1.9145],
+          confidence: 0.993,
+          span: {
+            offset: 10367,
+            length: 3,
+          },
+        },
+        {
+          content: 'other',
+          polygon: [7.6735, 1.7796, 7.9392, 1.7794, 7.9392, 1.9129, 7.6732, 1.9141],
+          confidence: 0.995,
+          span: {
+            offset: 10371,
+            length: 5,
+          },
+        },
+        {
+          content: 'certification',
+          polygon: [4.3809, 1.9048, 4.965, 1.9037, 4.9651, 2.0371, 4.3814, 2.0355],
+          confidence: 0.992,
+          span: {
+            offset: 10377,
+            length: 13,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [4.9976, 1.9038, 5.0845, 1.9034, 5.0846, 2.0374, 4.9977, 2.0375],
+          confidence: 0.996,
+          span: {
+            offset: 10391,
+            length: 2,
+          },
+        },
+        {
+          content: 'non-foreign',
+          polygon: [5.1105, 1.9033, 5.6947, 1.9041, 5.6944, 2.0381, 5.1106, 2.0374],
+          confidence: 0.993,
+          span: {
+            offset: 10394,
+            length: 11,
+          },
+        },
+        {
+          content: 'status).',
+          polygon: [5.7316, 1.9041, 6.092, 1.9061, 6.0917, 2.0368, 5.7313, 2.0381],
+          confidence: 0.993,
+          span: {
+            offset: 10406,
+            length: 8,
+          },
+        },
+        {
+          content: 'Nonresident',
+          polygon: [4.3803, 2.0668, 5.0372, 2.0683, 5.0372, 2.198, 4.38, 2.1977],
+          confidence: 0.992,
+          span: {
+            offset: 10416,
+            length: 11,
+          },
+        },
+        {
+          content: 'alien',
+          polygon: [5.0695, 2.0683, 5.3151, 2.068, 5.3149, 2.1989, 5.0695, 2.198],
+          confidence: 0.995,
+          span: {
+            offset: 10428,
+            length: 5,
+          },
+        },
+        {
+          content: 'who',
+          polygon: [5.3496, 2.068, 5.5606, 2.0684, 5.5605, 2.1992, 5.3494, 2.1991],
+          confidence: 0.997,
+          span: {
+            offset: 10434,
+            length: 3,
+          },
+        },
+        {
+          content: 'becomes',
+          polygon: [5.5865, 2.0684, 6.0905, 2.0691, 6.0901, 2.2002, 5.5863, 2.1992],
+          confidence: 0.995,
+          span: {
+            offset: 10438,
+            length: 7,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [6.1228, 2.0693, 6.1723, 2.0695, 6.172, 2.2005, 6.1224, 2.2003],
+          confidence: 0.994,
+          span: {
+            offset: 10446,
+            length: 1,
+          },
+        },
+        {
+          content: 'resident',
+          polygon: [6.1982, 2.0696, 6.6483, 2.0699, 6.6479, 2.2021, 6.1978, 2.2006],
+          confidence: 0.994,
+          span: {
+            offset: 10448,
+            length: 8,
+          },
+        },
+        {
+          content: 'alien.',
+          polygon: [6.6785, 2.0699, 6.9564, 2.07, 6.9557, 2.2035, 6.678, 2.2023],
+          confidence: 0.994,
+          span: {
+            offset: 10457,
+            length: 6,
+          },
+        },
+        {
+          content: 'Generally,',
+          polygon: [6.993, 2.0701, 7.4819, 2.0719, 7.4812, 2.2046, 6.9923, 2.2035],
+          confidence: 0.992,
+          span: {
+            offset: 10464,
+            length: 10,
+          },
+        },
+        {
+          content: 'only',
+          polygon: [7.5185, 2.0723, 7.7253, 2.0722, 7.7246, 2.205, 7.5178, 2.205],
+          confidence: 0.992,
+          span: {
+            offset: 10475,
+            length: 4,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [7.7554, 2.0721, 7.8265, 2.0718, 7.8258, 2.205, 7.7547, 2.205],
+          confidence: 0.994,
+          span: {
+            offset: 10480,
+            length: 1,
+          },
+        },
+        {
+          content: 'nonresident',
+          polygon: [4.38, 2.2002, 4.976, 2.1992, 4.9761, 2.3276, 4.38, 2.3271],
+          confidence: 0.992,
+          span: {
+            offset: 10482,
+            length: 11,
+          },
+        },
+        {
+          content: 'alien',
+          polygon: [5.0078, 2.1991, 5.2199, 2.1985, 5.2199, 2.3277, 5.0079, 2.3276],
+          confidence: 0.996,
+          span: {
+            offset: 10494,
+            length: 5,
+          },
+        },
+        {
+          content: 'individual',
+          polygon: [5.2453, 2.1984, 5.7204, 2.1989, 5.7205, 2.3286, 5.2454, 2.3278],
+          confidence: 0.992,
+          span: {
+            offset: 10500,
+            length: 10,
+          },
+        },
+        {
+          content: 'may',
+          polygon: [5.7459, 2.199, 5.9664, 2.1993, 5.9664, 2.3284, 5.7459, 2.3285],
+          confidence: 0.998,
+          span: {
+            offset: 10511,
+            length: 3,
+          },
+        },
+        {
+          content: 'use',
+          polygon: [5.9919, 2.1992, 6.1849, 2.1989, 6.1849, 2.329, 5.9919, 2.3285],
+          confidence: 0.995,
+          span: {
+            offset: 10515,
+            length: 3,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [6.2125, 2.199, 6.3715, 2.1994, 6.3715, 2.3292, 6.2124, 2.329],
+          confidence: 0.999,
+          span: {
+            offset: 10519,
+            length: 3,
+          },
+        },
+        {
+          content: 'terms',
+          polygon: [6.3991, 2.1995, 6.6833, 2.1988, 6.6832, 2.3291, 6.3991, 2.3292],
+          confidence: 0.996,
+          span: {
+            offset: 10523,
+            length: 5,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [6.7151, 2.1988, 6.8148, 2.1986, 6.8147, 2.3296, 6.715, 2.3292],
+          confidence: 0.998,
+          span: {
+            offset: 10529,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [6.8424, 2.1986, 6.9018, 2.1985, 6.9017, 2.33, 6.8423, 2.3298],
+          confidence: 0.995,
+          span: {
+            offset: 10532,
+            length: 1,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [6.9293, 2.1985, 7.0863, 2.1985, 7.0862, 2.3294, 6.9292, 2.3299],
+          confidence: 0.998,
+          span: {
+            offset: 10534,
+            length: 3,
+          },
+        },
+        {
+          content: 'treaty',
+          polygon: [7.1117, 2.1985, 7.3981, 2.1984, 7.398, 2.3286, 7.1116, 2.3293],
+          confidence: 0.996,
+          span: {
+            offset: 10538,
+            length: 6,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [7.4256, 2.1984, 7.5105, 2.1984, 7.5103, 2.3288, 7.4255, 2.3287],
+          confidence: 0.999,
+          span: {
+            offset: 10545,
+            length: 2,
+          },
+        },
+        {
+          content: 'reduce',
+          polygon: [7.5359, 2.1984, 7.906, 2.1988, 7.906, 2.3269, 7.5358, 2.3289],
+          confidence: 0.995,
+          span: {
+            offset: 10548,
+            length: 6,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [4.382, 2.3265, 4.4933, 2.3261, 4.4933, 2.4532, 4.3818, 2.453],
+          confidence: 0.994,
+          span: {
+            offset: 10555,
+            length: 2,
+          },
+        },
+        {
+          content: 'eliminate',
+          polygon: [4.5228, 2.326, 4.9661, 2.3249, 4.9662, 2.4535, 4.5227, 2.4533],
+          confidence: 0.992,
+          span: {
+            offset: 10558,
+            length: 9,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [5.0019, 2.3249, 5.2036, 2.325, 5.2035, 2.4536, 5.0019, 2.4535],
+          confidence: 0.993,
+          span: {
+            offset: 10568,
+            length: 4,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [5.2393, 2.325, 5.3927, 2.3251, 5.3926, 2.4538, 5.2392, 2.4537],
+          confidence: 0.993,
+          span: {
+            offset: 10573,
+            length: 3,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [5.4242, 2.3251, 5.5461, 2.3252, 5.5461, 2.4541, 5.4242, 2.4539],
+          confidence: 0.996,
+          span: {
+            offset: 10577,
+            length: 2,
+          },
+        },
+        {
+          content: 'certain',
+          polygon: [5.5818, 2.3252, 5.9117, 2.3254, 5.9116, 2.4536, 5.5818, 2.4542],
+          confidence: 0.995,
+          span: {
+            offset: 10580,
+            length: 7,
+          },
+        },
+        {
+          content: 'types',
+          polygon: [5.9474, 2.3255, 6.2206, 2.3258, 6.2204, 2.4547, 5.9473, 2.4536],
+          confidence: 0.996,
+          span: {
+            offset: 10588,
+            length: 5,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [6.2521, 2.3258, 6.332, 2.3258, 6.3317, 2.4552, 6.2519, 2.4549],
+          confidence: 0.997,
+          span: {
+            offset: 10594,
+            length: 2,
+          },
+        },
+        {
+          content: 'income.',
+          polygon: [6.3572, 2.3259, 6.7606, 2.3256, 6.7603, 2.4559, 6.3569, 2.4552],
+          confidence: 0.995,
+          span: {
+            offset: 10597,
+            length: 7,
+          },
+        },
+        {
+          content: 'However,',
+          polygon: [6.7859, 2.3255, 7.2671, 2.3275, 7.2667, 2.4549, 6.7855, 2.4559],
+          confidence: 0.994,
+          span: {
+            offset: 10605,
+            length: 8,
+          },
+        },
+        {
+          content: 'most',
+          polygon: [7.307, 2.3274, 7.5528, 2.3275, 7.5524, 2.4543, 7.3066, 2.4548],
+          confidence: 0.992,
+          span: {
+            offset: 10614,
+            length: 4,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [7.5823, 2.3275, 7.7441, 2.3278, 7.7436, 2.4541, 7.5818, 2.4543],
+          confidence: 0.998,
+          span: {
+            offset: 10619,
+            length: 3,
+          },
+        },
+        {
+          content: 'treaties',
+          polygon: [4.3787, 2.4471, 4.7566, 2.4469, 4.7566, 2.5774, 4.3785, 2.5764],
+          confidence: 0.994,
+          span: {
+            offset: 10623,
+            length: 8,
+          },
+        },
+        {
+          content: 'contain',
+          polygon: [4.7865, 2.4469, 5.1495, 2.4465, 5.1494, 2.577, 4.7865, 2.5776],
+          confidence: 0.995,
+          span: {
+            offset: 10632,
+            length: 7,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [5.1858, 2.4465, 5.2328, 2.4465, 5.2327, 2.5774, 5.1857, 2.5772],
+          confidence: 0.995,
+          span: {
+            offset: 10640,
+            length: 1,
+          },
+        },
+        {
+          content: 'provision',
+          polygon: [5.2584, 2.4465, 5.7238, 2.4471, 5.7237, 2.5762, 5.2583, 2.5775],
+          confidence: 0.993,
+          span: {
+            offset: 10642,
+            length: 9,
+          },
+        },
+        {
+          content: 'known',
+          polygon: [5.7601, 2.4471, 6.0825, 2.4479, 6.0823, 2.5772, 5.7599, 2.5759],
+          confidence: 0.995,
+          span: {
+            offset: 10652,
+            length: 5,
+          },
+        },
+        {
+          content: 'as',
+          polygon: [6.1188, 2.4478, 6.2298, 2.4475, 6.2296, 2.5774, 6.1186, 2.5773],
+          confidence: 0.996,
+          span: {
+            offset: 10658,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [6.2618, 2.4474, 6.3216, 2.4472, 6.3214, 2.5774, 6.2616, 2.5775],
+          confidence: 0.994,
+          span: {
+            offset: 10661,
+            length: 1,
+          },
+        },
+        {
+          content: 'saving',
+          polygon: [6.3536, 2.447, 6.6675, 2.4463, 6.6672, 2.5781, 6.3534, 2.5774],
+          confidence: 0.997,
+          span: {
+            offset: 10663,
+            length: 6,
+          },
+        },
+        {
+          content: 'clause.',
+          polygon: [6.7038, 2.4462, 7.0496, 2.4474, 7.0492, 2.5786, 6.7035, 2.5782],
+          confidence: 0.994,
+          span: {
+            offset: 10670,
+            length: 7,
+          },
+        },
+        {
+          content: 'Exceptions',
+          polygon: [7.0902, 2.4476, 7.6408, 2.4488, 7.6408, 2.5783, 7.0898, 2.5786],
+          confidence: 0.994,
+          span: {
+            offset: 10678,
+            length: 10,
+          },
+        },
+        {
+          content: 'specified',
+          polygon: [4.3815, 2.5767, 4.8253, 2.5755, 4.8254, 2.7066, 4.3817, 2.7076],
+          confidence: 0.992,
+          span: {
+            offset: 10689,
+            length: 9,
+          },
+        },
+        {
+          content: 'in',
+          polygon: [4.8509, 2.5755, 4.9511, 2.5754, 4.9513, 2.7065, 4.851, 2.7066],
+          confidence: 0.997,
+          span: {
+            offset: 10699,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [4.9831, 2.5754, 5.1432, 2.5754, 5.1433, 2.7066, 4.9833, 2.7065],
+          confidence: 0.999,
+          span: {
+            offset: 10702,
+            length: 3,
+          },
+        },
+        {
+          content: 'saving',
+          polygon: [5.173, 2.5755, 5.4888, 2.5765, 5.4889, 2.7074, 5.1731, 2.7068],
+          confidence: 0.998,
+          span: {
+            offset: 10706,
+            length: 6,
+          },
+        },
+        {
+          content: 'clause',
+          polygon: [5.5272, 2.5767, 5.8323, 2.5764, 5.8322, 2.7066, 5.5273, 2.7074],
+          confidence: 0.998,
+          span: {
+            offset: 10713,
+            length: 6,
+          },
+        },
+        {
+          content: 'may',
+          polygon: [5.8579, 2.5763, 6.0862, 2.5762, 6.0861, 2.7056, 5.8578, 2.7064],
+          confidence: 0.998,
+          span: {
+            offset: 10720,
+            length: 3,
+          },
+        },
+        {
+          content: 'permit',
+          polygon: [6.1203, 2.5761, 6.4318, 2.5752, 6.4318, 2.7057, 6.1203, 2.7057],
+          confidence: 0.994,
+          span: {
+            offset: 10724,
+            length: 6,
+          },
+        },
+        {
+          content: 'an',
+          polygon: [6.466, 2.575, 6.5812, 2.5749, 6.5812, 2.7055, 6.466, 2.7055],
+          confidence: 0.996,
+          span: {
+            offset: 10731,
+            length: 2,
+          },
+        },
+        {
+          content: 'exemption',
+          polygon: [6.6153, 2.575, 7.1337, 2.5749, 7.1337, 2.7051, 6.6153, 2.7056],
+          confidence: 0.994,
+          span: {
+            offset: 10734,
+            length: 9,
+          },
+        },
+        {
+          content: 'from',
+          polygon: [7.1679, 2.5748, 7.3919, 2.5744, 7.3918, 2.7034, 7.1678, 2.7049],
+          confidence: 0.992,
+          span: {
+            offset: 10744,
+            length: 4,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [7.426, 2.5744, 7.5797, 2.5747, 7.5795, 2.7023, 7.426, 2.7031],
+          confidence: 0.997,
+          span: {
+            offset: 10749,
+            length: 3,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [7.6074, 2.5748, 7.7182, 2.5751, 7.7181, 2.7017, 7.6072, 2.7021],
+          confidence: 0.999,
+          span: {
+            offset: 10753,
+            length: 2,
+          },
+        },
+        {
+          content: 'continue',
+          polygon: [4.3823, 2.6979, 4.8169, 2.6971, 4.8171, 2.8255, 4.3825, 2.8255],
+          confidence: 0.993,
+          span: {
+            offset: 10756,
+            length: 8,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [4.8487, 2.697, 4.9844, 2.697, 4.9845, 2.8259, 4.8489, 2.8255],
+          confidence: 0.995,
+          span: {
+            offset: 10765,
+            length: 3,
+          },
+        },
+        {
+          content: 'certain',
+          polygon: [5.0141, 2.697, 5.3448, 2.6967, 5.345, 2.8266, 5.0142, 2.826],
+          confidence: 0.995,
+          span: {
+            offset: 10769,
+            length: 7,
+          },
+        },
+        {
+          content: 'types',
+          polygon: [5.3788, 2.6967, 5.6501, 2.6981, 5.6503, 2.8269, 5.379, 2.8267],
+          confidence: 0.995,
+          span: {
+            offset: 10777,
+            length: 5,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [5.684, 2.6981, 5.7646, 2.698, 5.7647, 2.826, 5.6842, 2.8266],
+          confidence: 0.998,
+          span: {
+            offset: 10783,
+            length: 2,
+          },
+        },
+        {
+          content: 'income',
+          polygon: [5.79, 2.6979, 6.1738, 2.697, 6.1738, 2.8255, 5.7901, 2.8258],
+          confidence: 0.998,
+          span: {
+            offset: 10786,
+            length: 6,
+          },
+        },
+        {
+          content: 'even',
+          polygon: [6.2056, 2.6969, 6.4367, 2.6962, 6.4367, 2.8265, 6.2056, 2.8256],
+          confidence: 0.992,
+          span: {
+            offset: 10793,
+            length: 4,
+          },
+        },
+        {
+          content: 'after',
+          polygon: [6.4727, 2.6961, 6.689, 2.6957, 6.6889, 2.8259, 6.4727, 2.8264],
+          confidence: 0.995,
+          span: {
+            offset: 10798,
+            length: 5,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [6.7144, 2.6957, 6.884, 2.6953, 6.8838, 2.826, 6.7143, 2.8259],
+          confidence: 0.999,
+          span: {
+            offset: 10804,
+            length: 3,
+          },
+        },
+        {
+          content: 'payee',
+          polygon: [6.9179, 2.6952, 7.2147, 2.6953, 7.2146, 2.8264, 6.9177, 2.826],
+          confidence: 0.997,
+          span: {
+            offset: 10808,
+            length: 5,
+          },
+        },
+        {
+          content: 'has',
+          polygon: [7.2487, 2.6953, 7.4204, 2.6951, 7.4202, 2.8255, 7.2485, 2.8263],
+          confidence: 0.999,
+          span: {
+            offset: 10814,
+            length: 3,
+          },
+        },
+        {
+          content: 'otherwise',
+          polygon: [7.4522, 2.6949, 7.944, 2.6931, 7.9438, 2.8226, 7.452, 2.8253],
+          confidence: 0.995,
+          span: {
+            offset: 10818,
+            length: 9,
+          },
+        },
+        {
+          content: 'become',
+          polygon: [4.3799, 2.8206, 4.7925, 2.8202, 4.7926, 2.9529, 4.3799, 2.9523],
+          confidence: 0.992,
+          span: {
+            offset: 10828,
+            length: 6,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [4.825, 2.8199, 4.8837, 2.8196, 4.8837, 2.9525, 4.8251, 2.9527],
+          confidence: 0.993,
+          span: {
+            offset: 10835,
+            length: 1,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [4.9184, 2.8197, 5.1225, 2.8198, 5.1225, 2.953, 4.9184, 2.9524],
+          confidence: 0.993,
+          span: {
+            offset: 10837,
+            length: 4,
+          },
+        },
+        {
+          content: 'resident',
+          polygon: [5.1616, 2.8197, 5.5568, 2.8209, 5.5567, 2.9543, 5.1616, 2.9533],
+          confidence: 0.994,
+          span: {
+            offset: 10842,
+            length: 8,
+          },
+        },
+        {
+          content: 'alien',
+          polygon: [5.5893, 2.821, 5.8152, 2.8217, 5.815, 2.9548, 5.5893, 2.9544],
+          confidence: 0.995,
+          span: {
+            offset: 10851,
+            length: 5,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [5.8477, 2.8218, 5.978, 2.8226, 5.9777, 2.9552, 5.8475, 2.9548],
+          confidence: 0.996,
+          span: {
+            offset: 10857,
+            length: 3,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [6.0041, 2.8227, 6.1669, 2.8231, 6.1666, 2.9561, 6.0038, 2.9553],
+          confidence: 0.997,
+          span: {
+            offset: 10861,
+            length: 3,
+          },
+        },
+        {
+          content: 'purposes.',
+          polygon: [6.2017, 2.8231, 6.6961, 2.8264, 6.6961, 2.9564, 6.2014, 2.9562],
+          confidence: 0.993,
+          span: {
+            offset: 10865,
+            length: 9,
+          },
+        },
+        {
+          content: 'If',
+          polygon: [4.4874, 2.9842, 4.5505, 2.9844, 4.5504, 3.121, 4.4873, 3.1211],
+          confidence: 0.935,
+          span: {
+            offset: 10876,
+            length: 2,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [4.5775, 2.9845, 4.7711, 2.9848, 4.7711, 3.1209, 4.5774, 3.1209],
+          confidence: 0.994,
+          span: {
+            offset: 10879,
+            length: 3,
+          },
+        },
+        {
+          content: 'are',
+          polygon: [4.8049, 2.9848, 4.9625, 2.9844, 4.9626, 3.1212, 4.8049, 3.121],
+          confidence: 0.995,
+          span: {
+            offset: 10883,
+            length: 3,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [4.994, 2.9842, 5.0548, 2.9837, 5.0548, 3.1207, 4.9941, 3.121],
+          confidence: 0.994,
+          span: {
+            offset: 10887,
+            length: 1,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [5.0885, 2.9834, 5.2799, 2.9827, 5.2799, 3.1212, 5.0886, 3.1206],
+          confidence: 0.993,
+          span: {
+            offset: 10889,
+            length: 4,
+          },
+        },
+        {
+          content: 'resident',
+          polygon: [5.3069, 2.9826, 5.7256, 2.9828, 5.7256, 3.121, 5.3069, 3.1213],
+          confidence: 0.995,
+          span: {
+            offset: 10894,
+            length: 8,
+          },
+        },
+        {
+          content: 'alien',
+          polygon: [5.7594, 2.9828, 5.9823, 2.9833, 5.9822, 3.1218, 5.7594, 3.121],
+          confidence: 0.993,
+          span: {
+            offset: 10903,
+            length: 5,
+          },
+        },
+        {
+          content: 'who',
+          polygon: [6.0183, 2.9834, 6.2074, 2.9836, 6.2073, 3.1223, 6.0182, 3.122],
+          confidence: 0.996,
+          span: {
+            offset: 10909,
+            length: 3,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [6.2344, 2.9836, 6.3245, 2.9837, 6.3244, 3.1223, 6.2343, 3.1223],
+          confidence: 0.996,
+          span: {
+            offset: 10913,
+            length: 2,
+          },
+        },
+        {
+          content: 'relying',
+          polygon: [6.3515, 2.9837, 6.6915, 2.9849, 6.6911, 3.1223, 6.3514, 3.1223],
+          confidence: 0.996,
+          span: {
+            offset: 10916,
+            length: 7,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [6.7275, 2.9852, 6.849, 2.9863, 6.8485, 3.1223, 6.7271, 3.1223],
+          confidence: 0.998,
+          span: {
+            offset: 10924,
+            length: 2,
+          },
+        },
+        {
+          content: 'an',
+          polygon: [6.8828, 2.9865, 6.9999, 2.9869, 6.9994, 3.1223, 6.8823, 3.1223],
+          confidence: 0.998,
+          span: {
+            offset: 10927,
+            length: 2,
+          },
+        },
+        {
+          content: 'exception',
+          polygon: [7.0359, 2.987, 7.5303, 2.986, 7.5303, 3.1213, 7.0354, 3.1223],
+          confidence: 0.995,
+          span: {
+            offset: 10930,
+            length: 9,
+          },
+        },
+        {
+          content: 'contained',
+          polygon: [4.3829, 3.1162, 4.861, 3.1165, 4.8613, 3.2468, 4.3831, 3.245],
+          confidence: 0.993,
+          span: {
+            offset: 10940,
+            length: 9,
+          },
+        },
+        {
+          content: 'in',
+          polygon: [4.8866, 3.1164, 4.9955, 3.1158, 4.9957, 3.2466, 4.8869, 3.2468],
+          confidence: 0.995,
+          span: {
+            offset: 10950,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [5.0275, 3.1156, 5.1855, 3.1153, 5.1857, 3.2467, 5.0277, 3.2465],
+          confidence: 0.999,
+          span: {
+            offset: 10953,
+            length: 3,
+          },
+        },
+        {
+          content: 'saving',
+          polygon: [5.2175, 3.1153, 5.5334, 3.1156, 5.5336, 3.2467, 5.2177, 3.2468],
+          confidence: 0.997,
+          span: {
+            offset: 10957,
+            length: 6,
+          },
+        },
+        {
+          content: 'clause',
+          polygon: [5.5675, 3.1156, 5.8898, 3.1157, 5.8899, 3.2464, 5.5678, 3.2466],
+          confidence: 0.995,
+          span: {
+            offset: 10964,
+            length: 6,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [5.9197, 3.1158, 6.02, 3.116, 6.0201, 3.2469, 5.9198, 3.2465],
+          confidence: 0.998,
+          span: {
+            offset: 10971,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [6.0478, 3.1161, 6.1075, 3.1161, 6.1076, 3.2472, 6.0478, 3.247],
+          confidence: 0.995,
+          span: {
+            offset: 10974,
+            length: 1,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [6.1353, 3.116, 6.2911, 3.1157, 6.2911, 3.2477, 6.1353, 3.2473],
+          confidence: 0.998,
+          span: {
+            offset: 10976,
+            length: 3,
+          },
+        },
+        {
+          content: 'treaty',
+          polygon: [6.3189, 3.1157, 6.6006, 3.1161, 6.6006, 3.2474, 6.3189, 3.2477],
+          confidence: 0.995,
+          span: {
+            offset: 10980,
+            length: 6,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [6.6305, 3.1162, 6.7287, 3.1167, 6.7286, 3.2473, 6.6304, 3.2474],
+          confidence: 0.999,
+          span: {
+            offset: 10987,
+            length: 2,
+          },
+        },
+        {
+          content: 'claim',
+          polygon: [6.7607, 3.1168, 7.0211, 3.1171, 7.0209, 3.2471, 6.7606, 3.2473],
+          confidence: 0.997,
+          span: {
+            offset: 10990,
+            length: 5,
+          },
+        },
+        {
+          content: 'an',
+          polygon: [7.0574, 3.1171, 7.1726, 3.1174, 7.1724, 3.2473, 7.0572, 3.2471],
+          confidence: 0.998,
+          span: {
+            offset: 10996,
+            length: 2,
+          },
+        },
+        {
+          content: 'exemption',
+          polygon: [7.2089, 3.1175, 7.7383, 3.1182, 7.7381, 3.2446, 7.2087, 3.2474],
+          confidence: 0.995,
+          span: {
+            offset: 10999,
+            length: 9,
+          },
+        },
+        {
+          content: 'from',
+          polygon: [4.3791, 3.2341, 4.6146, 3.2347, 4.6145, 3.3679, 4.3791, 3.368],
+          confidence: 0.989,
+          span: {
+            offset: 11009,
+            length: 4,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [4.6538, 3.2348, 4.8565, 3.2351, 4.8565, 3.3678, 4.6538, 3.3678],
+          confidence: 0.993,
+          span: {
+            offset: 11014,
+            length: 4,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [4.8914, 3.2351, 5.0484, 3.235, 5.0483, 3.368, 4.8914, 3.3678],
+          confidence: 0.998,
+          span: {
+            offset: 11019,
+            length: 3,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [5.0789, 3.235, 5.1988, 3.2352, 5.1987, 3.3685, 5.0788, 3.368],
+          confidence: 0.998,
+          span: {
+            offset: 11023,
+            length: 2,
+          },
+        },
+        {
+          content: 'certain',
+          polygon: [5.2336, 3.2353, 5.5672, 3.2357, 5.5671, 3.3695, 5.2336, 3.3687],
+          confidence: 0.995,
+          span: {
+            offset: 11026,
+            length: 7,
+          },
+        },
+        {
+          content: 'types',
+          polygon: [5.5977, 3.2356, 5.8723, 3.2362, 5.8721, 3.3699, 5.5976, 3.3695],
+          confidence: 0.997,
+          span: {
+            offset: 11034,
+            length: 5,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [5.9029, 3.2362, 5.9835, 3.2362, 5.9833, 3.3701, 5.9027, 3.37],
+          confidence: 0.989,
+          span: {
+            offset: 11040,
+            length: 2,
+          },
+        },
+        {
+          content: 'income,',
+          polygon: [6.0097, 3.2362, 6.4195, 3.2363, 6.4194, 3.37, 6.0095, 3.3702],
+          confidence: 0.994,
+          span: {
+            offset: 11043,
+            length: 7,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [6.4544, 3.2362, 6.6331, 3.2357, 6.633, 3.369, 6.4542, 3.3699],
+          confidence: 0.999,
+          span: {
+            offset: 11051,
+            length: 3,
+          },
+        },
+        {
+          content: 'must',
+          polygon: [6.6702, 3.2356, 6.9121, 3.2353, 6.9119, 3.3686, 6.67, 3.3689],
+          confidence: 0.992,
+          span: {
+            offset: 11055,
+            length: 4,
+          },
+        },
+        {
+          content: 'attach',
+          polygon: [6.947, 3.2355, 7.2522, 3.236, 7.252, 3.3686, 6.9468, 3.3685],
+          confidence: 0.997,
+          span: {
+            offset: 11060,
+            length: 6,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [7.2849, 3.2359, 7.3459, 3.2359, 7.3457, 3.3689, 7.2847, 3.3687],
+          confidence: 0.995,
+          span: {
+            offset: 11067,
+            length: 1,
+          },
+        },
+        {
+          content: 'statement',
+          polygon: [7.3786, 3.2358, 7.8839, 3.236, 7.8839, 3.3655, 7.3784, 3.369],
+          confidence: 0.995,
+          span: {
+            offset: 11069,
+            length: 9,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [4.3784, 3.3616, 4.4754, 3.3615, 4.4753, 3.4957, 4.3783, 3.4954],
+          confidence: 0.997,
+          span: {
+            offset: 11079,
+            length: 2,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [4.5018, 3.3614, 4.7728, 3.3612, 4.7729, 3.4964, 4.5017, 3.4959],
+          confidence: 0.994,
+          span: {
+            offset: 11082,
+            length: 4,
+          },
+        },
+        {
+          content: 'W-9',
+          polygon: [4.8103, 3.361, 5.0152, 3.3606, 5.0151, 3.4958, 4.8103, 3.4963],
+          confidence: 0.989,
+          span: {
+            offset: 11087,
+            length: 3,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [5.0461, 3.3607, 5.2378, 3.3606, 5.2378, 3.4965, 5.046, 3.4957],
+          confidence: 0.992,
+          span: {
+            offset: 11091,
+            length: 4,
+          },
+        },
+        {
+          content: 'specifies',
+          polygon: [5.2731, 3.3605, 5.7072, 3.3604, 5.707, 3.4969, 5.2731, 3.4967],
+          confidence: 0.995,
+          span: {
+            offset: 11096,
+            length: 9,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [5.738, 3.3605, 5.8945, 3.3612, 5.8942, 3.4964, 5.7379, 3.4968],
+          confidence: 0.999,
+          span: {
+            offset: 11106,
+            length: 3,
+          },
+        },
+        {
+          content: 'following',
+          polygon: [5.9231, 3.3613, 6.3638, 3.3627, 6.3635, 3.4961, 5.9229, 3.4964],
+          confidence: 0.994,
+          span: {
+            offset: 11110,
+            length: 9,
+          },
+        },
+        {
+          content: 'five',
+          polygon: [6.3991, 3.3628, 6.5556, 3.3631, 6.5552, 3.4959, 6.3988, 3.496],
+          confidence: 0.992,
+          span: {
+            offset: 11120,
+            length: 4,
+          },
+        },
+        {
+          content: 'items.',
+          polygon: [6.582, 3.363, 6.906, 3.3651, 6.906, 3.495, 6.5816, 3.4957],
+          confidence: 0.994,
+          span: {
+            offset: 11125,
+            length: 6,
+          },
+        },
+        {
+          content: '1.',
+          polygon: [4.4969, 3.525, 4.5901, 3.525, 4.5897, 3.6632, 4.4965, 3.6629],
+          confidence: 0.994,
+          span: {
+            offset: 11133,
+            length: 3,
+          },
+        },
+        {
+          content: 'The',
+          polygon: [4.6219, 3.525, 4.8107, 3.5249, 4.8103, 3.6639, 4.6216, 3.6633],
+          confidence: 0.998,
+          span: {
+            offset: 11137,
+            length: 3,
+          },
+        },
+        {
+          content: 'treaty',
+          polygon: [4.838, 3.5249, 5.1222, 3.5245, 5.1219, 3.6639, 4.8376, 3.6639],
+          confidence: 0.996,
+          span: {
+            offset: 11141,
+            length: 6,
+          },
+        },
+        {
+          content: 'country.',
+          polygon: [5.154, 3.5244, 5.552, 3.5245, 5.5517, 3.6639, 5.1537, 3.6639],
+          confidence: 0.992,
+          span: {
+            offset: 11148,
+            length: 8,
+          },
+        },
+        {
+          content: 'Generally,',
+          polygon: [5.5883, 3.5245, 6.0818, 3.5248, 6.0814, 3.6639, 5.5881, 3.6639],
+          confidence: 0.992,
+          span: {
+            offset: 11157,
+            length: 10,
+          },
+        },
+        {
+          content: 'this',
+          polygon: [6.1136, 3.5249, 6.2796, 3.5249, 6.2793, 3.6639, 6.1133, 3.6639],
+          confidence: 0.992,
+          span: {
+            offset: 11168,
+            length: 4,
+          },
+        },
+        {
+          content: 'must',
+          polygon: [6.3069, 3.5249, 6.5707, 3.5245, 6.5703, 3.6637, 6.3066, 3.6639],
+          confidence: 0.992,
+          span: {
+            offset: 11173,
+            length: 4,
+          },
+        },
+        {
+          content: 'be',
+          polygon: [6.6071, 3.5244, 6.7276, 3.5245, 6.7272, 3.6636, 6.6067, 3.6636],
+          confidence: 0.998,
+          span: {
+            offset: 11178,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [6.7549, 3.5245, 6.9163, 3.5248, 6.9159, 3.6638, 6.7545, 3.6637],
+          confidence: 0.999,
+          span: {
+            offset: 11181,
+            length: 3,
+          },
+        },
+        {
+          content: 'same',
+          polygon: [6.9459, 3.5249, 7.1983, 3.5254, 7.1976, 3.6628, 6.9455, 3.6637],
+          confidence: 0.992,
+          span: {
+            offset: 11185,
+            length: 4,
+          },
+        },
+        {
+          content: 'treaty',
+          polygon: [7.2256, 3.5255, 7.528, 3.5252, 7.5273, 3.6626, 7.2249, 3.6628],
+          confidence: 0.995,
+          span: {
+            offset: 11190,
+            length: 6,
+          },
+        },
+        {
+          content: 'under',
+          polygon: [7.5598, 3.5251, 7.8508, 3.5246, 7.8508, 3.6619, 7.5592, 3.6626],
+          confidence: 0.997,
+          span: {
+            offset: 11197,
+            length: 5,
+          },
+        },
+        {
+          content: 'which',
+          polygon: [4.3784, 3.6549, 4.679, 3.6558, 4.679, 3.7908, 4.3782, 3.791],
+          confidence: 0.996,
+          span: {
+            offset: 11203,
+            length: 5,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [4.7119, 3.656, 4.8897, 3.6563, 4.8897, 3.791, 4.712, 3.791],
+          confidence: 0.998,
+          span: {
+            offset: 11209,
+            length: 3,
+          },
+        },
+        {
+          content: 'claimed',
+          polygon: [4.9248, 3.6562, 5.3088, 3.6553, 5.3087, 3.7909, 4.9248, 3.791],
+          confidence: 0.995,
+          span: {
+            offset: 11213,
+            length: 7,
+          },
+        },
+        {
+          content: 'exemption',
+          polygon: [5.3461, 3.6553, 5.8617, 3.6554, 5.8616, 3.7904, 5.346, 3.791],
+          confidence: 0.992,
+          span: {
+            offset: 11221,
+            length: 9,
+          },
+        },
+        {
+          content: 'from',
+          polygon: [5.8946, 3.6555, 6.1207, 3.6561, 6.1205, 3.79, 5.8945, 3.7904],
+          confidence: 0.992,
+          span: {
+            offset: 11231,
+            length: 4,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [6.1514, 3.6561, 6.3094, 3.6556, 6.3092, 3.7899, 6.1512, 3.7899],
+          confidence: 0.998,
+          span: {
+            offset: 11236,
+            length: 3,
+          },
+        },
+        {
+          content: 'as',
+          polygon: [6.3401, 3.6556, 6.452, 3.6556, 6.4519, 3.7896, 6.34, 3.7899],
+          confidence: 0.994,
+          span: {
+            offset: 11240,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [6.4849, 3.6556, 6.5288, 3.6556, 6.5287, 3.7894, 6.4848, 3.7896],
+          confidence: 0.995,
+          span: {
+            offset: 11243,
+            length: 1,
+          },
+        },
+        {
+          content: 'nonresident',
+          polygon: [6.5551, 3.6556, 7.1607, 3.6562, 7.1604, 3.7867, 6.555, 3.7894],
+          confidence: 0.994,
+          span: {
+            offset: 11245,
+            length: 11,
+          },
+        },
+        {
+          content: 'alien.',
+          polygon: [7.1915, 3.6561, 7.4585, 3.6571, 7.4585, 3.7882, 7.1912, 3.7865],
+          confidence: 0.994,
+          span: {
+            offset: 11257,
+            length: 6,
+          },
+        },
+        {
+          content: '2.',
+          polygon: [4.4848, 3.8164, 4.5907, 3.8166, 4.5906, 3.9566, 4.4849, 3.956],
+          confidence: 0.992,
+          span: {
+            offset: 11265,
+            length: 3,
+          },
+        },
+        {
+          content: 'The',
+          polygon: [4.6206, 3.8166, 4.8092, 3.8166, 4.8091, 3.9566, 4.6204, 3.9568],
+          confidence: 0.999,
+          span: {
+            offset: 11269,
+            length: 3,
+          },
+        },
+        {
+          content: 'treaty',
+          polygon: [4.8368, 3.8164, 5.122, 3.8159, 5.1219, 3.9568, 4.8367, 3.9564],
+          confidence: 0.995,
+          span: {
+            offset: 11273,
+            length: 6,
+          },
+        },
+        {
+          content: 'article',
+          polygon: [5.1542, 3.8157, 5.4532, 3.8156, 5.4532, 3.9568, 5.1541, 3.9568],
+          confidence: 0.995,
+          span: {
+            offset: 11280,
+            length: 7,
+          },
+        },
+        {
+          content: 'addressing',
+          polygon: [5.4831, 3.8156, 6.0283, 3.817, 6.028, 3.9564, 5.4831, 3.9568],
+          confidence: 0.995,
+          span: {
+            offset: 11288,
+            length: 10,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [6.0605, 3.817, 6.1962, 3.8167, 6.1959, 3.9565, 6.0602, 3.9564],
+          confidence: 0.999,
+          span: {
+            offset: 11299,
+            length: 3,
+          },
+        },
+        {
+          content: 'income.',
+          polygon: [6.2238, 3.8167, 6.6463, 3.8187, 6.6463, 3.9568, 6.2235, 3.9566],
+          confidence: 0.995,
+          span: {
+            offset: 11303,
+            length: 7,
+          },
+        },
+        {
+          content: '3.',
+          polygon: [4.4853, 3.9814, 4.5905, 3.9814, 4.5902, 4.1186, 4.4851, 4.1184],
+          confidence: 0.994,
+          span: {
+            offset: 11312,
+            length: 3,
+          },
+        },
+        {
+          content: 'The',
+          polygon: [4.6203, 3.9814, 4.8101, 3.9817, 4.8098, 4.1194, 4.62, 4.1187],
+          confidence: 0.998,
+          span: {
+            offset: 11316,
+            length: 3,
+          },
+        },
+        {
+          content: 'article',
+          polygon: [4.8421, 3.9818, 5.1257, 3.9816, 5.1254, 4.1199, 4.8418, 4.1196],
+          confidence: 0.994,
+          span: {
+            offset: 11320,
+            length: 7,
+          },
+        },
+        {
+          content: 'number',
+          polygon: [5.1531, 3.9815, 5.5373, 3.9817, 5.5372, 4.1209, 5.1529, 4.1198],
+          confidence: 0.995,
+          span: {
+            offset: 11328,
+            length: 6,
+          },
+        },
+        {
+          content: '(or',
+          polygon: [5.5648, 3.9819, 5.6928, 3.9827, 5.6927, 4.1214, 5.5646, 4.121],
+          confidence: 0.994,
+          span: {
+            offset: 11335,
+            length: 3,
+          },
+        },
+        {
+          content: 'location)',
+          polygon: [5.7203, 3.9825, 6.1594, 3.981, 6.1589, 4.1214, 5.7201, 4.1214],
+          confidence: 0.993,
+          span: {
+            offset: 11339,
+            length: 9,
+          },
+        },
+        {
+          content: 'in',
+          polygon: [6.1982, 3.981, 6.276, 3.9811, 6.2756, 4.1221, 6.1979, 4.1216],
+          confidence: 0.997,
+          span: {
+            offset: 11349,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [6.3103, 3.9812, 6.4681, 3.9813, 6.4678, 4.1226, 6.31, 4.1224],
+          confidence: 0.999,
+          span: {
+            offset: 11352,
+            length: 3,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [6.4978, 3.9814, 6.6511, 3.9814, 6.6507, 4.1226, 6.4975, 4.1226],
+          confidence: 0.998,
+          span: {
+            offset: 11356,
+            length: 3,
+          },
+        },
+        {
+          content: 'treaty',
+          polygon: [6.6785, 3.9815, 6.9644, 3.982, 6.964, 4.1226, 6.6781, 4.1226],
+          confidence: 0.997,
+          span: {
+            offset: 11360,
+            length: 6,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [6.9918, 3.9821, 7.1839, 3.9825, 7.1835, 4.1226, 6.9915, 4.1226],
+          confidence: 0.992,
+          span: {
+            offset: 11367,
+            length: 4,
+          },
+        },
+        {
+          content: 'contains',
+          polygon: [7.2182, 3.9825, 7.6367, 3.982, 7.6363, 4.1212, 7.2178, 4.1226],
+          confidence: 0.994,
+          span: {
+            offset: 11372,
+            length: 8,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [7.6664, 3.982, 7.8342, 3.9817, 7.8342, 4.1197, 7.6661, 4.121],
+          confidence: 0.999,
+          span: {
+            offset: 11381,
+            length: 3,
+          },
+        },
+        {
+          content: 'saving',
+          polygon: [4.3792, 4.1127, 4.707, 4.1126, 4.7074, 4.2441, 4.3798, 4.2441],
+          confidence: 0.997,
+          span: {
+            offset: 11385,
+            length: 6,
+          },
+        },
+        {
+          content: 'clause',
+          polygon: [4.7418, 4.1124, 5.061, 4.1121, 5.0613, 4.2441, 4.7421, 4.2441],
+          confidence: 0.995,
+          span: {
+            offset: 11392,
+            length: 6,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [5.0913, 4.112, 5.265, 4.112, 5.2652, 4.2441, 5.0917, 4.2441],
+          confidence: 0.998,
+          span: {
+            offset: 11399,
+            length: 3,
+          },
+        },
+        {
+          content: 'its',
+          polygon: [5.2911, 4.1119, 5.4257, 4.1117, 5.4258, 4.2441, 5.2912, 4.2441],
+          confidence: 0.996,
+          span: {
+            offset: 11403,
+            length: 3,
+          },
+        },
+        {
+          content: 'exceptions.',
+          polygon: [5.4583, 4.1117, 6.0331, 4.1146, 6.0331, 4.2441, 5.4584, 4.2441],
+          confidence: 0.993,
+          span: {
+            offset: 11407,
+            length: 11,
+          },
+        },
+        {
+          content: '4.',
+          polygon: [4.4884, 4.271, 4.5897, 4.2715, 4.5894, 4.41, 4.4882, 4.4094],
+          confidence: 0.993,
+          span: {
+            offset: 11420,
+            length: 3,
+          },
+        },
+        {
+          content: 'The',
+          polygon: [4.6219, 4.2717, 4.7923, 4.2725, 4.792, 4.4108, 4.6216, 4.4101],
+          confidence: 0.999,
+          span: {
+            offset: 11424,
+            length: 3,
+          },
+        },
+        {
+          content: 'type',
+          polygon: [4.8199, 4.2726, 5.0571, 4.2724, 5.0569, 4.4109, 4.8196, 4.4109],
+          confidence: 0.989,
+          span: {
+            offset: 11428,
+            length: 4,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [5.087, 4.2721, 5.2712, 4.2712, 5.271, 4.4105, 5.0868, 4.4108],
+          confidence: 0.999,
+          span: {
+            offset: 11433,
+            length: 3,
+          },
+        },
+        {
+          content: 'amount',
+          polygon: [5.3057, 4.271, 5.681, 4.2711, 5.6807, 4.4109, 5.3055, 4.4105],
+          confidence: 0.997,
+          span: {
+            offset: 11437,
+            length: 6,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [5.7132, 4.2711, 5.7869, 4.2711, 5.7866, 4.4112, 5.7129, 4.411],
+          confidence: 0.997,
+          span: {
+            offset: 11444,
+            length: 2,
+          },
+        },
+        {
+          content: 'income',
+          polygon: [5.8145, 4.2711, 6.2036, 4.2706, 6.2031, 4.4113, 5.8142, 4.4112],
+          confidence: 0.996,
+          span: {
+            offset: 11447,
+            length: 6,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [6.2313, 4.2706, 6.4247, 4.2702, 6.4241, 4.412, 6.2307, 4.4115],
+          confidence: 0.992,
+          span: {
+            offset: 11454,
+            length: 4,
+          },
+        },
+        {
+          content: 'qualifies',
+          polygon: [6.4569, 4.27, 6.846, 4.2689, 6.8454, 4.4125, 6.4563, 4.4119],
+          confidence: 0.993,
+          span: {
+            offset: 11459,
+            length: 9,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [6.8736, 4.2691, 7.0117, 4.2703, 7.0112, 4.4122, 6.873, 4.4125],
+          confidence: 0.998,
+          span: {
+            offset: 11469,
+            length: 3,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [7.0394, 4.2705, 7.2167, 4.2705, 7.216, 4.4125, 7.0388, 4.4122],
+          confidence: 0.999,
+          span: {
+            offset: 11473,
+            length: 3,
+          },
+        },
+        {
+          content: 'exemption',
+          polygon: [7.2466, 4.2705, 7.7734, 4.2712, 7.7734, 4.412, 7.2459, 4.4126],
+          confidence: 0.995,
+          span: {
+            offset: 11477,
+            length: 9,
+          },
+        },
+        {
+          content: 'from',
+          polygon: [4.3788, 4.4018, 4.6144, 4.4032, 4.6142, 4.5267, 4.3786, 4.5257],
+          confidence: 0.992,
+          span: {
+            offset: 11487,
+            length: 4,
+          },
+        },
+        {
+          content: 'tax.',
+          polygon: [4.6487, 4.4039, 4.8342, 4.4064, 4.8342, 4.5285, 4.6485, 4.5266],
+          confidence: 0.992,
+          span: {
+            offset: 11492,
+            length: 4,
+          },
+        },
+        {
+          content: '5.',
+          polygon: [4.4875, 4.5603, 4.5894, 4.5601, 4.5892, 4.7001, 4.4873, 4.6997],
+          confidence: 0.994,
+          span: {
+            offset: 11498,
+            length: 3,
+          },
+        },
+        {
+          content: 'Sufficient',
+          polygon: [4.6265, 4.56, 5.0713, 4.5611, 5.0706, 4.7022, 4.6262, 4.7002],
+          confidence: 0.993,
+          span: {
+            offset: 11502,
+            length: 10,
+          },
+        },
+        {
+          content: 'facts',
+          polygon: [5.099, 4.5612, 5.3608, 4.5613, 5.3602, 4.7028, 5.0984, 4.7023],
+          confidence: 0.995,
+          span: {
+            offset: 11513,
+            length: 5,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [5.3909, 4.5612, 5.4697, 4.5609, 5.4691, 4.7028, 5.3903, 4.7028],
+          confidence: 0.998,
+          span: {
+            offset: 11519,
+            length: 2,
+          },
+        },
+        {
+          content: 'justify',
+          polygon: [5.4975, 4.561, 5.794, 4.5622, 5.7934, 4.7028, 5.4969, 4.7028],
+          confidence: 0.995,
+          span: {
+            offset: 11522,
+            length: 7,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [5.8218, 4.5623, 6.0001, 4.5624, 5.9994, 4.7028, 5.8212, 4.7028],
+          confidence: 0.996,
+          span: {
+            offset: 11530,
+            length: 3,
+          },
+        },
+        {
+          content: 'exemption',
+          polygon: [6.0302, 4.5623, 6.5468, 4.5609, 6.5462, 4.7028, 6.0295, 4.7028],
+          confidence: 0.994,
+          span: {
+            offset: 11534,
+            length: 9,
+          },
+        },
+        {
+          content: 'from',
+          polygon: [6.5815, 4.5609, 6.8085, 4.5603, 6.808, 4.7028, 6.5809, 4.7028],
+          confidence: 0.992,
+          span: {
+            offset: 11544,
+            length: 4,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [6.8386, 4.5602, 6.9799, 4.5599, 6.9795, 4.7028, 6.8381, 4.7028],
+          confidence: 0.998,
+          span: {
+            offset: 11549,
+            length: 3,
+          },
+        },
+        {
+          content: 'under',
+          polygon: [7.0077, 4.56, 7.295, 4.5614, 7.2944, 4.7022, 7.0073, 4.7028],
+          confidence: 0.996,
+          span: {
+            offset: 11553,
+            length: 5,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [7.3228, 4.5613, 7.4803, 4.5612, 7.4795, 4.7015, 7.3221, 4.7021],
+          confidence: 0.999,
+          span: {
+            offset: 11559,
+            length: 3,
+          },
+        },
+        {
+          content: 'terms',
+          polygon: [7.5081, 4.561, 7.8092, 4.5608, 7.8085, 4.7001, 7.5074, 4.7015],
+          confidence: 0.996,
+          span: {
+            offset: 11563,
+            length: 5,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [7.8416, 4.561, 7.9502, 4.5616, 7.9502, 4.6993, 7.8409, 4.6999],
+          confidence: 0.998,
+          span: {
+            offset: 11569,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [4.3793, 4.6923, 4.5462, 4.6927, 4.5462, 4.8267, 4.3795, 4.8262],
+          confidence: 0.996,
+          span: {
+            offset: 11572,
+            length: 3,
+          },
+        },
+        {
+          content: 'treaty',
+          polygon: [4.5747, 4.6923, 4.8602, 4.6938, 4.8602, 4.8269, 4.5746, 4.8267],
+          confidence: 0.998,
+          span: {
+            offset: 11576,
+            length: 6,
+          },
+        },
+        {
+          content: 'article.',
+          polygon: [4.891, 4.694, 5.2265, 4.695, 5.2265, 4.8299, 4.8908, 4.8271],
+          confidence: 0.994,
+          span: {
+            offset: 11583,
+            length: 8,
+          },
+        },
+        {
+          content: 'Example.',
+          polygon: [4.487, 4.855, 4.9813, 4.8562, 4.9811, 4.9938, 4.4867, 4.9922],
+          confidence: 0.988,
+          span: {
+            offset: 11593,
+            length: 8,
+          },
+        },
+        {
+          content: 'Article',
+          polygon: [5.0151, 4.8559, 5.3311, 4.8551, 5.3307, 4.9933, 5.0149, 4.9937],
+          confidence: 0.993,
+          span: {
+            offset: 11602,
+            length: 7,
+          },
+        },
+        {
+          content: '20',
+          polygon: [5.3627, 4.8552, 5.4846, 4.8554, 5.4842, 4.9937, 5.3623, 4.9934],
+          confidence: 0.992,
+          span: {
+            offset: 11610,
+            length: 2,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [5.5161, 4.8553, 5.5974, 4.8553, 5.5971, 4.9939, 5.5158, 4.9938],
+          confidence: 0.994,
+          span: {
+            offset: 11613,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [5.6245, 4.8553, 5.8005, 4.8552, 5.8, 4.9939, 5.6242, 4.994],
+          confidence: 0.996,
+          span: {
+            offset: 11616,
+            length: 3,
+          },
+        },
+        {
+          content: 'U.S',
+          polygon: [5.8366, 4.8552, 5.9675, 4.8554, 5.9669, 4.9936, 5.8361, 4.9938],
+          confidence: 0.995,
+          span: {
+            offset: 11620,
+            length: 3,
+          },
+        },
+        {
+          content: '.-',
+          polygon: [5.9946, 4.8554, 6.0578, 4.8556, 6.0571, 4.9934, 5.994, 4.9935],
+          confidence: 0.992,
+          span: {
+            offset: 11624,
+            length: 2,
+          },
+        },
+        {
+          content: 'China',
+          polygon: [6.0849, 4.8556, 6.3557, 4.8566, 6.3549, 4.995, 6.0842, 4.9933],
+          confidence: 0.995,
+          span: {
+            offset: 11627,
+            length: 5,
+          },
+        },
+        {
+          content: 'income',
+          polygon: [6.3828, 4.8566, 6.7709, 4.8566, 6.7704, 4.9955, 6.382, 4.9949],
+          confidence: 0.994,
+          span: {
+            offset: 11633,
+            length: 6,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [6.798, 4.8566, 6.9537, 4.8573, 6.9532, 4.9956, 6.7975, 4.9957],
+          confidence: 0.997,
+          span: {
+            offset: 11640,
+            length: 3,
+          },
+        },
+        {
+          content: 'treaty',
+          polygon: [6.9808, 4.8575, 7.2652, 4.8591, 7.2646, 4.9954, 6.9803, 4.9955],
+          confidence: 0.995,
+          span: {
+            offset: 11644,
+            length: 6,
+          },
+        },
+        {
+          content: 'allows',
+          polygon: [7.2968, 4.8593, 7.6082, 4.8586, 7.6075, 4.9957, 7.2962, 4.9954],
+          confidence: 0.997,
+          span: {
+            offset: 11651,
+            length: 6,
+          },
+        },
+        {
+          content: 'an',
+          polygon: [7.6398, 4.8587, 7.7679, 4.8593, 7.7679, 4.9954, 7.6391, 4.9957],
+          confidence: 0.998,
+          span: {
+            offset: 11658,
+            length: 2,
+          },
+        },
+        {
+          content: 'exemption',
+          polygon: [4.3809, 4.9908, 4.9095, 4.9901, 4.9097, 5.1197, 4.3808, 5.1199],
+          confidence: 0.994,
+          span: {
+            offset: 11661,
+            length: 9,
+          },
+        },
+        {
+          content: 'from',
+          polygon: [4.9416, 4.9899, 5.1685, 4.989, 5.1686, 5.1195, 4.9418, 5.1196],
+          confidence: 0.992,
+          span: {
+            offset: 11671,
+            length: 4,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [5.2006, 4.9889, 5.3547, 4.9887, 5.3549, 5.1201, 5.2007, 5.1197],
+          confidence: 0.998,
+          span: {
+            offset: 11676,
+            length: 3,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [5.3825, 4.9885, 5.5195, 4.9876, 5.5197, 5.1199, 5.3827, 5.1201],
+          confidence: 0.999,
+          span: {
+            offset: 11680,
+            length: 3,
+          },
+        },
+        {
+          content: 'scholarship',
+          polygon: [5.5494, 4.9874, 6.1166, 4.9881, 6.1166, 5.1195, 5.5496, 5.1199],
+          confidence: 0.994,
+          span: {
+            offset: 11684,
+            length: 11,
+          },
+        },
+        {
+          content: 'income',
+          polygon: [6.153, 4.9882, 6.5126, 4.9878, 6.5125, 5.1195, 6.1529, 5.1195],
+          confidence: 0.997,
+          span: {
+            offset: 11696,
+            length: 6,
+          },
+        },
+        {
+          content: 'received',
+          polygon: [6.5468, 4.9877, 6.9599, 4.9887, 6.9598, 5.1183, 6.5468, 5.1196],
+          confidence: 0.995,
+          span: {
+            offset: 11703,
+            length: 8,
+          },
+        },
+        {
+          content: 'by',
+          polygon: [7.0005, 4.9888, 7.1161, 4.9889, 7.116, 5.1189, 7.0005, 5.1185],
+          confidence: 0.995,
+          span: {
+            offset: 11712,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [7.1482, 4.989, 7.2082, 4.9888, 7.208, 5.119, 7.1481, 5.119],
+          confidence: 0.996,
+          span: {
+            offset: 11715,
+            length: 1,
+          },
+        },
+        {
+          content: 'Chinese',
+          polygon: [7.2403, 4.9885, 7.6519, 4.9888, 7.6519, 5.1169, 7.2401, 5.1189],
+          confidence: 0.996,
+          span: {
+            offset: 11717,
+            length: 7,
+          },
+        },
+        {
+          content: 'student',
+          polygon: [4.3819, 5.1096, 4.7502, 5.1102, 4.7503, 5.2405, 4.3821, 5.2393],
+          confidence: 0.994,
+          span: {
+            offset: 11725,
+            length: 7,
+          },
+        },
+        {
+          content: 'temporarily',
+          polygon: [4.7759, 5.1104, 5.3411, 5.1097, 5.3413, 5.2416, 4.776, 5.2408],
+          confidence: 0.992,
+          span: {
+            offset: 11733,
+            length: 11,
+          },
+        },
+        {
+          content: 'present',
+          polygon: [5.3668, 5.1096, 5.7436, 5.1097, 5.7438, 5.2401, 5.367, 5.2416],
+          confidence: 0.995,
+          span: {
+            offset: 11745,
+            length: 7,
+          },
+        },
+        {
+          content: 'in',
+          polygon: [5.7693, 5.1097, 5.87, 5.1096, 5.8701, 5.2395, 5.7695, 5.2399],
+          confidence: 0.996,
+          span: {
+            offset: 11753,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [5.9021, 5.1095, 6.0605, 5.109, 6.0606, 5.2405, 5.9022, 5.2396],
+          confidence: 0.998,
+          span: {
+            offset: 11756,
+            length: 3,
+          },
+        },
+        {
+          content: 'United',
+          polygon: [6.0969, 5.1089, 6.4138, 5.1072, 6.4138, 5.2395, 6.097, 5.2407],
+          confidence: 0.995,
+          span: {
+            offset: 11760,
+            length: 6,
+          },
+        },
+        {
+          content: 'States.',
+          polygon: [6.4502, 5.1071, 6.7906, 5.1065, 6.7906, 5.2381, 6.4501, 5.2395],
+          confidence: 0.994,
+          span: {
+            offset: 11767,
+            length: 7,
+          },
+        },
+        {
+          content: 'Under',
+          polygon: [6.8313, 5.1064, 7.1332, 5.107, 7.1331, 5.237, 6.8312, 5.2379],
+          confidence: 0.992,
+          span: {
+            offset: 11775,
+            length: 5,
+          },
+        },
+        {
+          content: 'U.S.',
+          polygon: [7.1674, 5.1072, 7.3623, 5.1079, 7.3621, 5.2378, 7.1674, 5.2372],
+          confidence: 0.993,
+          span: {
+            offset: 11781,
+            length: 4,
+          },
+        },
+        {
+          content: 'law,',
+          polygon: [7.388, 5.1081, 7.5999, 5.1091, 7.5998, 5.2376, 7.3878, 5.2378],
+          confidence: 0.987,
+          span: {
+            offset: 11786,
+            length: 4,
+          },
+        },
+        {
+          content: 'this',
+          polygon: [7.6342, 5.1091, 7.8231, 5.1089, 7.8231, 5.2384, 7.634, 5.2377],
+          confidence: 0.989,
+          span: {
+            offset: 11791,
+            length: 4,
+          },
+        },
+        {
+          content: 'student',
+          polygon: [4.3829, 5.2371, 4.7634, 5.2365, 4.7635, 5.3662, 4.3829, 5.366],
+          confidence: 0.995,
+          span: {
+            offset: 11796,
+            length: 7,
+          },
+        },
+        {
+          content: 'will',
+          polygon: [4.7956, 5.2365, 4.9483, 5.2363, 4.9484, 5.3664, 4.7958, 5.3662],
+          confidence: 0.992,
+          span: {
+            offset: 11804,
+            length: 4,
+          },
+        },
+        {
+          content: 'become',
+          polygon: [4.987, 5.2362, 5.3846, 5.2358, 5.3848, 5.3674, 4.9871, 5.3663],
+          confidence: 0.994,
+          span: {
+            offset: 11809,
+            length: 6,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [5.419, 5.2359, 5.4663, 5.236, 5.4665, 5.3674, 5.4192, 5.3674],
+          confidence: 0.995,
+          span: {
+            offset: 11816,
+            length: 1,
+          },
+        },
+        {
+          content: 'resident',
+          polygon: [5.4921, 5.2361, 5.9048, 5.2365, 5.9047, 5.3672, 5.4923, 5.3674],
+          confidence: 0.994,
+          span: {
+            offset: 11818,
+            length: 8,
+          },
+        },
+        {
+          content: 'alien',
+          polygon: [5.9371, 5.2364, 6.1628, 5.2358, 6.1626, 5.3685, 5.937, 5.3674],
+          confidence: 0.996,
+          span: {
+            offset: 11827,
+            length: 5,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [6.1972, 5.2358, 6.3348, 5.2357, 6.3346, 5.3686, 6.197, 5.3685],
+          confidence: 0.996,
+          span: {
+            offset: 11833,
+            length: 3,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [6.3606, 5.2357, 6.5153, 5.2356, 6.5152, 5.3678, 6.3604, 5.3687],
+          confidence: 0.996,
+          span: {
+            offset: 11837,
+            length: 3,
+          },
+        },
+        {
+          content: 'purposes',
+          polygon: [6.5497, 5.2355, 6.9968, 5.2351, 6.9968, 5.368, 6.5496, 5.3676],
+          confidence: 0.995,
+          span: {
+            offset: 11841,
+            length: 8,
+          },
+        },
+        {
+          content: 'if',
+          polygon: [7.0226, 5.2352, 7.1, 5.2355, 7.1, 5.3677, 7.0226, 5.368],
+          confidence: 0.997,
+          span: {
+            offset: 11850,
+            length: 2,
+          },
+        },
+        {
+          content: 'their',
+          polygon: [7.128, 5.2356, 7.3494, 5.2368, 7.3492, 5.3689, 7.128, 5.3676],
+          confidence: 0.998,
+          span: {
+            offset: 11853,
+            length: 5,
+          },
+        },
+        {
+          content: 'stay',
+          polygon: [7.3795, 5.2369, 7.5837, 5.2358, 7.5835, 5.3678, 7.3793, 5.369],
+          confidence: 0.992,
+          span: {
+            offset: 11859,
+            length: 4,
+          },
+        },
+        {
+          content: 'in',
+          polygon: [7.6159, 5.2356, 7.6976, 5.2355, 7.6974, 5.3668, 7.6157, 5.3676],
+          confidence: 0.998,
+          span: {
+            offset: 11864,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [7.7298, 5.2355, 7.895, 5.2354, 7.895, 5.3649, 7.7296, 5.3665],
+          confidence: 0.999,
+          span: {
+            offset: 11867,
+            length: 3,
+          },
+        },
+        {
+          content: 'United',
+          polygon: [4.3829, 5.3551, 4.7127, 5.3555, 4.7128, 5.4859, 4.383, 5.486],
+          confidence: 0.994,
+          span: {
+            offset: 11871,
+            length: 6,
+          },
+        },
+        {
+          content: 'States',
+          polygon: [4.7496, 5.3557, 5.0641, 5.3566, 5.0643, 5.488, 4.7497, 5.4863],
+          confidence: 0.993,
+          span: {
+            offset: 11878,
+            length: 6,
+          },
+        },
+        {
+          content: 'exceeds',
+          polygon: [5.0967, 5.3566, 5.5132, 5.3568, 5.5134, 5.49, 5.0969, 5.4881],
+          confidence: 0.993,
+          span: {
+            offset: 11885,
+            length: 7,
+          },
+        },
+        {
+          content: '5',
+          polygon: [5.5436, 5.3569, 5.6022, 5.3571, 5.6024, 5.4903, 5.5438, 5.4901],
+          confidence: 0.995,
+          span: {
+            offset: 11893,
+            length: 1,
+          },
+        },
+        {
+          content: 'calendar',
+          polygon: [5.6369, 5.3572, 6.0665, 5.3581, 6.0664, 5.4908, 5.6371, 5.4904],
+          confidence: 0.995,
+          span: {
+            offset: 11895,
+            length: 8,
+          },
+        },
+        {
+          content: 'years.',
+          polygon: [6.0925, 5.3582, 6.3854, 5.3586, 6.3853, 5.4918, 6.0924, 5.4908],
+          confidence: 0.995,
+          span: {
+            offset: 11904,
+            length: 6,
+          },
+        },
+        {
+          content: 'However,',
+          polygon: [6.4266, 5.3587, 6.8887, 5.3593, 6.8887, 5.4931, 6.4265, 5.4918],
+          confidence: 0.995,
+          span: {
+            offset: 11911,
+            length: 8,
+          },
+        },
+        {
+          content: 'paragraph',
+          polygon: [6.9256, 5.3593, 7.4311, 5.3599, 7.431, 5.4931, 6.9256, 5.4931],
+          confidence: 0.995,
+          span: {
+            offset: 11920,
+            length: 9,
+          },
+        },
+        {
+          content: '2',
+          polygon: [7.4636, 5.3597, 7.5222, 5.3594, 7.5221, 5.4927, 7.4635, 5.4931],
+          confidence: 0.995,
+          span: {
+            offset: 11930,
+            length: 1,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [7.5569, 5.3592, 7.6567, 5.3589, 7.6565, 5.4918, 7.5568, 5.4925],
+          confidence: 0.996,
+          span: {
+            offset: 11932,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [7.6828, 5.3589, 7.8508, 5.3589, 7.8508, 5.4907, 7.6825, 5.4917],
+          confidence: 0.999,
+          span: {
+            offset: 11935,
+            length: 3,
+          },
+        },
+        {
+          content: 'first',
+          polygon: [4.3795, 5.4808, 4.5634, 5.4811, 4.5634, 5.6128, 4.3794, 5.6122],
+          confidence: 0.994,
+          span: {
+            offset: 11939,
+            length: 5,
+          },
+        },
+        {
+          content: 'Protocol',
+          polygon: [4.5897, 5.4811, 5.0208, 5.4819, 5.0209, 5.6138, 4.5896, 5.6129],
+          confidence: 0.995,
+          span: {
+            offset: 11945,
+            length: 8,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [5.0537, 5.4818, 5.1412, 5.4815, 5.1413, 5.6139, 5.0538, 5.6138],
+          confidence: 0.998,
+          span: {
+            offset: 11954,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [5.1675, 5.4814, 5.3426, 5.4807, 5.3426, 5.6153, 5.1675, 5.6141],
+          confidence: 0.997,
+          span: {
+            offset: 11957,
+            length: 3,
+          },
+        },
+        {
+          content: 'U.S',
+          polygon: [5.3776, 5.4805, 5.5089, 5.4808, 5.509, 5.6153, 5.3776, 5.6155],
+          confidence: 0.992,
+          span: {
+            offset: 11961,
+            length: 3,
+          },
+        },
+        {
+          content: '.-',
+          polygon: [5.5352, 5.4808, 5.5964, 5.4809, 5.5966, 5.6152, 5.5353, 5.6153],
+          confidence: 0.992,
+          span: {
+            offset: 11965,
+            length: 2,
+          },
+        },
+        {
+          content: 'China',
+          polygon: [5.6227, 5.481, 5.9182, 5.4819, 5.918, 5.6157, 5.6229, 5.6151],
+          confidence: 0.996,
+          span: {
+            offset: 11968,
+            length: 5,
+          },
+        },
+        {
+          content: 'treaty',
+          polygon: [5.9466, 5.4819, 6.229, 5.4816, 6.2288, 5.6163, 5.9465, 5.6157],
+          confidence: 0.995,
+          span: {
+            offset: 11974,
+            length: 6,
+          },
+        },
+        {
+          content: '(dated',
+          polygon: [6.2618, 5.4815, 6.5704, 5.4812, 6.5704, 5.6168, 6.2617, 5.6165],
+          confidence: 0.992,
+          span: {
+            offset: 11981,
+            length: 6,
+          },
+        },
+        {
+          content: 'April',
+          polygon: [6.6032, 5.4812, 6.8265, 5.4806, 6.8265, 5.616, 6.6032, 5.6168],
+          confidence: 0.996,
+          span: {
+            offset: 11988,
+            length: 5,
+          },
+        },
+        {
+          content: '30,',
+          polygon: [6.8593, 5.4805, 7.0103, 5.4807, 7.0103, 5.6153, 6.8594, 5.6159],
+          confidence: 0.993,
+          span: {
+            offset: 11994,
+            length: 3,
+          },
+        },
+        {
+          content: '1984)',
+          polygon: [7.0519, 5.4808, 7.3189, 5.4819, 7.3187, 5.6155, 7.0518, 5.6151],
+          confidence: 0.995,
+          span: {
+            offset: 11998,
+            length: 5,
+          },
+        },
+        {
+          content: 'allows',
+          polygon: [7.3518, 5.4821, 7.6625, 5.4814, 7.6622, 5.6146, 7.3515, 5.6156],
+          confidence: 0.998,
+          span: {
+            offset: 12004,
+            length: 6,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [7.6932, 5.4815, 7.8618, 5.482, 7.8618, 5.6144, 7.6928, 5.6146],
+          confidence: 0.999,
+          span: {
+            offset: 12011,
+            length: 3,
+          },
+        },
+        {
+          content: 'provisions',
+          polygon: [4.3816, 5.6109, 4.8959, 5.6073, 4.8962, 5.738, 4.3817, 5.7417],
+          confidence: 0.992,
+          span: {
+            offset: 12015,
+            length: 10,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [4.9285, 5.607, 5.024, 5.6064, 5.0242, 5.7377, 4.9288, 5.7379],
+          confidence: 0.997,
+          span: {
+            offset: 12026,
+            length: 2,
+          },
+        },
+        {
+          content: 'Article',
+          polygon: [5.05, 5.6062, 5.3669, 5.6049, 5.3671, 5.7384, 5.0503, 5.7376],
+          confidence: 0.993,
+          span: {
+            offset: 12029,
+            length: 7,
+          },
+        },
+        {
+          content: '20',
+          polygon: [5.3994, 5.6049, 5.5188, 5.6051, 5.519, 5.7388, 5.3997, 5.7385],
+          confidence: 0.998,
+          span: {
+            offset: 12037,
+            length: 2,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [5.5492, 5.6051, 5.6512, 5.605, 5.6514, 5.7387, 5.5494, 5.7389],
+          confidence: 0.998,
+          span: {
+            offset: 12040,
+            length: 2,
+          },
+        },
+        {
+          content: 'continue',
+          polygon: [5.6838, 5.6049, 6.1091, 5.606, 6.109, 5.7391, 5.6839, 5.7386],
+          confidence: 0.995,
+          span: {
+            offset: 12043,
+            length: 8,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [6.1374, 5.606, 6.2372, 5.6061, 6.2371, 5.7393, 6.1373, 5.7392],
+          confidence: 0.998,
+          span: {
+            offset: 12052,
+            length: 2,
+          },
+        },
+        {
+          content: 'apply',
+          polygon: [6.2719, 5.6061, 6.541, 5.6053, 6.5411, 5.7392, 6.2719, 5.7393],
+          confidence: 0.995,
+          span: {
+            offset: 12055,
+            length: 5,
+          },
+        },
+        {
+          content: 'even',
+          polygon: [6.5736, 5.6051, 6.8058, 5.6045, 6.8059, 5.7389, 6.5736, 5.7392],
+          confidence: 0.992,
+          span: {
+            offset: 12061,
+            length: 4,
+          },
+        },
+        {
+          content: 'after',
+          polygon: [6.8406, 5.6047, 7.0663, 5.6061, 7.0663, 5.7377, 6.8406, 5.7387],
+          confidence: 0.995,
+          span: {
+            offset: 12066,
+            length: 5,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [7.0923, 5.6061, 7.2507, 5.6063, 7.2507, 5.7376, 7.0923, 5.7377],
+          confidence: 0.999,
+          span: {
+            offset: 12072,
+            length: 3,
+          },
+        },
+        {
+          content: 'Chinese',
+          polygon: [7.2833, 5.6061, 7.6961, 5.6069, 7.6961, 5.7378, 7.2832, 5.7376],
+          confidence: 0.996,
+          span: {
+            offset: 12076,
+            length: 7,
+          },
+        },
+        {
+          content: 'student',
+          polygon: [4.3805, 5.7349, 4.7641, 5.7357, 4.7643, 5.8633, 4.3806, 5.8633],
+          confidence: 0.995,
+          span: {
+            offset: 12084,
+            length: 7,
+          },
+        },
+        {
+          content: 'becomes',
+          polygon: [4.7982, 5.7359, 5.2542, 5.7339, 5.2544, 5.8633, 4.7984, 5.8633],
+          confidence: 0.994,
+          span: {
+            offset: 12092,
+            length: 7,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [5.284, 5.7337, 5.3437, 5.7335, 5.3439, 5.8633, 5.2842, 5.8633],
+          confidence: 0.995,
+          span: {
+            offset: 12100,
+            length: 1,
+          },
+        },
+        {
+          content: 'resident',
+          polygon: [5.3778, 5.7335, 5.7741, 5.7331, 5.7741, 5.8631, 5.378, 5.8633],
+          confidence: 0.992,
+          span: {
+            offset: 12102,
+            length: 8,
+          },
+        },
+        {
+          content: 'alien',
+          polygon: [5.8061, 5.733, 6.032, 5.7324, 6.0319, 5.8633, 5.8061, 5.8631],
+          confidence: 0.995,
+          span: {
+            offset: 12111,
+            length: 5,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [6.0639, 5.7323, 6.1534, 5.7322, 6.1533, 5.863, 6.0639, 5.8632],
+          confidence: 0.996,
+          span: {
+            offset: 12117,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [6.179, 5.7321, 6.3495, 5.7315, 6.3493, 5.863, 6.1789, 5.8629],
+          confidence: 0.999,
+          span: {
+            offset: 12120,
+            length: 3,
+          },
+        },
+        {
+          content: 'United',
+          polygon: [6.3836, 5.7313, 6.7032, 5.7306, 6.7031, 5.8628, 6.3834, 5.8631],
+          confidence: 0.996,
+          span: {
+            offset: 12124,
+            length: 6,
+          },
+        },
+        {
+          content: 'States.',
+          polygon: [6.7394, 5.7307, 7.0783, 5.732, 7.0782, 5.8618, 6.7393, 5.8626],
+          confidence: 0.993,
+          span: {
+            offset: 12131,
+            length: 7,
+          },
+        },
+        {
+          content: 'A',
+          polygon: [7.1123, 5.732, 7.1891, 5.732, 7.189, 5.8617, 7.1123, 5.8618],
+          confidence: 0.996,
+          span: {
+            offset: 12139,
+            length: 1,
+          },
+        },
+        {
+          content: 'Chinese',
+          polygon: [7.2189, 5.7318, 7.6298, 5.7327, 7.6298, 5.8616, 7.2188, 5.8617],
+          confidence: 0.996,
+          span: {
+            offset: 12141,
+            length: 7,
+          },
+        },
+        {
+          content: 'student',
+          polygon: [4.3798, 5.8606, 4.7632, 5.8609, 4.7635, 5.9928, 4.3798, 5.9918],
+          confidence: 0.996,
+          span: {
+            offset: 12149,
+            length: 7,
+          },
+        },
+        {
+          content: 'who',
+          polygon: [4.7961, 5.861, 5.0043, 5.8612, 5.0045, 5.9934, 4.7964, 5.9929],
+          confidence: 0.997,
+          span: {
+            offset: 12157,
+            length: 3,
+          },
+        },
+        {
+          content: 'qualifies',
+          polygon: [5.0349, 5.8612, 5.4425, 5.859, 5.4427, 5.9935, 5.0352, 5.9935],
+          confidence: 0.992,
+          span: {
+            offset: 12161,
+            length: 9,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [5.4731, 5.859, 5.6112, 5.8591, 5.6114, 5.994, 5.4733, 5.9936],
+          confidence: 0.998,
+          span: {
+            offset: 12171,
+            length: 3,
+          },
+        },
+        {
+          content: 'this',
+          polygon: [5.6375, 5.8591, 5.8171, 5.8592, 5.8172, 5.9937, 5.6377, 5.994],
+          confidence: 0.992,
+          span: {
+            offset: 12175,
+            length: 4,
+          },
+        },
+        {
+          content: 'exception',
+          polygon: [5.8478, 5.8592, 6.3298, 5.8586, 6.3298, 5.9946, 5.8478, 5.9937],
+          confidence: 0.995,
+          span: {
+            offset: 12180,
+            length: 9,
+          },
+        },
+        {
+          content: '(under',
+          polygon: [6.3671, 5.8586, 6.6826, 5.8585, 6.6826, 5.9943, 6.3671, 5.9947],
+          confidence: 0.993,
+          span: {
+            offset: 12190,
+            length: 6,
+          },
+        },
+        {
+          content: 'paragraph',
+          polygon: [6.7133, 5.8585, 7.215, 5.8594, 7.2152, 5.9927, 6.7133, 5.9943],
+          confidence: 0.995,
+          span: {
+            offset: 12197,
+            length: 9,
+          },
+        },
+        {
+          content: '2',
+          polygon: [7.2501, 5.8594, 7.3092, 5.8592, 7.3094, 5.9926, 7.2503, 5.9927],
+          confidence: 0.995,
+          span: {
+            offset: 12207,
+            length: 1,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [7.3443, 5.8591, 7.4385, 5.8583, 7.4387, 5.9917, 7.3445, 5.9926],
+          confidence: 0.998,
+          span: {
+            offset: 12209,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [7.4648, 5.858, 7.6269, 5.8567, 7.627, 5.9898, 7.4649, 5.9914],
+          confidence: 0.998,
+          span: {
+            offset: 12212,
+            length: 3,
+          },
+        },
+        {
+          content: 'first',
+          polygon: [7.6554, 5.8567, 7.8508, 5.8565, 7.8508, 5.9887, 7.6554, 5.9897],
+          confidence: 0.996,
+          span: {
+            offset: 12216,
+            length: 5,
+          },
+        },
+        {
+          content: 'Protocol)',
+          polygon: [4.3828, 5.9818, 4.8348, 5.983, 4.8349, 6.115, 4.3825, 6.113],
+          confidence: 0.992,
+          span: {
+            offset: 12222,
+            length: 9,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [4.8694, 5.9832, 5.0403, 5.9828, 5.0403, 6.1156, 4.8695, 6.1152],
+          confidence: 0.998,
+          span: {
+            offset: 12232,
+            length: 3,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [5.0662, 5.9827, 5.1528, 5.9824, 5.1527, 6.1157, 5.0663, 6.1156],
+          confidence: 0.998,
+          span: {
+            offset: 12236,
+            length: 2,
+          },
+        },
+        {
+          content: 'relying',
+          polygon: [5.1787, 5.9824, 5.5183, 5.9829, 5.5184, 6.1171, 5.1787, 6.1159],
+          confidence: 0.995,
+          span: {
+            offset: 12239,
+            length: 7,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [5.555, 5.9831, 5.6783, 5.9836, 5.6784, 6.1172, 5.5551, 6.1171],
+          confidence: 0.999,
+          span: {
+            offset: 12247,
+            length: 2,
+          },
+        },
+        {
+          content: 'this',
+          polygon: [5.7086, 5.9837, 5.8881, 5.9842, 5.8881, 6.1159, 5.7087, 6.117],
+          confidence: 0.992,
+          span: {
+            offset: 12250,
+            length: 4,
+          },
+        },
+        {
+          content: 'exception',
+          polygon: [5.9205, 5.9842, 6.4028, 5.9848, 6.4027, 6.1171, 5.9205, 6.1157],
+          confidence: 0.993,
+          span: {
+            offset: 12255,
+            length: 9,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [6.4331, 5.9848, 6.5348, 5.9846, 6.5346, 6.1163, 6.433, 6.1172],
+          confidence: 0.998,
+          span: {
+            offset: 12265,
+            length: 2,
+          },
+        },
+        {
+          content: 'claim',
+          polygon: [6.5651, 5.9846, 6.8268, 5.9843, 6.8266, 6.1153, 6.5649, 6.116],
+          confidence: 0.997,
+          span: {
+            offset: 12268,
+            length: 5,
+          },
+        },
+        {
+          content: 'an',
+          polygon: [6.8614, 5.9842, 6.9782, 5.984, 6.978, 6.1155, 6.8612, 6.1154],
+          confidence: 0.998,
+          span: {
+            offset: 12274,
+            length: 2,
+          },
+        },
+        {
+          content: 'exemption',
+          polygon: [7.0128, 5.9838, 7.5297, 5.983, 7.5295, 6.1152, 7.0126, 6.1153],
+          confidence: 0.993,
+          span: {
+            offset: 12277,
+            length: 9,
+          },
+        },
+        {
+          content: 'from',
+          polygon: [7.5643, 5.983, 7.7892, 5.9832, 7.7889, 6.1147, 7.5641, 6.1152],
+          confidence: 0.992,
+          span: {
+            offset: 12287,
+            length: 4,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [7.8216, 5.9833, 7.9834, 5.9837, 7.9834, 6.1135, 7.8213, 6.1145],
+          confidence: 0.995,
+          span: {
+            offset: 12292,
+            length: 3,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [4.3832, 6.1105, 4.5114, 6.1102, 4.5115, 6.2391, 4.3832, 6.2391],
+          confidence: 0.998,
+          span: {
+            offset: 12296,
+            length: 2,
+          },
+        },
+        {
+          content: 'their',
+          polygon: [4.5456, 6.1101, 4.7679, 6.1101, 4.7681, 6.2391, 4.5457, 6.2391],
+          confidence: 0.994,
+          span: {
+            offset: 12299,
+            length: 5,
+          },
+        },
+        {
+          content: 'scholarship',
+          polygon: [4.7979, 6.1102, 5.3643, 6.1096, 5.3644, 6.2391, 4.7981, 6.2391],
+          confidence: 0.994,
+          span: {
+            offset: 12305,
+            length: 11,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [5.3942, 6.1096, 5.4989, 6.1094, 5.4991, 6.2391, 5.3943, 6.2391],
+          confidence: 0.998,
+          span: {
+            offset: 12317,
+            length: 2,
+          },
+        },
+        {
+          content: 'fellowship',
+          polygon: [5.5267, 6.1094, 6.0076, 6.1092, 6.0075, 6.2391, 5.5268, 6.2391],
+          confidence: 0.995,
+          span: {
+            offset: 12320,
+            length: 10,
+          },
+        },
+        {
+          content: 'income',
+          polygon: [6.0332, 6.1092, 6.4201, 6.1083, 6.42, 6.239, 6.0332, 6.2391],
+          confidence: 0.997,
+          span: {
+            offset: 12331,
+            length: 6,
+          },
+        },
+        {
+          content: 'would',
+          polygon: [6.45, 6.1083, 6.745, 6.107, 6.7449, 6.2384, 6.45, 6.2389],
+          confidence: 0.994,
+          span: {
+            offset: 12338,
+            length: 5,
+          },
+        },
+        {
+          content: 'attach',
+          polygon: [6.7813, 6.1066, 7.087, 6.1076, 7.0869, 6.2382, 6.7813, 6.2384],
+          confidence: 0.998,
+          span: {
+            offset: 12344,
+            length: 6,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [7.119, 6.1078, 7.2195, 6.108, 7.2193, 6.2388, 7.1189, 6.2383],
+          confidence: 0.998,
+          span: {
+            offset: 12351,
+            length: 2,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [7.2558, 6.1081, 7.5059, 6.1078, 7.5057, 6.2383, 7.2556, 6.239],
+          confidence: 0.992,
+          span: {
+            offset: 12354,
+            length: 4,
+          },
+        },
+        {
+          content: 'W-9',
+          polygon: [7.5379, 6.1077, 7.7453, 6.1087, 7.7451, 6.238, 7.5377, 6.2381],
+          confidence: 0.992,
+          span: {
+            offset: 12359,
+            length: 3,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [7.7816, 6.109, 7.8508, 6.1096, 7.8508, 6.2383, 7.7814, 6.2381],
+          confidence: 0.995,
+          span: {
+            offset: 12363,
+            length: 1,
+          },
+        },
+        {
+          content: 'statement',
+          polygon: [4.3808, 6.2322, 4.8844, 6.2326, 4.8846, 6.362, 4.3807, 6.3604],
+          confidence: 0.995,
+          span: {
+            offset: 12365,
+            length: 9,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [4.9144, 6.2325, 5.0923, 6.2317, 5.0924, 6.3625, 4.9146, 6.3621],
+          confidence: 0.992,
+          span: {
+            offset: 12375,
+            length: 4,
+          },
+        },
+        {
+          content: 'includes',
+          polygon: [5.118, 6.2315, 5.538, 6.2314, 5.5382, 6.3631, 5.1181, 6.3625],
+          confidence: 0.995,
+          span: {
+            offset: 12380,
+            length: 8,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [5.5637, 6.2315, 5.7266, 6.2318, 5.7267, 6.3629, 5.5639, 6.3631],
+          confidence: 0.998,
+          span: {
+            offset: 12389,
+            length: 3,
+          },
+        },
+        {
+          content: 'information',
+          polygon: [5.7523, 6.2319, 6.3245, 6.231, 6.3245, 6.3627, 5.7524, 6.3628],
+          confidence: 0.994,
+          span: {
+            offset: 12393,
+            length: 11,
+          },
+        },
+        {
+          content: 'described',
+          polygon: [6.3609, 6.231, 6.8496, 6.231, 6.8495, 6.3626, 6.3609, 6.3628],
+          confidence: 0.995,
+          span: {
+            offset: 12405,
+            length: 9,
+          },
+        },
+        {
+          content: 'above',
+          polygon: [6.8839, 6.231, 7.1882, 6.2321, 7.188, 6.3634, 6.8838, 6.3626],
+          confidence: 0.997,
+          span: {
+            offset: 12415,
+            length: 5,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [7.216, 6.2321, 7.3146, 6.2323, 7.3144, 6.3641, 7.2158, 6.3636],
+          confidence: 0.999,
+          span: {
+            offset: 12421,
+            length: 2,
+          },
+        },
+        {
+          content: 'support',
+          polygon: [7.3489, 6.2324, 7.7304, 6.2318, 7.7302, 6.3632, 7.3487, 6.3642],
+          confidence: 0.994,
+          span: {
+            offset: 12424,
+            length: 7,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [7.7604, 6.2317, 7.964, 6.2315, 7.9637, 6.3613, 7.7602, 6.363],
+          confidence: 0.992,
+          span: {
+            offset: 12432,
+            length: 4,
+          },
+        },
+        {
+          content: 'exemption.',
+          polygon: [4.3831, 6.3684, 4.9447, 6.3685, 4.9447, 6.49, 4.3833, 6.489],
+          confidence: 0.994,
+          span: {
+            offset: 12437,
+            length: 10,
+          },
+        },
+        {
+          content: 'If',
+          polygon: [4.49, 6.5201, 4.5444, 6.5201, 4.5442, 6.6569, 4.4897, 6.6568],
+          confidence: 0.953,
+          span: {
+            offset: 12449,
+            length: 2,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [4.5716, 6.5201, 4.7711, 6.5203, 4.771, 6.6575, 4.5714, 6.657],
+          confidence: 0.993,
+          span: {
+            offset: 12452,
+            length: 3,
+          },
+        },
+        {
+          content: 'are',
+          polygon: [4.8051, 6.5204, 4.9615, 6.5211, 4.9614, 6.6581, 4.805, 6.6576],
+          confidence: 0.994,
+          span: {
+            offset: 12456,
+            length: 3,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [4.9932, 6.5212, 5.034, 6.5213, 5.0339, 6.6582, 4.9932, 6.6582],
+          confidence: 0.995,
+          span: {
+            offset: 12460,
+            length: 1,
+          },
+        },
+        {
+          content: 'nonresident',
+          polygon: [5.0612, 6.5213, 5.6687, 6.5212, 5.6685, 6.6585, 5.0611, 6.6582],
+          confidence: 0.992,
+          span: {
+            offset: 12462,
+            length: 11,
+          },
+        },
+        {
+          content: 'alien',
+          polygon: [5.7004, 6.521, 5.9271, 6.5206, 5.9267, 6.6591, 5.7002, 6.6584],
+          confidence: 0.995,
+          span: {
+            offset: 12474,
+            length: 5,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [5.9589, 6.5206, 6.0654, 6.5204, 6.065, 6.6591, 5.9584, 6.6592],
+          confidence: 0.996,
+          span: {
+            offset: 12480,
+            length: 2,
+          },
+        },
+        {
+          content: 'a',
+          polygon: [6.0926, 6.5203, 6.1538, 6.5202, 6.1534, 6.6589, 6.0922, 6.659],
+          confidence: 0.995,
+          span: {
+            offset: 12483,
+            length: 1,
+          },
+        },
+        {
+          content: 'foreign',
+          polygon: [6.181, 6.5202, 6.5233, 6.5214, 6.5229, 6.6601, 6.1806, 6.6588],
+          confidence: 0.995,
+          span: {
+            offset: 12485,
+            length: 7,
+          },
+        },
+        {
+          content: 'entity,',
+          polygon: [6.5573, 6.5213, 6.852, 6.5207, 6.8516, 6.6608, 6.5569, 6.6601],
+          confidence: 0.992,
+          span: {
+            offset: 12493,
+            length: 7,
+          },
+        },
+        {
+          content: 'give',
+          polygon: [6.8905, 6.5207, 7.0945, 6.5204, 7.0942, 6.661, 6.8902, 6.661],
+          confidence: 0.992,
+          span: {
+            offset: 12501,
+            length: 4,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [7.1217, 6.5204, 7.2645, 6.5203, 7.2642, 6.6605, 7.1214, 6.6609],
+          confidence: 0.999,
+          span: {
+            offset: 12506,
+            length: 3,
+          },
+        },
+        {
+          content: 'requester',
+          polygon: [7.2917, 6.5203, 7.7723, 6.5203, 7.7718, 6.659, 7.2914, 6.6606],
+          confidence: 0.995,
+          span: {
+            offset: 12510,
+            length: 9,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [7.7995, 6.5204, 7.9778, 6.5209, 7.9778, 6.6582, 7.799, 6.6589],
+          confidence: 0.999,
+          span: {
+            offset: 12520,
+            length: 3,
+          },
+        },
+        {
+          content: 'appropriate',
+          polygon: [4.3794, 6.6572, 4.9652, 6.6535, 4.9656, 6.7883, 4.38, 6.7917],
+          confidence: 0.992,
+          span: {
+            offset: 12524,
+            length: 11,
+          },
+        },
+        {
+          content: 'completed',
+          polygon: [4.9963, 6.6534, 5.5177, 6.6493, 5.518, 6.7869, 4.9967, 6.7884],
+          confidence: 0.993,
+          span: {
+            offset: 12536,
+            length: 9,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [5.5577, 6.6491, 5.8106, 6.6489, 5.8108, 6.7859, 5.558, 6.7869],
+          confidence: 0.992,
+          span: {
+            offset: 12546,
+            length: 4,
+          },
+        },
+        {
+          content: 'W-8',
+          polygon: [5.8417, 6.6489, 6.0481, 6.6478, 6.0482, 6.7845, 5.8419, 6.7858],
+          confidence: 0.995,
+          span: {
+            offset: 12551,
+            length: 3,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [6.0814, 6.6476, 6.1857, 6.6478, 6.1857, 6.7835, 6.0815, 6.7843],
+          confidence: 0.997,
+          span: {
+            offset: 12555,
+            length: 2,
+          },
+        },
+        {
+          content: 'Form',
+          polygon: [6.2189, 6.6479, 6.4697, 6.6482, 6.4696, 6.7819, 6.219, 6.7832],
+          confidence: 0.992,
+          span: {
+            offset: 12558,
+            length: 4,
+          },
+        },
+        {
+          content: '8233.',
+          polygon: [6.5052, 6.6481, 6.7845, 6.6478, 6.7845, 6.7811, 6.5051, 6.7818],
+          confidence: 0.993,
+          span: {
+            offset: 12563,
+            length: 5,
+          },
+        },
+        {
+          content: 'Backup',
+          polygon: [4.3845, 6.8568, 4.992, 6.8568, 4.9918, 7.0442, 4.3843, 7.0426],
+          confidence: 0.999,
+          span: {
+            offset: 12574,
+            length: 6,
+          },
+        },
+        {
+          content: 'Withholding',
+          polygon: [5.0411, 6.8565, 5.9889, 6.8618, 5.9889, 7.0459, 5.0408, 7.0444],
+          confidence: 0.995,
+          span: {
+            offset: 12581,
+            length: 11,
+          },
+        },
+        {
+          content: 'What',
+          polygon: [4.3789, 7.0782, 4.6487, 7.078, 4.6483, 7.2151, 4.3787, 7.2146],
+          confidence: 0.992,
+          span: {
+            offset: 12594,
+            length: 4,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [4.6757, 7.078, 4.7835, 7.0779, 4.7833, 7.2152, 4.6753, 7.2151],
+          confidence: 0.998,
+          span: {
+            offset: 12599,
+            length: 2,
+          },
+        },
+        {
+          content: 'backup',
+          polygon: [4.8173, 7.0779, 5.2039, 7.0781, 5.2037, 7.2158, 4.817, 7.2152],
+          confidence: 0.998,
+          span: {
+            offset: 12602,
+            length: 6,
+          },
+        },
+        {
+          content: 'withholding?',
+          polygon: [5.2354, 7.0779, 5.9142, 7.0783, 5.914, 7.2162, 5.2352, 7.2158],
+          confidence: 0.994,
+          span: {
+            offset: 12609,
+            length: 12,
+          },
+        },
+        {
+          content: 'Persons',
+          polygon: [5.9501, 7.0782, 6.3502, 7.0792, 6.3499, 7.2172, 5.9499, 7.2164],
+          confidence: 0.993,
+          span: {
+            offset: 12622,
+            length: 7,
+          },
+        },
+        {
+          content: 'making',
+          polygon: [6.384, 7.0795, 6.7391, 7.0796, 6.7386, 7.2168, 6.3836, 7.2172],
+          confidence: 0.997,
+          span: {
+            offset: 12630,
+            length: 6,
+          },
+        },
+        {
+          content: 'certain',
+          polygon: [6.7751, 7.0797, 7.1055, 7.081, 7.1051, 7.2172, 6.7746, 7.217],
+          confidence: 0.994,
+          span: {
+            offset: 12637,
+            length: 7,
+          },
+        },
+        {
+          content: 'payments',
+          polygon: [7.146, 7.0812, 7.6292, 7.0821, 7.6287, 7.2172, 7.1455, 7.2172],
+          confidence: 0.995,
+          span: {
+            offset: 12645,
+            length: 8,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [7.6585, 7.0822, 7.7573, 7.0828, 7.7568, 7.2172, 7.6579, 7.2172],
+          confidence: 0.999,
+          span: {
+            offset: 12654,
+            length: 2,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [7.7866, 7.0829, 7.9778, 7.0837, 7.9778, 7.2164, 7.786, 7.2172],
+          confidence: 0.997,
+          span: {
+            offset: 12657,
+            length: 3,
+          },
+        },
+        {
+          content: 'must',
+          polygon: [4.3806, 7.2042, 4.6367, 7.2048, 4.6366, 7.3337, 4.3805, 7.3333],
+          confidence: 0.992,
+          span: {
+            offset: 12661,
+            length: 4,
+          },
+        },
+        {
+          content: 'under',
+          polygon: [4.6708, 7.2049, 4.9568, 7.2051, 4.9569, 7.3343, 4.6708, 7.3338],
+          confidence: 0.996,
+          span: {
+            offset: 12666,
+            length: 5,
+          },
+        },
+        {
+          content: 'certain',
+          polygon: [4.9845, 7.205, 5.3174, 7.2048, 5.3174, 7.3349, 4.9846, 7.3343],
+          confidence: 0.995,
+          span: {
+            offset: 12672,
+            length: 7,
+          },
+        },
+        {
+          content: 'conditions',
+          polygon: [5.3515, 7.2049, 5.8679, 7.2044, 5.8678, 7.3348, 5.3516, 7.335],
+          confidence: 0.994,
+          span: {
+            offset: 12680,
+            length: 10,
+          },
+        },
+        {
+          content: 'withhold',
+          polygon: [5.8978, 7.2043, 6.316, 7.2041, 6.3158, 7.3358, 5.8977, 7.3348],
+          confidence: 0.994,
+          span: {
+            offset: 12691,
+            length: 8,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [6.3502, 7.2041, 6.5337, 7.204, 6.5335, 7.3351, 6.35, 7.3357],
+          confidence: 0.999,
+          span: {
+            offset: 12700,
+            length: 3,
+          },
+        },
+        {
+          content: 'pay',
+          polygon: [6.5721, 7.2039, 6.7513, 7.2036, 6.7511, 7.3346, 6.5719, 7.3349],
+          confidence: 0.998,
+          span: {
+            offset: 12704,
+            length: 3,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [6.7791, 7.2035, 6.8794, 7.2032, 6.8792, 7.3348, 6.7789, 7.3346],
+          confidence: 0.999,
+          span: {
+            offset: 12708,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [6.9092, 7.2031, 7.065, 7.2029, 7.0648, 7.3342, 6.9091, 7.3348],
+          confidence: 0.999,
+          span: {
+            offset: 12711,
+            length: 3,
+          },
+        },
+        {
+          content: 'IRS',
+          polygon: [7.1013, 7.2028, 7.2698, 7.2032, 7.2696, 7.3341, 7.101, 7.334],
+          confidence: 0.993,
+          span: {
+            offset: 12715,
+            length: 3,
+          },
+        },
+        {
+          content: '24%',
+          polygon: [7.304, 7.2034, 7.5302, 7.2039, 7.5298, 7.3341, 7.3037, 7.3343],
+          confidence: 0.998,
+          span: {
+            offset: 12719,
+            length: 3,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [7.5707, 7.2038, 7.6689, 7.2037, 7.6685, 7.3332, 7.5703, 7.3339],
+          confidence: 0.998,
+          span: {
+            offset: 12723,
+            length: 2,
+          },
+        },
+        {
+          content: 'such',
+          polygon: [7.6987, 7.2038, 7.9447, 7.2048, 7.9447, 7.3334, 7.6984, 7.3331],
+          confidence: 0.992,
+          span: {
+            offset: 12726,
+            length: 4,
+          },
+        },
+        {
+          content: 'payments.',
+          polygon: [4.3824, 7.3345, 4.9008, 7.3306, 4.9009, 7.4643, 4.3822, 7.4659],
+          confidence: 0.992,
+          span: {
+            offset: 12731,
+            length: 9,
+          },
+        },
+        {
+          content: 'This',
+          polygon: [4.9359, 7.3305, 5.1292, 7.3299, 5.1293, 7.4636, 4.936, 7.4642],
+          confidence: 0.989,
+          span: {
+            offset: 12741,
+            length: 4,
+          },
+        },
+        {
+          content: 'is',
+          polygon: [5.1556, 7.33, 5.2544, 7.3301, 5.2545, 7.4641, 5.1557, 7.4637],
+          confidence: 0.997,
+          span: {
+            offset: 12746,
+            length: 2,
+          },
+        },
+        {
+          content: 'called',
+          polygon: [5.2852, 7.3301, 5.5751, 7.3302, 5.5753, 7.465, 5.2853, 7.4642],
+          confidence: 0.998,
+          span: {
+            offset: 12749,
+            length: 6,
+          },
+        },
+        {
+          content: '"backup',
+          polygon: [5.6147, 7.3302, 6.0276, 7.3299, 6.0275, 7.4645, 5.6148, 7.4651],
+          confidence: 0.976,
+          span: {
+            offset: 12756,
+            length: 7,
+          },
+        },
+        {
+          content: 'withholding."',
+          polygon: [6.0584, 7.3298, 6.7063, 7.3284, 6.7062, 7.4634, 6.0582, 7.4645],
+          confidence: 0.981,
+          span: {
+            offset: 12764,
+            length: 13,
+          },
+        },
+        {
+          content: 'Payments',
+          polygon: [6.7437, 7.3282, 7.2313, 7.3295, 7.2311, 7.4641, 6.7436, 7.4634],
+          confidence: 0.995,
+          span: {
+            offset: 12778,
+            length: 8,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [7.262, 7.3295, 7.44, 7.3298, 7.4397, 7.464, 7.2619, 7.4642],
+          confidence: 0.992,
+          span: {
+            offset: 12787,
+            length: 4,
+          },
+        },
+        {
+          content: 'may',
+          polygon: [7.4663, 7.3299, 7.6948, 7.3304, 7.6945, 7.4628, 7.4661, 7.4638],
+          confidence: 0.999,
+          span: {
+            offset: 12792,
+            length: 3,
+          },
+        },
+        {
+          content: 'be',
+          polygon: [7.7299, 7.3305, 7.8617, 7.3309, 7.8615, 7.4627, 7.7297, 7.4627],
+          confidence: 0.998,
+          span: {
+            offset: 12796,
+            length: 2,
+          },
+        },
+        {
+          content: 'subject',
+          polygon: [4.3805, 7.4538, 4.7501, 7.4527, 4.7501, 7.5872, 4.3803, 7.5868],
+          confidence: 0.994,
+          span: {
+            offset: 12799,
+            length: 7,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [4.7809, 7.4526, 4.88, 7.4526, 4.88, 7.5874, 4.7809, 7.5873],
+          confidence: 0.998,
+          span: {
+            offset: 12807,
+            length: 2,
+          },
+        },
+        {
+          content: 'backup',
+          polygon: [4.9152, 7.4525, 5.2694, 7.4526, 5.2695, 7.5875, 4.9152, 7.5874],
+          confidence: 0.998,
+          span: {
+            offset: 12810,
+            length: 6,
+          },
+        },
+        {
+          content: 'withholding',
+          polygon: [5.2958, 7.4526, 5.8679, 7.452, 5.8677, 7.5867, 5.2959, 7.5875],
+          confidence: 0.993,
+          span: {
+            offset: 12817,
+            length: 11,
+          },
+        },
+        {
+          content: 'include,',
+          polygon: [5.8943, 7.4521, 6.2969, 7.4523, 6.2967, 7.5864, 5.8941, 7.5867],
+          confidence: 0.994,
+          span: {
+            offset: 12829,
+            length: 8,
+          },
+        },
+        {
+          content: 'but',
+          polygon: [6.3387, 7.4522, 6.4971, 7.4523, 6.497, 7.5859, 6.3386, 7.5863],
+          confidence: 0.998,
+          span: {
+            offset: 12838,
+            length: 3,
+          },
+        },
+        {
+          content: 'are',
+          polygon: [6.5279, 7.4523, 6.6841, 7.452, 6.684, 7.586, 6.5278, 7.5858],
+          confidence: 0.998,
+          span: {
+            offset: 12842,
+            length: 3,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [6.7193, 7.4519, 6.8623, 7.4514, 6.8622, 7.5864, 6.7192, 7.5862],
+          confidence: 0.998,
+          span: {
+            offset: 12846,
+            length: 3,
+          },
+        },
+        {
+          content: 'limited',
+          polygon: [6.8888, 7.4513, 7.232, 7.4512, 7.2317, 7.5848, 6.8886, 7.5863],
+          confidence: 0.994,
+          span: {
+            offset: 12850,
+            length: 7,
+          },
+        },
+        {
+          content: 'to,',
+          polygon: [7.2628, 7.4512, 7.3904, 7.4514, 7.3901, 7.5851, 7.2625, 7.5849],
+          confidence: 0.995,
+          span: {
+            offset: 12858,
+            length: 3,
+          },
+        },
+        {
+          content: 'interest,',
+          polygon: [7.4278, 7.4514, 7.8342, 7.4535, 7.8342, 7.5872, 7.4275, 7.5852],
+          confidence: 0.992,
+          span: {
+            offset: 12862,
+            length: 9,
+          },
+        },
+        {
+          content: 'tax-exempt',
+          polygon: [4.3792, 7.5824, 4.9398, 7.5815, 4.94, 7.7109, 4.379, 7.7105],
+          confidence: 0.995,
+          span: {
+            offset: 12872,
+            length: 10,
+          },
+        },
+        {
+          content: 'interest,',
+          polygon: [4.9653, 7.5813, 5.3816, 7.5807, 5.3817, 7.7116, 4.9655, 7.7108],
+          confidence: 0.993,
+          span: {
+            offset: 12883,
+            length: 9,
+          },
+        },
+        {
+          content: 'dividends,',
+          polygon: [5.4177, 7.5805, 5.9211, 7.5809, 5.9209, 7.7113, 5.4178, 7.7117],
+          confidence: 0.995,
+          span: {
+            offset: 12893,
+            length: 10,
+          },
+        },
+        {
+          content: 'broker',
+          polygon: [5.9614, 7.581, 6.2821, 7.5808, 6.2819, 7.7119, 5.9612, 7.7115],
+          confidence: 0.998,
+          span: {
+            offset: 12904,
+            length: 6,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [6.3118, 7.5809, 6.4924, 7.5812, 6.4922, 7.7116, 6.3117, 7.7118],
+          confidence: 0.999,
+          span: {
+            offset: 12911,
+            length: 3,
+          },
+        },
+        {
+          content: 'barter',
+          polygon: [6.5327, 7.5812, 6.8237, 7.5818, 6.8234, 7.7112, 6.5326, 7.7115],
+          confidence: 0.994,
+          span: {
+            offset: 12915,
+            length: 6,
+          },
+        },
+        {
+          content: 'exchange',
+          polygon: [6.8534, 7.5821, 7.3425, 7.5841, 7.3425, 7.711, 6.8531, 7.7112],
+          confidence: 0.997,
+          span: {
+            offset: 12922,
+            length: 8,
+          },
+        },
+        {
+          content: 'transactions,',
+          polygon: [4.379, 7.7089, 5.0138, 7.71, 5.0141, 7.839, 4.3789, 7.8363],
+          confidence: 0.992,
+          span: {
+            offset: 12931,
+            length: 13,
+          },
+        },
+        {
+          content: 'rents,',
+          polygon: [5.0392, 7.71, 5.327, 7.7099, 5.3273, 7.8396, 5.0395, 7.8391],
+          confidence: 0.992,
+          span: {
+            offset: 12945,
+            length: 6,
+          },
+        },
+        {
+          content: 'royalties,',
+          polygon: [5.3524, 7.7099, 5.8011, 7.7104, 5.8012, 7.8402, 5.3527, 7.8397],
+          confidence: 0.992,
+          span: {
+            offset: 12952,
+            length: 10,
+          },
+        },
+        {
+          content: 'nonemployee',
+          polygon: [5.8265, 7.7104, 6.5164, 7.7112, 6.5164, 7.8417, 5.8266, 7.8403],
+          confidence: 0.992,
+          span: {
+            offset: 12963,
+            length: 11,
+          },
+        },
+        {
+          content: 'pay,',
+          polygon: [6.5502, 7.7112, 6.7555, 7.711, 6.7555, 7.8417, 6.5503, 7.8417],
+          confidence: 0.992,
+          span: {
+            offset: 12975,
+            length: 4,
+          },
+        },
+        {
+          content: 'payments',
+          polygon: [6.7936, 7.711, 7.2655, 7.7096, 7.2655, 7.8383, 6.7936, 7.8414],
+          confidence: 0.994,
+          span: {
+            offset: 12980,
+            length: 8,
+          },
+        },
+        {
+          content: 'made',
+          polygon: [7.2909, 7.7096, 7.5702, 7.7084, 7.5702, 7.8356, 7.2909, 7.838],
+          confidence: 0.989,
+          span: {
+            offset: 12989,
+            length: 4,
+          },
+        },
+        {
+          content: 'in',
+          polygon: [7.5956, 7.7083, 7.7126, 7.7075, 7.7126, 7.835, 7.5955, 7.8355],
+          confidence: 0.997,
+          span: {
+            offset: 12994,
+            length: 2,
+          },
+        },
+        {
+          content: 'settlement',
+          polygon: [4.3807, 7.8298, 4.9098, 7.8309, 4.9101, 7.9599, 4.3807, 7.9586],
+          confidence: 0.993,
+          span: {
+            offset: 12997,
+            length: 10,
+          },
+        },
+        {
+          content: 'of',
+          polygon: [4.9418, 7.8309, 5.0293, 7.8309, 5.0296, 7.9602, 4.9421, 7.96],
+          confidence: 0.996,
+          span: {
+            offset: 13008,
+            length: 2,
+          },
+        },
+        {
+          content: 'payment',
+          polygon: [5.0549, 7.8308, 5.5008, 7.8302, 5.5011, 7.9612, 5.0552, 7.9603],
+          confidence: 0.995,
+          span: {
+            offset: 13011,
+            length: 7,
+          },
+        },
+        {
+          content: 'card',
+          polygon: [5.5307, 7.8301, 5.7483, 7.8306, 5.7486, 7.9614, 5.531, 7.9612],
+          confidence: 0.992,
+          span: {
+            offset: 13019,
+            length: 4,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [5.7825, 7.8308, 5.966, 7.8305, 5.9661, 7.9613, 5.7827, 7.9614],
+          confidence: 0.993,
+          span: {
+            offset: 13024,
+            length: 3,
+          },
+        },
+        {
+          content: 'third-party',
+          polygon: [6.0001, 7.8303, 6.5229, 7.8293, 6.5229, 7.9606, 6.0002, 7.9613],
+          confidence: 0.993,
+          span: {
+            offset: 13028,
+            length: 11,
+          },
+        },
+        {
+          content: 'network',
+          polygon: [6.5549, 7.8293, 6.9517, 7.8291, 6.9518, 7.9594, 6.5549, 7.9605],
+          confidence: 0.997,
+          span: {
+            offset: 13040,
+            length: 7,
+          },
+        },
+        {
+          content: 'transactions,',
+          polygon: [6.9795, 7.8291, 7.6132, 7.8288, 7.6133, 7.9589, 6.9795, 7.9593],
+          confidence: 0.992,
+          span: {
+            offset: 13048,
+            length: 13,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [7.6537, 7.8288, 7.8508, 7.8291, 7.8508, 7.9578, 7.6538, 7.9587],
+          confidence: 0.999,
+          span: {
+            offset: 13062,
+            length: 3,
+          },
+        },
+        {
+          content: 'certain',
+          polygon: [4.3823, 7.9554, 4.7141, 7.9567, 4.7141, 8.0892, 4.3821, 8.0886],
+          confidence: 0.993,
+          span: {
+            offset: 13066,
+            length: 7,
+          },
+        },
+        {
+          content: 'payments',
+          polygon: [4.7403, 7.9568, 5.2444, 7.9554, 5.2446, 8.0888, 4.7403, 8.0892],
+          confidence: 0.994,
+          span: {
+            offset: 13074,
+            length: 8,
+          },
+        },
+        {
+          content: 'from',
+          polygon: [5.275, 7.9554, 5.4998, 7.9552, 5.4999, 8.0889, 5.2751, 8.0888],
+          confidence: 0.992,
+          span: {
+            offset: 13083,
+            length: 4,
+          },
+        },
+        {
+          content: 'fishing',
+          polygon: [5.5325, 7.9551, 5.8555, 7.9546, 5.8556, 8.0881, 5.5326, 8.089],
+          confidence: 0.995,
+          span: {
+            offset: 13088,
+            length: 7,
+          },
+        },
+        {
+          content: 'boat',
+          polygon: [5.8926, 7.9545, 6.1152, 7.9542, 6.1152, 8.0885, 5.8927, 8.0881],
+          confidence: 0.989,
+          span: {
+            offset: 13096,
+            length: 4,
+          },
+        },
+        {
+          content: 'operators.',
+          polygon: [6.1458, 7.9542, 6.6478, 7.9544, 6.6477, 8.0879, 6.1458, 8.0885],
+          confidence: 0.993,
+          span: {
+            offset: 13101,
+            length: 10,
+          },
+        },
+        {
+          content: 'Real',
+          polygon: [6.687, 7.9543, 6.8987, 7.954, 6.8987, 8.0883, 6.687, 8.088],
+          confidence: 0.989,
+          span: {
+            offset: 13112,
+            length: 4,
+          },
+        },
+        {
+          content: 'estate',
+          polygon: [6.9358, 7.954, 7.2392, 7.9544, 7.2392, 8.088, 6.9358, 8.0882],
+          confidence: 0.997,
+          span: {
+            offset: 13117,
+            length: 6,
+          },
+        },
+        {
+          content: 'transactions',
+          polygon: [7.2676, 7.9544, 7.8839, 7.9539, 7.8839, 8.0851, 7.2676, 8.088],
+          confidence: 0.992,
+          span: {
+            offset: 13124,
+            length: 12,
+          },
+        },
+        {
+          content: 'are',
+          polygon: [4.377, 8.0818, 4.5307, 8.0814, 4.531, 8.2099, 4.3772, 8.2092],
+          confidence: 0.998,
+          span: {
+            offset: 13137,
+            length: 3,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [4.5563, 8.0814, 4.7356, 8.0807, 4.7359, 8.2094, 4.5566, 8.2098],
+          confidence: 0.998,
+          span: {
+            offset: 13141,
+            length: 3,
+          },
+        },
+        {
+          content: 'subject',
+          polygon: [4.7698, 8.0805, 5.1305, 8.0794, 5.1307, 8.2107, 4.7701, 8.2094],
+          confidence: 0.996,
+          span: {
+            offset: 13145,
+            length: 7,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [5.1583, 8.0792, 5.2586, 8.0789, 5.2587, 8.2114, 5.1584, 8.2107],
+          confidence: 0.999,
+          span: {
+            offset: 13153,
+            length: 2,
+          },
+        },
+        {
+          content: 'backup',
+          polygon: [5.2949, 8.0788, 5.6599, 8.0801, 5.6599, 8.2115, 5.295, 8.2118],
+          confidence: 0.998,
+          span: {
+            offset: 13156,
+            length: 6,
+          },
+        },
+        {
+          content: 'withholding.',
+          polygon: [5.6919, 8.0801, 6.2928, 8.0823, 6.2928, 8.2117, 5.6919, 8.2116],
+          confidence: 0.994,
+          span: {
+            offset: 13163,
+            length: 12,
+          },
+        },
+        {
+          content: 'You',
+          polygon: [4.4916, 8.2392, 4.679, 8.2386, 4.6789, 8.3734, 4.4914, 8.3725],
+          confidence: 0.998,
+          span: {
+            offset: 13177,
+            length: 3,
+          },
+        },
+        {
+          content: 'will',
+          polygon: [4.7058, 8.2385, 4.8664, 8.2383, 4.8665, 8.3742, 4.7057, 8.3735],
+          confidence: 0.992,
+          span: {
+            offset: 13181,
+            length: 4,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [4.8931, 8.2382, 5.0538, 8.2381, 5.0539, 8.3749, 4.8932, 8.3743],
+          confidence: 0.998,
+          span: {
+            offset: 13186,
+            length: 3,
+          },
+        },
+        {
+          content: 'be',
+          polygon: [5.0805, 8.2381, 5.2255, 8.2381, 5.2256, 8.3752, 5.0807, 8.3749],
+          confidence: 0.998,
+          span: {
+            offset: 13190,
+            length: 2,
+          },
+        },
+        {
+          content: 'subject',
+          polygon: [5.2568, 8.2381, 5.6115, 8.238, 5.6117, 8.3762, 5.2569, 8.3753],
+          confidence: 0.995,
+          span: {
+            offset: 13193,
+            length: 7,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [5.6382, 8.2381, 5.723, 8.2382, 5.7232, 8.3766, 5.6384, 8.3763],
+          confidence: 0.998,
+          span: {
+            offset: 13201,
+            length: 2,
+          },
+        },
+        {
+          content: 'backup',
+          polygon: [5.7498, 8.2382, 6.1312, 8.239, 6.1311, 8.3769, 5.7499, 8.3766],
+          confidence: 0.995,
+          span: {
+            offset: 13204,
+            length: 6,
+          },
+        },
+        {
+          content: 'withholding',
+          polygon: [6.1625, 8.2389, 6.7224, 8.2416, 6.7219, 8.3777, 6.1623, 8.3771],
+          confidence: 0.993,
+          span: {
+            offset: 13211,
+            length: 11,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [6.7559, 8.2416, 6.8652, 8.2412, 6.8648, 8.3777, 6.7554, 8.3777],
+          confidence: 0.998,
+          span: {
+            offset: 13223,
+            length: 2,
+          },
+        },
+        {
+          content: 'payments',
+          polygon: [6.892, 8.2411, 7.3894, 8.242, 7.389, 8.3773, 6.8916, 8.3777],
+          confidence: 0.994,
+          span: {
+            offset: 13226,
+            length: 8,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [7.4184, 8.242, 7.579, 8.2417, 7.5786, 8.3763, 7.418, 8.3773],
+          confidence: 0.999,
+          span: {
+            offset: 13235,
+            length: 3,
+          },
+        },
+        {
+          content: 'receive',
+          polygon: [7.6058, 8.2415, 7.9889, 8.2426, 7.9889, 8.373, 7.6054, 8.376],
+          confidence: 0.995,
+          span: {
+            offset: 13239,
+            length: 7,
+          },
+        },
+        {
+          content: 'if',
+          polygon: [4.3794, 8.3696, 4.432, 8.3696, 4.4317, 8.5043, 4.3791, 8.5042],
+          confidence: 0.994,
+          span: {
+            offset: 13247,
+            length: 2,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [4.4583, 8.3696, 4.651, 8.3696, 4.651, 8.5047, 4.458, 8.5044],
+          confidence: 0.999,
+          span: {
+            offset: 13250,
+            length: 3,
+          },
+        },
+        {
+          content: 'give',
+          polygon: [4.686, 8.3697, 4.8854, 8.3704, 4.8856, 8.5048, 4.6861, 8.5047],
+          confidence: 0.993,
+          span: {
+            offset: 13254,
+            length: 4,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [4.9138, 8.3703, 5.054, 8.37, 5.0542, 8.5044, 4.9141, 8.5047],
+          confidence: 0.995,
+          span: {
+            offset: 13259,
+            length: 3,
+          },
+        },
+        {
+          content: 'requester',
+          polygon: [5.0803, 8.3699, 5.5534, 8.3706, 5.5536, 8.5043, 5.0805, 8.5043],
+          confidence: 0.994,
+          span: {
+            offset: 13263,
+            length: 9,
+          },
+        },
+        {
+          content: 'your',
+          polygon: [5.5797, 8.3707, 5.8118, 8.3709, 5.812, 8.5033, 5.5799, 8.5043],
+          confidence: 0.992,
+          span: {
+            offset: 13273,
+            length: 4,
+          },
+        },
+        {
+          content: 'correct',
+          polygon: [5.8403, 8.3709, 6.1864, 8.3702, 6.1864, 8.503, 5.8404, 8.5032],
+          confidence: 0.994,
+          span: {
+            offset: 13278,
+            length: 7,
+          },
+        },
+        {
+          content: 'TIN,',
+          polygon: [6.2127, 8.3701, 6.4098, 8.3694, 6.4098, 8.5031, 6.2127, 8.503],
+          confidence: 0.989,
+          span: {
+            offset: 13286,
+            length: 4,
+          },
+        },
+        {
+          content: 'make',
+          polygon: [6.4492, 8.3694, 6.7142, 8.3695, 6.7142, 8.5035, 6.4492, 8.5031],
+          confidence: 0.992,
+          span: {
+            offset: 13291,
+            length: 4,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [6.7427, 8.3695, 6.8982, 8.3695, 6.8982, 8.5042, 6.7426, 8.5036],
+          confidence: 0.997,
+          span: {
+            offset: 13296,
+            length: 3,
+          },
+        },
+        {
+          content: 'proper',
+          polygon: [6.9311, 8.3695, 7.2552, 8.3696, 7.2551, 8.5034, 6.931, 8.5043],
+          confidence: 0.995,
+          span: {
+            offset: 13300,
+            length: 6,
+          },
+        },
+        {
+          content: 'certifications,',
+          polygon: [7.2837, 8.3696, 7.9392, 8.3706, 7.9392, 8.5027, 7.2836, 8.5033],
+          confidence: 0.989,
+          span: {
+            offset: 13307,
+            length: 15,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [4.3788, 8.4997, 4.5572, 8.5001, 4.5575, 8.6307, 4.379, 8.6298],
+          confidence: 0.996,
+          span: {
+            offset: 13323,
+            length: 3,
+          },
+        },
+        {
+          content: 'report',
+          polygon: [4.5827, 8.5002, 4.8993, 8.5005, 4.8997, 8.6308, 4.583, 8.6309],
+          confidence: 0.995,
+          span: {
+            offset: 13327,
+            length: 6,
+          },
+        },
+        {
+          content: 'all',
+          polygon: [4.9291, 8.5003, 5.031, 8.4997, 5.0315, 8.63, 4.9295, 8.6306],
+          confidence: 0.993,
+          span: {
+            offset: 13334,
+            length: 3,
+          },
+        },
+        {
+          content: 'your',
+          polygon: [5.065, 8.4995, 5.2711, 8.4991, 5.2715, 8.6299, 5.0655, 8.6299],
+          confidence: 0.997,
+          span: {
+            offset: 13338,
+            length: 4,
+          },
+        },
+        {
+          content: 'taxable',
+          polygon: [5.2966, 8.4991, 5.6536, 8.4992, 5.6539, 8.6286, 5.2969, 8.6299],
+          confidence: 0.994,
+          span: {
+            offset: 13343,
+            length: 7,
+          },
+        },
+        {
+          content: 'interest',
+          polygon: [5.6791, 8.4992, 6.0594, 8.499, 6.0595, 8.628, 5.6793, 8.6285],
+          confidence: 0.995,
+          span: {
+            offset: 13351,
+            length: 8,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [6.0912, 8.4989, 6.2697, 8.4983, 6.2697, 8.6282, 6.0914, 8.628],
+          confidence: 0.999,
+          span: {
+            offset: 13360,
+            length: 3,
+          },
+        },
+        {
+          content: 'dividends',
+          polygon: [6.3058, 8.4983, 6.7775, 8.4982, 6.7776, 8.6286, 6.3058, 8.6282],
+          confidence: 0.994,
+          span: {
+            offset: 13364,
+            length: 9,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [6.8073, 8.4983, 6.9262, 8.4988, 6.9263, 8.6284, 6.8073, 8.6286],
+          confidence: 0.999,
+          span: {
+            offset: 13374,
+            length: 2,
+          },
+        },
+        {
+          content: 'your',
+          polygon: [6.9602, 8.4989, 7.177, 8.499, 7.177, 8.6284, 6.9603, 8.6283],
+          confidence: 0.992,
+          span: {
+            offset: 13377,
+            length: 4,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [7.2046, 8.499, 7.3448, 8.4988, 7.3448, 8.6278, 7.2046, 8.6284],
+          confidence: 0.993,
+          span: {
+            offset: 13382,
+            length: 3,
+          },
+        },
+        {
+          content: 'return.',
+          polygon: [7.3703, 8.4987, 7.7071, 8.4996, 7.7071, 8.6272, 7.3702, 8.6276],
+          confidence: 0.993,
+          span: {
+            offset: 13386,
+            length: 7,
+          },
+        },
+        {
+          content: 'Payments',
+          polygon: [4.381, 8.6594, 4.9135, 8.6597, 4.9139, 8.7977, 4.381, 8.7977],
+          confidence: 0.995,
+          span: {
+            offset: 13400,
+            length: 8,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [4.9432, 8.6596, 5.1215, 8.659, 5.1219, 8.7977, 4.9436, 8.7977],
+          confidence: 0.999,
+          span: {
+            offset: 13409,
+            length: 3,
+          },
+        },
+        {
+          content: 'receive',
+          polygon: [5.1489, 8.659, 5.5512, 8.6583, 5.5514, 8.7976, 5.1493, 8.7977],
+          confidence: 0.995,
+          span: {
+            offset: 13413,
+            length: 7,
+          },
+        },
+        {
+          content: 'will',
+          polygon: [5.5809, 8.6584, 5.7431, 8.6587, 5.7433, 8.7977, 5.5811, 8.7976],
+          confidence: 0.992,
+          span: {
+            offset: 13421,
+            length: 4,
+          },
+        },
+        {
+          content: 'be',
+          polygon: [5.7706, 8.6587, 5.9191, 8.6586, 5.9192, 8.7974, 5.7707, 8.7977],
+          confidence: 0.999,
+          span: {
+            offset: 13426,
+            length: 2,
+          },
+        },
+        {
+          content: 'subject',
+          polygon: [5.9534, 8.6585, 6.3419, 8.6581, 6.342, 8.7977, 5.9535, 8.7973],
+          confidence: 0.998,
+          span: {
+            offset: 13429,
+            length: 7,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [6.3694, 8.6581, 6.4653, 8.658, 6.4654, 8.7977, 6.3694, 8.7977],
+          confidence: 0.993,
+          span: {
+            offset: 13437,
+            length: 2,
+          },
+        },
+        {
+          content: 'backup',
+          polygon: [6.4928, 8.6579, 6.9019, 8.6584, 6.9018, 8.7973, 6.4928, 8.7977],
+          confidence: 0.997,
+          span: {
+            offset: 13440,
+            length: 6,
+          },
+        },
+        {
+          content: 'withholding',
+          polygon: [6.9339, 8.6584, 7.5441, 8.6565, 7.5439, 8.7971, 6.9338, 8.7973],
+          confidence: 0.994,
+          span: {
+            offset: 13447,
+            length: 11,
+          },
+        },
+        {
+          content: 'if:',
+          polygon: [7.5829, 8.6566, 7.685, 8.6566, 7.685, 8.7975, 7.5827, 8.7972],
+          confidence: 0.989,
+          span: {
+            offset: 13459,
+            length: 3,
+          },
+        },
+        {
+          content: '1.',
+          polygon: [4.4965, 8.8246, 4.5908, 8.8246, 4.5909, 8.9608, 4.4967, 8.9608],
+          confidence: 0.993,
+          span: {
+            offset: 13464,
+            length: 3,
+          },
+        },
+        {
+          content: 'You',
+          polygon: [4.6222, 8.8245, 4.8176, 8.8242, 4.8179, 8.9613, 4.6223, 8.9608],
+          confidence: 0.995,
+          span: {
+            offset: 13468,
+            length: 3,
+          },
+        },
+        {
+          content: 'do',
+          polygon: [4.8535, 8.8243, 4.9636, 8.8247, 4.9637, 8.9609, 4.8538, 8.9613],
+          confidence: 0.998,
+          span: {
+            offset: 13472,
+            length: 2,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [4.9905, 8.8248, 5.1724, 8.8248, 5.1725, 8.9615, 4.9906, 8.9608],
+          confidence: 0.995,
+          span: {
+            offset: 13475,
+            length: 3,
+          },
+        },
+        {
+          content: 'furnish',
+          polygon: [5.2016, 8.8247, 5.5362, 8.8238, 5.5362, 8.9625, 5.2017, 8.9616],
+          confidence: 0.995,
+          span: {
+            offset: 13479,
+            length: 7,
+          },
+        },
+        {
+          content: 'your',
+          polygon: [5.5676, 8.824, 5.7899, 8.8247, 5.7899, 8.963, 5.5676, 8.9626],
+          confidence: 0.987,
+          span: {
+            offset: 13487,
+            length: 4,
+          },
+        },
+        {
+          content: 'TIN',
+          polygon: [5.8169, 8.8248, 5.9875, 8.8251, 5.9874, 8.9635, 5.8168, 8.963],
+          confidence: 0.995,
+          span: {
+            offset: 13492,
+            length: 3,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [6.019, 8.8252, 6.12, 8.8257, 6.1198, 8.9635, 6.0188, 8.9635],
+          confidence: 0.999,
+          span: {
+            offset: 13496,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [6.1492, 8.8259, 6.2929, 8.8259, 6.2926, 8.9635, 6.149, 8.9635],
+          confidence: 0.999,
+          span: {
+            offset: 13499,
+            length: 3,
+          },
+        },
+        {
+          content: 'requester;',
+          polygon: [6.3199, 8.8259, 6.8452, 8.8287, 6.8452, 8.9635, 6.3195, 8.9635],
+          confidence: 0.992,
+          span: {
+            offset: 13503,
+            length: 10,
+          },
+        },
+        {
+          content: '2.',
+          polygon: [4.4867, 8.992, 4.5902, 8.9921, 4.5896, 9.1243, 4.4861, 9.1237],
+          confidence: 0.992,
+          span: {
+            offset: 13515,
+            length: 3,
+          },
+        },
+        {
+          content: 'You',
+          polygon: [4.6232, 8.9922, 4.8192, 8.9924, 4.8188, 9.1255, 4.6227, 9.1245],
+          confidence: 0.998,
+          span: {
+            offset: 13519,
+            length: 3,
+          },
+        },
+        {
+          content: 'do',
+          polygon: [4.8545, 8.9925, 4.9712, 8.9926, 4.9709, 9.1259, 4.8541, 9.1256],
+          confidence: 0.995,
+          span: {
+            offset: 13523,
+            length: 2,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [4.9976, 8.9926, 5.1716, 8.9926, 5.1713, 9.1259, 4.9973, 9.1259],
+          confidence: 0.997,
+          span: {
+            offset: 13526,
+            length: 3,
+          },
+        },
+        {
+          content: 'certify',
+          polygon: [5.2068, 8.9926, 5.5085, 8.9925, 5.5085, 9.1272, 5.2066, 9.1259],
+          confidence: 0.992,
+          span: {
+            offset: 13530,
+            length: 7,
+          },
+        },
+        {
+          content: 'your',
+          polygon: [5.5393, 8.9924, 5.7552, 8.9921, 5.7551, 9.1274, 5.5393, 9.1272],
+          confidence: 0.989,
+          span: {
+            offset: 13538,
+            length: 4,
+          },
+        },
+        {
+          content: 'TIN',
+          polygon: [5.7816, 8.9921, 5.9556, 8.9917, 5.9553, 9.1278, 5.7815, 9.1274],
+          confidence: 0.994,
+          span: {
+            offset: 13543,
+            length: 3,
+          },
+        },
+        {
+          content: 'when',
+          polygon: [5.9908, 8.9917, 6.2551, 8.9916, 6.2548, 9.127, 5.9906, 9.1277],
+          confidence: 0.992,
+          span: {
+            offset: 13547,
+            length: 4,
+          },
+        },
+        {
+          content: 'required',
+          polygon: [6.2925, 8.9917, 6.6955, 8.9913, 6.6953, 9.1261, 6.2923, 9.127],
+          confidence: 0.993,
+          span: {
+            offset: 13552,
+            length: 8,
+          },
+        },
+        {
+          content: '(see',
+          polygon: [6.7329, 8.9911, 6.9333, 8.99, 6.933, 9.1275, 6.7327, 9.1263],
+          confidence: 0.992,
+          span: {
+            offset: 13561,
+            length: 4,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [6.9642, 8.9902, 7.1029, 8.9908, 7.1024, 9.1272, 6.9638, 9.1275],
+          confidence: 0.997,
+          span: {
+            offset: 13566,
+            length: 3,
+          },
+        },
+        {
+          content: 'instructions',
+          polygon: [7.1293, 8.991, 7.7107, 8.99, 7.7103, 9.1235, 7.1288, 9.1271],
+          confidence: 0.994,
+          span: {
+            offset: 13570,
+            length: 12,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [7.7371, 8.99, 7.9005, 8.99, 7.9005, 9.122, 7.7368, 9.1233],
+          confidence: 0.995,
+          span: {
+            offset: 13583,
+            length: 3,
+          },
+        },
+        {
+          content: 'Part',
+          polygon: [4.3813, 9.1189, 4.5832, 9.1193, 4.5833, 9.2477, 4.3814, 9.2469],
+          confidence: 0.992,
+          span: {
+            offset: 13587,
+            length: 4,
+          },
+        },
+        {
+          content: 'II',
+          polygon: [4.6084, 9.1192, 4.6779, 9.1195, 4.6781, 9.2488, 4.6086, 9.2481],
+          confidence: 0.651,
+          span: {
+            offset: 13592,
+            length: 2,
+          },
+        },
+        {
+          content: 'for',
+          polygon: [4.7115, 9.1198, 4.8482, 9.1211, 4.8484, 9.2499, 4.7117, 9.2489],
+          confidence: 0.995,
+          span: {
+            offset: 13595,
+            length: 3,
+          },
+        },
+        {
+          content: 'details);',
+          polygon: [4.8777, 9.1217, 5.2647, 9.1245, 5.2648, 9.2509, 4.8778, 9.25],
+          confidence: 0.975,
+          span: {
+            offset: 13599,
+            length: 9,
+          },
+        },
+        {
+          content: '3.',
+          polygon: [4.4876, 9.2827, 4.5908, 9.2828, 4.5908, 9.4162, 4.4876, 9.4161],
+          confidence: 0.992,
+          span: {
+            offset: 13610,
+            length: 3,
+          },
+        },
+        {
+          content: 'The',
+          polygon: [4.6215, 9.2828, 4.7949, 9.2828, 4.795, 9.4167, 4.6215, 9.4162],
+          confidence: 0.998,
+          span: {
+            offset: 13614,
+            length: 3,
+          },
+        },
+        {
+          content: 'IRS',
+          polygon: [4.8213, 9.2828, 5.0166, 9.2829, 5.0167, 9.4175, 4.8213, 9.4169],
+          confidence: 0.992,
+          span: {
+            offset: 13618,
+            length: 3,
+          },
+        },
+        {
+          content: 'tells',
+          polygon: [5.0473, 9.283, 5.2471, 9.284, 5.2469, 9.4173, 5.0474, 9.4174],
+          confidence: 0.992,
+          span: {
+            offset: 13622,
+            length: 5,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [5.2756, 9.2841, 5.4183, 9.2848, 5.4178, 9.4177, 5.2753, 9.4174],
+          confidence: 0.998,
+          span: {
+            offset: 13628,
+            length: 3,
+          },
+        },
+        {
+          content: 'requester',
+          polygon: [5.4446, 9.2848, 5.9384, 9.285, 5.9381, 9.4182, 5.4442, 9.4177],
+          confidence: 0.995,
+          span: {
+            offset: 13632,
+            length: 9,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [5.9648, 9.285, 6.1557, 9.285, 6.1554, 9.4185, 5.9645, 9.4182],
+          confidence: 0.992,
+          span: {
+            offset: 13642,
+            length: 4,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [6.1864, 9.285, 6.3664, 9.2851, 6.3661, 9.4192, 6.1861, 9.4187],
+          confidence: 0.999,
+          span: {
+            offset: 13647,
+            length: 3,
+          },
+        },
+        {
+          content: 'furnished',
+          polygon: [6.3972, 9.2851, 6.8559, 9.2845, 6.8553, 9.4197, 6.3968, 9.419],
+          confidence: 0.993,
+          span: {
+            offset: 13651,
+            length: 9,
+          },
+        },
+        {
+          content: 'an',
+          polygon: [6.8932, 9.2845, 6.9985, 9.2846, 6.9981, 9.4192, 6.8927, 9.4196],
+          confidence: 0.992,
+          span: {
+            offset: 13661,
+            length: 2,
+          },
+        },
+        {
+          content: 'incorrect',
+          polygon: [7.0249, 9.2846, 7.4814, 9.2833, 7.4809, 9.4184, 7.0244, 9.4191],
+          confidence: 0.993,
+          span: {
+            offset: 13664,
+            length: 9,
+          },
+        },
+        {
+          content: 'TIN;',
+          polygon: [7.5099, 9.2833, 7.7182, 9.2833, 7.7182, 9.4183, 7.5094, 9.4184],
+          confidence: 0.983,
+          span: {
+            offset: 13674,
+            length: 4,
+          },
+        },
+        {
+          content: '4.',
+          polygon: [4.4878, 9.45, 4.5893, 9.4499, 4.5891, 9.5792, 4.4876, 9.5788],
+          confidence: 0.993,
+          span: {
+            offset: 13680,
+            length: 3,
+          },
+        },
+        {
+          content: 'The',
+          polygon: [4.6217, 9.4498, 4.7987, 9.4497, 4.7987, 9.5799, 4.6215, 9.5793],
+          confidence: 0.999,
+          span: {
+            offset: 13684,
+            length: 3,
+          },
+        },
+        {
+          content: 'IRS',
+          polygon: [4.8246, 9.4497, 5.0146, 9.4497, 5.0147, 9.5807, 4.8246, 9.5799],
+          confidence: 0.993,
+          span: {
+            offset: 13688,
+            length: 3,
+          },
+        },
+        {
+          content: 'tells',
+          polygon: [5.047, 9.4497, 5.2478, 9.45, 5.248, 9.5816, 5.0471, 9.5808],
+          confidence: 0.996,
+          span: {
+            offset: 13692,
+            length: 5,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [5.278, 9.4501, 5.4572, 9.4504, 5.4575, 9.5824, 5.2782, 9.5817],
+          confidence: 0.999,
+          span: {
+            offset: 13698,
+            length: 3,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [5.4875, 9.4505, 5.6796, 9.4509, 5.6798, 9.5831, 5.4877, 9.5825],
+          confidence: 0.992,
+          span: {
+            offset: 13702,
+            length: 4,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [5.7098, 9.4509, 5.889, 9.4516, 5.8891, 9.5839, 5.71, 9.5832],
+          confidence: 0.999,
+          span: {
+            offset: 13707,
+            length: 3,
+          },
+        },
+        {
+          content: 'are',
+          polygon: [5.9236, 9.4518, 6.0812, 9.4525, 6.0812, 9.5848, 5.9237, 9.5841],
+          confidence: 0.999,
+          span: {
+            offset: 13711,
+            length: 3,
+          },
+        },
+        {
+          content: 'subject',
+          polygon: [6.1114, 9.4524, 6.4698, 9.4527, 6.4699, 9.5852, 6.1114, 9.5848],
+          confidence: 0.997,
+          span: {
+            offset: 13715,
+            length: 7,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [6.5, 9.4528, 6.6015, 9.4528, 6.6015, 9.5851, 6.5001, 9.5853],
+          confidence: 0.999,
+          span: {
+            offset: 13723,
+            length: 2,
+          },
+        },
+        {
+          content: 'backup',
+          polygon: [6.636, 9.4528, 6.9987, 9.4529, 6.9987, 9.585, 6.636, 9.5851],
+          confidence: 0.998,
+          span: {
+            offset: 13726,
+            length: 6,
+          },
+        },
+        {
+          content: 'withholding',
+          polygon: [7.0333, 9.4529, 7.6132, 9.4524, 7.6132, 9.5852, 7.0332, 9.5849],
+          confidence: 0.995,
+          span: {
+            offset: 13733,
+            length: 11,
+          },
+        },
+        {
+          content: 'because',
+          polygon: [4.3829, 9.5767, 4.8118, 9.5785, 4.812, 9.705, 4.3826, 9.7031],
+          confidence: 0.994,
+          span: {
+            offset: 13745,
+            length: 7,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [4.8408, 9.5786, 5.019, 9.5781, 5.0193, 9.7042, 4.8411, 9.7051],
+          confidence: 0.995,
+          span: {
+            offset: 13753,
+            length: 3,
+          },
+        },
+        {
+          content: 'did',
+          polygon: [5.0542, 9.578, 5.2055, 9.5777, 5.2057, 9.7034, 5.0545, 9.7039],
+          confidence: 0.995,
+          span: {
+            offset: 13757,
+            length: 3,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [5.2449, 9.5777, 5.4023, 9.5778, 5.4026, 9.7034, 5.2451, 9.7033],
+          confidence: 0.997,
+          span: {
+            offset: 13761,
+            length: 3,
+          },
+        },
+        {
+          content: 'report',
+          polygon: [5.4355, 9.5778, 5.7297, 9.5779, 5.73, 9.704, 5.4358, 9.7036],
+          confidence: 0.995,
+          span: {
+            offset: 13765,
+            length: 6,
+          },
+        },
+        {
+          content: 'all',
+          polygon: [5.7608, 9.5779, 5.8665, 9.5779, 5.8667, 9.7034, 5.7611, 9.7038],
+          confidence: 0.995,
+          span: {
+            offset: 13772,
+            length: 3,
+          },
+        },
+        {
+          content: 'your',
+          polygon: [5.8997, 9.5779, 6.1069, 9.5779, 6.107, 9.7037, 5.8999, 9.7034],
+          confidence: 0.989,
+          span: {
+            offset: 13776,
+            length: 4,
+          },
+        },
+        {
+          content: 'interest',
+          polygon: [6.1317, 9.5778, 6.5172, 9.5773, 6.5173, 9.7036, 6.1319, 9.7038],
+          confidence: 0.995,
+          span: {
+            offset: 13781,
+            length: 8,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [6.5482, 9.5773, 6.7306, 9.5775, 6.7307, 9.7035, 6.5484, 9.7034],
+          confidence: 0.998,
+          span: {
+            offset: 13790,
+            length: 3,
+          },
+        },
+        {
+          content: 'dividends',
+          polygon: [6.7679, 9.5775, 7.2445, 9.5776, 7.2444, 9.7056, 6.768, 9.7036],
+          confidence: 0.993,
+          span: {
+            offset: 13794,
+            length: 9,
+          },
+        },
+        {
+          content: 'on',
+          polygon: [7.2755, 9.5774, 7.3978, 9.5771, 7.3977, 9.7062, 7.2754, 9.7058],
+          confidence: 0.992,
+          span: {
+            offset: 13804,
+            length: 2,
+          },
+        },
+        {
+          content: 'your',
+          polygon: [7.431, 9.5772, 7.6506, 9.5776, 7.6505, 9.7051, 7.4308, 9.7061],
+          confidence: 0.989,
+          span: {
+            offset: 13807,
+            length: 4,
+          },
+        },
+        {
+          content: 'tax',
+          polygon: [7.6775, 9.5775, 7.8452, 9.5772, 7.8452, 9.704, 7.6774, 9.705],
+          confidence: 0.998,
+          span: {
+            offset: 13812,
+            length: 3,
+          },
+        },
+        {
+          content: 'return',
+          polygon: [4.3796, 9.7041, 4.6798, 9.7048, 4.68, 9.8311, 4.3797, 9.8311],
+          confidence: 0.993,
+          span: {
+            offset: 13816,
+            length: 6,
+          },
+        },
+        {
+          content: '(for',
+          polygon: [4.7152, 9.7048, 4.8632, 9.7044, 4.8635, 9.8311, 4.7154, 9.8311],
+          confidence: 0.991,
+          span: {
+            offset: 13823,
+            length: 4,
+          },
+        },
+        {
+          content: 'reportable',
+          polygon: [4.8882, 9.7043, 5.3969, 9.7035, 5.3971, 9.8309, 4.8886, 9.8311],
+          confidence: 0.994,
+          span: {
+            offset: 13828,
+            length: 10,
+          },
+        },
+        {
+          content: 'interest',
+          polygon: [5.4219, 9.7034, 5.8117, 9.7037, 5.8118, 9.8311, 5.4221, 9.8307],
+          confidence: 0.994,
+          span: {
+            offset: 13839,
+            length: 8,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [5.8451, 9.7037, 6.0265, 9.7045, 6.0265, 9.8307, 5.8452, 9.8311],
+          confidence: 0.998,
+          span: {
+            offset: 13848,
+            length: 3,
+          },
+        },
+        {
+          content: 'dividends',
+          polygon: [6.0619, 9.7045, 6.5393, 9.7045, 6.5392, 9.8311, 6.0619, 9.8306],
+          confidence: 0.992,
+          span: {
+            offset: 13852,
+            length: 9,
+          },
+        },
+        {
+          content: 'only);',
+          polygon: [6.5706, 9.7046, 6.8291, 9.7051, 6.8288, 9.8311, 6.5704, 9.8311],
+          confidence: 0.994,
+          span: {
+            offset: 13862,
+            length: 6,
+          },
+        },
+        {
+          content: 'or',
+          polygon: [6.8666, 9.7053, 6.9778, 9.7057, 6.9778, 9.8305, 6.8663, 9.8311],
+          confidence: 0.998,
+          span: {
+            offset: 13869,
+            length: 2,
+          },
+        },
+        {
+          content: '5.',
+          polygon: [4.4881, 9.8675, 4.5904, 9.8675, 4.5903, 9.9941, 4.4879, 9.994],
+          confidence: 0.995,
+          span: {
+            offset: 13873,
+            length: 3,
+          },
+        },
+        {
+          content: 'You',
+          polygon: [4.6218, 9.8674, 4.8182, 9.8672, 4.8182, 9.9944, 4.6216, 9.9941],
+          confidence: 0.999,
+          span: {
+            offset: 13877,
+            length: 3,
+          },
+        },
+        {
+          content: 'do',
+          polygon: [4.8537, 9.8671, 4.9728, 9.867, 4.9729, 9.9945, 4.8537, 9.9944],
+          confidence: 0.998,
+          span: {
+            offset: 13881,
+            length: 2,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [4.9978, 9.8671, 5.1713, 9.8676, 5.1714, 9.9948, 4.998, 9.9945],
+          confidence: 0.998,
+          span: {
+            offset: 13884,
+            length: 3,
+          },
+        },
+        {
+          content: 'certify',
+          polygon: [5.2068, 9.8677, 5.5076, 9.8681, 5.5078, 9.9955, 5.207, 9.9949],
+          confidence: 0.995,
+          span: {
+            offset: 13888,
+            length: 7,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [5.539, 9.8682, 5.6372, 9.8682, 5.6374, 9.9955, 5.5391, 9.9954],
+          confidence: 0.998,
+          span: {
+            offset: 13896,
+            length: 2,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [5.6664, 9.8681, 5.8231, 9.8677, 5.8232, 9.9963, 5.6666, 9.9956],
+          confidence: 0.999,
+          span: {
+            offset: 13899,
+            length: 3,
+          },
+        },
+        {
+          content: 'requester',
+          polygon: [5.8586, 9.8677, 6.3308, 9.8688, 6.3307, 9.9968, 5.8587, 9.9964],
+          confidence: 0.993,
+          span: {
+            offset: 13903,
+            length: 9,
+          },
+        },
+        {
+          content: 'that',
+          polygon: [6.3559, 9.8689, 6.546, 9.8695, 6.5459, 9.9966, 6.3557, 9.9967],
+          confidence: 0.988,
+          span: {
+            offset: 13913,
+            length: 4,
+          },
+        },
+        {
+          content: 'you',
+          polygon: [6.5774, 9.8694, 6.7571, 9.8687, 6.7569, 9.9969, 6.5773, 9.9967],
+          confidence: 0.999,
+          span: {
+            offset: 13918,
+            length: 3,
+          },
+        },
+        {
+          content: 'are',
+          polygon: [6.7926, 9.8688, 6.9367, 9.8691, 6.9367, 9.9969, 6.7924, 9.9969],
+          confidence: 0.998,
+          span: {
+            offset: 13922,
+            length: 3,
+          },
+        },
+        {
+          content: 'not',
+          polygon: [6.9618, 9.8692, 7.1373, 9.8695, 7.137, 9.9969, 6.9618, 9.9969],
+          confidence: 0.998,
+          span: {
+            offset: 13926,
+            length: 3,
+          },
+        },
+        {
+          content: 'subject',
+          polygon: [7.1687, 9.8696, 7.5301, 9.8685, 7.5298, 9.9961, 7.1683, 9.9969],
+          confidence: 0.996,
+          span: {
+            offset: 13930,
+            length: 7,
+          },
+        },
+        {
+          content: 'to',
+          polygon: [7.5594, 9.8686, 7.6684, 9.8687, 7.6684, 9.9952, 7.5591, 9.9959],
+          confidence: 0.999,
+          span: {
+            offset: 13938,
+            length: 2,
+          },
+        },
+        {
+          content: 'backup',
+          polygon: [4.3792, 9.9947, 4.7581, 9.9945, 4.7585, 10.1229, 4.3792, 10.1214],
+          confidence: 0.998,
+          span: {
+            offset: 13941,
+            length: 6,
+          },
+        },
+        {
+          content: 'withholding,',
+          polygon: [4.7914, 9.9946, 5.3868, 9.9956, 5.3872, 10.1216, 4.7918, 10.123],
+          confidence: 0.993,
+          span: {
+            offset: 13948,
+            length: 12,
+          },
+        },
+        {
+          content: 'as',
+          polygon: [5.4243, 9.9955, 5.5367, 9.9952, 5.5371, 10.1216, 5.4247, 10.1216],
+          confidence: 0.999,
+          span: {
+            offset: 13961,
+            length: 2,
+          },
+        },
+        {
+          content: 'described',
+          polygon: [5.5701, 9.9951, 6.0593, 9.9961, 6.0594, 10.1215, 5.5704, 10.1216],
+          confidence: 0.995,
+          span: {
+            offset: 13964,
+            length: 9,
+          },
+        },
+        {
+          content: 'in',
+          polygon: [6.0968, 9.9961, 6.1759, 9.9961, 6.176, 10.1218, 6.0969, 10.1215],
+          confidence: 0.999,
+          span: {
+            offset: 13974,
+            length: 2,
+          },
+        },
+        {
+          content: 'item',
+          polygon: [6.2134, 9.996, 6.4195, 9.9958, 6.4195, 10.1225, 6.2134, 10.1219],
+          confidence: 0.992,
+          span: {
+            offset: 13977,
+            length: 4,
+          },
+        },
+        {
+          content: '4',
+          polygon: [6.4549, 9.9957, 6.5152, 9.9956, 6.5153, 10.1223, 6.4549, 10.1224],
+          confidence: 0.997,
+          span: {
+            offset: 13982,
+            length: 1,
+          },
+        },
+        {
+          content: 'under',
+          polygon: [6.5527, 9.9955, 6.8379, 9.9956, 6.8379, 10.1224, 6.5528, 10.1222],
+          confidence: 0.998,
+          span: {
+            offset: 13984,
+            length: 5,
+          },
+        },
+        {
+          content: '"By',
+          polygon: [6.8692, 9.9957, 7.044, 9.9956, 7.044, 10.1226, 6.8692, 10.1224],
+          confidence: 0.898,
+          span: {
+            offset: 13990,
+            length: 3,
+          },
+        },
+        {
+          content: 'signing',
+          polygon: [7.069, 9.9955, 7.425, 9.9948, 7.4252, 10.1236, 7.069, 10.1226],
+          confidence: 0.999,
+          span: {
+            offset: 13994,
+            length: 7,
+          },
+        },
+        {
+          content: 'the',
+          polygon: [7.4583, 9.9948, 7.6103, 9.9947, 7.6104, 10.1231, 7.4585, 10.1235],
+          confidence: 0.999,
+          span: {
+            offset: 14002,
+            length: 3,
+          },
+        },
+        {
+          content: 'filled-',
+          polygon: [7.6436, 9.9947, 7.9171, 9.994, 7.9171, 10.1217, 7.6437, 10.1231],
+          confidence: 0.996,
+          span: {
+            offset: 14006,
+            length: 7,
+          },
+        },
+        {
+          content: 'out',
+          polygon: [4.3808, 10.1211, 4.5535, 10.1204, 4.5538, 10.2427, 4.3811, 10.243],
+          confidence: 0.995,
+          span: {
+            offset: 14014,
+            length: 3,
+          },
+        },
+        {
+          content: 'form"',
+          polygon: [4.582, 10.1202, 4.8503, 10.1199, 4.8507, 10.2434, 4.5823, 10.2427],
+          confidence: 0.912,
+          span: {
+            offset: 14018,
+            length: 5,
+          },
+        },
+        {
+          content: 'above',
+          polygon: [4.8869, 10.1199, 5.1917, 10.1197, 5.1921, 10.2442, 4.8873, 10.2435],
+          confidence: 0.995,
+          span: {
+            offset: 14024,
+            length: 5,
+          },
+        },
+        {
+          content: '(for',
+          polygon: [5.2242, 10.1197, 5.3726, 10.1198, 5.3729, 10.2446, 5.2246, 10.2443],
+          confidence: 0.992,
+          span: {
+            offset: 14030,
+            length: 4,
+          },
+        },
+        {
+          content: 'reportable',
+          polygon: [5.397, 10.1198, 5.9092, 10.1202, 5.9093, 10.2449, 5.3973, 10.2447],
+          confidence: 0.992,
+          span: {
+            offset: 14035,
+            length: 10,
+          },
+        },
+        {
+          content: 'interest',
+          polygon: [5.9335, 10.1202, 6.3217, 10.1198, 6.3218, 10.2441, 5.9337, 10.2448],
+          confidence: 0.994,
+          span: {
+            offset: 14046,
+            length: 8,
+          },
+        },
+        {
+          content: 'and',
+          polygon: [6.3522, 10.1197, 6.5351, 10.1197, 6.5351, 10.2442, 6.3523, 10.2441],
+          confidence: 0.994,
+          span: {
+            offset: 14055,
+            length: 3,
+          },
+        },
+        {
+          content: 'dividend',
+          polygon: [6.5717, 10.1198, 6.9904, 10.1202, 6.9904, 10.2443, 6.5717, 10.2442],
+          confidence: 0.994,
+          span: {
+            offset: 14059,
+            length: 8,
+          },
+        },
+        {
+          content: 'accounts',
+          polygon: [7.0249, 10.1202, 7.4802, 10.1221, 7.4802, 10.2456, 7.0249, 10.2444],
+          confidence: 0.993,
+          span: {
+            offset: 14068,
+            length: 8,
+          },
+        },
+        {
+          content: 'opened',
+          polygon: [7.5127, 10.1222, 7.895, 10.123, 7.895, 10.2456, 7.5127, 10.2456],
+          confidence: 0.995,
+          span: {
+            offset: 14077,
+            length: 6,
+          },
+        },
+        {
+          content: 'after',
+          polygon: [4.3784, 10.2447, 4.6163, 10.243, 4.6168, 10.3713, 4.379, 10.3706],
+          confidence: 0.994,
+          span: {
+            offset: 14084,
+            length: 5,
+          },
+        },
+        {
+          content: '1983',
+          polygon: [4.65, 10.2424, 4.8879, 10.2439, 4.8885, 10.3727, 4.6505, 10.3719],
+          confidence: 0.992,
+          span: {
+            offset: 14090,
+            length: 4,
+          },
+        },
+        {
+          content: 'only).',
+          polygon: [4.9237, 10.2438, 5.1878, 10.2458, 5.1878, 10.3727, 4.9243, 10.3727],
+          confidence: 0.994,
+          span: {
+            offset: 14095,
+            length: 6,
+          },
+        },
+      ],
+      lines: [
+        {
+          content: 'Page 2',
+          polygon: [7.6496, 0.5081, 7.9914, 0.501, 7.9942, 0.6379, 7.6524, 0.6449],
+          spans: [
+            {
+              offset: 5829,
+              length: 6,
+            },
+          ],
+          path: 'pages/2/lines/1',
+        },
+        {
+          content: 'Form W-9 (Rev. 3-2024)',
+          polygon: [0.486, 0.5041, 1.5422, 0.5073, 1.5418, 0.6282, 0.4856, 0.625],
+          spans: [
+            {
+              offset: 5858,
+              length: 22,
+            },
+          ],
+          path: 'pages/2/lines/2',
+        },
+        {
+          content: 'must obtain your correct taxpayer identification number (TIN), which',
+          polygon: [0.4889, 0.7858, 3.8684, 0.7786, 3.8687, 0.9101, 0.4892, 0.9173],
+          spans: [
+            {
+              offset: 5887,
+              length: 68,
+            },
+          ],
+          path: 'pages/2/lines/3',
+        },
+        {
+          content: 'may be your social security number (SSN), individual taxpayer',
+          polygon: [0.4904, 0.9123, 3.5689, 0.9088, 3.569, 1.0369, 0.4906, 1.0404],
+          spans: [
+            {
+              offset: 5956,
+              length: 61,
+            },
+          ],
+          path: 'pages/2/lines/4',
+        },
+        {
+          content: 'identification number (ITIN), adoption taxpayer identification number',
+          polygon: [0.4892, 1.0304, 3.8734, 1.0311, 3.8734, 1.1616, 0.4892, 1.1609],
+          spans: [
+            {
+              offset: 6018,
+              length: 69,
+            },
+          ],
+          path: 'pages/2/lines/5',
+        },
+        {
+          content: '(ATIN), or employer identification number (EIN), to report on an',
+          polygon: [0.4925, 1.1565, 3.5904, 1.1561, 3.5904, 1.2894, 0.4925, 1.2898],
+          spans: [
+            {
+              offset: 6088,
+              length: 64,
+            },
+          ],
+          path: 'pages/2/lines/6',
+        },
+        {
+          content: 'information return the amount paid to you, or other amount reportable',
+          polygon: [0.4875, 1.2789, 3.9586, 1.2811, 3.9585, 1.4107, 0.4874, 1.4085],
+          spans: [
+            {
+              offset: 6153,
+              length: 69,
+            },
+          ],
+          path: 'pages/2/lines/7',
+        },
+        {
+          content: 'on an information return. Examples of information returns include, but',
+          polygon: [0.4876, 1.4066, 3.9517, 1.4061, 3.9517, 1.5351, 0.4876, 1.5356],
+          spans: [
+            {
+              offset: 6223,
+              length: 70,
+            },
+          ],
+          path: 'pages/2/lines/8',
+        },
+        {
+          content: 'are not limited to, the following.',
+          polygon: [0.4876, 1.5276, 2.054, 1.5302, 2.0538, 1.6596, 0.4874, 1.657],
+          spans: [
+            {
+              offset: 6294,
+              length: 34,
+            },
+          ],
+          path: 'pages/2/lines/9',
+        },
+        {
+          content: '· Form 1099-INT (interest earned or paid).',
+          polygon: [0.4952, 1.6947, 2.5707, 1.6978, 2.5705, 1.8327, 0.495, 1.8296],
+          spans: [
+            {
+              offset: 6330,
+              length: 42,
+            },
+          ],
+          path: 'pages/2/lines/10',
+        },
+        {
+          content: '. Form 1099-DIV (dividends, including those from stocks or mutual',
+          polygon: [0.4959, 1.8607, 3.815, 1.8637, 3.8149, 1.9971, 0.4958, 1.9941],
+          spans: [
+            {
+              offset: 6374,
+              length: 65,
+            },
+          ],
+          path: 'pages/2/lines/11',
+        },
+        {
+          content: 'funds).',
+          polygon: [0.4856, 1.987, 0.8342, 1.9911, 0.8332, 2.1165, 0.4841, 2.1127],
+          spans: [
+            {
+              offset: 6440,
+              length: 7,
+            },
+          ],
+          path: 'pages/2/lines/12',
+        },
+        {
+          content: '· Form 1099-MISC (various types of income, prizes, awards, or gross',
+          polygon: [0.4949, 2.1453, 3.9392, 2.1548, 3.9388, 2.2913, 0.4945, 2.2818],
+          spans: [
+            {
+              offset: 6449,
+              length: 67,
+            },
+          ],
+          path: 'pages/2/lines/13',
+        },
+        {
+          content: 'proceeds).',
+          polygon: [0.4909, 2.2884, 1.019, 2.2847, 1.0199, 2.4123, 0.4918, 2.416],
+          spans: [
+            {
+              offset: 6517,
+              length: 10,
+            },
+          ],
+          path: 'pages/2/lines/14',
+        },
+        {
+          content: '· Form 1099-NEC (nonemployee compensation).',
+          polygon: [0.4971, 2.4403, 2.9109, 2.4446, 2.9107, 2.5807, 0.4969, 2.5767],
+          spans: [
+            {
+              offset: 6529,
+              length: 43,
+            },
+          ],
+          path: 'pages/2/lines/15',
+        },
+        {
+          content: '. Form 1099-B (stock or mutual fund sales and certain other',
+          polygon: [0.4966, 2.6097, 3.4902, 2.6109, 3.4901, 2.7404, 0.4966, 2.7392],
+          spans: [
+            {
+              offset: 6574,
+              length: 59,
+            },
+          ],
+          path: 'pages/2/lines/16',
+        },
+        {
+          content: 'transactions by brokers).',
+          polygon: [0.4861, 2.7358, 1.7192, 2.7379, 1.719, 2.8745, 0.4859, 2.8724],
+          spans: [
+            {
+              offset: 6634,
+              length: 25,
+            },
+          ],
+          path: 'pages/2/lines/17',
+        },
+        {
+          content: '· Form 1099-S (proceeds from real estate transactions).',
+          polygon: [0.4961, 2.9002, 3.2631, 2.8999, 3.2631, 3.0379, 0.4961, 3.0381],
+          spans: [
+            {
+              offset: 6661,
+              length: 55,
+            },
+          ],
+          path: 'pages/2/lines/18',
+        },
+        {
+          content: '. Form 1099-K (merchant card and third-party network transactions).',
+          polygon: [0.4957, 3.0651, 3.9098, 3.0688, 3.9097, 3.2052, 0.4956, 3.2017],
+          spans: [
+            {
+              offset: 6718,
+              length: 67,
+            },
+          ],
+          path: 'pages/2/lines/19',
+        },
+        {
+          content: '. Form 1098 (home mortgage interest), 1098-E (student loan interest),',
+          polygon: [0.4938, 3.231, 3.9433, 3.2339, 3.9432, 3.371, 0.4937, 3.3682],
+          spans: [
+            {
+              offset: 6787,
+              length: 69,
+            },
+          ],
+          path: 'pages/2/lines/20',
+        },
+        {
+          content: 'and 1098-T (tuition).',
+          polygon: [0.489, 3.3605, 1.4914, 3.3597, 1.4915, 3.4964, 0.4892, 3.4973],
+          spans: [
+            {
+              offset: 6857,
+              length: 21,
+            },
+          ],
+          path: 'pages/2/lines/21',
+        },
+        {
+          content: '· Form 1099-C (canceled debt).',
+          polygon: [0.4949, 3.5241, 2.0626, 3.5256, 2.0625, 3.6617, 0.4947, 3.6602],
+          spans: [
+            {
+              offset: 6880,
+              length: 30,
+            },
+          ],
+          path: 'pages/2/lines/22',
+        },
+        {
+          content: '· Form 1099-A (acquisition or abandonment of secured property).',
+          polygon: [0.4965, 3.6883, 3.7457, 3.6932, 3.7454, 3.8338, 0.4963, 3.8289],
+          spans: [
+            {
+              offset: 6912,
+              length: 63,
+            },
+          ],
+          path: 'pages/2/lines/23',
+        },
+        {
+          content: 'Use Form W-9 only if you are a U.S. person (including a resident',
+          polygon: [0.5972, 3.8518, 3.8014, 3.8536, 3.8014, 3.9971, 0.5971, 3.9952],
+          spans: [
+            {
+              offset: 6976,
+              length: 64,
+            },
+          ],
+          path: 'pages/2/lines/24',
+        },
+        {
+          content: 'alien), to provide your correct TIN.',
+          polygon: [0.4872, 3.9875, 2.1862, 3.9853, 2.1863, 4.1219, 0.4874, 4.124],
+          spans: [
+            {
+              offset: 7041,
+              length: 36,
+            },
+          ],
+          path: 'pages/2/lines/25',
+        },
+        {
+          content: "Caution: If you don't return Form W-9 to the requester with a TIN, you",
+          polygon: [0.4893, 4.1454, 3.9795, 4.1476, 3.9794, 4.2862, 0.4893, 4.284],
+          spans: [
+            {
+              offset: 7079,
+              length: 70,
+            },
+          ],
+          path: 'pages/2/lines/26',
+        },
+        {
+          content: 'might be subject to backup withholding. See What is backup',
+          polygon: [0.4886, 4.272, 3.5069, 4.2731, 3.5068, 4.4099, 0.4885, 4.409],
+          spans: [
+            {
+              offset: 7150,
+              length: 58,
+            },
+          ],
+          path: 'pages/2/lines/27',
+        },
+        {
+          content: 'withholding, later.',
+          polygon: [0.4851, 4.3978, 1.3729, 4.4017, 1.3723, 4.5376, 0.4845, 4.5337],
+          spans: [
+            {
+              offset: 7209,
+              length: 19,
+            },
+          ],
+          path: 'pages/2/lines/28',
+        },
+        {
+          content: 'By signing the filled-out form, you:',
+          polygon: [0.5833, 4.5615, 2.4046, 4.5615, 2.4046, 4.7059, 0.5833, 4.7059],
+          spans: [
+            {
+              offset: 7230,
+              length: 36,
+            },
+          ],
+          path: 'pages/2/lines/29',
+        },
+        {
+          content: '1. Certify that the TIN you are giving is correct (or you are waiting for a',
+          polygon: [0.6035, 4.7262, 4.0921, 4.7292, 4.0919, 4.8738, 0.6033, 4.8707],
+          spans: [
+            {
+              offset: 7268,
+              length: 76,
+            },
+          ],
+          path: 'pages/2/lines/30',
+        },
+        {
+          content: 'number to be issued);',
+          polygon: [0.4846, 4.859, 1.5792, 4.8596, 1.5791, 4.9959, 0.4845, 4.9952],
+          spans: [
+            {
+              offset: 7345,
+              length: 21,
+            },
+          ],
+          path: 'pages/2/lines/31',
+        },
+        {
+          content: '2. Certify that you are not subject to backup withholding; or',
+          polygon: [0.5929, 5.0197, 3.5656, 5.0209, 3.5656, 5.1654, 0.5929, 5.1642],
+          spans: [
+            {
+              offset: 7368,
+              length: 62,
+            },
+          ],
+          path: 'pages/2/lines/32',
+        },
+        {
+          content: '3. Claim exemption from backup withholding if you are a U.S. exempt',
+          polygon: [0.5963, 5.1832, 4.0639, 5.1868, 4.0638, 5.3319, 0.5961, 5.3283],
+          spans: [
+            {
+              offset: 7432,
+              length: 68,
+            },
+          ],
+          path: 'pages/2/lines/33',
+        },
+        {
+          content: 'payee; and',
+          polygon: [0.4874, 5.3291, 1.0522, 5.323, 1.0536, 5.4542, 0.4888, 5.4599],
+          spans: [
+            {
+              offset: 7501,
+              length: 10,
+            },
+          ],
+          path: 'pages/2/lines/34',
+        },
+        {
+          content: '4. Certify to your non-foreign status for purposes of withholding under',
+          polygon: [0.5981, 5.479, 4.0837, 5.4813, 4.0836, 5.6216, 0.5981, 5.6193],
+          spans: [
+            {
+              offset: 7513,
+              length: 72,
+            },
+          ],
+          path: 'pages/2/lines/35',
+        },
+        {
+          content: 'chapter 3 or 4 of the Code (if applicable); and',
+          polygon: [0.4881, 5.6011, 2.7489, 5.6033, 2.7488, 5.7436, 0.488, 5.7414],
+          spans: [
+            {
+              offset: 7586,
+              length: 47,
+            },
+          ],
+          path: 'pages/2/lines/36',
+        },
+        {
+          content: '5. Certify that FATCA code(s) entered on this form (if any) indicating',
+          polygon: [0.5977, 5.7666, 3.9523, 5.7726, 3.9521, 5.9163, 0.5974, 5.9104],
+          spans: [
+            {
+              offset: 7635,
+              length: 71,
+            },
+          ],
+          path: 'pages/2/lines/37',
+        },
+        {
+          content: 'that you are exempt from the FATCA reporting is correct. See What Is',
+          polygon: [0.4835, 5.895, 3.9475, 5.8954, 3.9475, 6.0328, 0.4835, 6.0324],
+          spans: [
+            {
+              offset: 7707,
+              length: 68,
+            },
+          ],
+          path: 'pages/2/lines/38',
+        },
+        {
+          content: 'FATCA Reporting, later, for further information.',
+          polygon: [0.4865, 6.0207, 2.8196, 6.0245, 2.8193, 6.1617, 0.4862, 6.1594],
+          spans: [
+            {
+              offset: 7776,
+              length: 48,
+            },
+          ],
+          path: 'pages/2/lines/39',
+        },
+        {
+          content: 'Note: If you are a U.S. person and a requester gives you a form other',
+          polygon: [0.4886, 6.1894, 3.9379, 6.1904, 3.9378, 6.3267, 0.4886, 6.3257],
+          spans: [
+            {
+              offset: 7826,
+              length: 69,
+            },
+          ],
+          path: 'pages/2/lines/40',
+        },
+        {
+          content: "than Form W-9 to request your TIN, you must use the requester's form if",
+          polygon: [0.4858, 6.3108, 4.0882, 6.3087, 4.0883, 6.4458, 0.4858, 6.448],
+          spans: [
+            {
+              offset: 7896,
+              length: 71,
+            },
+          ],
+          path: 'pages/2/lines/41',
+        },
+        {
+          content: 'it is substantially similar to this Form W-9.',
+          polygon: [0.4882, 6.4381, 2.5638, 6.4351, 2.564, 6.5722, 0.4884, 6.5752],
+          spans: [
+            {
+              offset: 7968,
+              length: 45,
+            },
+          ],
+          path: 'pages/2/lines/42',
+        },
+        {
+          content: 'Definition of a U.S. person. For federal tax purposes, you are',
+          polygon: [0.4903, 6.5983, 3.5921, 6.6088, 3.5916, 6.7463, 0.4898, 6.7352],
+          spans: [
+            {
+              offset: 8015,
+              length: 62,
+            },
+          ],
+          path: 'pages/2/lines/43',
+        },
+        {
+          content: 'considered a U.S. person if you are:',
+          polygon: [0.4902, 6.7317, 2.2801, 6.7339, 2.28, 6.87, 0.49, 6.8678],
+          spans: [
+            {
+              offset: 8078,
+              length: 36,
+            },
+          ],
+          path: 'pages/2/lines/44',
+        },
+        {
+          content: '· An individual who is a U.S. citizen or U.S. resident alien;',
+          polygon: [0.4953, 6.8958, 3.3542, 6.8965, 3.3541, 7.0286, 0.4953, 7.028],
+          spans: [
+            {
+              offset: 8116,
+              length: 61,
+            },
+          ],
+          path: 'pages/2/lines/45',
+        },
+        {
+          content: '. A partnership, corporation, company, or association created or',
+          polygon: [0.4972, 7.0674, 3.7076, 7.065, 3.7077, 7.1959, 0.4973, 7.1982],
+          spans: [
+            {
+              offset: 8179,
+              length: 64,
+            },
+          ],
+          path: 'pages/2/lines/46',
+        },
+        {
+          content: 'organized in the United States or under the laws of the United States;',
+          polygon: [0.4901, 7.1923, 3.9375, 7.1896, 3.9376, 7.3245, 0.4903, 7.3275],
+          spans: [
+            {
+              offset: 8244,
+              length: 70,
+            },
+          ],
+          path: 'pages/2/lines/47',
+        },
+        {
+          content: '· An estate (other than a foreign estate); or',
+          polygon: [0.4953, 7.3554, 2.6142, 7.3577, 2.614, 7.493, 0.4951, 7.4895],
+          spans: [
+            {
+              offset: 8316,
+              length: 45,
+            },
+          ],
+          path: 'pages/2/lines/48',
+        },
+        {
+          content: '· A domestic trust (as defined in Regulations section 301.7701-7).',
+          polygon: [0.4957, 7.5194, 3.757, 7.5178, 3.7571, 7.6556, 0.4958, 7.6572],
+          spans: [
+            {
+              offset: 8363,
+              length: 66,
+            },
+          ],
+          path: 'pages/2/lines/49',
+        },
+        {
+          content: 'Establishing U.S. status for purposes of chapter 3 and chapter 4',
+          polygon: [0.4924, 7.6833, 3.8838, 7.6855, 3.8837, 7.8232, 0.4923, 7.8211],
+          spans: [
+            {
+              offset: 8431,
+              length: 64,
+            },
+          ],
+          path: 'pages/2/lines/50',
+        },
+        {
+          content: 'withholding. Payments made to foreign persons, including certain',
+          polygon: [0.4871, 7.8161, 3.792, 7.817, 3.7919, 7.9492, 0.4871, 7.9484],
+          spans: [
+            {
+              offset: 8496,
+              length: 64,
+            },
+          ],
+          path: 'pages/2/lines/51',
+        },
+        {
+          content: 'distributions, allocations of income, or transfers of sales proceeds, may',
+          polygon: [0.4899, 7.9362, 4.0342, 7.9407, 4.034, 8.0712, 0.4897, 8.0666],
+          spans: [
+            {
+              offset: 8561,
+              length: 73,
+            },
+          ],
+          path: 'pages/2/lines/52',
+        },
+        {
+          content: 'be subject to withholding under chapter 3 or chapter 4 of the Code',
+          polygon: [0.4895, 8.0638, 3.8205, 8.0641, 3.8205, 8.1963, 0.4895, 8.196],
+          spans: [
+            {
+              offset: 8635,
+              length: 66,
+            },
+          ],
+          path: 'pages/2/lines/53',
+        },
+        {
+          content: '(sections 1441-1474). Under those rules, if a Form W-9 or other',
+          polygon: [0.493, 8.1875, 3.6566, 8.1843, 3.6568, 8.3124, 0.4932, 8.3166],
+          spans: [
+            {
+              offset: 8702,
+              length: 63,
+            },
+          ],
+          path: 'pages/2/lines/54',
+        },
+        {
+          content: 'certification of non-foreign status has not been received, a withholding',
+          polygon: [0.491, 8.3117, 3.9925, 8.3152, 3.9923, 8.447, 0.4908, 8.4435],
+          spans: [
+            {
+              offset: 8766,
+              length: 72,
+            },
+          ],
+          path: 'pages/2/lines/55',
+        },
+        {
+          content: 'agent, transferee, or partnership (payor) generally applies presumption',
+          polygon: [0.4894, 8.4421, 3.9842, 8.4416, 3.9842, 8.5751, 0.4894, 8.5756],
+          spans: [
+            {
+              offset: 8839,
+              length: 71,
+            },
+          ],
+          path: 'pages/2/lines/56',
+        },
+        {
+          content: 'rules that may require the payor to withhold applicable tax from the',
+          polygon: [0.4885, 8.5659, 3.8306, 8.5628, 3.8307, 8.693, 0.4886, 8.696],
+          spans: [
+            {
+              offset: 8911,
+              length: 68,
+            },
+          ],
+          path: 'pages/2/lines/57',
+        },
+        {
+          content: 'recipient, owner, transferor, or partner (payee). See Pub. 515,',
+          polygon: [0.4885, 8.6917, 3.5255, 8.6874, 3.5257, 8.8191, 0.4887, 8.8233],
+          spans: [
+            {
+              offset: 8980,
+              length: 63,
+            },
+          ],
+          path: 'pages/2/lines/58',
+        },
+        {
+          content: 'Withholding of Tax on Nonresident Aliens and Foreign Entities.',
+          polygon: [0.4865, 8.809, 3.5882, 8.812, 3.5881, 8.9446, 0.4864, 8.9416],
+          spans: [
+            {
+              offset: 9044,
+              length: 62,
+            },
+          ],
+          path: 'pages/2/lines/59',
+        },
+        {
+          content: 'The following persons must provide Form W-9 to the payor for',
+          polygon: [0.593, 8.9727, 3.7049, 8.9729, 3.7049, 9.1102, 0.593, 9.11],
+          spans: [
+            {
+              offset: 9108,
+              length: 60,
+            },
+          ],
+          path: 'pages/2/lines/60',
+        },
+        {
+          content: 'purposes of establishing its non-foreign status.',
+          polygon: [0.4877, 9.1076, 2.8248, 9.1022, 2.8251, 9.2368, 0.488, 9.2422],
+          spans: [
+            {
+              offset: 9169,
+              length: 48,
+            },
+          ],
+          path: 'pages/2/lines/61',
+        },
+        {
+          content: '. In the case of a disregarded entity with a U.S. owner, the U.S. owner',
+          polygon: [0.4935, 9.2689, 3.9828, 9.2652, 3.983, 9.3963, 0.4936, 9.4],
+          spans: [
+            {
+              offset: 9219,
+              length: 71,
+            },
+          ],
+          path: 'pages/2/lines/62',
+        },
+        {
+          content: 'of the disregarded entity and not the disregarded entity.',
+          polygon: [0.4922, 9.3961, 3.2624, 9.3995, 3.2622, 9.5323, 0.492, 9.5289],
+          spans: [
+            {
+              offset: 9291,
+              length: 57,
+            },
+          ],
+          path: 'pages/2/lines/63',
+        },
+        {
+          content: '. In the case of a grantor trust with a U.S. grantor or other U.S. owner,',
+          polygon: [0.4938, 9.5625, 3.975, 9.5627, 3.975, 9.6906, 0.4938, 9.6904],
+          spans: [
+            {
+              offset: 9350,
+              length: 73,
+            },
+          ],
+          path: 'pages/2/lines/64',
+        },
+        {
+          content: 'generally, the U.S. grantor or other U.S. owner of the grantor trust and',
+          polygon: [0.4906, 9.6886, 3.9718, 9.6819, 3.972, 9.8121, 0.4909, 9.8192],
+          spans: [
+            {
+              offset: 9424,
+              length: 72,
+            },
+          ],
+          path: 'pages/2/lines/65',
+        },
+        {
+          content: 'not the grantor trust.',
+          polygon: [0.4896, 9.8212, 1.5176, 9.8173, 1.5181, 9.937, 0.4901, 9.9408],
+          spans: [
+            {
+              offset: 9497,
+              length: 22,
+            },
+          ],
+          path: 'pages/2/lines/66',
+        },
+        {
+          content: '. In the case of a U.S. trust (other than a grantor trust), the U.S. trust',
+          polygon: [0.4927, 9.9807, 3.8979, 9.9764, 3.8981, 10.1033, 0.4928, 10.1074],
+          spans: [
+            {
+              offset: 9521,
+              length: 74,
+            },
+          ],
+          path: 'pages/2/lines/67',
+        },
+        {
+          content: 'and not the beneficiaries of the trust.',
+          polygon: [0.4868, 10.1085, 2.3179, 10.1048, 2.3181, 10.2258, 0.487, 10.229],
+          spans: [
+            {
+              offset: 9596,
+              length: 39,
+            },
+          ],
+          path: 'pages/2/lines/68',
+        },
+        {
+          content: 'See Pub. 515 for more information on providing a Form W-9 or a',
+          polygon: [0.4884, 10.2682, 3.7008, 10.2693, 3.7007, 10.3955, 0.4884, 10.3944],
+          spans: [
+            {
+              offset: 9637,
+              length: 62,
+            },
+          ],
+          path: 'pages/2/lines/69',
+        },
+        {
+          content: 'certification of non-foreign status to avoid withholding.',
+          polygon: [0.4886, 10.396, 3.1995, 10.3978, 3.1995, 10.5217, 0.4885, 10.52],
+          spans: [
+            {
+              offset: 9700,
+              length: 57,
+            },
+          ],
+          path: 'pages/2/lines/70',
+        },
+        {
+          content: 'Foreign person. If you are a foreign person or the U.S. branch of a',
+          polygon: [4.3803, 0.7822, 7.7159, 0.7798, 7.7159, 0.9103, 4.3804, 0.9126],
+          spans: [
+            {
+              offset: 9759,
+              length: 67,
+            },
+          ],
+          path: 'pages/2/lines/71',
+        },
+        {
+          content: 'foreign bank that has elected to be treated as a U.S. person (under',
+          polygon: [4.3774, 0.908, 7.7111, 0.9078, 7.7111, 1.0372, 4.3775, 1.0374],
+          spans: [
+            {
+              offset: 9827,
+              length: 67,
+            },
+          ],
+          path: 'pages/2/lines/72',
+        },
+        {
+          content: 'Regulations section 1.1441-1(b)(2)(iv) or other applicable section for',
+          polygon: [4.3828, 1.0301, 7.7443, 1.0275, 7.7444, 1.1603, 4.3829, 1.1629],
+          spans: [
+            {
+              offset: 9895,
+              length: 70,
+            },
+          ],
+          path: 'pages/2/lines/73',
+        },
+        {
+          content: 'chapter 3 or 4 purposes), do not use Form W-9. Instead, use the',
+          polygon: [4.3828, 1.1593, 7.5845, 1.155, 7.5846, 1.2856, 4.383, 1.2899],
+          spans: [
+            {
+              offset: 9966,
+              length: 63,
+            },
+          ],
+          path: 'pages/2/lines/74',
+        },
+        {
+          content: 'appropriate Form W-8 or Form 8233 (see Pub. 515). If you are a',
+          polygon: [4.3823, 1.2817, 7.5534, 1.2772, 7.5536, 1.4081, 4.3825, 1.4125],
+          spans: [
+            {
+              offset: 10030,
+              length: 62,
+            },
+          ],
+          path: 'pages/2/lines/75',
+        },
+        {
+          content: 'qualified foreign pension fund under Regulations section 1.897(l)-1(d), or',
+          polygon: [4.3824, 1.4037, 7.9708, 1.4041, 7.9708, 1.5389, 4.3824, 1.5385],
+          spans: [
+            {
+              offset: 10093,
+              length: 74,
+            },
+          ],
+          path: 'pages/2/lines/76',
+        },
+        {
+          content: 'a partnership that is wholly owned by qualified foreign pension funds,',
+          polygon: [4.3814, 1.5302, 7.8259, 1.5302, 7.8259, 1.6607, 4.3814, 1.6608],
+          spans: [
+            {
+              offset: 10168,
+              length: 70,
+            },
+          ],
+          path: 'pages/2/lines/77',
+        },
+        {
+          content: 'that is treated as a non-foreign person for purposes of section 1445',
+          polygon: [4.3779, 1.6565, 7.749, 1.6535, 7.7491, 1.7842, 4.378, 1.7871],
+          spans: [
+            {
+              offset: 10239,
+              length: 68,
+            },
+          ],
+          path: 'pages/2/lines/78',
+        },
+        {
+          content: 'withholding, do not use Form W-9. Instead, use Form W-8EXP (or other',
+          polygon: [4.3781, 1.7794, 7.9384, 1.7794, 7.9384, 1.9125, 4.3781, 1.9125],
+          spans: [
+            {
+              offset: 10308,
+              length: 68,
+            },
+          ],
+          path: 'pages/2/lines/79',
+        },
+        {
+          content: 'certification of non-foreign status).',
+          polygon: [4.3809, 1.9027, 6.089, 1.9042, 6.0889, 2.0362, 4.3808, 2.0347],
+          spans: [
+            {
+              offset: 10377,
+              length: 37,
+            },
+          ],
+          path: 'pages/2/lines/80',
+        },
+        {
+          content: 'Nonresident alien who becomes a resident alien. Generally, only a',
+          polygon: [4.3803, 2.0668, 7.824, 2.0716, 7.8236, 2.2039, 4.38, 2.1955],
+          spans: [
+            {
+              offset: 10416,
+              length: 65,
+            },
+          ],
+          path: 'pages/2/lines/81',
+        },
+        {
+          content: 'nonresident alien individual may use the terms of a tax treaty to reduce',
+          polygon: [4.38, 2.1978, 7.9052, 2.1984, 7.9052, 2.328, 4.38, 2.3274],
+          spans: [
+            {
+              offset: 10482,
+              length: 72,
+            },
+          ],
+          path: 'pages/2/lines/82',
+        },
+        {
+          content: 'or eliminate U.S. tax on certain types of income. However, most tax',
+          polygon: [4.382, 2.3228, 7.7418, 2.3266, 7.7416, 2.4549, 4.3818, 2.451],
+          spans: [
+            {
+              offset: 10555,
+              length: 67,
+            },
+          ],
+          path: 'pages/2/lines/83',
+        },
+        {
+          content: 'treaties contain a provision known as a saving clause. Exceptions',
+          polygon: [4.3785, 2.4453, 7.6396, 2.4466, 7.6396, 2.5769, 4.3785, 2.5756],
+          spans: [
+            {
+              offset: 10623,
+              length: 65,
+            },
+          ],
+          path: 'pages/2/lines/84',
+        },
+        {
+          content: 'specified in the saving clause may permit an exemption from tax to',
+          polygon: [4.3815, 2.5749, 7.7136, 2.5743, 7.7136, 2.7051, 4.3815, 2.7056],
+          spans: [
+            {
+              offset: 10689,
+              length: 66,
+            },
+          ],
+          path: 'pages/2/lines/85',
+        },
+        {
+          content: 'continue for certain types of income even after the payee has otherwise',
+          polygon: [4.3823, 2.6976, 7.9399, 2.693, 7.9401, 2.8235, 4.3825, 2.8281],
+          spans: [
+            {
+              offset: 10756,
+              length: 71,
+            },
+          ],
+          path: 'pages/2/lines/86',
+        },
+        {
+          content: 'become a U.S. resident alien for tax purposes.',
+          polygon: [4.3799, 2.8184, 6.694, 2.8224, 6.6937, 2.955, 4.3797, 2.9505],
+          spans: [
+            {
+              offset: 10828,
+              length: 46,
+            },
+          ],
+          path: 'pages/2/lines/87',
+        },
+        {
+          content: 'If you are a U.S. resident alien who is relying on an exception',
+          polygon: [4.4874, 2.9814, 7.5256, 2.9845, 7.5254, 3.1219, 4.4873, 3.1188],
+          spans: [
+            {
+              offset: 10876,
+              length: 63,
+            },
+          ],
+          path: 'pages/2/lines/88',
+        },
+        {
+          content: 'contained in the saving clause of a tax treaty to claim an exemption',
+          polygon: [4.3829, 3.1149, 7.7357, 3.1163, 7.7356, 3.2462, 4.3829, 3.2447],
+          spans: [
+            {
+              offset: 10940,
+              length: 68,
+            },
+          ],
+          path: 'pages/2/lines/89',
+        },
+        {
+          content: 'from U.S. tax on certain types of income, you must attach a statement',
+          polygon: [4.3791, 3.2341, 7.8787, 3.2357, 7.8786, 3.369, 4.3791, 3.3674],
+          spans: [
+            {
+              offset: 11009,
+              length: 69,
+            },
+          ],
+          path: 'pages/2/lines/90',
+        },
+        {
+          content: 'to Form W-9 that specifies the following five items.',
+          polygon: [4.3784, 3.3592, 6.9026, 3.3609, 6.9026, 3.4957, 4.3783, 3.494],
+          spans: [
+            {
+              offset: 11079,
+              length: 52,
+            },
+          ],
+          path: 'pages/2/lines/91',
+        },
+        {
+          content: '1. The treaty country. Generally, this must be the same treaty under',
+          polygon: [4.4965, 3.5241, 7.8496, 3.5244, 7.8495, 3.6624, 4.4965, 3.6621],
+          spans: [
+            {
+              offset: 11133,
+              length: 69,
+            },
+          ],
+          path: 'pages/2/lines/92',
+        },
+        {
+          content: 'which you claimed exemption from tax as a nonresident alien.',
+          polygon: [4.3783, 3.6549, 7.457, 3.6554, 7.4569, 3.7899, 4.3783, 3.7893],
+          spans: [
+            {
+              offset: 11203,
+              length: 60,
+            },
+          ],
+          path: 'pages/2/lines/93',
+        },
+        {
+          content: '2. The treaty article addressing the income.',
+          polygon: [4.4848, 3.815, 6.6432, 3.8155, 6.6431, 3.9554, 4.4848, 3.9548],
+          spans: [
+            {
+              offset: 11265,
+              length: 45,
+            },
+          ],
+          path: 'pages/2/lines/94',
+        },
+        {
+          content: '3. The article number (or location) in the tax treaty that contains the',
+          polygon: [4.4852, 3.9802, 7.8318, 3.9817, 7.8318, 4.1221, 4.4851, 4.1206],
+          spans: [
+            {
+              offset: 11312,
+              length: 72,
+            },
+          ],
+          path: 'pages/2/lines/95',
+        },
+        {
+          content: 'saving clause and its exceptions.',
+          polygon: [4.3792, 4.1122, 6.0295, 4.1115, 6.0296, 4.2436, 4.3793, 4.2441],
+          spans: [
+            {
+              offset: 11385,
+              length: 33,
+            },
+          ],
+          path: 'pages/2/lines/96',
+        },
+        {
+          content: '4. The type and amount of income that qualifies for the exemption',
+          polygon: [4.4883, 4.2677, 7.7733, 4.2692, 7.7733, 4.4106, 4.4882, 4.4092],
+          spans: [
+            {
+              offset: 11420,
+              length: 66,
+            },
+          ],
+          path: 'pages/2/lines/97',
+        },
+        {
+          content: 'from tax.',
+          polygon: [4.3788, 4.4015, 4.8315, 4.4045, 4.8307, 4.5268, 4.3779, 4.5238],
+          spans: [
+            {
+              offset: 11487,
+              length: 9,
+            },
+          ],
+          path: 'pages/2/lines/98',
+        },
+        {
+          content: '5. Sufficient facts to justify the exemption from tax under the terms of',
+          polygon: [4.4873, 4.5597, 7.9492, 4.5597, 7.9492, 4.7022, 4.4873, 4.7022],
+          spans: [
+            {
+              offset: 11498,
+              length: 73,
+            },
+          ],
+          path: 'pages/2/lines/99',
+        },
+        {
+          content: 'the treaty article.',
+          polygon: [4.3793, 4.6918, 5.2215, 4.6944, 5.2209, 4.8278, 4.3787, 4.8241],
+          spans: [
+            {
+              offset: 11572,
+              length: 19,
+            },
+          ],
+          path: 'pages/2/lines/100',
+        },
+        {
+          content: 'Example. Article 20 of the U.S .- China income tax treaty allows an',
+          polygon: [4.4868, 4.8538, 7.7646, 4.8571, 7.7645, 4.9945, 4.4867, 4.9912],
+          spans: [
+            {
+              offset: 11593,
+              length: 67,
+            },
+          ],
+          path: 'pages/2/lines/101',
+        },
+        {
+          content: 'exemption from tax for scholarship income received by a Chinese',
+          polygon: [4.3808, 4.9878, 7.6495, 4.9866, 7.6495, 5.1175, 4.3808, 5.1187],
+          spans: [
+            {
+              offset: 11661,
+              length: 63,
+            },
+          ],
+          path: 'pages/2/lines/102',
+        },
+        {
+          content: 'student temporarily present in the United States. Under U.S. law, this',
+          polygon: [4.3819, 5.1096, 7.8207, 5.1062, 7.8208, 5.2363, 4.3821, 5.2407],
+          spans: [
+            {
+              offset: 11725,
+              length: 70,
+            },
+          ],
+          path: 'pages/2/lines/103',
+        },
+        {
+          content: 'student will become a resident alien for tax purposes if their stay in the',
+          polygon: [4.3829, 5.2337, 7.8919, 5.2352, 7.8919, 5.3671, 4.3829, 5.3656],
+          spans: [
+            {
+              offset: 11796,
+              length: 74,
+            },
+          ],
+          path: 'pages/2/lines/104',
+        },
+        {
+          content: 'United States exceeds 5 calendar years. However, paragraph 2 of the',
+          polygon: [4.3829, 5.3549, 7.8492, 5.3589, 7.8491, 5.4924, 4.3827, 5.4882],
+          spans: [
+            {
+              offset: 11871,
+              length: 67,
+            },
+          ],
+          path: 'pages/2/lines/105',
+        },
+        {
+          content: 'first Protocol to the U.S .- China treaty (dated April 30, 1984) allows the',
+          polygon: [4.3794, 5.4805, 7.858, 5.4804, 7.858, 5.6149, 4.3794, 5.615],
+          spans: [
+            {
+              offset: 11939,
+              length: 75,
+            },
+          ],
+          path: 'pages/2/lines/106',
+        },
+        {
+          content: 'provisions of Article 20 to continue to apply even after the Chinese',
+          polygon: [4.3815, 5.6058, 7.6906, 5.6036, 7.6908, 5.7361, 4.3817, 5.7396],
+          spans: [
+            {
+              offset: 12015,
+              length: 68,
+            },
+          ],
+          path: 'pages/2/lines/107',
+        },
+        {
+          content: 'student becomes a resident alien of the United States. A Chinese',
+          polygon: [4.3804, 5.7338, 7.6272, 5.7293, 7.6274, 5.8594, 4.3806, 5.8633],
+          spans: [
+            {
+              offset: 12084,
+              length: 64,
+            },
+          ],
+          path: 'pages/2/lines/108',
+        },
+        {
+          content: 'student who qualifies for this exception (under paragraph 2 of the first',
+          polygon: [4.3797, 5.8599, 7.8502, 5.8565, 7.8503, 5.991, 4.3798, 5.9944],
+          spans: [
+            {
+              offset: 12149,
+              length: 72,
+            },
+          ],
+          path: 'pages/2/lines/109',
+        },
+        {
+          content: 'Protocol) and is relying on this exception to claim an exemption from tax',
+          polygon: [4.3826, 5.9818, 7.9815, 5.983, 7.9815, 6.1158, 4.3825, 6.1146],
+          spans: [
+            {
+              offset: 12222,
+              length: 73,
+            },
+          ],
+          path: 'pages/2/lines/110',
+        },
+        {
+          content: 'on their scholarship or fellowship income would attach to Form W-9 a',
+          polygon: [4.3831, 6.1081, 7.8473, 6.1051, 7.8474, 6.2369, 4.3832, 6.2391],
+          spans: [
+            {
+              offset: 12296,
+              length: 68,
+            },
+          ],
+          path: 'pages/2/lines/111',
+        },
+        {
+          content: 'statement that includes the information described above to support that',
+          polygon: [4.3808, 6.2294, 7.9614, 6.2315, 7.9613, 6.3629, 4.3807, 6.3607],
+          spans: [
+            {
+              offset: 12365,
+              length: 71,
+            },
+          ],
+          path: 'pages/2/lines/112',
+        },
+        {
+          content: 'exemption.',
+          polygon: [4.3831, 6.3651, 4.9434, 6.3674, 4.9429, 6.4892, 4.3826, 6.487],
+          spans: [
+            {
+              offset: 12437,
+              length: 10,
+            },
+          ],
+          path: 'pages/2/lines/113',
+        },
+        {
+          content: 'If you are a nonresident alien or a foreign entity, give the requester the',
+          polygon: [4.4897, 6.52, 7.9761, 6.5201, 7.9761, 6.6591, 4.4897, 6.659],
+          spans: [
+            {
+              offset: 12449,
+              length: 74,
+            },
+          ],
+          path: 'pages/2/lines/114',
+        },
+        {
+          content: 'appropriate completed Form W-8 or Form 8233.',
+          polygon: [4.3794, 6.6549, 6.7839, 6.643, 6.7845, 6.7789, 4.38, 6.7908],
+          spans: [
+            {
+              offset: 12524,
+              length: 44,
+            },
+          ],
+          path: 'pages/2/lines/115',
+        },
+        {
+          content: 'Backup Withholding',
+          polygon: [4.3845, 6.8544, 5.9864, 6.859, 5.9859, 7.045, 4.384, 7.0403],
+          spans: [
+            {
+              offset: 12574,
+              length: 18,
+            },
+          ],
+          path: 'pages/2/lines/116',
+        },
+        {
+          content: 'What is backup withholding? Persons making certain payments to you',
+          polygon: [4.3789, 7.075, 7.9764, 7.0804, 7.9762, 7.2172, 4.3787, 7.2124],
+          spans: [
+            {
+              offset: 12594,
+              length: 66,
+            },
+          ],
+          path: 'pages/2/lines/117',
+        },
+        {
+          content: 'must under certain conditions withhold and pay to the IRS 24% of such',
+          polygon: [4.3804, 7.2042, 7.9397, 7.2024, 7.9398, 7.3328, 4.3805, 7.3346],
+          spans: [
+            {
+              offset: 12661,
+              length: 69,
+            },
+          ],
+          path: 'pages/2/lines/118',
+        },
+        {
+          content: 'payments. This is called "backup withholding." Payments that may be',
+          polygon: [4.3821, 7.3292, 7.8577, 7.327, 7.8578, 7.462, 4.3822, 7.4642],
+          spans: [
+            {
+              offset: 12731,
+              length: 67,
+            },
+          ],
+          path: 'pages/2/lines/119',
+        },
+        {
+          content: 'subject to backup withholding include, but are not limited to, interest,',
+          polygon: [4.3803, 7.4521, 7.8301, 7.4507, 7.8302, 7.5849, 4.3803, 7.5863],
+          spans: [
+            {
+              offset: 12799,
+              length: 72,
+            },
+          ],
+          path: 'pages/2/lines/120',
+        },
+        {
+          content: 'tax-exempt interest, dividends, broker and barter exchange',
+          polygon: [4.379, 7.5796, 7.3423, 7.5809, 7.3422, 7.7105, 4.379, 7.7092],
+          spans: [
+            {
+              offset: 12872,
+              length: 58,
+            },
+          ],
+          path: 'pages/2/lines/121',
+        },
+        {
+          content: 'transactions, rents, royalties, nonemployee pay, payments made in',
+          polygon: [4.3789, 7.7089, 7.7112, 7.7075, 7.7113, 7.8392, 4.3789, 7.8405],
+          spans: [
+            {
+              offset: 12931,
+              length: 65,
+            },
+          ],
+          path: 'pages/2/lines/122',
+        },
+        {
+          content: 'settlement of payment card and third-party network transactions, and',
+          polygon: [4.3807, 7.8298, 7.8483, 7.8284, 7.8483, 7.9585, 4.3807, 7.9599],
+          spans: [
+            {
+              offset: 12997,
+              length: 68,
+            },
+          ],
+          path: 'pages/2/lines/123',
+        },
+        {
+          content: 'certain payments from fishing boat operators. Real estate transactions',
+          polygon: [4.382, 7.9551, 7.8835, 7.9532, 7.8836, 8.0856, 4.3821, 8.0874],
+          spans: [
+            {
+              offset: 13066,
+              length: 70,
+            },
+          ],
+          path: 'pages/2/lines/124',
+        },
+        {
+          content: 'are not subject to backup withholding.',
+          polygon: [4.377, 8.0765, 6.2915, 8.081, 6.2912, 8.212, 4.3767, 8.2078],
+          spans: [
+            {
+              offset: 13137,
+              length: 38,
+            },
+          ],
+          path: 'pages/2/lines/125',
+        },
+        {
+          content: 'You will not be subject to backup withholding on payments you receive',
+          polygon: [4.4916, 8.2365, 7.9856, 8.2412, 7.9854, 8.3777, 4.4914, 8.3734],
+          spans: [
+            {
+              offset: 13177,
+              length: 69,
+            },
+          ],
+          path: 'pages/2/lines/126',
+        },
+        {
+          content: 'if you give the requester your correct TIN, make the proper certifications,',
+          polygon: [4.3791, 8.3696, 7.9382, 8.3693, 7.9382, 8.5024, 4.3791, 8.5027],
+          spans: [
+            {
+              offset: 13247,
+              length: 75,
+            },
+          ],
+          path: 'pages/2/lines/127',
+        },
+        {
+          content: 'and report all your taxable interest and dividends on your tax return.',
+          polygon: [4.3788, 8.4997, 7.7037, 8.4972, 7.7038, 8.6268, 4.3789, 8.6292],
+          spans: [
+            {
+              offset: 13323,
+              length: 70,
+            },
+          ],
+          path: 'pages/2/lines/128',
+        },
+        {
+          content: 'Payments you receive will be subject to backup withholding if:',
+          polygon: [4.3809, 8.6585, 7.6832, 8.6563, 7.6833, 8.7951, 4.381, 8.7973],
+          spans: [
+            {
+              offset: 13400,
+              length: 62,
+            },
+          ],
+          path: 'pages/2/lines/129',
+        },
+        {
+          content: '1. You do not furnish your TIN to the requester;',
+          polygon: [4.4965, 8.8219, 6.844, 8.8261, 6.8437, 8.9627, 4.4962, 8.9585],
+          spans: [
+            {
+              offset: 13464,
+              length: 49,
+            },
+          ],
+          path: 'pages/2/lines/130',
+        },
+        {
+          content: '2. You do not certify your TIN when required (see the instructions for',
+          polygon: [4.486, 8.9907, 7.9004, 8.9897, 7.9004, 9.125, 4.4861, 9.126],
+          spans: [
+            {
+              offset: 13515,
+              length: 71,
+            },
+          ],
+          path: 'pages/2/lines/131',
+        },
+        {
+          content: 'Part II for details);',
+          polygon: [4.3813, 9.1183, 5.2614, 9.1233, 5.2606, 9.2506, 4.3812, 9.2448],
+          spans: [
+            {
+              offset: 13587,
+              length: 21,
+            },
+          ],
+          path: 'pages/2/lines/132',
+        },
+        {
+          content: '3. The IRS tells the requester that you furnished an incorrect TIN;',
+          polygon: [4.4876, 9.2824, 7.7168, 9.2833, 7.7168, 9.4179, 4.4876, 9.4171],
+          spans: [
+            {
+              offset: 13610,
+              length: 68,
+            },
+          ],
+          path: 'pages/2/lines/133',
+        },
+        {
+          content: '4. The IRS tells you that you are subject to backup withholding',
+          polygon: [4.4877, 9.4493, 7.6094, 9.4513, 7.6093, 9.5838, 4.4876, 9.5818],
+          spans: [
+            {
+              offset: 13680,
+              length: 64,
+            },
+          ],
+          path: 'pages/2/lines/134',
+        },
+        {
+          content: 'because you did not report all your interest and dividends on your tax',
+          polygon: [4.3827, 9.5756, 7.8411, 9.5772, 7.841, 9.7045, 4.3826, 9.7029],
+          spans: [
+            {
+              offset: 13745,
+              length: 70,
+            },
+          ],
+          path: 'pages/2/lines/135',
+        },
+        {
+          content: 'return (for reportable interest and dividends only); or',
+          polygon: [4.3796, 9.7028, 6.9739, 9.7034, 6.9739, 9.8304, 4.3796, 9.8298],
+          spans: [
+            {
+              offset: 13816,
+              length: 55,
+            },
+          ],
+          path: 'pages/2/lines/136',
+        },
+        {
+          content: '5. You do not certify to the requester that you are not subject to',
+          polygon: [4.488, 9.8666, 7.6649, 9.8684, 7.6648, 9.9957, 4.4879, 9.9939],
+          spans: [
+            {
+              offset: 13873,
+              length: 67,
+            },
+          ],
+          path: 'pages/2/lines/137',
+        },
+        {
+          content: 'backup withholding, as described in item 4 under "By signing the filled-',
+          polygon: [4.3792, 9.9944, 7.9165, 9.9941, 7.9165, 10.1214, 4.3792, 10.1218],
+          spans: [
+            {
+              offset: 13941,
+              length: 72,
+            },
+          ],
+          path: 'pages/2/lines/138',
+        },
+        {
+          content: 'out form" above (for reportable interest and dividend accounts opened',
+          polygon: [4.3808, 10.1185, 7.893, 10.1209, 7.8929, 10.245, 4.3807, 10.2419],
+          spans: [
+            {
+              offset: 14014,
+              length: 69,
+            },
+          ],
+          path: 'pages/2/lines/139',
+        },
+        {
+          content: 'after 1983 only).',
+          polygon: [4.3785, 10.2408, 5.1878, 10.2446, 5.1876, 10.3727, 4.3779, 10.3691],
+          spans: [
+            {
+              offset: 14084,
+              length: 17,
+            },
+          ],
+          path: 'pages/2/lines/140',
+        },
+      ],
+      spans: [
+        {
+          offset: 5812,
+          length: 8290,
+        },
+      ],
+      path: 'pages/2',
+    },
+  ],
+  paragraphs: [
+    {
+      spans: [
+        {
+          offset: 0,
+          length: 78,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.4915, 0.4702, 1.6562, 0.4716, 1.6555, 1.1429, 0.4907, 1.1415],
+        },
+      ],
+      content: 'Form W-9 (Rev. March 2024) Department of the Treasury Internal Revenue Service',
+    },
+    {
+      spans: [
+        {
+          offset: 81,
+          length: 132,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [2.3757, 0.5132, 6.1027, 0.5162, 6.1022, 1.1074, 2.3753, 1.1044],
+        },
+      ],
+      role: 'title',
+      content:
+        'Request for Taxpayer Identification Number and Certification Go to www.irs.gov/FormW9 for instructions and the latest information.',
+    },
+    {
+      spans: [
+        {
+          offset: 215,
+          length: 51,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [6.8746, 0.6126, 7.9346, 0.6139, 7.9341, 1.0455, 6.8741, 1.0441],
+        },
+      ],
+      content: 'Give form to the requester. Do not send to the IRS.',
+    },
+    {
+      spans: [
+        {
+          offset: 268,
+          length: 94,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.4943, 1.1825, 5.3823, 1.1851, 5.3822, 1.3188, 0.4942, 1.3162],
+        },
+      ],
+      content:
+        'Before you begin. For guidance related to the purpose of Form W-9, see Purpose of Form, below.',
+    },
+    {
+      spans: [
+        {
+          offset: 364,
+          length: 191,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.8509, 1.3464, 7.9448, 1.3467, 7.9448, 1.5889, 0.8509, 1.5885],
+        },
+      ],
+      content:
+        "1 Name of entity/individual. An entry is required. (For a sole proprietor or disregarded entity, enter the owner's name on line 1, and enter the business/disregarded entity's name on line 2.)",
+    },
+    {
+      spans: [
+        {
+          offset: 557,
+          length: 65,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.8405, 1.8455, 3.7947, 1.8447, 3.7947, 1.969, 0.8405, 1.9698],
+        },
+      ],
+      content: '2 Business name/disregarded entity name, if different from above.',
+    },
+    {
+      spans: [
+        {
+          offset: 624,
+          length: 162,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.8441, 2.1818, 6.1431, 2.1795, 6.1432, 2.4189, 0.8442, 2.4212],
+        },
+      ],
+      content:
+        '3a Check the appropriate box for federal tax classification of the entity/individual whose name is entered on line 1. Check only one of the following seven boxes.',
+    },
+    {
+      spans: [
+        {
+          offset: 788,
+          length: 189,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [1.0057, 2.4893, 6.1014, 2.4928, 6.1012, 2.809, 1.0055, 2.8055],
+        },
+      ],
+      content:
+        ':unselected: Individual/sole proprietor :unselected: C corporation :unselected: S corporation :unselected: Partnership :unselected: Trust/estate :unselected: LLC. Enter the tax classification (C = C corporation, S = S corporation, P = Partnership) . . . .',
+    },
+    {
+      spans: [
+        {
+          offset: 979,
+          length: 300,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [1.0056, 2.822, 6.1643, 2.8263, 6.1639, 3.3167, 1.0052, 3.3125],
+        },
+      ],
+      content:
+        'Note: Check the "LLC" box above and, in the entry space, enter the appropriate code (C, S, or P) for the tax classification of the LLC, unless it is a disregarded entity. A disregarded entity should instead check the appropriate box for the tax classification of its owner. :unselected: Other (see instructions)',
+    },
+    {
+      spans: [
+        {
+          offset: 1281,
+          length: 379,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.8455, 3.4109, 7.2295, 3.4231, 7.2284, 3.9707, 0.8444, 3.9585],
+        },
+      ],
+      content:
+        '3b If on line 3a you checked "Partnership" or "Trust/estate," or checked "LLC" and entered "P" as its tax classification, and you are providing this form to a partnership, trust, or estate in which you have an ownership interest, check this box if you have any foreign partners, owners, or beneficiaries. See instructions :unselected: Requester\'s name and address (optional) . . . . . . . .',
+    },
+    {
+      spans: [
+        {
+          offset: 1662,
+          length: 68,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.8525, 3.8483, 3.7872, 3.8492, 3.7872, 3.9681, 0.8525, 3.9672],
+        },
+      ],
+      content: '5 Address (number, street, and apt. or suite no.). See instructions.',
+    },
+    {
+      spans: [
+        {
+          offset: 1732,
+          length: 27,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.8457, 4.1803, 2.0983, 4.1793, 2.0984, 4.2994, 0.8458, 4.3004],
+        },
+      ],
+      content: '6 City, state, and ZIP code',
+    },
+    {
+      spans: [
+        {
+          offset: 1761,
+          length: 40,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.8425, 4.5052, 2.6514, 4.5083, 2.6512, 4.6368, 0.8423, 4.6337],
+        },
+      ],
+      content: '7 List account number(s) here (optional)',
+    },
+    {
+      spans: [
+        {
+          offset: 1803,
+          length: 97,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [6.336, 2.1963, 7.87, 2.1995, 7.8693, 2.5511, 6.3353, 2.5478],
+        },
+      ],
+      content:
+        '4 Exemptions (codes apply only to certain entities, not individuals; see instructions on page 3):',
+    },
+    {
+      spans: [
+        {
+          offset: 1902,
+          length: 26,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [6.3321, 2.6795, 7.4887, 2.6795, 7.4887, 2.8, 6.3321, 2.8],
+        },
+      ],
+      content: 'Exempt payee code (if any)',
+    },
+    {
+      spans: [
+        {
+          offset: 1930,
+          length: 81,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [6.3339, 2.9235, 7.9687, 2.9246, 7.9685, 3.2904, 6.3337, 3.2893],
+        },
+      ],
+      content: 'Exemption from Foreign Account Tax Compliance Act (FATCA) reporting code (if any)',
+    },
+    {
+      spans: [
+        {
+          offset: 2013,
+          length: 59,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [6.4333, 3.486, 7.8352, 3.482, 7.8358, 3.7143, 6.434, 3.7183],
+        },
+      ],
+      content: '(Applies to accounts maintained outside the United States.)',
+    },
+    {
+      spans: [
+        {
+          offset: 2075,
+          length: 46,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.5607, 4.8301, 3.6215, 4.8266, 3.6217, 4.9847, 0.5609, 4.9882],
+        },
+      ],
+      role: 'sectionHeading',
+      content: 'Part I Taxpayer Identification Number (TIN)',
+    },
+    {
+      spans: [
+        {
+          offset: 2123,
+          length: 428,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.489, 5.045, 5.5817, 5.0415, 5.5822, 5.703, 0.4895, 5.7066],
+        },
+      ],
+      content:
+        'Enter your TIN in the appropriate box. The TIN provided must match the name given on line 1 to avoid backup withholding. For individuals, this is generally your social security number (SSN). However, for a resident alien, sole proprietor, or disregarded entity, see the instructions for Part I, later. For other entities, it is your employer identification number (EIN). If you do not have a number, see How to get a TIN, later.',
+    },
+    {
+      spans: [
+        {
+          offset: 2553,
+          length: 172,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.489, 5.7996, 5.5852, 5.799, 5.5853, 6.0731, 0.4891, 6.0737],
+        },
+      ],
+      content:
+        'Note: If the account is in more than one name, see the instructions for line 1. See also What Name and Number To Give the Requester for guidelines on whose number to enter.',
+    },
+    {
+      spans: [
+        {
+          offset: 2727,
+          length: 22,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [5.8326, 5.0005, 6.9127, 5.0015, 6.9126, 5.1139, 5.8325, 5.1128],
+        },
+      ],
+      content: 'Social security number',
+    },
+    {
+      spans: [
+        {
+          offset: 2751,
+          length: 1,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [6.4722, 5.3204, 6.5278, 5.3204, 6.5278, 5.334, 6.4722, 5.334],
+        },
+      ],
+      content: '–',
+    },
+    {
+      spans: [
+        {
+          offset: 2754,
+          length: 1,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [7.0722, 5.3204, 7.1278, 5.3204, 7.1278, 5.334, 7.0722, 5.334],
+        },
+      ],
+      content: '–',
+    },
+    {
+      spans: [
+        {
+          offset: 2757,
+          length: 2,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [5.7886, 5.5252, 5.9168, 5.5258, 5.9164, 5.6191, 5.7882, 5.6186],
+        },
+      ],
+      content: 'or',
+    },
+    {
+      spans: [
+        {
+          offset: 2761,
+          length: 30,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [5.8306, 5.6681, 7.3003, 5.6656, 7.3005, 5.7813, 5.8308, 5.7838],
+        },
+      ],
+      content: 'Employer identification number',
+    },
+    {
+      spans: [
+        {
+          offset: 2793,
+          length: 1,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [6.2722, 5.9871, 6.3278, 5.9871, 6.3278, 6.0007, 6.2722, 6.0007],
+        },
+      ],
+      content: '–',
+    },
+    {
+      spans: [
+        {
+          offset: 2797,
+          length: 24,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.5349, 6.1619, 2.0156, 6.1632, 2.0155, 6.3078, 0.5348, 6.3065],
+        },
+      ],
+      role: 'sectionHeading',
+      content: 'Part II Certification',
+    },
+    {
+      spans: [
+        {
+          offset: 2823,
+          length: 43,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.4924, 6.3509, 2.4603, 6.3525, 2.4602, 6.4968, 0.4923, 6.4952],
+        },
+      ],
+      content: 'Under penalties of perjury, I certify that:',
+    },
+    {
+      spans: [
+        {
+          offset: 2868,
+          length: 133,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.4977, 6.5178, 7.0989, 6.5164, 7.099, 6.6591, 0.4977, 6.6605],
+        },
+      ],
+      content:
+        '1. The number shown on this form is my correct taxpayer identification number (or I am waiting for a number to be issued to me); and',
+    },
+    {
+      spans: [
+        {
+          offset: 3003,
+          length: 349,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.4892, 6.668, 7.9421, 6.6689, 7.9421, 7.0772, 0.4892, 7.0764],
+        },
+      ],
+      content:
+        '2. I am not subject to backup withholding because (a) I am exempt from backup withholding, or (b) I have not been notified by the Internal Revenue Service (IRS) that I am subject to backup withholding as a result of a failure to report all interest or dividends, or (c) the IRS has notified me that I am no longer subject to backup withholding; and',
+    },
+    {
+      spans: [
+        {
+          offset: 3354,
+          length: 65,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.4869, 7.1003, 3.5973, 7.1043, 3.5971, 7.246, 0.4867, 7.2421],
+        },
+      ],
+      content: '3. I am a U.S. citizen or other U.S. person (defined below); and',
+    },
+    {
+      spans: [
+        {
+          offset: 3421,
+          length: 112,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.4907, 7.2688, 5.9874, 7.271, 5.9873, 7.4148, 0.4907, 7.4126],
+        },
+      ],
+      content:
+        '4. The FATCA code(s) entered on this form (if any) indicating that I am exempt from FATCA reporting is correct.',
+    },
+    {
+      spans: [
+        {
+          offset: 3535,
+          length: 630,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.4881, 7.4438, 7.976, 7.4476, 7.9758, 7.9885, 0.4878, 7.9847],
+        },
+      ],
+      content:
+        'Certification instructions. You must cross out item 2 above if you have been notified by the IRS that you are currently subject to backup withholding because you have failed to report all interest and dividends on your tax return. For real estate transactions, item 2 does not apply. For mortgage interest paid, acquisition or abandonment of secured property, cancellation of debt, contributions to an individual retirement arrangement (IRA), and, generally, payments other than interest and dividends, you are not required to sign the certification, but you must provide your correct TIN. See the instructions for Part II, later.',
+    },
+    {
+      spans: [
+        {
+          offset: 4167,
+          length: 9,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.4907, 8.0167, 0.8201, 8.0188, 0.8184, 8.2898, 0.489, 8.2878],
+        },
+      ],
+      content: 'Sign Here',
+    },
+    {
+      spans: [
+        {
+          offset: 4178,
+          length: 24,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [1.0415, 8.0584, 1.6261, 8.0587, 1.626, 8.2893, 1.0414, 8.2891],
+        },
+      ],
+      content: 'Signature of U.S. person',
+    },
+    {
+      spans: [
+        {
+          offset: 4204,
+          length: 4,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [5.3387, 8.1806, 5.5672, 8.1811, 5.567, 8.2797, 5.3385, 8.2793],
+        },
+      ],
+      content: 'Date',
+    },
+    {
+      spans: [
+        {
+          offset: 4211,
+          length: 23,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.4965, 8.435, 2.3817, 8.4398, 2.3812, 8.6275, 0.496, 8.6227],
+        },
+      ],
+      role: 'sectionHeading',
+      content: 'General Instructions',
+    },
+    {
+      spans: [
+        {
+          offset: 4236,
+          length: 75,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.4902, 8.6861, 3.9579, 8.6883, 3.9577, 8.9344, 0.4901, 8.9322],
+        },
+      ],
+      content: 'Section references are to the Internal Revenue Code unless otherwise noted.',
+    },
+    {
+      spans: [
+        {
+          offset: 4313,
+          length: 189,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.4883, 8.9757, 3.9741, 8.9783, 3.9738, 9.3672, 0.4881, 9.3646],
+        },
+      ],
+      content:
+        'Future developments. For the latest information about developments related to Form W-9 and its instructions, such as legislation enacted after they were published, go to www.irs.gov/FormW9.',
+    },
+    {
+      spans: [
+        {
+          offset: 4505,
+          length: 13,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.4885, 9.4327, 1.4483, 9.4383, 1.4474, 9.599, 0.4875, 9.5934],
+        },
+      ],
+      role: 'sectionHeading',
+      content: "What's New",
+    },
+    {
+      spans: [
+        {
+          offset: 4520,
+          length: 279,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.4874, 9.6543, 4.0691, 9.6593, 4.0684, 10.1612, 0.4867, 10.1562],
+        },
+      ],
+      content:
+        'Line 3a has been modified to clarify how a disregarded entity completes this line. An LLC that is a disregarded entity should check the appropriate box for the tax classification of its owner. Otherwise, it should check the "LLC" box and enter its appropriate tax classification.',
+    },
+    {
+      spans: [
+        {
+          offset: 4801,
+          length: 688,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [4.3797, 8.433, 7.9815, 8.4326, 7.9817, 9.6936, 4.3799, 9.694],
+        },
+      ],
+      content:
+        'New line 3b has been added to this form. A flow-through entity is required to complete this line to indicate that it has direct or indirect foreign partners, owners, or beneficiaries when it provides the Form W-9 to another flow-through entity in which it has an ownership interest. This change is intended to provide a flow-through entity with information regarding the status of its indirect foreign partners, owners, or beneficiaries, so that it can satisfy any applicable reporting requirements. For example, a partnership that has any indirect foreign partners may be required to complete Schedules K-2 and K-3. See the Partnership Instructions for Schedules K-2 and K-3 (Form 1065).',
+    },
+    {
+      spans: [
+        {
+          offset: 5492,
+          length: 19,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [4.3827, 9.7751, 5.723, 9.7785, 5.7225, 9.9461, 4.3823, 9.9428],
+        },
+      ],
+      role: 'sectionHeading',
+      content: 'Purpose of Form',
+    },
+    {
+      spans: [
+        {
+          offset: 5513,
+          length: 140,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [4.3804, 9.9914, 7.796, 9.994, 7.7958, 10.2482, 4.3802, 10.2456],
+        },
+      ],
+      content:
+        'An individual or entity (Form W-9 requester) who is required to file an information return with the IRS is giving you this form because they',
+    },
+    {
+      spans: [
+        {
+          offset: 5655,
+          length: 37,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [3.2768, 10.3707, 4.0087, 10.37, 4.0088, 10.4754, 3.2769, 10.4761],
+        },
+      ],
+      role: 'pageFooter',
+      content: 'Cat. No. 10231X',
+    },
+    {
+      spans: [
+        {
+          offset: 5693,
+          length: 44,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [6.8516, 10.3513, 7.9879, 10.3557, 7.9874, 10.4854, 6.8511, 10.481],
+        },
+      ],
+      role: 'pageFooter',
+      content: 'Form W-9 (Rev. 3-2024)',
+    },
+    {
+      spans: [
+        {
+          offset: 5739,
+          length: 51,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 1,
+          polygon: [0.4994, 2.1414, 0.7514, 2.1424, 0.7436, 4.0229, 0.4916, 4.0219],
+        },
+      ],
+      content: 'Print or type. See Specific Instructions on page 3.',
+    },
+    {
+      spans: [
+        {
+          offset: 5812,
+          length: 28,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [7.6496, 0.5081, 7.9914, 0.501, 7.9942, 0.6379, 7.6524, 0.6449],
+        },
+      ],
+      role: 'pageNumber',
+      content: 'Page 2',
+    },
+    {
+      spans: [
+        {
+          offset: 5841,
+          length: 44,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.486, 0.5041, 1.5422, 0.5073, 1.5418, 0.6282, 0.4856, 0.625],
+        },
+      ],
+      role: 'pageHeader',
+      content: 'Form W-9 (Rev. 3-2024)',
+    },
+    {
+      spans: [
+        {
+          offset: 5887,
+          length: 441,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4855, 0.7858, 3.9575, 0.7784, 3.9594, 1.6556, 0.4874, 1.663],
+        },
+      ],
+      content:
+        'must obtain your correct taxpayer identification number (TIN), which may be your social security number (SSN), individual taxpayer identification number (ITIN), adoption taxpayer identification number (ATIN), or employer identification number (EIN), to report on an information return the amount paid to you, or other amount reportable on an information return. Examples of information returns include, but are not limited to, the following.',
+    },
+    {
+      spans: [
+        {
+          offset: 6330,
+          length: 42,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4952, 1.6947, 2.5707, 1.6978, 2.5705, 1.8327, 0.495, 1.8296],
+        },
+      ],
+      content: '· Form 1099-INT (interest earned or paid).',
+    },
+    {
+      spans: [
+        {
+          offset: 6374,
+          length: 73,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4843, 1.8607, 3.815, 1.8637, 3.8148, 2.1192, 0.4841, 2.1162],
+        },
+      ],
+      content: '. Form 1099-DIV (dividends, including those from stocks or mutual funds).',
+    },
+    {
+      spans: [
+        {
+          offset: 6449,
+          length: 78,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4913, 2.1453, 3.9392, 2.1548, 3.9384, 2.4255, 0.4906, 2.416],
+        },
+      ],
+      content: '· Form 1099-MISC (various types of income, prizes, awards, or gross proceeds).',
+    },
+    {
+      spans: [
+        {
+          offset: 6529,
+          length: 43,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4971, 2.4403, 2.9109, 2.4446, 2.9107, 2.581, 0.4969, 2.5767],
+        },
+      ],
+      content: '· Form 1099-NEC (nonemployee compensation).',
+    },
+    {
+      spans: [
+        {
+          offset: 6574,
+          length: 85,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.486, 2.6097, 3.4902, 2.6109, 3.4901, 2.8752, 0.4859, 2.874],
+        },
+      ],
+      content:
+        '. Form 1099-B (stock or mutual fund sales and certain other transactions by brokers).',
+    },
+    {
+      spans: [
+        {
+          offset: 6661,
+          length: 55,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4961, 2.9002, 3.2631, 2.8999, 3.2631, 3.0379, 0.4961, 3.0381],
+        },
+      ],
+      content: '· Form 1099-S (proceeds from real estate transactions).',
+    },
+    {
+      spans: [
+        {
+          offset: 6718,
+          length: 67,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4957, 3.0651, 3.9098, 3.0688, 3.9097, 3.2054, 0.4956, 3.2017],
+        },
+      ],
+      content: '. Form 1099-K (merchant card and third-party network transactions).',
+    },
+    {
+      spans: [
+        {
+          offset: 6787,
+          length: 91,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4892, 3.231, 3.9433, 3.2339, 3.9431, 3.5002, 0.4889, 3.4973],
+        },
+      ],
+      content:
+        '. Form 1098 (home mortgage interest), 1098-E (student loan interest), and 1098-T (tuition).',
+    },
+    {
+      spans: [
+        {
+          offset: 6880,
+          length: 30,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4949, 3.5241, 2.0626, 3.5256, 2.0625, 3.6617, 0.4947, 3.6602],
+        },
+      ],
+      content: '· Form 1099-C (canceled debt).',
+    },
+    {
+      spans: [
+        {
+          offset: 6912,
+          length: 165,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4874, 3.6883, 3.8015, 3.6902, 3.8013, 4.126, 0.4871, 4.124],
+        },
+      ],
+      content:
+        '· Form 1099-A (acquisition or abandonment of secured property). Use Form W-9 only if you are a U.S. person (including a resident alien), to provide your correct TIN.',
+    },
+    {
+      spans: [
+        {
+          offset: 7079,
+          length: 149,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4848, 4.1454, 3.9795, 4.1476, 3.9793, 4.5393, 0.4845, 4.537],
+        },
+      ],
+      content:
+        "Caution: If you don't return Form W-9 to the requester with a TIN, you might be subject to backup withholding. See What is backup withholding, later.",
+    },
+    {
+      spans: [
+        {
+          offset: 7230,
+          length: 36,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.5833, 4.5615, 2.4046, 4.5615, 2.4046, 4.7059, 0.5833, 4.7059],
+        },
+      ],
+      content: 'By signing the filled-out form, you:',
+    },
+    {
+      spans: [
+        {
+          offset: 7268,
+          length: 98,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4847, 4.7261, 4.0921, 4.7282, 4.0919, 4.9974, 0.4845, 4.9952],
+        },
+      ],
+      content:
+        '1. Certify that the TIN you are giving is correct (or you are waiting for a number to be issued);',
+    },
+    {
+      spans: [
+        {
+          offset: 7368,
+          length: 62,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.5929, 5.0197, 3.5656, 5.0209, 3.5656, 5.1654, 0.5929, 5.1642],
+        },
+      ],
+      content: '2. Certify that you are not subject to backup withholding; or',
+    },
+    {
+      spans: [
+        {
+          offset: 7432,
+          length: 79,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4859, 5.1843, 4.0635, 5.1481, 4.0663, 5.4237, 0.4887, 5.4599],
+        },
+      ],
+      content: '3. Claim exemption from backup withholding if you are a U.S. exempt payee; and',
+    },
+    {
+      spans: [
+        {
+          offset: 7513,
+          length: 120,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4882, 5.479, 4.0837, 5.4813, 4.0836, 5.7445, 0.488, 5.7422],
+        },
+      ],
+      content:
+        '4. Certify to your non-foreign status for purposes of withholding under chapter 3 or 4 of the Code (if applicable); and',
+    },
+    {
+      spans: [
+        {
+          offset: 7635,
+          length: 189,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4836, 5.7665, 3.9523, 5.77, 3.9519, 6.1629, 0.4832, 6.1594],
+        },
+      ],
+      content:
+        '5. Certify that FATCA code(s) entered on this form (if any) indicating that you are exempt from the FATCA reporting is correct. See What Is FATCA Reporting, later, for further information.',
+    },
+    {
+      spans: [
+        {
+          offset: 7826,
+          length: 187,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4857, 6.1894, 4.0881, 6.1873, 4.0884, 6.5731, 0.4859, 6.5752],
+        },
+      ],
+      content:
+        "Note: If you are a U.S. person and a requester gives you a form other than Form W-9 to request your TIN, you must use the requester's form if it is substantially similar to this Form W-9.",
+    },
+    {
+      spans: [
+        {
+          offset: 8015,
+          length: 99,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4903, 6.5983, 3.5921, 6.6088, 3.5912, 6.8783, 0.4894, 6.8678],
+        },
+      ],
+      content:
+        'Definition of a U.S. person. For federal tax purposes, you are considered a U.S. person if you are:',
+    },
+    {
+      spans: [
+        {
+          offset: 8116,
+          length: 61,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4953, 6.8958, 3.3542, 6.8965, 3.3541, 7.0286, 0.4953, 7.028],
+        },
+      ],
+      content: '· An individual who is a U.S. citizen or U.S. resident alien;',
+    },
+    {
+      spans: [
+        {
+          offset: 8179,
+          length: 135,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.49, 7.0674, 3.9373, 7.0644, 3.9376, 7.3245, 0.4903, 7.3275],
+        },
+      ],
+      content:
+        '. A partnership, corporation, company, or association created or organized in the United States or under the laws of the United States;',
+    },
+    {
+      spans: [
+        {
+          offset: 8316,
+          length: 45,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4953, 7.3543, 2.6142, 7.3577, 2.614, 7.493, 0.4951, 7.4895],
+        },
+      ],
+      content: '· An estate (other than a foreign estate); or',
+    },
+    {
+      spans: [
+        {
+          offset: 8363,
+          length: 66,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4957, 7.5194, 3.757, 7.5178, 3.7571, 7.6556, 0.4958, 7.6572],
+        },
+      ],
+      content: '· A domestic trust (as defined in Regulations section 301.7701-7).',
+    },
+    {
+      spans: [
+        {
+          offset: 8431,
+          length: 675,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4872, 7.6833, 4.0344, 7.6856, 4.0336, 8.9449, 0.4864, 8.9426],
+        },
+      ],
+      content:
+        'Establishing U.S. status for purposes of chapter 3 and chapter 4 withholding. Payments made to foreign persons, including certain distributions, allocations of income, or transfers of sales proceeds, may be subject to withholding under chapter 3 or chapter 4 of the Code (sections 1441-1474). Under those rules, if a Form W-9 or other certification of non-foreign status has not been received, a withholding agent, transferee, or partnership (payor) generally applies presumption rules that may require the payor to withhold applicable tax from the recipient, owner, transferor, or partner (payee). See Pub. 515, Withholding of Tax on Nonresident Aliens and Foreign Entities.',
+    },
+    {
+      spans: [
+        {
+          offset: 9108,
+          length: 109,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4874, 8.973, 3.7049, 8.9655, 3.7055, 9.2347, 0.488, 9.2422],
+        },
+      ],
+      content:
+        'The following persons must provide Form W-9 to the payor for purposes of establishing its non-foreign status.',
+    },
+    {
+      spans: [
+        {
+          offset: 9219,
+          length: 129,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4917, 9.2689, 3.9828, 9.2652, 3.9831, 9.5315, 0.492, 9.5352],
+        },
+      ],
+      content:
+        '. In the case of a disregarded entity with a U.S. owner, the U.S. owner of the disregarded entity and not the disregarded entity.',
+    },
+    {
+      spans: [
+        {
+          offset: 9350,
+          length: 169,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4897, 9.5625, 3.975, 9.5627, 3.975, 9.9411, 0.4896, 9.9408],
+        },
+      ],
+      content:
+        '. In the case of a grantor trust with a U.S. grantor or other U.S. owner, generally, the U.S. grantor or other U.S. owner of the grantor trust and not the grantor trust.',
+    },
+    {
+      spans: [
+        {
+          offset: 9521,
+          length: 114,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4866, 9.9807, 3.8979, 9.9764, 3.8983, 10.2247, 0.4869, 10.229],
+        },
+      ],
+      content:
+        '. In the case of a U.S. trust (other than a grantor trust), the U.S. trust and not the beneficiaries of the trust.',
+    },
+    {
+      spans: [
+        {
+          offset: 9637,
+          length: 120,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [0.4884, 10.2682, 3.7008, 10.2693, 3.7007, 10.5219, 0.4884, 10.5208],
+        },
+      ],
+      content:
+        'See Pub. 515 for more information on providing a Form W-9 or a certification of non-foreign status to avoid withholding.',
+    },
+    {
+      spans: [
+        {
+          offset: 9759,
+          length: 655,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [4.3773, 0.7822, 7.9703, 0.7796, 7.9712, 2.0349, 4.3782, 2.0374],
+        },
+      ],
+      content:
+        'Foreign person. If you are a foreign person or the U.S. branch of a foreign bank that has elected to be treated as a U.S. person (under Regulations section 1.1441-1(b)(2)(iv) or other applicable section for chapter 3 or 4 purposes), do not use Form W-9. Instead, use the appropriate Form W-8 or Form 8233 (see Pub. 515). If you are a qualified foreign pension fund under Regulations section 1.897(l)-1(d), or a partnership that is wholly owned by qualified foreign pension funds, that is treated as a non-foreign person for purposes of section 1445 withholding, do not use Form W-9. Instead, use Form W-8EXP (or other certification of non-foreign status).',
+    },
+    {
+      spans: [
+        {
+          offset: 10416,
+          length: 458,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [4.3791, 2.0668, 7.9412, 2.0717, 7.9399, 2.9567, 4.3778, 2.9518],
+        },
+      ],
+      content:
+        'Nonresident alien who becomes a resident alien. Generally, only a nonresident alien individual may use the terms of a tax treaty to reduce or eliminate U.S. tax on certain types of income. However, most tax treaties contain a provision known as a saving clause. Exceptions specified in the saving clause may permit an exemption from tax to continue for certain types of income even after the payee has otherwise become a U.S. resident alien for tax purposes.',
+    },
+    {
+      spans: [
+        {
+          offset: 10876,
+          length: 255,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [4.3787, 2.9814, 7.8789, 2.9837, 7.8786, 3.4964, 4.3783, 3.494],
+        },
+      ],
+      content:
+        'If you are a U.S. resident alien who is relying on an exception contained in the saving clause of a tax treaty to claim an exemption from U.S. tax on certain types of income, you must attach a statement to Form W-9 that specifies the following five items.',
+    },
+    {
+      spans: [
+        {
+          offset: 11133,
+          length: 130,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [4.3783, 3.5241, 7.8496, 3.5244, 7.8495, 3.7899, 4.3783, 3.7896],
+        },
+      ],
+      content:
+        '1. The treaty country. Generally, this must be the same treaty under which you claimed exemption from tax as a nonresident alien.',
+    },
+    {
+      spans: [
+        {
+          offset: 11265,
+          length: 45,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [4.4848, 3.815, 6.6432, 3.8155, 6.6431, 3.9554, 4.4848, 3.9548],
+        },
+      ],
+      content: '2. The treaty article addressing the income.',
+    },
+    {
+      spans: [
+        {
+          offset: 11312,
+          length: 106,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [4.3792, 3.9802, 7.8318, 3.979, 7.8319, 4.243, 4.3792, 4.2441],
+        },
+      ],
+      content:
+        '3. The article number (or location) in the tax treaty that contains the saving clause and its exceptions.',
+    },
+    {
+      spans: [
+        {
+          offset: 11420,
+          length: 76,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [4.3781, 4.2677, 7.7733, 4.2692, 7.7732, 4.5281, 4.3779, 4.5266],
+        },
+      ],
+      content: '4. The type and amount of income that qualifies for the exemption from tax.',
+    },
+    {
+      spans: [
+        {
+          offset: 11498,
+          length: 93,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [4.3787, 4.5597, 7.9492, 4.5597, 7.9492, 4.8279, 4.3787, 4.8278],
+        },
+      ],
+      content:
+        '5. Sufficient facts to justify the exemption from tax under the terms of the treaty article.',
+    },
+    {
+      spans: [
+        {
+          offset: 11593,
+          length: 854,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [4.3801, 4.8537, 7.9828, 4.8573, 7.9811, 6.4923, 4.3784, 6.4887],
+        },
+      ],
+      content:
+        'Example. Article 20 of the U.S .- China income tax treaty allows an exemption from tax for scholarship income received by a Chinese student temporarily present in the United States. Under U.S. law, this student will become a resident alien for tax purposes if their stay in the United States exceeds 5 calendar years. However, paragraph 2 of the first Protocol to the U.S .- China treaty (dated April 30, 1984) allows the provisions of Article 20 to continue to apply even after the Chinese student becomes a resident alien of the United States. A Chinese student who qualifies for this exception (under paragraph 2 of the first Protocol) and is relying on this exception to claim an exemption from tax on their scholarship or fellowship income would attach to Form W-9 a statement that includes the information described above to support that exemption.',
+    },
+    {
+      spans: [
+        {
+          offset: 12449,
+          length: 119,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [4.3787, 6.5206, 7.9761, 6.5028, 7.9774, 6.7729, 4.38, 6.7908],
+        },
+      ],
+      content:
+        'If you are a nonresident alien or a foreign entity, give the requester the appropriate completed Form W-8 or Form 8233.',
+    },
+    {
+      spans: [
+        {
+          offset: 12571,
+          length: 21,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [4.3845, 6.8544, 5.9864, 6.859, 5.9859, 7.045, 4.384, 7.0403],
+        },
+      ],
+      role: 'sectionHeading',
+      content: 'Backup Withholding',
+    },
+    {
+      spans: [
+        {
+          offset: 12594,
+          length: 581,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [4.3784, 7.075, 7.9764, 7.0804, 7.9747, 8.2145, 4.3767, 8.2091],
+        },
+      ],
+      content:
+        'What is backup withholding? Persons making certain payments to you must under certain conditions withhold and pay to the IRS 24% of such payments. This is called "backup withholding." Payments that may be subject to backup withholding include, but are not limited to, interest, tax-exempt interest, dividends, broker and barter exchange transactions, rents, royalties, nonemployee pay, payments made in settlement of payment card and third-party network transactions, and certain payments from fishing boat operators. Real estate transactions are not subject to backup withholding.',
+    },
+    {
+      spans: [
+        {
+          offset: 13177,
+          length: 216,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [4.3786, 8.2366, 7.9856, 8.234, 7.9859, 8.6266, 4.3789, 8.6292],
+        },
+      ],
+      content:
+        'You will not be subject to backup withholding on payments you receive if you give the requester your correct TIN, make the proper certifications, and report all your taxable interest and dividends on your tax return.',
+    },
+    {
+      spans: [
+        {
+          offset: 13396,
+          length: 66,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [4.3809, 8.6585, 7.6832, 8.6563, 7.6833, 8.7951, 4.381, 8.7973],
+        },
+      ],
+      role: 'sectionHeading',
+      content: 'Payments you receive will be subject to backup withholding if:',
+    },
+    {
+      spans: [
+        {
+          offset: 13464,
+          length: 49,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [4.4965, 8.8219, 6.844, 8.8261, 6.8437, 8.9627, 4.4962, 8.9585],
+        },
+      ],
+      content: '1. You do not furnish your TIN to the requester;',
+    },
+    {
+      spans: [
+        {
+          offset: 13515,
+          length: 93,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [4.3811, 8.9907, 7.9004, 8.9897, 7.9004, 9.2498, 4.3812, 9.2508],
+        },
+      ],
+      content:
+        '2. You do not certify your TIN when required (see the instructions for Part II for details);',
+    },
+    {
+      spans: [
+        {
+          offset: 13610,
+          length: 68,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [4.4876, 9.2824, 7.7168, 9.2833, 7.7168, 9.4179, 4.4876, 9.4171],
+        },
+      ],
+      content: '3. The IRS tells the requester that you furnished an incorrect TIN;',
+    },
+    {
+      spans: [
+        {
+          offset: 13680,
+          length: 191,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [4.3796, 9.4493, 7.8411, 9.4501, 7.841, 9.8306, 4.3796, 9.8298],
+        },
+      ],
+      content:
+        '4. The IRS tells you that you are subject to backup withholding because you did not report all your interest and dividends on your tax return (for reportable interest and dividends only); or',
+    },
+    {
+      spans: [
+        {
+          offset: 13873,
+          length: 228,
+        },
+      ],
+      boundingRegions: [
+        {
+          pageNumber: 2,
+          polygon: [4.3781, 9.8666, 7.9166, 9.8686, 7.9164, 10.3743, 4.3778, 10.3722],
+        },
+      ],
+      content:
+        '5. You do not certify to the requester that you are not subject to backup withholding, as described in item 4 under "By signing the filled- out form" above (for reportable interest and dividend accounts opened after 1983 only).',
+    },
+  ],
+  keyValuePairs: [
+    {
+      key: {
+        content:
+          "Name of entity/individual. An entry is required. (For a sole proprietor or disregarded entity, enter the owner's name on line 1, and enter the business/disregarded entity's name on line 2.)",
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [1.007, 1.3472, 7.949, 1.3446, 7.9491, 1.5865, 1.0071, 1.589],
+          },
+        ],
+        spans: [
+          {
+            offset: 366,
+            length: 189,
+          },
+        ],
+        path: 'keys/1',
+      },
+      confidence: 0.984,
+    },
+    {
+      key: {
+        content: 'Business name/disregarded entity name, if different from above.',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [1.0014, 1.8435, 3.7956, 1.8457, 3.7955, 1.9725, 1.0013, 1.9703],
+          },
+        ],
+        spans: [
+          {
+            offset: 559,
+            length: 63,
+          },
+        ],
+        path: 'keys/2',
+      },
+      confidence: 0.994,
+    },
+    {
+      key: {
+        content: 'Individual/sole proprietor',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [1.1855, 2.5001, 2.2875, 2.5019, 2.2873, 2.621, 1.1853, 2.6192],
+          },
+        ],
+        spans: [
+          {
+            offset: 790,
+            length: 26,
+          },
+        ],
+        path: 'keys/3',
+      },
+      value: {
+        content: ':unselected:',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [1.0062, 2.4927, 1.1281, 2.4925, 1.1283, 2.6175, 1.0064, 2.6176],
+          },
+        ],
+        spans: [
+          {
+            offset: 788,
+            length: 1,
+          },
+        ],
+        path: 'values/3',
+      },
+      confidence: 0.993,
+    },
+    {
+      key: {
+        content: 'C corporation',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [2.6737, 2.5029, 3.2878, 2.5057, 3.2872, 2.6184, 2.6732, 2.6156],
+          },
+        ],
+        spans: [
+          {
+            offset: 819,
+            length: 13,
+          },
+        ],
+        path: 'keys/4',
+      },
+      value: {
+        content: ':unselected:',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [2.4902, 2.4918, 2.6149, 2.492, 2.6147, 2.6182, 2.49, 2.618],
+          },
+        ],
+        spans: [
+          {
+            offset: 817,
+            length: 1,
+          },
+        ],
+        path: 'values/4',
+      },
+      confidence: 0.996,
+    },
+    {
+      key: {
+        content: 'S corporation',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [3.6713, 2.5036, 4.2765, 2.5052, 4.2762, 2.6178, 3.671, 2.6162],
+          },
+        ],
+        spans: [
+          {
+            offset: 835,
+            length: 13,
+          },
+        ],
+        path: 'keys/5',
+      },
+      value: {
+        content: ':unselected:',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [3.4893, 2.4935, 3.6135, 2.494, 3.613, 2.6167, 3.4888, 2.6162],
+          },
+        ],
+        spans: [
+          {
+            offset: 833,
+            length: 1,
+          },
+        ],
+        path: 'values/5',
+      },
+      confidence: 0.996,
+    },
+    {
+      key: {
+        content: 'Partnership',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [4.6713, 2.5038, 5.1865, 2.5052, 5.1862, 2.6141, 4.671, 2.6127],
+          },
+        ],
+        spans: [
+          {
+            offset: 851,
+            length: 11,
+          },
+        ],
+        path: 'keys/6',
+      },
+      value: {
+        content: ':unselected:',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [4.485, 2.4917, 4.6105, 2.4922, 4.61, 2.6182, 4.4844, 2.6177],
+          },
+        ],
+        spans: [
+          {
+            offset: 849,
+            length: 1,
+          },
+        ],
+        path: 'values/6',
+      },
+      confidence: 0.996,
+    },
+    {
+      key: {
+        content: 'Trust/estate',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [5.5664, 2.5022, 6.1051, 2.5032, 6.1049, 2.6111, 5.5662, 2.6101],
+          },
+        ],
+        spans: [
+          {
+            offset: 865,
+            length: 12,
+          },
+        ],
+        path: 'keys/7',
+      },
+      value: {
+        content: ':unselected:',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [5.3858, 2.4923, 5.5105, 2.4932, 5.5096, 2.6172, 5.3848, 2.6163],
+          },
+        ],
+        spans: [
+          {
+            offset: 863,
+            length: 1,
+          },
+        ],
+        path: 'values/7',
+      },
+      confidence: 0.996,
+    },
+    {
+      key: {
+        content:
+          'LLC. Enter the tax classification (C = C corporation, S = S corporation, P = Partnership)',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [1.1876, 2.6838, 4.9725, 2.6884, 4.9723, 2.8105, 1.1875, 2.8059],
+          },
+        ],
+        spans: [
+          {
+            offset: 880,
+            length: 89,
+          },
+        ],
+        path: 'keys/8',
+      },
+      value: {
+        content: ':unselected:',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [1.0055, 2.6785, 1.1275, 2.6789, 1.1271, 2.8011, 1.0052, 2.8008],
+          },
+        ],
+        spans: [
+          {
+            offset: 878,
+            length: 1,
+          },
+        ],
+        path: 'values/8',
+      },
+      confidence: 0.995,
+    },
+    {
+      key: {
+        content: 'Other (see instructions)',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [1.1853, 3.1951, 2.1989, 3.1951, 2.1989, 3.3148, 1.1853, 3.3147],
+          },
+        ],
+        spans: [
+          {
+            offset: 1255,
+            length: 24,
+          },
+        ],
+        path: 'keys/9',
+      },
+      value: {
+        content: ':unselected:',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [1.0063, 3.182, 1.1273, 3.1833, 1.1261, 3.3069, 1.005, 3.3056],
+          },
+        ],
+        spans: [
+          {
+            offset: 1253,
+            length: 1,
+          },
+        ],
+        path: 'values/9',
+      },
+      confidence: 0.996,
+    },
+    {
+      key: {
+        content: '3b',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [0.8455, 3.4197, 0.9653, 3.4198, 0.9652, 3.5408, 0.8453, 3.5407],
+          },
+        ],
+        spans: [
+          {
+            offset: 1281,
+            length: 2,
+          },
+        ],
+        path: 'keys/10',
+      },
+      confidence: 0.815,
+    },
+    {
+      key: {
+        content:
+          'If on line 3a you checked "Partnership" or "Trust/estate," or checked "LLC" and entered "P" as its tax classification, and you are providing this form to a partnership, trust, or estate in which you have an ownership interest, check this box if you have any foreign partners, owners, or beneficiaries. See instructions',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [1.005, 3.4194, 6.0331, 3.4192, 6.0331, 3.7775, 1.005, 3.7777],
+          },
+        ],
+        spans: [
+          {
+            offset: 1284,
+            length: 318,
+          },
+        ],
+        path: 'keys/11',
+      },
+      value: {
+        content: ':unselected:',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [6.1033, 3.6388, 6.2268, 3.6391, 6.2265, 3.7642, 6.103, 3.7639],
+          },
+        ],
+        spans: [
+          {
+            offset: 1603,
+            length: 1,
+          },
+        ],
+        path: 'values/11',
+      },
+      confidence: 0.988,
+    },
+    {
+      key: {
+        content: "Requester's name and address (optional)",
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [5.4322, 3.8465, 7.231, 3.8486, 7.2309, 3.9728, 5.432, 3.9707],
+          },
+        ],
+        spans: [
+          {
+            offset: 1605,
+            length: 39,
+          },
+        ],
+        path: 'keys/12',
+      },
+      confidence: 0.995,
+    },
+    {
+      key: {
+        content: 'Address (number,\nand apt. or suite no.). See',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [1.0092, 3.8482, 3.2121, 3.8492, 3.212, 3.9686, 1.0092, 3.9677],
+          },
+        ],
+        spans: [
+          {
+            offset: 1664,
+            length: 16,
+          },
+          {
+            offset: 1689,
+            length: 27,
+          },
+        ],
+        path: 'keys/13',
+      },
+      confidence: 0.787,
+    },
+    {
+      key: {
+        content: 'City, state,\nZIP code',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [1.0001, 4.1802, 2.0994, 4.1789, 2.0996, 4.3005, 1.0002, 4.3018],
+          },
+        ],
+        spans: [
+          {
+            offset: 1734,
+            length: 12,
+          },
+          {
+            offset: 1751,
+            length: 8,
+          },
+        ],
+        path: 'keys/14',
+      },
+      confidence: 0.993,
+    },
+    {
+      key: {
+        content: 'List account number(s) here (optional)',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [1.0035, 4.5068, 2.652, 4.5082, 2.6519, 4.6373, 1.0034, 4.6359],
+          },
+        ],
+        spans: [
+          {
+            offset: 1763,
+            length: 38,
+          },
+        ],
+        path: 'keys/15',
+      },
+      confidence: 0.985,
+    },
+    {
+      key: {
+        content: 'Exempt payee code (if any)',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [6.3321, 2.6795, 7.4916, 2.679, 7.4917, 2.8011, 6.3321, 2.8015],
+          },
+        ],
+        spans: [
+          {
+            offset: 1902,
+            length: 26,
+          },
+        ],
+        path: 'keys/16',
+      },
+      confidence: 0.996,
+    },
+    {
+      key: {
+        content:
+          'Exemption from Foreign Account Tax Compliance Act (FATCA) reporting code (if any)',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [6.334, 2.9222, 7.9725, 2.9255, 7.9718, 3.2939, 6.3332, 3.2905],
+          },
+        ],
+        spans: [
+          {
+            offset: 1930,
+            length: 81,
+          },
+        ],
+        path: 'keys/17',
+      },
+      confidence: 0.994,
+    },
+    {
+      key: {
+        content: 'Social security number',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [5.8326, 5.0011, 6.9155, 5.0017, 6.9154, 5.1153, 5.8325, 5.1147],
+          },
+        ],
+        spans: [
+          {
+            offset: 2727,
+            length: 22,
+          },
+        ],
+        path: 'keys/18',
+      },
+      confidence: 0.997,
+    },
+    {
+      key: {
+        content: 'Employer identification number',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [5.8307, 5.6682, 7.3027, 5.6667, 7.3028, 5.7843, 5.8308, 5.7858],
+          },
+        ],
+        spans: [
+          {
+            offset: 2761,
+            length: 30,
+          },
+        ],
+        path: 'keys/19',
+      },
+      confidence: 0.997,
+    },
+    {
+      key: {
+        content: 'Signature of U.S. person',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [1.0415, 8.0574, 1.6296, 8.059, 1.629, 8.2902, 1.0409, 8.2886],
+          },
+        ],
+        spans: [
+          {
+            offset: 4178,
+            length: 24,
+          },
+        ],
+        path: 'keys/20',
+      },
+      confidence: 0.995,
+    },
+    {
+      key: {
+        content: 'Date',
+        boundingRegions: [
+          {
+            pageNumber: 1,
+            polygon: [5.3384, 8.1811, 5.569, 8.1811, 5.569, 8.2808, 5.3385, 8.2809],
+          },
+        ],
+        spans: [
+          {
+            offset: 4204,
+            length: 4,
+          },
+        ],
+        path: 'keys/21',
+      },
+      confidence: 0.993,
+    },
+  ],
+  contentFormat: 'markdown',
+  sections: [
+    {
+      spans: [
+        {
+          offset: 0,
+          length: 14101,
+        },
+      ],
+      elements: ['/sections/1', '/sections/2'],
+    },
+    {
+      spans: [
+        {
+          offset: 0,
+          length: 78,
+        },
+      ],
+      elements: ['/paragraphs/0'],
+    },
+    {
+      spans: [
+        {
+          offset: 81,
+          length: 14020,
+        },
+      ],
+      elements: [
+        '/paragraphs/1',
+        '/paragraphs/2',
+        '/paragraphs/3',
+        '/paragraphs/4',
+        '/paragraphs/5',
+        '/paragraphs/6',
+        '/paragraphs/7',
+        '/paragraphs/8',
+        '/paragraphs/9',
+        '/paragraphs/10',
+        '/paragraphs/11',
+        '/paragraphs/12',
+        '/paragraphs/13',
+        '/paragraphs/14',
+        '/paragraphs/15',
+        '/paragraphs/16',
+        '/sections/3',
+        '/sections/4',
+        '/sections/5',
+        '/sections/6',
+        '/sections/8',
+      ],
+    },
+    {
+      spans: [
+        {
+          offset: 2075,
+          length: 719,
+        },
+      ],
+      elements: [
+        '/paragraphs/17',
+        '/paragraphs/18',
+        '/paragraphs/19',
+        '/paragraphs/20',
+        '/paragraphs/21',
+        '/paragraphs/22',
+        '/paragraphs/23',
+        '/paragraphs/24',
+        '/paragraphs/25',
+      ],
+    },
+    {
+      spans: [
+        {
+          offset: 2797,
+          length: 1411,
+        },
+      ],
+      elements: [
+        '/paragraphs/26',
+        '/paragraphs/27',
+        '/paragraphs/28',
+        '/paragraphs/29',
+        '/paragraphs/30',
+        '/paragraphs/31',
+        '/paragraphs/32',
+        '/paragraphs/33',
+        '/paragraphs/34',
+        '/paragraphs/35',
+      ],
+    },
+    {
+      spans: [
+        {
+          offset: 4211,
+          length: 291,
+        },
+      ],
+      elements: ['/paragraphs/36', '/paragraphs/37', '/paragraphs/38'],
+    },
+    {
+      spans: [
+        {
+          offset: 4505,
+          length: 8063,
+        },
+      ],
+      elements: ['/paragraphs/39', '/paragraphs/40', '/paragraphs/41', '/sections/7'],
+    },
+    {
+      spans: [
+        {
+          offset: 5492,
+          length: 7076,
+        },
+      ],
+      elements: [
+        '/paragraphs/42',
+        '/paragraphs/43',
+        '/paragraphs/46',
+        '/paragraphs/49',
+        '/paragraphs/50',
+        '/paragraphs/51',
+        '/paragraphs/52',
+        '/paragraphs/53',
+        '/paragraphs/54',
+        '/paragraphs/55',
+        '/paragraphs/56',
+        '/paragraphs/57',
+        '/paragraphs/58',
+        '/paragraphs/59',
+        '/paragraphs/60',
+        '/paragraphs/61',
+        '/paragraphs/62',
+        '/paragraphs/63',
+        '/paragraphs/64',
+        '/paragraphs/65',
+        '/paragraphs/66',
+        '/paragraphs/67',
+        '/paragraphs/68',
+        '/paragraphs/69',
+        '/paragraphs/70',
+        '/paragraphs/71',
+        '/paragraphs/72',
+        '/paragraphs/73',
+        '/paragraphs/74',
+        '/paragraphs/75',
+        '/paragraphs/76',
+        '/paragraphs/77',
+        '/paragraphs/78',
+        '/paragraphs/79',
+        '/paragraphs/80',
+        '/paragraphs/81',
+        '/paragraphs/82',
+        '/paragraphs/83',
+        '/paragraphs/84',
+        '/paragraphs/85',
+        '/paragraphs/86',
+        '/paragraphs/87',
+        '/paragraphs/88',
+      ],
+    },
+    {
+      spans: [
+        {
+          offset: 12571,
+          length: 1530,
+        },
+      ],
+      elements: ['/paragraphs/89', '/paragraphs/90', '/paragraphs/91', '/sections/9'],
+    },
+    {
+      spans: [
+        {
+          offset: 13396,
+          length: 705,
+        },
+      ],
+      elements: [
+        '/paragraphs/92',
+        '/paragraphs/93',
+        '/paragraphs/94',
+        '/paragraphs/95',
+        '/paragraphs/96',
+        '/paragraphs/97',
+      ],
+    },
+  ],
+};

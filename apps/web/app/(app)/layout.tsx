@@ -19,8 +19,10 @@ export default async function Layout({ children }: { children: React.ReactNode }
   return (
     <SidebarProvider defaultOpen={defaultOpen}>
       <Sidebar email={email} />
-      <SidebarTrigger className="cursor-pointer relative top-2 left-2 z-10" />
-      <main className="w-full">{children}</main>
+      <main className="w-full relative">
+        <SidebarTrigger className="cursor-pointer absolute top-2 left-2 z-10" />
+        {children}
+      </main>
     </SidebarProvider>
   );
 }

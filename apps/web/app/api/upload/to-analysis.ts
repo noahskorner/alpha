@@ -1,17 +1,22 @@
 import { AnalyzeOperationOutput } from '@azure-rest/ai-document-intelligence';
 import {
-  Analysis,
+  LlmAnalysis,
   OriginalKeyValuePair,
-  KeyValue,
-  KeyValuePair,
+  LlmKeyValue,
+  LlmKeyValuePair,
   OriginalSelectionMark,
-  SelectionMark,
+  LlmSelectionMark,
   OriginalPage,
-  Page,
-  Line,
+  LlmPage,
+  LlmLine,
+  OriginalLine,
+  OriginalAnalysis,
 } from './analysis';
 
-export function toAnalysis(analysis: AnalyzeOperationOutput): Analysis {
+export function toAnalysis(analysis: AnalyzeOperationOutput): {
+  original: OriginalAnalysis;
+  result: LlmAnalysis;
+} {
   const analyzeResult = analysis.analyzeResult;
   if (!analyzeResult) {
     throw new Error('No analyzeResult found in the analysis output');
@@ -19,24 +24,24 @@ export function toAnalysis(analysis: AnalyzeOperationOutput): Analysis {
 
   // Map the key-value pairs
   const kvps = analyzeResult.keyValuePairs?.map((kvp, index) => {
-    const keyId = `keys/${index}`;
-    const valueId = `values/${index}`;
+    const keyPath = `keys/${index + 1}`;
+    const valuePath = `values/${index + 1}`;
     const original: OriginalKeyValuePair = {
       ...kvp,
-      key: { ...kvp.key, id: keyId },
-      value: kvp.value ? { ...kvp.value, id: valueId } : undefined,
+      key: { ...kvp.key, path: keyPath },
+      value: kvp.value ? { ...kvp.value, path: valuePath } : undefined,
     };
-    const key: KeyValue = {
-      id: keyId,
+    const key: LlmKeyValue = {
+      path: keyPath,
       content: kvp.key.content,
     };
-    const value: KeyValue | undefined = kvp.value
+    const value: LlmKeyValue | undefined = kvp.value
       ? {
-          id: valueId,
+          path: valuePath,
           content: kvp.value.content,
         }
       : undefined;
-    const keyValuePair: KeyValuePair = {
+    const keyValuePair: LlmKeyValuePair = {
       key,
       value,
     };
@@ -47,10 +52,10 @@ export function toAnalysis(analysis: AnalyzeOperationOutput): Analysis {
   const pages = analyzeResult.pages.map((p, pageIndex) => {
     // Map the lines
     const lines = p.lines?.map((l, lineIndex) => {
-      const lineId = `pages/${pageIndex}/lines/${lineIndex}`;
-      const original = { ...l, id: lineId };
-      const line: Line = {
-        id: lineId,
+      const linePath = `pages/${pageIndex + 1}/lines/${lineIndex + 1}`;
+      const original: OriginalLine = { ...l, path: linePath };
+      const line: LlmLine = {
+        path: linePath,
         content: l.content,
       };
 
@@ -62,10 +67,10 @@ export function toAnalysis(analysis: AnalyzeOperationOutput): Analysis {
 
     // Map the selection marks
     const selectionMarks = p.selectionMarks?.map((mark, selectionMarkIndex) => {
-      const selectionMarkId = `pages/${pageIndex}/selection_marks/${selectionMarkIndex}`;
-      const original: OriginalSelectionMark = { ...mark, id: selectionMarkId };
-      const selectionMark: SelectionMark = {
-        id: selectionMarkId,
+      const selectionMarkPath = `pages/${pageIndex + 1}/selection_marks/${selectionMarkIndex + 1}`;
+      const original: OriginalSelectionMark = { ...mark, path: selectionMarkPath };
+      const selectionMark: LlmSelectionMark = {
+        path: selectionMarkPath,
         state: mark.state,
       };
 
@@ -86,15 +91,15 @@ export function toAnalysis(analysis: AnalyzeOperationOutput): Analysis {
       .map((kvp) => kvp.keyValuePair);
 
     // Map the page
-    const pageId = `pages/${pageIndex}`;
+    const pathPath = `pages/${pageIndex + 1}`;
     const original: OriginalPage = {
       ...p,
-      id: pageId,
+      path: pathPath,
       lines: lines?.map((l) => l.original),
       selectionMarks: selectionMarks?.map((sm) => sm.original),
     };
-    const page: Page = {
-      id: pageId,
+    const page: LlmPage = {
+      path: pathPath,
       lines: lines?.map((l) => l.line),
       selectionMarks: selectionMarks?.map((sm) => sm.selectionMark),
       keyValuePairs: keyValuePairs,
@@ -109,9 +114,12 @@ export function toAnalysis(analysis: AnalyzeOperationOutput): Analysis {
 
   return {
     original: {
+      ...analyzeResult,
       pages: pages.map((p) => p.original),
       keyValuePairs: kvps?.map((kvp) => kvp.original) ?? [],
     },
-    pages: pages.map((p) => p.page),
+    result: {
+      pages: pages.map((p) => p.page),
+    },
   };
 }

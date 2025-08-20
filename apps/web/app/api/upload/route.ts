@@ -4,7 +4,7 @@ import DocumentIntelligence, {
   getLongRunningPoller,
   isUnexpected,
 } from '@azure-rest/ai-document-intelligence';
-import { extractForm } from './extract-form';
+import { extractFormFields } from './extract-form-fields';
 
 export const runtime = 'nodejs';
 
@@ -59,7 +59,7 @@ export async function POST(req: NextRequest) {
     const result = (await poller.pollUntilDone()).body as AnalyzeOperationOutput;
 
     // Extract questions from the analysis
-    const form = await extractForm(result);
+    const form = await extractFormFields(result);
     console.log(JSON.stringify(form, null, 2));
 
     // Return everything
