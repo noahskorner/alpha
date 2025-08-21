@@ -101,3 +101,16 @@ model Authenticator {
   @@id([userId, credentialID])
   @@map("authenticator")
 }
+
+model File {
+  id          String   @id @default(uuid()) @map("id")
+  createdOn   DateTime @default(now()) @map("created_on")
+  createdBy   String?  @map("created_by")
+  updatedOn   DateTime @updatedAt @map("updated_on")
+  updatedBy   String?  @map("updated_by")
+  name        String   @map("name")
+  contentType String   @map("content_type")
+  url         String   @map("url")
+
+  @@map("file")
+}

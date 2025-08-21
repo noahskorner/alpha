@@ -14,4 +14,12 @@ export const auth: AuthOptions = {
   session: {
     strategy: 'database',
   },
+  callbacks: {
+    async session({ session, user }) {
+      if (session.user && user) {
+        session.user.id = user.id;
+      }
+      return session;
+    },
+  },
 };
