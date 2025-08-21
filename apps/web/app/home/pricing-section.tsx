@@ -1,63 +1,63 @@
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Check, Star } from "lucide-react"
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+import { Check, Star } from 'lucide-react';
 
 const plans = [
   {
-    name: "Free",
-    price: "$0",
-    period: "forever",
-    description: "Perfect for small teams getting started",
+    name: 'Free',
+    price: '$0',
+    period: 'forever',
+    description: 'Perfect for small teams getting started',
     features: [
-      "Up to 10 documents per month",
-      "Basic AI form generation",
-      "Standard security features",
-      "Email support",
-      "Community access",
+      'Up to 10 documents per month',
+      'Basic AI form generation',
+      'Standard security features',
+      'Email support',
+      'Community access',
     ],
-    limitations: ["No agency submission", "Limited integrations"],
-    cta: "Get Started Free",
+    limitations: ['No agency submission', 'Limited integrations'],
+    cta: 'Get Started Free',
     popular: false,
   },
   {
-    name: "Pay as You Go",
-    price: "$0.50",
-    period: "per document",
-    description: "Scale with your usage, no monthly commitments",
+    name: 'Pay as You Go',
+    price: '$0.50',
+    period: 'per document',
+    description: 'Scale with your usage, no monthly commitments',
     features: [
-      "Unlimited documents",
-      "Advanced AI processing",
-      "Agency submission included",
-      "Priority support",
-      "All integrations",
-      "Custom workflows",
-      "Audit trails",
+      'Unlimited documents',
+      'Advanced AI processing',
+      'Agency submission included',
+      'Priority support',
+      'All integrations',
+      'Custom workflows',
+      'Audit trails',
     ],
     limitations: [],
-    cta: "Start Processing",
+    cta: 'Start Processing',
     popular: true,
   },
   {
-    name: "Enterprise",
-    price: "Custom",
-    period: "pricing",
-    description: "For large organizations with specific needs",
+    name: 'Enterprise',
+    price: 'Custom',
+    period: 'pricing',
+    description: 'For large organizations with specific needs',
     features: [
-      "Volume discounts",
-      "Dedicated infrastructure",
-      "Custom compliance requirements",
-      "White-label options",
-      "Dedicated success manager",
-      "SLA guarantees",
-      "On-premises deployment",
-      "Custom integrations",
+      'Volume discounts',
+      'Dedicated infrastructure',
+      'Custom compliance requirements',
+      'White-label options',
+      'Dedicated success manager',
+      'SLA guarantees',
+      'On-premises deployment',
+      'Custom integrations',
     ],
     limitations: [],
-    cta: "Contact Sales",
+    cta: 'Contact Sales',
     popular: false,
   },
-]
+];
 
 export function PricingSection() {
   return (
@@ -66,7 +66,8 @@ export function PricingSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Simple, Transparent Pricing</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Choose the plan that fits your organization's needs. Start free and scale as you grow.
+            Choose the plan that fits your organization&apos;s needs. Start free and scale as you
+            grow.
           </p>
         </div>
 
@@ -74,7 +75,9 @@ export function PricingSection() {
           {plans.map((plan, index) => (
             <Card
               key={index}
-              className={`relative ${plan.popular ? "border-primary shadow-lg scale-105" : "border-border"}`}
+              className={`relative ${
+                plan.popular ? 'border-primary shadow-lg scale-105' : 'border-border'
+              }`}
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
@@ -110,7 +113,7 @@ export function PricingSection() {
                   ))}
                 </ul>
 
-                <Button className="w-full" variant={plan.popular ? "default" : "outline"} size="lg">
+                <Button className="w-full" variant={plan.popular ? 'default' : 'outline'} size="lg">
                   {plan.cta}
                 </Button>
               </CardContent>
@@ -143,5 +146,5 @@ export function PricingSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

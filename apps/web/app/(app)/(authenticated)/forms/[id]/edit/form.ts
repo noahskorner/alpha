@@ -18,7 +18,6 @@ export const form: Form = {
       group: '.',
       anchors: [
         {
-          kind: 'key',
           path: 'keys/1',
         },
       ],
@@ -38,7 +37,6 @@ export const form: Form = {
       group: '.',
       anchors: [
         {
-          kind: 'key',
           path: 'keys/2',
         },
       ],
@@ -60,7 +58,6 @@ export const form: Form = {
           exportValue: ':unselected:',
           anchors: [
             {
-              kind: 'key',
               path: 'keys/3',
             },
           ],
@@ -71,7 +68,6 @@ export const form: Form = {
           exportValue: ':unselected:',
           anchors: [
             {
-              kind: 'key',
               path: 'keys/4',
             },
           ],
@@ -82,7 +78,6 @@ export const form: Form = {
           exportValue: ':unselected:',
           anchors: [
             {
-              kind: 'key',
               path: 'keys/5',
             },
           ],
@@ -93,7 +88,6 @@ export const form: Form = {
           exportValue: ':unselected:',
           anchors: [
             {
-              kind: 'key',
               path: 'keys/6',
             },
           ],
@@ -104,7 +98,6 @@ export const form: Form = {
           exportValue: ':unselected:',
           anchors: [
             {
-              kind: 'key',
               path: 'keys/7',
             },
           ],
@@ -115,7 +108,6 @@ export const form: Form = {
           exportValue: ':unselected:',
           anchors: [
             {
-              kind: 'key',
               path: 'keys/8',
             },
           ],
@@ -126,7 +118,6 @@ export const form: Form = {
           exportValue: ':unselected:',
           anchors: [
             {
-              kind: 'key',
               path: 'keys/9',
             },
           ],
@@ -137,7 +128,6 @@ export const form: Form = {
       group: '.',
       anchors: [
         {
-          kind: 'line',
           path: 'pages/1/lines/17',
         },
       ],
@@ -157,7 +147,6 @@ export const form: Form = {
       group: '.',
       anchors: [
         {
-          kind: 'key',
           path: 'keys/11',
         },
       ],
@@ -177,7 +166,6 @@ export const form: Form = {
       group: '.',
       anchors: [
         {
-          kind: 'key',
           path: 'keys/13',
         },
       ],
@@ -197,7 +185,6 @@ export const form: Form = {
       group: '.',
       anchors: [
         {
-          kind: 'key',
           path: 'keys/14',
         },
       ],
@@ -217,7 +204,6 @@ export const form: Form = {
       group: '.',
       anchors: [
         {
-          kind: 'key',
           path: 'keys/15',
         },
       ],
@@ -237,7 +223,6 @@ export const form: Form = {
       group: '.',
       anchors: [
         {
-          kind: 'key',
           path: 'keys/16',
         },
       ],
@@ -258,7 +243,6 @@ export const form: Form = {
       group: '.',
       anchors: [
         {
-          kind: 'key',
           path: 'keys/17',
         },
       ],
@@ -285,7 +269,6 @@ export const form: Form = {
       group: '.',
       anchors: [
         {
-          kind: 'key',
           path: 'keys/18',
         },
       ],
@@ -312,7 +295,6 @@ export const form: Form = {
       group: '.',
       anchors: [
         {
-          kind: 'key',
           path: 'keys/19',
         },
       ],
@@ -332,7 +314,6 @@ export const form: Form = {
       group: '.',
       anchors: [
         {
-          kind: 'key',
           path: 'keys/20',
         },
       ],
@@ -352,7 +333,6 @@ export const form: Form = {
       group: '.',
       anchors: [
         {
-          kind: 'key',
           path: 'keys/21',
         },
       ],
@@ -379,7 +359,6 @@ export const form: Form = {
       group: '',
       anchors: [
         {
-          kind: 'value',
           path: 'pages/2/lines/4',
         },
       ],
@@ -406,7 +385,6 @@ export const form: Form = {
       group: '',
       anchors: [
         {
-          kind: 'value',
           path: 'pages/2/lines/5',
         },
       ],
@@ -433,7 +411,6 @@ export const form: Form = {
       group: '',
       anchors: [
         {
-          kind: 'value',
           path: 'pages/2/lines/5',
         },
       ],
@@ -460,7 +437,6 @@ export const form: Form = {
       group: '',
       anchors: [
         {
-          kind: 'value',
           path: 'pages/2/lines/6',
         },
       ],
@@ -480,7 +456,6 @@ export const form: Form = {
       group: '',
       anchors: [
         {
-          kind: 'key',
           path: 'pages/2/lines/30',
         },
       ],
@@ -500,7 +475,6 @@ export const form: Form = {
       group: '',
       anchors: [
         {
-          kind: 'key',
           path: 'pages/2/lines/32',
         },
       ],
@@ -520,7 +494,6 @@ export const form: Form = {
       group: '',
       anchors: [
         {
-          kind: 'key',
           path: 'pages/2/lines/33',
         },
       ],

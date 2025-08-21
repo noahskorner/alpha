@@ -2,7 +2,10 @@
   "$schema": "https://turborepo.org/schema.json",
   "tasks": {
     "dev": { "cache": false, "dependsOn": ["^dev"], "outputs": [] },
-    "build": { "dependsOn": ["^build"], "outputs": ["dist/**", "build/**"] },
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**", "build/**", "apps/web/.next/**", "apps/web/out/**"]
+    },
     "lint": { "cache": true },
     "prisma:migrate:dev": {
       "cache": false,

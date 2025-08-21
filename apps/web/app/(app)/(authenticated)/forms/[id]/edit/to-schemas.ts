@@ -1,5 +1,5 @@
 import { OriginalAnalysis } from '@/app/api/upload/analysis';
-import { Anchor, AnchorKind, Form, FormField, FormFieldType } from '@/app/api/upload/form';
+import { Anchor, Form, FormField, FormFieldType } from '@/app/api/upload/form';
 import { BoundingRegionOutput } from '@azure-rest/ai-document-intelligence';
 import type { Schema } from '@pdfme/common';
 
@@ -86,9 +86,6 @@ interface Rect {
   width: number;
   height: number;
 }
-
-/** Preference order when multiple anchors exist on a question. */
-const KIND_PRIORITY: AnchorKind[] = ['value', 'selectionMark', 'line', 'key'];
 
 /** Gather all rects for a question from its anchors, respecting priority but keeping them all. */
 function collectRegionsForQuestion(question: FormField, analysis: OriginalAnalysis): Rect[] {
