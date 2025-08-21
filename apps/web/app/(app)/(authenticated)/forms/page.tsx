@@ -7,8 +7,6 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
-import { Separator } from '@/components/ui/separator';
-import { ScrollArea } from '@/components/ui/scroll-area';
 import {
   FileText,
   Upload,
@@ -17,12 +15,10 @@ import {
   AlertCircle,
   Clock,
   Brain,
-  ArrowLeft,
   Plus,
   Trash2,
 } from 'lucide-react';
 import Link from 'next/link';
-import { routes } from '@/app/routes';
 
 interface UploadedFile {
   id: string;
@@ -235,25 +231,6 @@ export default function UploadPDFs() {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
-      <header className="border-b border-border bg-card">
-        <div className="flex h-16 items-center px-6">
-          <div className="flex items-center space-x-4">
-            <Link href={routes.forms.home}>
-              <Button variant="ghost" size="sm">
-                <ArrowLeft className="h-4 w-4 mr-2" />
-                Back to Dashboard
-              </Button>
-            </Link>
-            <Separator orientation="vertical" className="h-6" />
-            <div className="flex items-center space-x-2">
-              <Brain className="h-8 w-8 text-primary" />
-              <h1 className="text-xl font-bold text-foreground">DocIntel AI</h1>
-            </div>
-          </div>
-        </div>
-      </header>
-
       <main className="p-6 max-w-4xl mx-auto">
         <div className="space-y-6">
           {/* Page Header */}
@@ -291,15 +268,18 @@ export default function UploadPDFs() {
                   id="file-upload"
                   disabled={isUploading}
                 />
-                <label htmlFor="file-upload">
-                  <Button
-                    className="bg-primary text-primary-foreground hover:bg-primary/90"
-                    disabled={isUploading}
-                  >
-                    <Plus className="h-4 w-4 mr-2" />
-                    {isUploading ? 'Uploading...' : 'Select PDF Files'}
-                  </Button>
-                </label>
+                <Button
+                  asChild
+                  className="bg-primary text-primary-foreground hover:bg-primary/90"
+                  disabled={isUploading}
+                >
+                  <label htmlFor="file-upload">
+                    <>
+                      <Plus className="h-4 w-4 mr-2" />
+                      {isUploading ? 'Uploading...' : 'Select PDF Files'}
+                    </>
+                  </label>
+                </Button>
                 <p className="text-xs text-muted-foreground mt-2">
                   Supported format: PDF • Max file size: 10MB per file
                 </p>
@@ -361,47 +341,45 @@ export default function UploadPDFs() {
                 <CardDescription>Successfully processed and ready for grouping</CardDescription>
               </CardHeader>
               <CardContent>
-                <ScrollArea className="max-h-96">
-                  <div className="space-y-3">
-                    {completedFiles.map((file) => (
-                      <div
-                        key={file.id}
-                        className="flex items-center space-x-4 p-3 bg-green-50 dark:bg-green-800 border border-green-200 dark:border-green-700 rounded-lg"
-                      >
-                        <FileText className="h-8 w-8 text-green-600 dark:text-green-400 flex-shrink-0" />
-                        <div className="flex-1 min-w-0">
-                          <div className="flex items-center justify-between mb-1">
-                            <p className="text-sm font-medium text-foreground truncate">
-                              {file.name}
-                            </p>
-                            <div className="flex items-center space-x-2">
-                              <Badge className={getStatusColor(file.status)}>
-                                {getStatusIcon(file.status)}
-                                <span className="ml-1">Completed</span>
-                              </Badge>
-                              <Button variant="ghost" size="sm" onClick={() => removeFile(file.id)}>
-                                <Trash2 className="h-4 w-4" />
-                              </Button>
-                            </div>
+                <div className="space-y-3">
+                  {completedFiles.map((file) => (
+                    <div
+                      key={file.id}
+                      className="flex items-center space-x-4 p-3 bg-green-50 dark:bg-green-800 border border-green-200 dark:border-green-700 rounded-lg"
+                    >
+                      <FileText className="h-8 w-8 text-green-600 dark:text-green-400 flex-shrink-0" />
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-center justify-between mb-1">
+                          <p className="text-sm font-medium text-foreground truncate">
+                            {file.name}
+                          </p>
+                          <div className="flex items-center space-x-2">
+                            <Badge className={getStatusColor(file.status)}>
+                              {getStatusIcon(file.status)}
+                              <span className="ml-1">Completed</span>
+                            </Badge>
+                            <Button variant="ghost" size="sm" onClick={() => removeFile(file.id)}>
+                              <Trash2 className="h-4 w-4" />
+                            </Button>
                           </div>
-                          {file.aiAnalysis && (
-                            <div className="flex items-center space-x-4 text-xs text-muted-foreground">
-                              <span>{formatFileSize(file.size)}</span>
-                              <span>•</span>
-                              <span>{file.aiAnalysis.formFields} form fields detected</span>
-                              <span>•</span>
-                              <span>{file.aiAnalysis.confidence}% confidence</span>
-                              <span>•</span>
-                              <span className="text-green-600 font-medium">
-                                {file.aiAnalysis.type}
-                              </span>
-                            </div>
-                          )}
                         </div>
+                        {file.aiAnalysis && (
+                          <div className="flex items-center space-x-4 text-xs text-muted-foreground">
+                            <span>{formatFileSize(file.size)}</span>
+                            <span>•</span>
+                            <span>{file.aiAnalysis.formFields} form fields detected</span>
+                            <span>•</span>
+                            <span>{file.aiAnalysis.confidence}% confidence</span>
+                            <span>•</span>
+                            <span className="text-green-600 font-medium">
+                              {file.aiAnalysis.type}
+                            </span>
+                          </div>
+                        )}
                       </div>
-                    ))}
-                  </div>
-                </ScrollArea>
+                    </div>
+                  ))}
+                </div>
               </CardContent>
             </Card>
           )}
